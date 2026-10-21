@@ -40,7 +40,7 @@ header('Cache-Control: no-cache');
     <link id="style-kolom" rel="stylesheet" href="styles/column.css?v=sqlite1">
     <link id="style-raster" rel="stylesheet" href="styles/grid.css?v=sqlite1">
     <link id="style-flexibel" rel="stylesheet" href="styles/flex.css?v=sqlite1">
-    <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=minimal2">
+    <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=arrow1">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 </head>
 <body>
@@ -49,7 +49,7 @@ header('Cache-Control: no-cache');
             <a href="#" class="site-title-link"><h1>UI/UX Cursus</h1>
             <p class="subtitle">Ontwerpen voor mensen, van schets tot scherm</p></a>
         </div>
-        <button id="view-toggle" class="view-toggle" type="button" aria-controls="view-panel" aria-expanded="false" hidden>Weergave</button>
+        <button id="view-toggle" class="view-toggle" type="button" aria-controls="view-panel" aria-expanded="false" aria-label="Weergave openen" title="Weergave" hidden><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M25 7 7 25M7 10v15h15"/></svg></button>
         <div class="lang-controls" aria-label="Taal / Language">
             <button class="lang-btn is-active" data-lang="nl" title="Nederlands">NL</button>
             <button class="lang-btn" data-lang="en" title="English">EN</button>
@@ -94,7 +94,7 @@ header('Cache-Control: no-cache');
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>window.COURSE_DATA = <?= json_encode($bootstrap, JSON_THROW_ON_ERROR | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;</script>
-    <script src="view-panel.js?v=minimal1"></script>
+    <script src="view-panel.js?v=arrow1"></script>
     <script src="main.js?v=20261021-panel-minimal1"></script>
 </body>
 </html>

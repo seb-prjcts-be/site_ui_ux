@@ -11158,12 +11158,12 @@
         "unreviewed_page_count": 6,
         "scope_note": "De oorspronkelijke auditscope betreft het archief van 53 pagina’s. Nieuw aangemaakte lege stappen zijn niet inhoudelijk beoordeeld.",
         "technical_validation": {
-            "validated_at": "2026-10-21T16:46:37+00:00",
+            "validated_at": "2026-10-21T16:50:33+00:00",
             "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle geregistreerde API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
             "contents": 66,
             "topics": 59,
             "file_hashes": {
-                "index.php": "be6f87362c20d26913c6623b695f7a60491e6098f78845769e74af7163e52ad1",
+                "index.php": "90b5d6bdc38178ef2801dc9046fa48594181f862a6f17aafa0ddb1b6164e360e",
                 "api.php": "330743fa164723954f696bcde6632c0288fe77d7e39cd9825475ff20d4efb100",
                 "checks.php": "acedfb2b0c03e4247f0740e84fc067fced5e14e241a07f3b461110e26aa90f15",
                 "lib/course.php": "b66e54b83841636eb3c320d98fd723a78eabb325cf7116b443b106863e161eec",
@@ -11177,8 +11177,8 @@
                 "styles/grid.css": "3da00c0df5aae203228b19a8591ca2263163944127ba350188582ed142aacada",
                 "styles/flex.css": "e2c4d070cd0814a22c6a75d9b0de85641d0386113ff7d2127f35e54da8412935",
                 "styles/checks.css": "603a9d3227e979bbbc82636fa20caad237d148258083619314549c5fba7477c4",
-                "styles/view-panel.css": "417cc1e94e82c28d6cc8213c6a0966b145dfe4c76955ecf7e579522e90f09a6a",
-                "view-panel.js": "dd295a2a08656fe5cd01410d604e711f5b933480266d669fe1c5f92744782899",
+                "styles/view-panel.css": "31fc3bb6a750832042ff80a158d710598d3a30a56b5e22dedb22fb64333f3407",
+                "view-panel.js": "540af045c142888aa0402bd7f8be40a3b0178f20debf5acd2013850192a27355",
                 "tools/validate.php": "317a58d14b89dafb83ad9a1c2a9ded945fb59e9834c2c8de55ca22c4e5dd4c31"
             }
         },

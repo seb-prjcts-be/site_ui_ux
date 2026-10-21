@@ -79,6 +79,7 @@
             reading = window.captureInterfaceReadingPosition?.();
             document.body.classList.add('view-panel-open');
             trigger.setAttribute('aria-expanded','true');
+            trigger.setAttribute('aria-label','Weergave sluiten');
         });
         panel.addEventListener('shown.bs.offcanvas', () => {
             window.restoreInterfaceReadingPosition?.(reading);
@@ -88,6 +89,7 @@
             reading = window.captureInterfaceReadingPosition?.();
             document.body.classList.remove('view-panel-open');
             trigger.setAttribute('aria-expanded','false');
+            trigger.setAttribute('aria-label','Weergave openen');
         });
         panel.addEventListener('hidden.bs.offcanvas', () => {
             window.restoreInterfaceReadingPosition?.(reading);

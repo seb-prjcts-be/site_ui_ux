@@ -72,3 +72,13 @@ body > header .font-size-controls { display: none; }
 .view-panel .composition-guide { font-size: 13px; min-height: 32px; }
 
 .view-panel .view-actions { position: sticky; bottom: -20px; background: white; padding-bottom: 12px; }
+
+/* The diagonal arrow repeats the personal site's open/close affordance. */
+.view-toggle { position: fixed; top: 24px; right: 24px; z-index: 1046; display: grid; place-items: center; width: 52px; height: 52px; padding: 10px; border: 1px solid currentColor; border-radius: 0; background: white; color: var(--primary-color); transition: right .35s cubic-bezier(.2,.7,.2,1); }
+.view-toggle[hidden] { display: none; }
+.view-toggle svg { width: 30px; height: 30px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: square; stroke-linejoin: miter; }
+.view-toggle[aria-expanded=true] svg { transform: rotate(-90deg); }
+body > header { padding-inline-end: calc(2rem + 76px); }
+@media (min-width: 1100px) { .view-toggle[aria-expanded=true] { right: 420px; } }
+@media (max-width: 1099px) { .view-toggle[aria-expanded=true] { visibility: hidden; } }
+@media (prefers-reduced-motion: reduce) { .view-toggle { transition: none; } }
