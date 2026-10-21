@@ -86,3 +86,24 @@ When uncertain:
 Never change the visual identity without permission.
 Small fixes are allowed.
 New identity decisions are not.
+
+
+## Scientific and educational quality review
+
+Apply project.json quality_policy on every substantive content or demo change.
+Read the current framework in content/ordeningsprincipes.html before reviewing.
+Use its stable criterion IDs; report met / deels / open / niet van toepassing
+with evidence, reviewer, date and limitations. Do not convert unknowns into passes.
+
+For changed pages, review the actual affected claims and source passages,
+learning-goal/activity/assessment alignment, and applicable demo protocols.
+Run JS syntax, internal-link and relevant browser checks, but report these
+separately from source validity, accessibility conformance and learning effects.
+Update the review register with the final content SHA-256. A hash mismatch makes
+previous coverage stale; never silently reapprove it by merely updating the hash.
+The register's link counts are inventory only. Exclude sensitive student data.
+Log material factual corrections visibly on the affected page. Log review
+scope, failures and remaining uncertainties in docs/ai-log.md. Do not label AI
+review as independent expert review. Do not claim all pages meet the framework
+until their applicable criteria have been checked. Earlier numerical scores
+are editorial judgements, not scientific measurements or a certification.

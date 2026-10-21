@@ -163,3 +163,24 @@ Titels in Oswald, lopende tekst in Alegreya, labels en bijschriften in IBM Plex 
 ## Licentie
 
 Deze cursus website is gemaakt voor educatieve doeleinden.
+
+
+## Wetenschappelijke en didactische kwaliteitscontrole
+
+Het gepubliceerde kader staat op `index.html#ordeningsprincipes` (versie 1.0).
+`project.json` verwijst naar het kader en het reviewregister; `AI_RULES.md`
+verplicht de controle bij inhoudelijke wijzigingen. Het register bevat per
+onderwerppagina de status, bevindingen en SHA-256 van de beoordeelde versie.
+Een andere hash betekent dat de eerdere dekking opnieuw moet worden bekeken.
+De status is geen keurmerk. Bronnotities en nulmeting staan in `data/bronnen/`.
+
+
+Snelle controle op verouderde inhoudsversies (PowerShell, vanuit de projectmap):
+
+```powershell
+$qualityReview = Get-Content data/bronnen/kwaliteitskader-nulmeting-20261021.json -Raw | ConvertFrom-Json
+$qualityReview.records | Where-Object { (Get-FileHash -LiteralPath $_.file -Algorithm SHA256).Hash.ToLower() -ne $_.sha256 } | Select-Object id, review_status
+```
+
+Geen uitvoer betekent alleen dat de opgeslagen inhoudsversies gelijk zijn.
+Een afwijking vraagt inhoudelijke herbeoordeling, geen automatische goedkeuring.

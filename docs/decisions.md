@@ -330,3 +330,16 @@ Impact:
 - Open vragen bijgewerkt met een sectie "Inmiddels geverifieerd en verwerkt".
 - Voorstel voor zes sleepbare p5.js-schetsen (één per chronologisch thema)
   uitgewerkt in leerplan.md.
+
+
+### 2026-10-21 - Blijvend kwaliteitskader voor bronnen, onderwijs en onderzoek
+
+Decision:
+Op verzoek van Seb toetsen we inhoudelijke wijzigingen voortaan aan het
+onderbouwde kader op content/ordeningsprincipes.html (versie 1.0).
+project.json quality_policy verwijst naar kader en reviewregister;
+AI_RULES.md maakt de controle onderdeel van elke inhoudelijke wijziging.
+De bestaande route blijft behouden. Geen automatisch keurmerk of totaalscore.
+Broncontrole, didactische afstemming, onderzoeksmethoden en technische werking
+worden afzonderlijk gerapporteerd. Onbekend blijft open; studentonderzoek blijft
+gepland tot er werkelijk deelnemers en resultaten zijn.

@@ -1,0 +1,3185 @@
+{
+  "date": "2026-10-21",
+  "scope": "53 onderwerpfragmenten; geen volledige inhoudelijke audit",
+  "framework_version": "1.0",
+  "reviewer": "Codex, AI-ondersteund; geen onafhankelijke peer review",
+  "records": [
+    {
+      "id": "les-de-link",
+      "file": "content/les-de-link.html",
+      "sha256": "def7fd69a67854c655f9156b8d06d91c2a9720a7b790d91ac45a93b3a825664c",
+      "review_status": "deels",
+      "external_link_count": 5,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "K06/K07 redactionele controle van doelen, opdracht en toegevoegde zelfcontrolevraag; geen leerwinstonderzoek.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Leerdoelen, oefening en beoordelingscriteria aanwezig; volledige matrix per doel en beoordeling van leerlingwerk ontbreken."
+        },
+        "K07": {
+          "status": "deels",
+          "evidence": "Zelfstandig beantwoorden, modelantwoord en herstap toegevoegd; daadwerkelijke terugkeer later in cursus en werking bij studenten niet geëvalueerd."
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      },
+      "reviewer": "Codex (AI), geen onafhankelijke reviewer",
+      "review_date": "2026-10-21"
+    },
+    {
+      "id": "les-de-lijst",
+      "file": "content/les-de-lijst.html",
+      "sha256": "864f095ce427b7196f3b3ceef7ca3a2740ad752312c8157d0a4001fbf7f158e8",
+      "review_status": "deels",
+      "external_link_count": 2,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "K06/K07 redactionele controle van doelen, opdracht en toegevoegde zelfcontrolevraag; geen leerwinstonderzoek.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Leerdoelen, oefening en beoordelingscriteria aanwezig; volledige matrix per doel en beoordeling van leerlingwerk ontbreken."
+        },
+        "K07": {
+          "status": "deels",
+          "evidence": "Zelfstandig beantwoorden, modelantwoord en herstap toegevoegd; daadwerkelijke terugkeer later in cursus en werking bij studenten niet geëvalueerd."
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      },
+      "reviewer": "Codex (AI), geen onafhankelijke reviewer",
+      "review_date": "2026-10-21"
+    },
+    {
+      "id": "over-dit-onderzoekscentrum",
+      "file": "content/over-dit-onderzoekscentrum.html",
+      "sha256": "3e367cabc87d31a2d264c802e81ed3ecf1bf8bb72b50fbfff18d711619cd56aa",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "twee-fundamenten",
+      "file": "content/twee-fundamenten.html",
+      "sha256": "3f1528caf4e3b0a5e330c0b8ba9e087e265dbcd0d51ca41cda6a64d70a109b30",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "psychologische-principes",
+      "file": "content/psychologische-principes.html",
+      "sha256": "1a485fc310d78e51be838b01d1e2395e9ea04ead6a63615ee1aed4e4a60f5564",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 4,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "fenomenologie-en-breakdown",
+      "file": "content/fenomenologie-en-breakdown.html",
+      "sha256": "761fc71ab2777991277d16b29a786e8010eaa5552cb282727995316ac7ec5ac8",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "fitts-en-hick-hyman",
+      "file": "content/fitts-en-hick-hyman.html",
+      "sha256": "1a5e49937d9c55efd4e1281f47f3e3c2e5ff1dd846dcc217453c20907698d505",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 1,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "mother-of-all-demos",
+      "file": "content/mother-of-all-demos.html",
+      "sha256": "3c7089443c23ac97ad3f4d38086bfe108083d8540af1de0bd36bf12426144515",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 5,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "winograd-en-shrdlu",
+      "file": "content/winograd-en-shrdlu.html",
+      "sha256": "e1a9bc23d229a7cf16854dfa778d1f191c5129a3f8ad11517076c2df2f53d7de",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "uitvinding-van-undo",
+      "file": "content/uitvinding-van-undo.html",
+      "sha256": "13f455b5f7f31f9acc03e16f5c6a7670ad2ffabf001148e966908fea715475aa",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "xerox-parc-desktopmetafoor",
+      "file": "content/xerox-parc-desktopmetafoor.html",
+      "sha256": "b16757bb63cd7f83c083d1d2a6be49189eff02f166c0f8006bf5bec7281bc94f",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 3,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "affordances-en-signifiers",
+      "file": "content/affordances-en-signifiers.html",
+      "sha256": "2de0f1938eaa682d7965e6afa2d3e420d55a9d5aae2dea322b898f2ba79ef831",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "three-mile-island",
+      "file": "content/three-mile-island.html",
+      "sha256": "00e0e098a6f426d819fdb9a0ff289a9677a9eefbc93cefcc1958ae5393432bee",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 2,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "apple-atkinson-en-kare",
+      "file": "content/apple-atkinson-en-kare.html",
+      "sha256": "d87e30224abaf4556165c6a177618a251372fd894b6fc0601478a0f1111c5b30",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 3,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "fitts-en-de-mac-menubalk",
+      "file": "content/fitts-en-de-mac-menubalk.html",
+      "sha256": "2a5b16ec4bd208fd61f5e9197e494b5c1408d00c6db5de8549352834ef9a0b11",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "therac-25",
+      "file": "content/therac-25.html",
+      "sha256": "113a807ba430e8097f8798776feedacbb38c55eab35fc459c4ff3f1d340c92de",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 1,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "geheugen-en-cognitieve-belasting",
+      "file": "content/geheugen-en-cognitieve-belasting.html",
+      "sha256": "095c313403d45dc8a590a807cbabc82860dd3264d700628af233e3ab75fdf528",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "norman-door",
+      "file": "content/norman-door.html",
+      "sha256": "deecbe9c7320dfd71fa5b59e5bf48784e7198786ba73c9b4ae351a7e7343d870",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "postfenomenologie-en-mediatie",
+      "file": "content/postfenomenologie-en-mediatie.html",
+      "sha256": "a2dc7bca1f8e4e4f0ee3fcd6997e44f3f4a973de1296e56e00cd0b0503cbd332",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "eerste-webpagina",
+      "file": "content/eerste-webpagina.html",
+      "sha256": "b2ebe153fa82a668761b19b68c6e641b68631d9544be0e5d144022cc05003bac",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 4,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "gopher-versus-web",
+      "file": "content/gopher-versus-web.html",
+      "sha256": "d06fd5a8cd796b2cdba555f23efb7b7f851aded77a026dac6ea51c1c0aa120a4",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 2,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "beeld-dat-klikt",
+      "file": "content/beeld-dat-klikt.html",
+      "sha256": "73e22a7dd64ace11911633de09126ec63fa5de58c7b19c793ef51257b5f1f448",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 5,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "yahoo-en-google",
+      "file": "content/yahoo-en-google.html",
+      "sha256": "28347f8b0ff37104809c93cf596d9eb27095b2ca09699665cb033a6b08b38862",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 4,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "navigatie-en-wayfinding",
+      "file": "content/navigatie-en-wayfinding.html",
+      "sha256": "1f13bc16c74a8f8ad3055f8754a9eeab4a851090a152aa8d238595f91cd9e49e",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "esthetiek-en-bruikbaarheid",
+      "file": "content/esthetiek-en-bruikbaarheid.html",
+      "sha256": "a51b9249dce3106c3d79a7f32a2aed3939b423ea4cf25413c4c7e857fbeeef36",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "clippy",
+      "file": "content/clippy.html",
+      "sha256": "2bbab21a7b315065ac992e6501f7f205ea50dc26d4aef9aca115a926d4106b18",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "esthetiek-en-mediatheorie",
+      "file": "content/esthetiek-en-mediatheorie.html",
+      "sha256": "07e137261803b37f56513dd5af5450a3936fa7fa830de8701afef54dd9b07bd8",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "raskin-en-victor",
+      "file": "content/raskin-en-victor.html",
+      "sha256": "1c9e050768e796a3a67c75badba5fc46853cadd09e06c65fb4dd52c6678af79f",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "hedonisch-en-pragmatisch",
+      "file": "content/hedonisch-en-pragmatisch.html",
+      "sha256": "e2bed416008d126165314ba24585c805341844b9100c4973c5f083ac6df95390",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "eye-tracking-en-neuro-ux",
+      "file": "content/eye-tracking-en-neuro-ux.html",
+      "sha256": "29e66fa0fa884d38c7b48205650e7daea509f6db508a75f82a31c6612db188d3",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "300-million-button",
+      "file": "content/300-million-button.html",
+      "sha256": "4a7ee448df3765c04aeb91a6736b86d710ab6c7410d144b56968070e98a0e927",
+      "review_status": "deels",
+      "external_link_count": 1,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Toeschrijving van twee 45%-claims en omzetclaim aan Spool; zichtbare correctie. Geen onafhankelijke validatie cijfers; overige claims open.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID spool-omzet en spool-45; bron en tussenkoplocators aanwezig; overige historische/theoretische claims nog niet volledig geannoteerd."
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Binnen scope van de 45%-correctie: oude claim, datum, reden, nieuwe formulering en bron zichtbaar op de pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      },
+      "reviewer": "Codex (AI), geen onafhankelijke reviewer",
+      "review_date": "2026-10-21",
+      "claims": [
+        {
+          "id": "spool-omzet",
+          "type": "toegeschreven_praktijkclaim",
+          "source": "https://articles.centercentre.com/three_hund_million_button/",
+          "locator": "The $300,000,000 Fix",
+          "supports": "Spool rapporteert 300 miljoen dollar extra omzet; geen onafhankelijk gecontroleerd effect.",
+          "status": "deels"
+        },
+        {
+          "id": "spool-45",
+          "type": "toegeschreven_praktijkclaim",
+          "source": "https://articles.centercentre.com/three_hund_million_button/",
+          "locator": "Not So Good For Repeat Customers Either; The $300,000,000 Fix",
+          "supports": "Spool rapporteert 45% meervoudige registraties en 45% meer kopende klanten; geen vastgesteld conversiepercentage.",
+          "status": "deels"
+        }
+      ]
+    },
+    {
+      "id": "41-shades-of-blue",
+      "file": "content/41-shades-of-blue.html",
+      "sha256": "f2ece1be4bff61ea37b23722f7b2616d5a3c4535aef804c56813a76f9c0874da",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "skeuomorfisme-vs-flat",
+      "file": "content/skeuomorfisme-vs-flat.html",
+      "sha256": "15bed8e16ce5465b7b652a74bd46d9d04216f3453b157305e1e4c2022d9a2e2d",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "ethiek-van-design",
+      "file": "content/ethiek-van-design.html",
+      "sha256": "542c20ba9a986a0056b551ea2464f89c682b4c5d95023a1b26a0bf169b259bce",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 2,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "creative-coding-als-interfacefilosofie",
+      "file": "content/creative-coding-als-interfacefilosofie.html",
+      "sha256": "1af99118ce0714c4c1cd52d46b064e1fa9614317b551c2a79787d59387e986ff",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 3,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "lesidee-drie-knoppen",
+      "file": "content/lesidee-drie-knoppen.html",
+      "sha256": "c4ee1dda88d3304f6bdd3e7c365d33e239def3625d46071d0f922379e09178df",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "ongebruikelijke-interfaces",
+      "file": "content/ongebruikelijke-interfaces.html",
+      "sha256": "c0f77a88b17ac912454ff9b55d58cd5d495798ce2d1ec3044a0defa2cde0f9fd",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 16,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "klik-hier",
+      "file": "content/klik-hier.html",
+      "sha256": "47a51b867bd660d139f949a889b0e767c7ceb6b0d882d9d1fe927fc6555ccc08",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "fitts-op-deze-site",
+      "file": "content/fitts-op-deze-site.html",
+      "sha256": "c5ae14f8ece4d870fa42ac8570dda85755575a0fe26ba26ff89b415100a19f89",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "hick-hyman-in-het-menu",
+      "file": "content/hick-hyman-in-het-menu.html",
+      "sha256": "3e62d9e8794a6d18d95287b2374fbb436c7b7969e7c720a8a4bf27a7d067f64d",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "f-patroon-en-koppen",
+      "file": "content/f-patroon-en-koppen.html",
+      "sha256": "5ccd8ddba9e582699958a2810f00cc17daacb7cb644026abc0851c44ec5c0cc0",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "toestand-versus-opdracht",
+      "file": "content/toestand-versus-opdracht.html",
+      "sha256": "46fb4a9549dc719fd09ae2688abe80715e797349ab83ccfeb3769e3ab0c9ffb1",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "breakdown-bij-ontbrekende-content",
+      "file": "content/breakdown-bij-ontbrekende-content.html",
+      "sha256": "938a4d769c5ae20aa062167c737148299f19ac9726bbfbf6101346ba191b50cb",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "pad-en-stap",
+      "file": "content/pad-en-stap.html",
+      "sha256": "dafee40d9c4d0203359675c23552756ba5d179a7777c8b28a8b3c45b96d65327",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "proefschriften-internationaal",
+      "file": "content/proefschriften-internationaal.html",
+      "sha256": "6c895b1035d3f37db381c09157943bf2de30f6935c5ba81e46668b1218e2bdf0",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 6,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "proefschriften-lage-landen",
+      "file": "content/proefschriften-lage-landen.html",
+      "sha256": "3dca326fc95f9a900b0bc23294da499f8a44a3c7ce591298bb6831f95c1cd054",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 9,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "proefschriften-recente-themas",
+      "file": "content/proefschriften-recente-themas.html",
+      "sha256": "c7dc21cc755e2655c41ca3043378d384c1a190b3c687821bac0c88a6a077535f",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "leeslijst",
+      "file": "content/leeslijst.html",
+      "sha256": "c4e3845a6878b222bf5b19941b22b2980fc14a46ef339c04af7a1fdfd62cea29",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "repositories-en-zoektermen",
+      "file": "content/repositories-en-zoektermen.html",
+      "sha256": "3a758ea74e468276e927e045a9bc1289931a73329e7574b736390a0470571d17",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "open-vragen",
+      "file": "content/open-vragen.html",
+      "sha256": "52222e284ecde0e70ad09d1d6a977739ce464504b38f11c055edb4db29b29a58",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "ordeningsprincipes",
+      "file": "content/ordeningsprincipes.html",
+      "sha256": "2a5255b9dd922cd721fd8045b4783f63566dd1bb4d1099273e32fd7af1bf719c",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "voorbeeld-onderwerp",
+      "file": "content/voorbeeld-onderwerp.html",
+      "sha256": "81c152307c1756eb80f4f3253ee246ac1d43b25559564a675b9de13790de6c23",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "id": "tijdlijn",
+      "file": "content/tijdlijn.html",
+      "sha256": "9892cef6e3d5765ffe67d3f5ec8b9b4bc0e999ec5d98e3440a34d2b1561f6617",
+      "review_status": "niet_beoordeeld",
+      "external_link_count": 0,
+      "note": "Structurele inventaris; linkaantal bewijst geen bronkwaliteit.",
+      "review_scope": "Alleen structurele inventaris; geen inhoudelijke goedkeuring.",
+      "criteria": {
+        "K01": {
+          "status": "open",
+          "evidence": null
+        },
+        "K02": {
+          "status": "open",
+          "evidence": null
+        },
+        "K03": {
+          "status": "open",
+          "evidence": null
+        },
+        "K04": {
+          "status": "open",
+          "evidence": null
+        },
+        "K05": {
+          "status": "open",
+          "evidence": null
+        },
+        "K06": {
+          "status": "open",
+          "evidence": null
+        },
+        "K07": {
+          "status": "open",
+          "evidence": null
+        },
+        "K08": {
+          "status": "open",
+          "evidence": null
+        },
+        "K09": {
+          "status": "open",
+          "evidence": null
+        },
+        "K10": {
+          "status": "open",
+          "evidence": null
+        },
+        "K11": {
+          "status": "open",
+          "evidence": null
+        },
+        "K12": {
+          "status": "open",
+          "evidence": null
+        }
+      }
+    }
+  ],
+  "criteria": {
+    "K01": "open",
+    "K02": "open",
+    "K03": "open",
+    "K04": "open",
+    "K05": "open",
+    "K06": "open",
+    "K07": "open",
+    "K08": "open",
+    "K09": "open",
+    "K10": "open",
+    "K11": "open",
+    "K12": "open"
+  },
+  "research_status": {
+    "source_and_lesson_review": "gepland",
+    "usability_and_accessibility": "gepland",
+    "learning_and_transfer": "gepland"
+  },
+  "technical_checks": {
+    "date": "2026-10-21",
+    "scope": "53 inhoudsfragmenten via localhost, interne paginalinks, unieke bron-HTML IDs, K01-K12, claim-ID/registerkoppeling en hashes; node --check main.js; git diff --check",
+    "result": "geslaagd binnen scope",
+    "browser": "Kader gerenderd; zelfcontrole les 1 opent modelantwoord en herstap. Geen volledige WCAG-audit.",
+    "limitations": "Geen inhoudelijke certificering, studententest of leeronderzoek."
+  }
+}

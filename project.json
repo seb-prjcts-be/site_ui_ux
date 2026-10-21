@@ -40,5 +40,21 @@
     "must_ask_before_changing_public_urls": true,
     "must_not_ask_when_answer_is_in_project_files": true,
     "must_not_ask_for_obvious_small_fixes": true
+  },
+  "quality_policy": {
+    "framework_version": "1.0",
+    "framework_page": "content/ordeningsprincipes.html",
+    "review_register": "data/bronnen/kwaliteitskader-nulmeting-20261021.json",
+    "required_on_content_change": true,
+    "review_changed_claims": true,
+    "require_claim_source_locator_and_limitations": true,
+    "distinguish_empirical_historical_philosophical_and_normative_claims": true,
+    "require_learning_goal_activity_assessment_alignment_for_lessons": true,
+    "require_demo_protocol_and_limits": true,
+    "do_not_claim_learning_effectiveness_without_completed_study": true,
+    "technical_checks_do_not_certify_content": true,
+    "invalidate_review_when_content_hash_changes": true,
+    "publish_material_corrections": true,
+    "no_automatic_quality_score": true
   }
 }

@@ -780,9 +780,9 @@ const onderwerpen = [
     // --- Werkplaats ---
     {
         id: "ordeningsprincipes",
-        titel: "Ordeningsprincipes",
-        samenvatting: "Hoe nieuw materiaal in dit onderzoekscentrum wordt geordend: zes chronologische thema's, tags, betrouwbaarheidslabels en de functie van elke anekdote.",
-        en: { titel: "Ordering principles", samenvatting: "How new material in this research centre is ordered: six chronological themes, tags, reliability labels and the function of each anecdote." },
+        titel: "Ordeningsprincipes en wetenschappelijke kwaliteit",
+        samenvatting: "Het kwaliteitskader voor bronannotaties, didactische tests, onderzoek en hercontrole, naast de ordening van het materiaal.",
+        en: { titel: "Organisation and scientific quality", samenvatting: "Quality criteria for source annotations, assessment, research and continuing review, alongside content organisation." },
         tags: ["ordening", "methode", "categorieën", "tags", "betrouwbaarheid", "inbox", "werkwijze"],
         contentFile: "content/ordeningsprincipes.html",
         categorie: "Werkplaats"

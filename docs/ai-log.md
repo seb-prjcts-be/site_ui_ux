@@ -519,3 +519,39 @@ bronrecords per relevante claim; systematische controle van de volledige
 bibliografie; gebruikstest met studenten. De smalle viewport zet een lang menu
 boven de inhoud en vraagt nog onderzoek naar de bereikbaarheid van de tekst.
 Daarom na vijf rondes gestopt zonder te beweren dat elk criterium 8 haalt.
+
+
+## 2026-10-21 - Onderbouwd kwaliteitskader en blijvende hercontrole
+
+Opdracht: eerst onderzoeken welke voorwaarden een wetenschappelijk onderbouwde
+site/cursus vraagt, het kader op de site bewaren en voortaan daaraan toetsen.
+
+Onderzoek: drie afgebakende deelonderzoeken naar bronkwaliteit/integriteit,
+didactiek en empirische methoden/toegankelijkheid. Primaire bronnen: ALLEA,
+UNESCO, AHA, W3C/WAI, CMU Eberly, Roediger/Karpicke en SIGSOFT. Geannoteerde
+notities in data/bronnen/kwaliteitskader-*-20261021.md. Het kader is een lokale
+operationalisering van bronnen, geen externe accreditatie of effectiviteitsbewijs.
+
+Uitwerking: kader gepubliceerd binnen de bestaande pagina Ordeningsprincipes;
+geen nieuwe route, afhankelijkheid of layout. Vaste criteria K01-K12 met
+bewijs/status, onderzoeksagenda en onderscheid tussen techniek, inhoud,
+bruikbaarheid en leren. project.json quality_policy en AI_RULES.md maken de
+review verplicht bij inhoudelijke wijzigingen. Per-pagina-register met hash:
+inhoudswijziging maakt eerdere dekking verouderd. Geen automatische scores.
+
+Eerste toepassing: Spools casus krijgt stabiele claim-ID's, bronlocators,
+bewijslimieten, AI-reviewvermelding en een zichtbaar correctiebericht. Twee lessen
+krijgen een formatieve vraag met modelantwoord en herstap. Deze zelfcontroles
+zijn geen gevalideerde toetsen. Volledige bronreview, onafhankelijke vakreview,
+WCAG-conformiteitscontrole, gebruikstest en leeronderzoek zijn niet uitgevoerd.
+Geen persoonsgegevens verzameld; geplande studies hebben geen resultaten.
+
+
+Validatie van deze wijziging: node --check main.js en git diff --check geslaagd.
+53 inhoudsfragmenten geven HTTP 200; interne paginalinks en HTML-ID's geldig.
+K01-K12, alle registerrecords en bronclaim-ID's gecontroleerd; inhoudshashes
+passen bij de opgeslagen versies. Een gesimuleerde wijziging wijkt aantoonbaar af.
+Browser: kader en nulmeting gerenderd; modelantwoord/herstap les 1 opent correct.
+Dit zijn beperkte technische/redactionele controles, geen volledige WCAG-audit.
+Eerste toepassing publiek gerapporteerd op de kaderpagina en in het register:
+3 pagina's deels bekeken, overige 50 inhoudelijk nog niet beoordeeld.
