@@ -2552,6 +2552,12 @@ function publicationHome(archive) {
     const example = onderwerpen.find(topic => topic.id === 'herkennen');
     return `<div class="publication">
         <div class="publication-opening"><h1><span>${en ? 'Exploring' : 'Interfaces'}</span><span>${en ? 'interfaces.' : 'onderzoeken.'}</span></h1><a href="#publicatie-archief">${en ? 'Explore freely' : 'Vrij verkennen'} ↗</a></div>
+        <section class="publication-film" aria-labelledby="film-question">
+            <h2 id="film-question">${en ? 'What do you expect to happen?' : 'Wat verwacht je dat er gebeurt?'}</h2>
+            <div class="film-stage"><button type="button" class="film-play" data-film-play><span aria-hidden="true">▶</span><span>${en ? 'Watch Push to Add Drama' : 'Bekijk Push to Add Drama'}</span></button></div>
+            <p class="film-credit">TNT · Duval Guillaume · 2012 <a href="https://www.youtube.com/watch?v=fpXn3ae4zws" target="_blank" rel="noopener">${en ? 'Open on YouTube' : 'Open op YouTube'}</a></p>
+            <p class="film-reflection">${en ? 'After watching: what invited the action? When did the response begin? Take one observation into a practical study below.' : 'Na het kijken: wat nodigde uit tot de handeling? Wanneer begon de reactie? Neem één observatie mee naar een maakproef hieronder.'}</p>
+        </section>
         <div class="publication-spread">
             <section id="index-praktijk" aria-labelledby="path-heading"><h2 id="path-heading">${en ? 'Practice' : 'Praktijk'}</h2>
                 <ol class="path-list">${steps.map(topic => `<li><a href="#${topic.id}" aria-label="${escapeHtml(topicTitle(topic))}"><span class="path-name">${escapeHtml(topicTitle(topic))}</span><span class="path-arrow" aria-hidden="true">↗</span></a></li>`).join('')}</ol>
@@ -2567,6 +2573,15 @@ function publicationHome(archive) {
     </div>`;
 }
 function initPublicationObject(root) {
+    root.querySelector('[data-film-play]')?.addEventListener('click', () => {
+        const frame=document.createElement('iframe');
+        frame.src='https://www.youtube-nocookie.com/embed/fpXn3ae4zws';
+        frame.title='TNT: Push to Add Drama (2012)';
+        frame.allow='encrypted-media; picture-in-picture; fullscreen';
+        frame.allowFullscreen=true;
+        root.querySelector('.film-stage').replaceChildren(frame);
+        frame.focus();
+    }, {once:true});
     const stage = root.querySelector('.object-stage');
     stage?.querySelectorAll('[data-crop-choice]').forEach(button => button.addEventListener('click', () => {
         const close = button.dataset.cropChoice === 'close';

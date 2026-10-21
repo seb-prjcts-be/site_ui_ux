@@ -11204,7 +11204,7 @@
             {
                 "file": "main.js",
                 "checked_hash": "a22ee5c23d366b385135d6bee36a87d4ef4ed2faee5e24cde13f9c11f0ae0cd4",
-                "current_hash": "f59d6754a7c64fdc28d2a35896b9d57b66c73c89126718c7a35a9e73777483df",
+                "current_hash": "4ce5e1996a5f9807c0f6810203b51a06d88dc440ade4a31e0ead3163d0df2b65",
                 "needs_review": true
             },
             {
@@ -11233,7 +11233,7 @@
         "unreviewed_page_count": 0,
         "scope_note": "De oorspronkelijke auditscope betreft het archief van 53 pagina’s. De zes praktijkonderwerpen hebben afzonderlijke scope, controledatums en open punten.",
         "technical_validation": {
-            "validated_at": "2026-10-21T17:37:11+00:00",
+            "validated_at": "2026-10-21T17:40:38+00:00",
             "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle geregistreerde API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
             "contents": 66,
             "topics": 59,
@@ -11243,7 +11243,7 @@
                 "checks.php": "acedfb2b0c03e4247f0740e84fc067fced5e14e241a07f3b461110e26aa90f15",
                 "lib/course.php": "d6a632ae4ec0176c2840fab3102b5599f7ff12220604f765d08d53a9f83c32ef",
                 "lib/manage.php": "0eb63f74f9e60a54c485223ca2d6b4eb10792d1e1fc7146419f08087c3678a41",
-                "main.js": "f59d6754a7c64fdc28d2a35896b9d57b66c73c89126718c7a35a9e73777483df",
+                "main.js": "4ce5e1996a5f9807c0f6810203b51a06d88dc440ade4a31e0ead3163d0df2b65",
                 "stadia.css": "7940aa4162d8a084cfc537de9c0857408eefa5c37d9de108e07896dc6f54234e",
                 "style.css": "bd30accab26c2248c0e108ec4423bb26b017414a1dad4649d1494af040cae412",
                 ".htaccess": "ee99cc74ba8ad3ac80c744fc276b34014859f8f52f5e098208760a356aba7d77",
@@ -11254,7 +11254,7 @@
                 "styles/checks.css": "603a9d3227e979bbbc82636fa20caad237d148258083619314549c5fba7477c4",
                 "styles/view-panel.css": "31fc3bb6a750832042ff80a158d710598d3a30a56b5e22dedb22fb64333f3407",
                 "view-panel.js": "540af045c142888aa0402bd7f8be40a3b0178f20debf5acd2013850192a27355",
-                "styles/home.css": "b9c87ac1dae3ad5287f3ccd959332a84a36adb774b9093ef0b5ee6074c9cf565",
+                "styles/home.css": "6b9b8478f95964700902819f266008643d3a5059e98f9e9eb6984e04e6be4b50",
                 "styles/practice.css": "08df394adb1b342aa5c511181958903f3dda345b4f4a5d3d79bd9d170d1e3366",
                 "practice.js": "f3be17c853edd93ab58a8b536d45afb43e95e1f6edfad10ccb167be7550e86c9",
                 "tools/validate.php": "1c52ba16f2efa4b1e5c786b3af1661bfa4909a5238c2632bb791c6eea29ba9ec"

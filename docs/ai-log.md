@@ -635,3 +635,7 @@ Intent), MDN Web Audio API (concepts and usage). Dit is geen onafhankelijke
 vakreview, conformiteitsverklaring of leerwinstmeting. Open: docentcontrole,
 uitgewerkte rubric met voorbeeldprestaties, native bestandskiezer-/beelddecodeproef,
 volledige toetsenbord-/zoom-/schermlezer-/contrastreview en leeronderzoek.
+
+## Film als eerste kennismaking - 21 oktober 2026
+
+Op verzoek staat de bestaande TNT-film Push to Add Drama nu voor de zes maakproeven op de publicatiestartpagina. Kijkvraag vooraf, korte reflectie erna; bestaand onderzoek en de oorspronkelijke verwijzing behouden. NL/EN openingswoorden; speler wordt pas na keuze geladen via youtube-nocookie, zonder autoplay, met blijvende externe link. Browser: juiste filmtitel en videospeler geladen. Node-syntax en technische routevalidatie geslaagd. Geen nieuwe bron- of leerwinstclaim.
