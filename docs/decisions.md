@@ -343,3 +343,7 @@ De bestaande route blijft behouden. Geen automatisch keurmerk of totaalscore.
 Broncontrole, didactische afstemming, onderzoeksmethoden en technische werking
 worden afzonderlijk gerapporteerd. Onbekend blijft open; studentonderzoek blijft
 gepland tot er werkelijk deelnemers en resultaten zijn.
+
+### 2026-10-21 - PHP en SQLite op uitdrukkelijk verzoek
+
+Alle 53 onderwerpen, categorieën, taalversies en controles staan voortaan in SQLite. PHP levert inhoud en metadata; aparte kolom-, Grid- en Flexbox-CSS werken op dezelfde inhoud. Bestaande publieke adressen blijven via Apache behouden. De oorspronkelijke bestanden blijven importsnapshots. Schrijfbeheer gebeurt via CLI met consistente back-up, inhoudsversies en afzonderlijke check-events. Bronpoging, geslaagde broncontrole, criteriumcontrole en paginareview hebben hun eigen datum en scope. De migratie verleent geen nieuwe inhoudelijke goedkeuring. Zie sqlite-beheer.md.

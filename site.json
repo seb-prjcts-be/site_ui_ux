@@ -1,12 +1,12 @@
 {
   "site": {
     "name": "UI/UX Cursus",
-    "type": "static-course-site",
+    "type": "php-sqlite-course-site",
     "homepage": "/"
   },
   "routing": {
     "mode": "hash",
-    "note": "Elke pagina is /#<id>. De ids en hun categorie staan in de onderwerpen-array in main.js; dat bestand is de bron van waarheid voor de sitemap. De optionele queryparameter reis=0..7 kiest de interfaceweergave. Wisselen gebeurt binnen hetzelfde document met behoud van de hashpagina; browsergeschiedenis blijft beschikbaar. Vorige en volgende volgen de vaste onderwerpvolgorde."
+    "note": "Onderwerp-IDs, categorie en volgorde staan in SQLite topics/categories. Hashroutes, reis=0..7 en index.html blijven behouden via Apache; index.php?topic=ID ondersteunt lezen zonder JavaScript. api.php levert inhoud en reviews alleen-lezen; checks.php toont controles."
   },
   "routes": [
     {
@@ -21,11 +21,21 @@
     {
       "path": "/#<id>",
       "title": "Onderwerppagina",
-      "purpose": "Een pagina per begrip, anekdote of bron, in dertien groepen (zie main.js)",
+      "purpose": "Een pagina per onderwerp; dertien categorieën uit SQLite.",
       "status": "live",
       "public": true,
       "ai_may_change_content": true,
       "ai_may_change_layout": false
+    },
+    {
+      "path": "/checks.php?topic=<id>",
+      "title": "Bron- en kwaliteitscontroles",
+      "public": true
+    },
+    {
+      "path": "/api.php?resource=reviews",
+      "title": "Actueel reviewregister",
+      "public": true
     }
   ]
 }

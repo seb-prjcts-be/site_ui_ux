@@ -22,6 +22,37 @@
       "ai_may_create_files": true,
       "ai_may_edit_existing_files": false,
       "ai_may_delete_files": false
+    },
+    {
+      "path": "/data/private",
+      "purpose": "Actieve SQLite-database en lokale consistente back-ups; HTTP geweigerd",
+      "ai_may_delete_files": false
+    },
+    {
+      "path": "/database",
+      "purpose": "SQL-schema; HTTP geweigerd",
+      "ai_may_delete_files": false
+    },
+    {
+      "path": "/lib",
+      "purpose": "PHP data- en beheerfuncties; HTTP geweigerd",
+      "ai_may_delete_files": false
+    },
+    {
+      "path": "/tools",
+      "purpose": "CLI-beheer en technische verificatie; HTTP geweigerd",
+      "ai_may_delete_files": false
+    },
+    {
+      "path": "/tests",
+      "purpose": "Geïsoleerde migratietest; HTTP geweigerd",
+      "ai_may_delete_files": false
+    },
+    {
+      "path": "/styles",
+      "purpose": "Afzonderlijke kolom-, Grid-, Flexbox- en gedeelde CSS",
+      "ai_may_delete_files": false
     }
-  ]
+  ],
+  "approved_migration": "2026-10-21: nieuwe PHP-, database-, stylesheet-, test- en beheerbestanden door Seb expliciet toegestaan."
 }

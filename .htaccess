@@ -1,0 +1,6 @@
+DirectoryIndex index.php index.html
+RewriteEngine On
+RewriteRule ^index\.html$ index.php [L]
+RewriteRule ^content/en/([a-z0-9-]+)\.html$ api.php?resource=content&id=$1&lang=en [L,QSA]
+RewriteRule ^content/([a-z0-9-]+)\.html$ api.php?resource=content&id=$1&lang=nl [L,QSA]
+RewriteRule ^data/bronnen/kwaliteitskader-audit-53-20261021\.json$ api.php?resource=reviews [L,QSA]

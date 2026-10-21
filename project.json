@@ -1,8 +1,8 @@
 {
   "project": {
     "name": "cursus_UI_UX",
-    "status": "skeleton",
-    "type": "static-course-site",
+    "status": "active",
+    "type": "php-sqlite-course-site",
     "canonical_source": "project.json"
   },
   "links": {
@@ -11,14 +11,17 @@
     "github": ""
   },
   "tech": {
-    "uses_php": false,
+    "uses_php": true,
     "uses_javascript": true,
     "uses_p5": false,
     "uses_p5_waves": false,
-    "uses_database": false,
+    "uses_database": true,
     "uses_composer": false,
     "uses_npm": false,
-    "uses_build_step": false
+    "uses_build_step": false,
+    "php_minimum": "8.2",
+    "database": "SQLite",
+    "content_source": "data/private/course.sqlite"
   },
   "ai_permissions": {
     "may_edit_copy": true,
@@ -43,8 +46,8 @@
   },
   "quality_policy": {
     "framework_version": "1.0",
-    "framework_page": "content/ordeningsprincipes.html",
-    "review_register": "data/bronnen/kwaliteitskader-audit-53-20261021.json",
+    "framework_page": "index.php?topic=ordeningsprincipes",
+    "review_register": "api.php?resource=reviews",
     "required_on_content_change": true,
     "review_changed_claims": true,
     "require_claim_source_locator_and_limitations": true,
@@ -56,6 +59,14 @@
     "invalidate_review_when_content_hash_changes": true,
     "publish_material_corrections": true,
     "no_automatic_quality_score": true,
-    "invalidate_technical_claims_when_dependencies_change": true
-  }
+    "invalidate_technical_claims_when_dependencies_change": true,
+    "database": "data/private/course.sqlite"
+  },
+  "approved_changes": [
+    {
+      "date": "2026-10-21",
+      "authorization": "Zet het zelfstandig over. In de database kan geupdate worden wanneer zaken laatst zijn gechecked.",
+      "scope": "Volledige PHP/SQLite-migratie met afzonderlijke CSS-weergaven, behoud publieke adressen en expliciete controlehistoriek."
+    }
+  ]
 }

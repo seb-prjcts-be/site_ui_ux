@@ -1,7 +1,7 @@
 # UI/UX Cursus Website
 
-Een statische website die begint als onderzoekscentrum over UI/UX en uitgroeit tot een cursus voor hogeschoolstudenten in een kunstopleiding.
-Gebouwd met HTML, CSS en JavaScript. Het menu, de styling en het systeem (router, zoekfunctie, trefwoordenkolom,
+Een website met PHP en SQLite die begint als onderzoekscentrum over UI/UX en uitgroeit tot een cursus voor hogeschoolstudenten in een kunstopleiding.
+Gebouwd met PHP, SQLite, HTML, CSS en JavaScript. Het menu, de styling en het systeem (router, zoekfunctie, trefwoordenkolom,
 NL/EN, lettergrootte) zijn overgenomen van de p5.js Cursus-site.
 
 Het inhoudsoverzicht, de voorgestelde leerlijn en de open bespreekpunten staan in [leerplan.md](leerplan.md).
@@ -15,7 +15,7 @@ het raster kan zichtbaar worden gemaakt. Onder Regels staan de uitgangspunten en
 
 Dertien groepen: Lessen, Introductie, zes historische thema’s, Kennis als UX,
 Proefschriften, Bronnen, Werkplaats en Overzicht. De actuele titels en toewijzing
-staan in `main.js`. Twee lessen zijn uitgewerkt; de andere pagina’s zijn een
+staan in SQLite (`topics` en `categories`). Twee lessen zijn uitgewerkt; de andere pagina’s zijn een
 bronnenarchief en losse onderzoeksoefeningen. De periodes zijn zwaartepunten,
 geen gesloten tijdvakken. De selectie proefschriften bevat ook sleutelstudies;
 niet elk bronrecord is al rechtstreeks gelinkt.
@@ -70,34 +70,24 @@ Brondocumenten staan in `data/bronnen/`.
 2. Start Apache in het XAMPP Control Panel.
 3. Open `http://localhost/cursus_UI_UX/`.
 
-Er is geen build stap: pure HTML/CSS/JavaScript, geen Node.js of bundler.
+PHP 8.2+ met PDO SQLite is vereist. Er is geen buildstap, Node.js of bundler nodig. Apache verwerkt de meegeleverde .htaccess-regels. De actieve database is al opgenomen; voer init niet uit bij normaal gebruik.
 
 ## Structuur
 
-```
-cursus_UI_UX/
-├── index.html          # Hoofdpagina met header, navigatie, zoekveld en content-container
-├── style.css           # Styling voor de hele website
-├── main.js             # Router, navigatie, zoekfunctie, trefwoorden, i18n en onderwerpdata
-├── content/            # HTML-fragmenten per onderwerp (NL)
-│   ├── voorbeeld-onderwerp.html
-│   └── en/             # Engelse versies, zelfde bestandsnaam
-├── assets/             # Afbeeldingen per onderwerp
-├── docs/               # decisions.md, inbox.md, ai-log.md
-├── AI_RULES.md         # Werkafspraken voor AI-assistentie
-├── project.json        # Bron van waarheid voor projectmetadata en AI-permissies
-├── site.json           # Routes
-└── structure.json      # Mappen en wat erin mag
-```
+De actieve bron is `data/private/course.sqlite`. `index.php` levert de shell,
+`api.php` levert inhoud en reviews, `checks.php` toont controledatums. De oude
+HTML-bestanden blijven herstel-/imports snapshots. Zie [SQLite-beheer](docs/sqlite-beheer.md)
+voor structuur, CLI-opdrachten, tests en herstel.
+
 
 ## Functionaliteiten
 
 - **Navigatie**: sidebar met uitklapbare categorieën, hash-based routing (`#voorbeeld-onderwerp`).
 - **Zoekfunctie**: client-side zoeken in titels, samenvattingen en tags, met highlights.
 - **Trefwoordenkolom**: rechterkolom met de tags van het onderwerp; klik op een tag voor gerelateerde secties en onderwerpen.
-- **Tweetalig**: NL/EN-knop in de header; EN-content komt uit `content/en/`, met terugval op NL.
+- **Tweetalig**: NL/EN-knop in de header; EN-content komt uit SQLite, met terugval op NL.
 - **Lettergrootte**: drie standen, bewaard in `localStorage`.
-- **Vorige/volgende**: onderaan elke onderwerppagina, in de volgorde van de `onderwerpen`-array.
+- **Vorige/volgende**: onderaan elke onderwerppagina, in de onderwerpvolgorde uit SQLite.
 - **Animaties**: GSAP voor het zacht binnenkomen van pagina's, menu-items en zoekresultaten. Valt stil terug zonder GSAP of bij `prefers-reduced-motion`.
 - **Demo's**: een contentblok met `data-demo="naam"` wordt na het renderen geactiveerd door `demos[naam]` in `main.js`. Zo blijft content statische HTML en staat gedrag op één plek.
 
@@ -175,15 +165,9 @@ Een andere hash betekent dat de eerdere dekking opnieuw moet worden bekeken.
 De status is geen keurmerk. De actuele inhoudsronde omvat alle 53 pagina’s; gerichte bronpassages zijn gecontroleerd, niet iedere claim. Onafhankelijke vakreview, volledige claimdekking, menselijke toegankelijkheidstests en leeronderzoek blijven open. Bronnotities en de historische nulmeting staan in `data/bronnen/`.
 
 
-Snelle controle op verouderde inhoudsversies (PowerShell, vanuit de projectmap):
-
-```powershell
-$qualityReview = Get-Content data/bronnen/kwaliteitskader-audit-53-20261021.json -Raw | ConvertFrom-Json
-$qualityReview.dependency_hashes.PSObject.Properties | Where-Object { (Get-FileHash -LiteralPath $_.Name -Algorithm SHA256).Hash.ToLower() -ne $_.Value } | Select-Object Name
-$qualityReview.records | Where-Object { (Get-FileHash -LiteralPath $_.file -Algorithm SHA256).Hash.ToLower() -ne $_.sha256 } | Select-Object id, review_status
-```
-
-Geen uitvoer betekent alleen dat de opgeslagen inhoudsversies gelijk zijn.
-Een afwijking vraagt inhoudelijke herbeoordeling, geen automatische goedkeuring.
-
-Wijzigingen aan main.js, index.html, style.css of stadia.css heropenen betrokken demo-, route- en lokale technische claims; inhoudshashes alleen dekken deze afhankelijkheden niet.
+Actuele versieverschillen en open controles staan op [checks.php](http://localhost/cursus_UI_UX/checks.php)
+en in `tools/course.php status`. Beheercommando's bewaren afzonderlijke datums,
+beoordeelde hashes, reviewer, onderbouwing en historie. Zie [SQLite-beheer](docs/sqlite-beheer.md).
+De migratie heeft bestaande controledatums behouden. Technische tests zijn geen
+nieuwe wetenschappelijke broncontrole; de drie aangepaste beheerpagina's staan
+terecht als gewijzigd sinds de inhoudelijke review geregistreerd.

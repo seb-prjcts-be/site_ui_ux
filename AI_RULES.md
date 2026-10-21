@@ -107,3 +107,7 @@ scope, failures and remaining uncertainties in docs/ai-log.md. Do not label AI
 review as independent expert review. Do not claim all pages meet the framework
 until their applicable criteria have been checked. Earlier numerical scores
 are editorial judgements, not scientific measurements or a certification.
+
+## Approved migration - 2026-10-21
+
+Seb explicitly authorized the full PHP/SQLite migration, separate CSS layouts and database check dates. The active content and review authority is data/private/course.sqlite, served by api.php and index.php. Original content/*.html and dated audit JSON are recovery/import snapshots. Apply the framework to active database content; do not edit snapshots as if they were live pages. See docs/sqlite-beheer.md. Migration, import, page loads and technical tests must never refresh scholarly review dates. Future unrelated architecture changes still require the existing permission policy.

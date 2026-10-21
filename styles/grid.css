@@ -1,0 +1,8 @@
+.onderwerp-content[data-composition="raster"] {
+    display: grid; grid-template-columns: repeat(6,minmax(0,1fr));
+    column-gap: var(--composition-gap); --composition-columns: 6;
+}
+.onderwerp-content[data-composition="raster"] > * { grid-column: 1 / -1; }
+@container (min-width: 36rem) {
+    .onderwerp-content[data-composition="raster"] > section[data-composition-item] { grid-column: span 3; }
+}

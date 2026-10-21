@@ -1,0 +1,4 @@
+/data/private/*-journal
+/data/private/*-wal
+/data/private/*-shm
+/data/private/backups/

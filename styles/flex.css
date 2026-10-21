@@ -1,0 +1,9 @@
+.onderwerp-content[data-composition="flexibel"] {
+    display: flex; flex-wrap: wrap; gap: var(--composition-gap); --composition-columns: 6;
+}
+.onderwerp-content[data-composition="flexibel"] > * { flex: 0 0 100%; max-width: 100%; }
+@container (min-width: 36rem) {
+    .onderwerp-content[data-composition="flexibel"] > section[data-composition-item] {
+        flex: 1 1 calc((100% - var(--composition-gap)) * var(--composition-span,3) / 6);
+    }
+}

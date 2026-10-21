@@ -1,0 +1,2 @@
+/* A single reading column, using the same content nodes as Grid and Flexbox. */
+.onderwerp-content[data-composition="kolom"] { display: block; }

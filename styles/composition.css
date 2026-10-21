@@ -1,0 +1,28 @@
+/* Shared controls; each layout has its own stylesheet and keeps DOM order. */
+.onderwerp-content[data-composition] {
+    position: relative; isolation: isolate; container-type: inline-size;
+    --composition-gap: 1.25rem; --composition-columns: 1;
+}
+.composition-controls { margin: 0 0 1.5rem; font: .85rem/1.5 Arial,sans-serif; }
+.composition-controls nav { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; position: static; grid-area: auto; border: 0; padding: 0; background: transparent; max-height: none; margin-bottom: .6rem; }
+.composition-controls a { font: inherit; }
+.composition-controls a[aria-current="true"] { font-weight: bold; text-decoration-thickness: 3px; text-underline-offset: .2em; }
+.composition-controls details { margin-top: .5rem; }
+.composition-controls summary { cursor: pointer; }
+.composition-controls details p { font: inherit; margin-block: .5rem; max-width: 72ch; }
+.composition-guide { display: inline-flex; align-items: center; gap: .4rem; font: inherit; }
+.onderwerp-content[data-composition] > * { min-width: 0; }
+.onderwerp-content[data-composition] > section[data-composition-item] { align-self: start; }
+.onderwerp-content[data-composition]::before {
+    content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; display: none;
+    background-image: linear-gradient(to right, color-mix(in srgb, currentColor 7%, transparent) calc(100% - var(--composition-gap)), transparent 0);
+    background-size: calc((100% + var(--composition-gap)) / var(--composition-columns)) 100%;
+}
+.onderwerp-content.composition-grid-visible::before { display: block; }
+.composition-controls :focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.onderwerp-layout:has(> .onderwerp-content[data-composition-active]) { grid-template-columns: minmax(0,1fr); }
+.course-review-status { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid currentColor; font-size: .9em; }
+.onderwerp-content table { max-width: 100%; }
+@container (max-width: 35.99rem) {
+    .onderwerp-content table { display: block; overflow-x: auto; }
+}

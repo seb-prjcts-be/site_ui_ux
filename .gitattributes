@@ -1,0 +1,9 @@
+# Audited snapshots use CRLF; keep byte hashes stable on every checkout.
+* text=auto eol=crlf
+*.sqlite binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.woff2 binary
