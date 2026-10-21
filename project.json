@@ -72,6 +72,11 @@
       "date": "2026-10-21",
       "authorization": "eerste standaard css optimaliseren naar minimaal hedendaags design. non flash white instrument sans.",
       "scope": "Witte minimale standaardstijl met Instrument Sans en zonder decoratieve entreeanimaties."
+    },
+    {
+      "date": "2026-10-21",
+      "authorization": "Zes lege stappen; bestaande inhoud als archief",
+      "scope": "Zes lege SQLite-items onder Leerlijn; bestaande 53 pagina’s als archief behouden. Lessen uit de navigatie vervangen door Eerdere uitwerkingen."
     }
   ]
 }

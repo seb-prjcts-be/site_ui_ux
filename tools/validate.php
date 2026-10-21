@@ -29,7 +29,7 @@ try {
     $get('api.php?resource=content&id[]=x', 400);
     $get('api.php?resource=content&id=missing-topic', 404);
     $get('api.php?resource=content&id=les-de-link&lang=en', 404);
-    $result = ['validated_at' => gmdate('c'), 'scope' => 'Technisch: SQLite-integriteit, inhoudshashes, alle 53 API- en legacyadressen, reviewpagina\'s, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.', 'contents' => $count, 'topics' => count(course_topics($db))];
+    $result = ['validated_at' => gmdate('c'), 'scope' => 'Technisch: SQLite-integriteit, inhoudshashes, alle geregistreerde API- en legacyadressen, reviewpagina\'s, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.', 'contents' => $count, 'topics' => count(course_topics($db))];
     $result['file_hashes'] = [];
     foreach (['index.php','api.php','checks.php','lib/course.php','lib/manage.php','main.js','stadia.css','style.css','.htaccess','styles/composition.css','styles/column.css','styles/grid.css','styles/flex.css','styles/checks.css','tools/validate.php'] as $file) $result['file_hashes'][$file] = hash_file('sha256', COURSE_ROOT . '/' . $file);
     if (in_array('--record', $argv, true)) {

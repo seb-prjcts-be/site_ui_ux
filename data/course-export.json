@@ -3,15 +3,92 @@
     "topics": {
         "topics": [
             {
+                "id": "herkennen",
+                "titel": "Herkennen",
+                "samenvatting": "Nog niet uitgewerkt.",
+                "en": {
+                    "titel": "Recognising",
+                    "samenvatting": "Not developed yet."
+                },
+                "tags": [],
+                "categorie": "Leerlijn",
+                "placeholder": true,
+                "contentFile": "api.php?resource=content&id=herkennen&lang=nl"
+            },
+            {
+                "id": "begrijpen",
+                "titel": "Begrijpen",
+                "samenvatting": "Nog niet uitgewerkt.",
+                "en": {
+                    "titel": "Understanding",
+                    "samenvatting": "Not developed yet."
+                },
+                "tags": [],
+                "categorie": "Leerlijn",
+                "placeholder": true,
+                "contentFile": "api.php?resource=content&id=begrijpen&lang=nl"
+            },
+            {
+                "id": "orienteren",
+                "titel": "Oriënteren",
+                "samenvatting": "Nog niet uitgewerkt.",
+                "en": {
+                    "titel": "Finding your way",
+                    "samenvatting": "Not developed yet."
+                },
+                "tags": [],
+                "categorie": "Leerlijn",
+                "placeholder": true,
+                "contentFile": "api.php?resource=content&id=orienteren&lang=nl"
+            },
+            {
+                "id": "handelen",
+                "titel": "Handelen",
+                "samenvatting": "Nog niet uitgewerkt.",
+                "en": {
+                    "titel": "Acting",
+                    "samenvatting": "Not developed yet."
+                },
+                "tags": [],
+                "categorie": "Leerlijn",
+                "placeholder": true,
+                "contentFile": "api.php?resource=content&id=handelen&lang=nl"
+            },
+            {
+                "id": "afwegen",
+                "titel": "Afwegen",
+                "samenvatting": "Nog niet uitgewerkt.",
+                "en": {
+                    "titel": "Weighing choices",
+                    "samenvatting": "Not developed yet."
+                },
+                "tags": [],
+                "categorie": "Leerlijn",
+                "placeholder": true,
+                "contentFile": "api.php?resource=content&id=afwegen&lang=nl"
+            },
+            {
+                "id": "onderzoeken",
+                "titel": "Onderzoeken",
+                "samenvatting": "Nog niet uitgewerkt.",
+                "en": {
+                    "titel": "Investigating",
+                    "samenvatting": "Not developed yet."
+                },
+                "tags": [],
+                "categorie": "Leerlijn",
+                "placeholder": true,
+                "contentFile": "api.php?resource=content&id=onderzoeken&lang=nl"
+            },
+            {
                 "id": "les-de-link",
-                "titel": "Les 1: De link",
+                "titel": "De link",
                 "samenvatting": "Tekst en links, linkteksten en navigatie zonder menu.",
                 "en": {
-                    "titel": "Lesson 1: The link",
+                    "titel": "The link",
                     "samenvatting": "Text and links, link labels and navigation without a menu."
                 },
                 "tags": [
-                    "les",
                     "link",
                     "linktekst",
                     "1991",
@@ -19,19 +96,19 @@
                     "stadium 0"
                 ],
                 "contentFile": "api.php?resource=content&id=les-de-link&lang=nl",
-                "categorie": "Lessen",
-                "stadium": 0
+                "categorie": "Eerdere uitwerkingen",
+                "stadium": 0,
+                "archive": true
             },
             {
                 "id": "les-de-lijst",
-                "titel": "Les 2: Koppen en de lijst",
+                "titel": "Koppen en de lijst",
                 "samenvatting": "Koppen binnen een pagina en een index als lijst van lijsten.",
                 "en": {
-                    "titel": "Lesson 2: Headings and the list",
+                    "titel": "Headings and the list",
                     "samenvatting": "Headings within a page and an index as a list of lists."
                 },
                 "tags": [
-                    "les",
                     "koppen",
                     "index",
                     "Yahoo",
@@ -39,8 +116,9 @@
                     "stadium 1"
                 ],
                 "contentFile": "api.php?resource=content&id=les-de-lijst&lang=nl",
-                "categorie": "Lessen",
-                "stadium": 1
+                "categorie": "Eerdere uitwerkingen",
+                "stadium": 1,
+                "archive": true
             },
             {
                 "id": "over-dit-onderzoekscentrum",
@@ -1150,7 +1228,8 @@
             }
         ],
         "categories": [
-            "Lessen",
+            "Leerlijn",
+            "Eerdere uitwerkingen",
             "Introductie",
             "Thema 1: Werktuig, lichaam en ruimte (1910–1968)",
             "Thema 2: Cognitieve modellen en breakdown (1970–1988)",
@@ -1188,6 +1267,20 @@
             "updated_at": "2026-10-21T15:50:53Z"
         },
         {
+            "topic_id": "afwegen",
+            "lang": "en",
+            "html": "<p class=\"empty-step\">Not developed yet.</p>",
+            "content_hash": "0d647ed91fe6c766cff82cac1e39ebd2c6396af8e3b0eb0764ac38aaba98ef13",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
+            "topic_id": "afwegen",
+            "lang": "nl",
+            "html": "<p class=\"empty-step\">Nog niet uitgewerkt.</p>",
+            "content_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
             "topic_id": "apple-atkinson-en-kare",
             "lang": "nl",
             "html": "<div class=\"intro\">\r\n    <p>Bill Atkinson schreef voor Apple de grafische motor QuickDraw, het tekenprogramma MacPaint (1984) en later de hypermedia-omgeving HyperCard (1987). Susan Kare tekende de iconen, schermletters en cursors van de oorspronkelijke Macintosh op ruitjespapier. Wij lezen haar werk als een voorbeeld van beeldende vormgeving in interfaceontwerp; haar opleiding bewijst op zichzelf geen oorzakelijk effect op begrijpelijkheid.</p>\r\n</div>\r\n\r\n<aside class=\"callout callout--weetje\">\r\n    <span class=\"callout-label\">Broncontrole per bewering</span>\r\n    <p>Kares schetsboeken uit 1982–1983 zijn gepubliceerd en opgenomen in de collecties van het MoMA en SFMOMA. Atkinsons ontwerpbeslissingen voor Lisa en Macintosh zijn door Andy Hertzfeld en Atkinson zelf gedocumenteerd op folklore.org.</p>\r\n</aside>\r\n\r\n<section>\r\n    <h1>Atkinson, 1983–1987</h1>\r\n    <h2>de grafische onderlaag</h2>\r\n    <p data-claim=\"apple-atkinson-en-kare-scherm\">QuickDraw ondersteunde grafische vensters, gebieden en letters in Apples interfaces. Het hier bedoelde scherm van 512 bij 342 pixels hoort bij de compacte Macintosh; de Lisa mag niet dezelfde specificatie worden toegeschreven. MacPaint maakte van dat scherm een direct tekenblad, en HyperCard (augustus 1987) verbond kaarten, knoppen en scripts tot een toegankelijke hypertextomgeving nog voor het World Wide Web ontstond.</p>\r\n</section>\r\n\r\n<section>\r\n    <h1>Kare, 1982–1984</h1>\r\n    <h2>het icoon op ruitjespapier</h2>\r\n    <p data-claim=\"apple-atkinson-en-kare-schetsboek\">Susan Kare werkte haar Macintosh-iconen uit op ruitjespapier, met een vakje per pixel; het MoMA registreert haar iconschetsboek als 1982. Het werk omvatte iconen, cursors en schermletters, waaronder Chicago en Geneva. Rasters verschillen per element; niet iedere cursor of letter is een icoon van 32 bij 32 pixels. Ze behandelde een pixelraster niet als een wiskundige beperking, maar als mozaïek of kruissteek: hoe minder punten je hebt, hoe helderder het gebaar moet zijn.</p>\r\n\r\n    <aside class=\"callout callout--tip\">\r\n        <span class=\"callout-label\">Tip</span>\r\n        <p>Oefening: teken een eigen functie-icoon op een raster van 16 bij 16 of 32 bij 32 vakjes vóór je een scherm aanraakt. De krapte van het raster dwingt je om alle bijzaak weg te laten.</p>\r\n    </aside>\r\n</section>\r\n\r\n<section>\r\n    <h1>Functie van deze anekdote</h1>\r\n    <h2>visuele retoriek tegenover het neutrale raster</h2>\r\n    <p>In het thema <strong>Thema 2: Cognitieve modellen en breakdown (1970–1988)</strong> vervult het duo Atkinson-Kare een scherp afgebakende rol:</p>\r\n    <ul>\r\n        <li><strong>Beeld als signifier; vergelijking met esthetiek en bruikbaarheid.</strong> Kares iconen geven aan de abstracte mogelijkheden van het besturingssysteem een zichtbare <a href=\"#affordances-en-signifiers\">signifier</a> en bieden een historisch bespreekvoorbeeld naast <a href=\"#esthetiek-en-bruikbaarheid\">Kurosu en Kashimura (1995)</a> over het verband tussen visuele vorm en ervaren bruikbaarheid. De iconen vormen op zichzelf geen effectstudie en waren niet voor elke gebruiker meteen begrijpelijk.</li>\r\n        <li><strong>Tegenspraak met én vanuit Vilém Flusser (1983).</strong> In bijna exact hetzelfde jaar waarin Flusser waarschuwde dat het technische apparaat de mens tot \"functionaris\" van zijn programma maakt, gebruikte Kare de klassieke kunstgeschiedenis om binnen het strengste digitale raster (zwart-wit, 32×32 pixels) menselijke maat en humor te tekenen. Tegelijk luidde juist die vriendelijke glimlach van de Macintosh de kritiek van <a href=\"#creative-coding-als-interfacefilosofie\">Olia Lialina (2012)</a> in: hoe vriendelijker het icoon, hoe meer de onderliggende machine achter het plaatje verdwijnt.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section>\r\n    <h2>Bekijk het origineel</h2>\r\n    <p>De eerste Macintosh is in de browser te bedienen, HyperCard ook, en Kares schetsen liggen in het MoMA.</p>\r\n    <ul class=\"video-cards bron-kaarten\">\r\n        <li>\r\n            <a class=\"video-card bron-kaart\" href=\"https://infinitemac.org/\" target=\"_blank\" rel=\"noopener\">\r\n                <div class=\"video-card-body\">\r\n                    <p class=\"video-card-maker\">Mihai Parparita</p>\r\n                    <h3 class=\"video-card-title\">Infinite Mac: System 1.0 in de browser</h3>\r\n                    <p class=\"video-card-desc\">Elke klassieke Mac OS-versie, zonder installatie. Open MacPaint en teken met de muis van 1984.</p>\r\n                </div>\r\n            </a>\r\n        </li>\r\n        <li>\r\n            <a class=\"video-card bron-kaart\" href=\"https://blog.archive.org/2017/08/11/hypercard-on-the-archive-celebrating-30-years-of-hypercard/\" target=\"_blank\" rel=\"noopener\">\r\n                <div class=\"video-card-body\">\r\n                    <p class=\"video-card-maker\">Internet Archive, 2017</p>\r\n                    <h3 class=\"video-card-title\">HyperCard-stacks in de browser</h3>\r\n                    <p class=\"video-card-desc\">Atkinsons kaarten, knoppen en links, draaiend op een geëmuleerde Mac met System 7.</p>\r\n                </div>\r\n            </a>\r\n        </li>\r\n        <li>\r\n            <a class=\"video-card bron-kaart\" href=\"https://www.moma.org/collection/works/188382\" target=\"_blank\" rel=\"noopener\">\r\n                <div class=\"video-card-body\">\r\n                    <p class=\"video-card-maker\">MoMA, gift van Susan Kare</p>\r\n                    <h3 class=\"video-card-title\">Het iconschetsboek, 1982</h3>\r\n                    <p class=\"video-card-desc\">Potlood en inkt op ruitjespapier, één hokje per pixel. Gedeeld met SFMOMA.</p>\r\n                </div>\r\n            </a>\r\n        </li>\r\n    </ul>\r\n</section>\r\n\r\n<section>\r\n    <h2>Verwant</h2>\r\n    <ul>\r\n        <li><a href=\"#xerox-parc-desktopmetafoor\">Xerox PARC</a> leverde de desktopmetafoor waarop Apple voortbouwde.</li>\r\n        <li><a href=\"#fitts-en-de-mac-menubalk\">Fitts' law en de Mac-menubalk</a>: de ergonomische keuze bovenaan hetzelfde scherm uit 1984.</li>\r\n        <li><a href=\"#skeuomorfisme-vs-flat\">Skeuomorfisme versus flat design</a>: een latere Apple-richtingenstrijd over de vormentaal van iconen.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section><h2>Broncontrole en open werk</h2><p><strong>21 oktober 2026.</strong> Cursus van Sebastien Vanblaere, voor hogeschoolstudenten in een kunstopleiding en hun docent. Review: Codex (AI), geen onafhankelijke vakreview. Bereik: Hele Apple-casus; MoMA-artefact, Mac/Lisa-specificatie en onderscheid effect/illustratie.</p><ol><li id=\"bron-apple-atkinson-en-kare-schetsboek\"><code>apple-atkinson-en-kare-schetsboek</code> (historisch; gecontroleerd). <a href=\"https://www.moma.org/collection/works/188382\" target=\"_blank\" rel=\"noopener\">MoMA, Susan Kare: Apple Macintosh OS icon sketchbook (1982), object 112.2015</a>. <strong>Locator:</strong> objectvelden; zaaltekst Never Alone (2022-2023). <strong>Dekking:</strong> Schetsboek 1982, gezamenlijk bezit en ruitjespapier gedocumenteerd. <strong>Beperking:</strong> Artefactdocumentatie, geen causaal bewijs van opleiding of begrijpelijkheid.</li><li id=\"bron-apple-atkinson-en-kare-scherm\"><code>apple-atkinson-en-kare-scherm</code> (historisch; gedeeltelijk). <a href=\"https://support.apple.com/en-ca/112187\" target=\"_blank\" rel=\"noopener\">Apple, Macintosh 512K: Technical Specifications</a>. <strong>Locator:</strong> Video Memory: Notes, Screen size is 512x342. <strong>Dekking:</strong> Specifieke noot noemt 512×342 voor Macintosh 512K. <strong>Beperking:</strong> Record heeft ook inconsistente generieke videotabel 512×384; geen Lisa-specificatie.</li></ol><p>De verbanden tussen geschiedenis, psychologie en filosofie zijn cursusargumenten. Een voorbeeld bewijst geen algemene ontwerpwet of leerwinst.</p><details><summary>Wat nog openstaat</summary><ul><li>QuickDraw, MacPaint en HyperCard-attributie en introductiedata met auteurs-/Apple-documentatie toetsen.</li><li>Promotietitel Kare en rasters van verschillende iconen/cursors apart controleren.</li><li>Originele 128K- en Lisa-specificaties openen; 512K-webrecord heeft tegenstrijdige tabel.</li><li>Onafhankelijke vakreview en volledige toetsing met toetsenbord, focus, zoom, contrast en ondersteunende technologie ontbreken nog voor deze pagina.</li></ul></details><details><summary>Correcties - 21 oktober 2026</summary><ul><li>Voorheen: een onmiddellijk herkenbare &lt;a Nu: een zichtbare &lt;a Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: Onderbouwing van beeld als signifier en van het esthetiek-bruikbaarheidseffect. Nu: Beeld als signifier; vergelijking met esthetiek en bruikbaarheid. Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: Op een raster van 32 bij 32 pixels ontwierp ze de prullenbak, het lachende Mac-icoon, het verfblik, de lasso, het handje en het bommetje bij een systeemfout, plus schermlettertypes als Chicago en Geneva. Nu: Het werk omvatte iconen, cursors en schermletters, waaronder Chicago en Geneva. Rasters verschillen per element; niet iedere cursor of letter is een icoon van 32 bij 32 pixels. Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: Dat Kare een beeldend kunstenaar en kunsthistorica was en geen ingenieur, maakte het verschil tussen een technisch bedieningspaneel en een leesbare beeldtaal. Nu: Wij lezen haar werk als een voorbeeld van beeldende vormgeving in interfaceontwerp; haar opleiding bewijst op zichzelf geen oorzakelijk effect op begrijpelijkheid. Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: QuickDraw stelde de Apple Lisa (1983) en de Macintosh (januari 1984) in staat om vlot afgeronde vensters, uitgeknipte gebieden en proportionele drukletters op een zwart-wit bitmapscherm van 512 bij 342 pixels te tekenen. Nu: QuickDraw ondersteunde grafische vensters, gebieden en letters in Apples interfaces. Het hier bedoelde scherm van 512 bij 342 pixels hoort bij de compacte Macintosh; de Lisa mag niet dezelfde specificatie worden toegeschreven. Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: Susan Kare, gepromoveerd in de beeldende kunst en kunstgeschiedenis, begon haar werk voor de Macintosh in een roze ruitjesschrift waarin elk vakje één pixel voorstelde. Nu: Susan Kare werkte haar Macintosh-iconen uit op ruitjespapier, met een vakje per pixel; het MoMA registreert haar iconschetsboek als 1982. Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: en demonstreren tien jaar vóór Nu: en bieden een historisch bespreekvoorbeeld naast Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: waarom visuele zorg een technisch systeem toegankelijk en vertrouwd maakt. Nu: over het verband tussen visuele vorm en ervaren bruikbaarheid. De iconen vormen op zichzelf geen effectstudie en waren niet voor elke gebruiker meteen begrijpelijk. Reden: Bronreview en afbakening volgens K02-K05.</li></ul></details></section>\r\n",
@@ -1200,6 +1293,20 @@
             "html": "<div class=\"intro\">\r\n    <p>Het web begon zonder beeld. In februari 1993 kwam de afbeelding de webpagina binnen, en bijna meteen werd ze aanklikbaar: als link met een blauwe rand, als kaart waarop elk gebied naar een andere pagina leidt, als badge van 88 bij 31 pixels, als reclamebanner en in 1999 als icoontje op het browsertabblad. Deze pagina volgt GIF, JPEG en het icoon van hun ontstaan tot het moment waarop beeld zowel navigatie als handelswaar werd.</p>\r\n</div>\r\n\r\n<aside class=\"callout callout--weetje\">\r\n    <span class=\"callout-label\">Goed gedocumenteerd, met één secundair detail</span>\r\n    <p>De kerndata komen uit primaire bronnen: de GIF87a-specificatie van 15 juni 1987 en de GIF89a-specificatie van 31 juli 1990 (CompuServe), de JPEG-norm ITU-T T.81 van september 1992, Marc Andreessens voorstel voor <code>IMG</code> op www-talk van 25 februari 1993 (Mosaic 0.10 op 12 maart 1993), James Seidmans specificatie van client-side image maps in augustus 1995 (RFC 1980, augustus 1996) en de introductie van <code>favicon.ico</code> in Internet Explorer 5 (maart 1999). Alleen de exacte lanceringsdatum van de eerste 88×31-\"Netscape Now\"-badge berust op archiefcollecties uit GeoCities.</p>\r\n</aside>\r\n\r\n<section>\r\n    <h1>Voor het web, 1981–1984</h1>\r\n    <h2>het icoon als ding</h2>\r\n    <p>De eerste aanklikbare afbeelding is ouder dan het web. Op de <a href=\"#xerox-parc-desktopmetafoor\">Xerox Star (1981)</a> en de <a href=\"#apple-atkinson-en-kare\">Macintosh (1984)</a> is een icoon geen illustratie bij een tekst, het <em>vertegenwoordigt</em> een object dat je vastpakt, versleept of opent. Het web zou dat principe tien jaar later heruitvinden met één fundamenteel verschil: op het vroege web verplaats je geen dingen op een bureaublad, maar spring je via een afbeelding naar een andere plek.</p>\r\n</section>\r\n\r\n<section>\r\n    <h1>1987 en 1990</h1>\r\n    <h2>GIF87a en GIF89a</h2>\r\n    <p>Steve Wilhite ontwikkelde bij CompuServe het Graphics Interchange Format voor abonnees met trage telefoonmodems: verliesvrije LZW-compressie en maximaal 256 kleuren per beeld. De eerste specificatie, GIF87a, verscheen op 15 juni 1987; de uitbreiding GIF89a (gedateerd 31 juli 1990) voegde één transparante kleur en vertragingsinstructies voor opeenvolgende beeldjes toe. Omdat het formaat lijnen en vlakke tekst haarscherp hield, werd het de drager van de eerste webknoppen en pictogrammen.</p>\r\n    <p>Toen Unisys en CompuServe eind december 1994 licentiegelden eisten voor het LZW-patent, ontwierp de webgemeenschap als vrij alternatief PNG, dat in oktober 1996 de eerste W3C-aanbeveling werd.</p>\r\n</section>\r\n\r\n<section>\r\n    <h1>1992</h1>\r\n    <h2>JPEG</h2>\r\n    <p>De Joint Photographic Experts Group legde in september 1992 de compressienorm ITU-T T.81 vast, en Eric Hamilton (C-Cube Microsystems) publiceerde in hetzelfde jaar het uitwisselingsformaat JFIF. Waar GIF elke afzonderlijke pixel bewaart, laat JPEG kleur- en detailverschillen weg waarvoor het menselijk oog weinig gevoelig is. Die psychofysische taakverdeling (JPEG voor foto's met vloeiende overgangen, GIF en PNG voor scherpe iconen en interface-elementen) bepaalt tot vandaag hoe beelden voor schermen worden opgebouwd.</p>\r\n</section>\r\n\r\n<section>\r\n    <h1>1993</h1>\r\n    <h2>de IMG-tag en de blauwe rand</h2>\r\n    <p>Op de NeXT-computer van Berners-Lee openden afbeeldingen nog in een los venster buiten de tekst. Op 25 februari 1993 stelde Marc Andreessen op de ontwikkelaarslijst <em>www-talk</em> de tag <code>&lt;IMG SRC=\"url\"&gt;</code> voor om een bitmap midden in de tekststroom te plaatsen; op 12 maart 1993 volgde NCSA Mosaic 0.10 met ondersteuning voor inline GIF en XBM.</p>\r\n    <p>Wie een <code>&lt;IMG&gt;</code> binnen een <code>&lt;A HREF=\"...\"&gt;</code> plaatste, maakte van het beeld een link. Vroege browsers konden daarom een <strong>gekleurde linkrand</strong> tekenen; precieze kleur en dikte hangen af van browser en instellingen rond elk aanklikbaar beeld: exact dezelfde kleur als een onderstreepte tekstlink, en dus een eenduidige <a href=\"#affordances-en-signifiers\">signifier</a>. Zodra grafisch ontwerpers die rand met <code>BORDER=\"0\"</code> gingen uitschakelen omdat ze hun compositie verstoorde, ontstond het raadsel waar elke visuele interface sindsdien mee worstelt: hoe ziet een bezoeker het verschil tussen een stilstaand plaatje en een knop?</p>\r\n</section>\r\n\r\n<section>\r\n    <h1>1993–1996</h1>\r\n    <h2>de image map als ruimtelijk menu</h2>\r\n    <p>Met de image map kreeg één afbeelding meerdere klikgebieden. Bij de eerste server-side kaarten (<code>ISMAP</code>, 1993) stuurde de browser enkel de $x,y$-coördinaten van de muisklik naar de server; zonder beeld ontbrak vaak een bruikbaar alternatief; toetsenbordbediening hing af van client en aanvullende links. James Seidman (Spyglass) loste die breuk in augustus 1995 op met de client-side image map (<code>USEMAP</code> en <code>&lt;AREA ALT=\"...\"&gt;</code>, vastgelegd in RFC 1980 in augustus 1996): de klikzones en hun tekstalternatieven stonden voortaan in de HTML zelf, zodat tekstuele alternatieven in de client mogelijk werden; correcte alternatieven en browserondersteuning blijven vereist.</p>\r\n</section>\r\n\r\n<section>\r\n    <h1>1994–1999</h1>\r\n    <h2>banners, badges en de favicon</h2>\r\n    <p>Vanaf eind 1994 versnelde het beeldgebruik op drie fronten tegelijk:</p>\r\n    <ul>\r\n        <li><strong>De reclamebanner (27 oktober 1994).</strong> Op het webmagazine <em>HotWired</em> verscheen de eerste betaalde banner van AT&amp;T met de uitdagende tekst \"Have you ever clicked your mouse right here? You will.\" De vaak herhaalde klikratio van 44 procent is hier niet met openbare primaire meetgegevens geverifieerd.</li>\r\n        <li><strong>Animatie en 88×31-badges (1995).</strong> Netscape Navigator 2.0 (najaar 1995) introduceerde de <code>NETSCAPE2.0</code>-lus voor herhalende GIF-animaties. Tegelijk verspreidden zich de pixelbadges van 88 bij 31 pixels (\"Netscape Now\", \"Made with Macintosh\") waarmee webmakers hun technische en culturele verwantschap toonden.</li>\r\n        <li><strong>De favicon (maart 1999).</strong> Ontwikkelaar Bharat Shyam voegde aan Internet Explorer 5 het bestand <code>favicon.ico</code> (16 bij 16 pixels) toe voor de adresbalk en favorietenlijst. Het herkenningsteken schoof daarmee van de pagina-inhoud naar de vaste rand van de browser.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section>\r\n    <h1>Functie van deze anekdote</h1>\r\n    <h2>van duidelijke signifier naar visuele verleiding</h2>\r\n    <p>In het thema <strong>Thema 3: Hypertext, boom en informatiegeur (1990–1999)</strong> laat de opkomst van het klikbare beeld zowel een psychologische onderbouwing als een mediatheoretische wending zien:</p>\r\n    <ul>\r\n        <li><strong>Onderbouwing van ruimtelijke oriëntatie en signifiers (Lynch en Norman).</strong> De blauwe linkrand (1993), de client-side image map met <code>ALT</code>-tekst (1995–1996) en de favicon (1999) laten zien hoe het web visuele bakens (Lynch' <em>oriëntatiepunten</em>) en leesbare aanwijzingen (Normans <em>signifiers</em>) ontwikkelde met mogelijkheden voor tekstuele alternatieven, zonder daarmee toegankelijkheid automatisch te garanderen.</li>\r\n        <li><strong>Tegenspraak: van open hypertekst naar aandachtseconomie.</strong> Het moment waarop <code>BORDER=\"0\"</code> de blauwe linkrand liet verdwijnen en de eerste AT&amp;T-banner (1994) nieuwsgierigheid monetariseerde, markeert de omslag die <a href=\"#ethiek-van-design\">Verbeek, Brignull en Zuboff</a> later analyseren: hetzelfde klikbare beeld dat oriëntatie ondersteunt, wordt ingezet om aandacht te vangen en reclame te vermommen als inhoud.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section>\r\n    <h2>Bekijk het origineel</h2>\r\n    <p>De specificaties en de mailinglijstberichten zijn vrij te lezen.</p>\r\n    <ul class=\"video-cards bron-kaarten\">\r\n        <li>\r\n            <a class=\"video-card bron-kaart\" href=\"https://ksi.cpsc.ucalgary.ca/archives/WWW-TALK/www-talk-1993q1.messages/174.html\" target=\"_blank\" rel=\"noopener\">\r\n                <div class=\"video-card-body\">\r\n                    <p class=\"video-card-maker\">Marc Andreessen, www-talk, 25 februari 1993</p>\r\n                    <h3 class=\"video-card-title\">proposed new tag: IMG</h3>\r\n                    <p class=\"video-card-desc\">Het bericht waarmee het beeld in de webpagina kwam, met de reactie van Berners-Lee in de draad.</p>\r\n                </div>\r\n            </a>\r\n        </li>\r\n        <li>\r\n            <a class=\"video-card bron-kaart\" href=\"https://www.w3.org/Graphics/GIF/spec-gif87.txt\" target=\"_blank\" rel=\"noopener\">\r\n                <div class=\"video-card-body\">\r\n                    <p class=\"video-card-maker\">CompuServe, 15 juni 1987</p>\r\n                    <h3 class=\"video-card-title\">GIF87a, de specificatie</h3>\r\n                    <p class=\"video-card-desc\">Het oorspronkelijke tekstbestand, bewaard door het W3C.</p>\r\n                </div>\r\n            </a>\r\n        </li>\r\n        <li>\r\n            <a class=\"video-card bron-kaart\" href=\"https://www.rfc-editor.org/rfc/rfc1980.txt\" target=\"_blank\" rel=\"noopener\">\r\n                <div class=\"video-card-body\">\r\n                    <p class=\"video-card-maker\">James Seidman, RFC 1980, augustus 1996</p>\r\n                    <h3 class=\"video-card-title\">A Proposed Extension to HTML: Client-Side Image Maps</h3>\r\n                    <p class=\"video-card-desc\">Waarom de server-side kaart niet volstond en hoe USEMAP werkt.</p>\r\n                </div>\r\n            </a>\r\n        </li>\r\n        <li>\r\n            <a class=\"video-card bron-kaart\" href=\"https://www.webdesignmuseum.org/web-design-history/favicon-1999\" target=\"_blank\" rel=\"noopener\">\r\n                <div class=\"video-card-body\">\r\n                    <p class=\"video-card-maker\">Web Design Museum</p>\r\n                    <h3 class=\"video-card-title\">Favicon, 1999</h3>\r\n                    <p class=\"video-card-desc\">Internet Explorer 5 en de eerste favicons, met schermafbeeldingen.</p>\r\n                </div>\r\n            </a>\r\n        </li>\r\n        <li>\r\n            <a class=\"video-card bron-kaart\" href=\"https://jordaneldredge.com/badges/\" target=\"_blank\" rel=\"noopener\">\r\n                <div class=\"video-card-body\">\r\n                    <p class=\"video-card-maker\">Jordan Eldredge, uit GeoCities-archieven</p>\r\n                    <h3 class=\"video-card-title\">Verzameling 88×31-knopjes</h3>\r\n                    <p class=\"video-card-desc\">Honderden badges uit de jaren negentig en 2000, waaronder \"Netscape Now\".</p>\r\n                </div>\r\n            </a>\r\n        </li>\r\n    </ul>\r\n</section>\r\n\r\n<section>\r\n    <h2>Verwant</h2>\r\n    <ul>\r\n        <li><a href=\"#eerste-webpagina\">De eerste webpagina</a>: het web zonder beeld in 1991.</li>\r\n        <li><a href=\"#apple-atkinson-en-kare\">Apple: Atkinson en Kare</a>: het icoon op ruitjespapier in 1984.</li>\r\n        <li><a href=\"#affordances-en-signifiers\">Affordances en signifiers</a>: de blauwe rand en wat erna kwam.</li>\r\n        <li><a href=\"#ongebruikelijke-interfaces\">Ongebruikelijke interfaces</a>: hoe kunstenaars als Olia Lialina en Cameron's World dezelfde GIFs en beeldkaarten als artistiek materiaal gebruikten.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section class=\"bronreview\"><h2>Broncontrole en open werk</h2><p>Inhoudelijke redactie en broncontrole: Codex met AI-ondersteuning, 21 oktober 2026, voor deze cursus van Sebastien Vanblaere. Doelgroep: kunststudenten en docent. Scope: onderstaande claims; geen onafhankelijke vakreview of volledige wetenschappelijke goedkeuring. Filosofische koppelingen zijn cursuslezingen, geen empirisch geteste verklaringen.</p><ul><li data-claim=\"beeld-dat-klikt-imagemap\"><strong>RFC 1980 dateert van augustus 1996 en beschrijft client-side image maps met tekstuele alternatieven.</strong> historisch-technisch. <a href=\"https://www.rfc-editor.org/rfc/rfc1980.txt\" target=\"_blank\" rel=\"noopener\">Seidman, RFC 1980 (1996)</a>. Vindplaats: Titelblok; §1.1-1.2; §2.1. De RFC verklaart de beperkingen van server-side kaarten en tekstbeschrijvingen voor een niet-grafische client. <em>Beperking:</em> Een voorgestelde voorziening bewijst geen implementatie of WCAG-conformiteit; voorstel uit 1995 nog open. Status: gecontroleerd.</li><li data-claim=\"beeld-dat-klikt-gif87\"><strong>GIF87a is gedateerd 15 juni 1987 en kent maximaal 256 kleuren per beeld.</strong> historisch-technisch. <a href=\"https://www.w3.org/Graphics/GIF/spec-gif87.txt\" target=\"_blank\" rel=\"noopener\">CompuServe, GIF87a-specificatie (1987)</a>. Vindplaats: Titelblad; Screen Descriptor, p4. Datum en kleurindexomvang staan in de specificatie. <em>Beperking:</em> Geen volledige controle van GIF89a, JPEG, banners, favicon of browsergedrag. Status: gecontroleerd.</li></ul><details><summary>Correcties van 21 oktober 2026</summary><ul><li>Eerder: RFC 1980, mei 1996. Nu: RFC 1980, augustus 1996.</li><li>Eerder: in RFC 1980 in mei 1996. Nu: in RFC 1980 in augustus 1996.</li><li>Eerder: Mosaic tekende daarom standaard een blauwe rand van twee pixels. Nu: Vroege browsers konden daarom een gekleurde linkrand tekenen; precieze kleur en dikte hangen af van browser en instellingen.</li><li>Eerder: zodat een plattegrond zowel visueel als voor een schermlezer navigeerbaar werd. Nu: zodat tekstuele alternatieven in de client mogelijk werden; correcte alternatieven en browserondersteuning blijven vereist.</li><li>Eerder: wie zonder beeld of met het toetsenbord werkte, zag niets. Nu: zonder beeld ontbrak vaak een bruikbaar alternatief; toetsenbordbediening hing af van client en aanvullende links.</li><li>Eerder: Ongeveer 44 procent van wie hem zag, klikte erop.. Nu: De vaak herhaalde klikratio van 44 procent is hier niet met openbare primaire meetgegevens geverifieerd..</li><li>Eerder: zonder de toegankelijkheid van de onderliggende HTML op te geven. Nu: met mogelijkheden voor tekstuele alternatieven, zonder daarmee toegankelijkheid automatisch te garanderen.</li></ul><p>Reden: datering, claimsoort of bewijskracht nauwkeuriger afbakenen; zie de specifieke dekking en beperkingen hierboven.</p></details><p><strong>Open:</strong> K03: controleer IMG-mailinglijst, GIF89a/JPEG-norm, favicon en 88x31-datering afzonderlijk. K04: achterhaal primaire bannermeetgegevens; 44 procent blijft ongeverifieerd. Technische toegankelijkheid en leerwinst zijn niet door deze broncontrole vastgesteld. <a href=\"#ordeningsprincipes\">Kwaliteitskader en toetsingscriteria</a>.</p></section>\r\n",
             "content_hash": "cd5b823f27d79370416200197b42abaef3a4fa18701eec2fdbb918684f508f6b",
             "updated_at": "2026-10-21T15:50:53Z"
+        },
+        {
+            "topic_id": "begrijpen",
+            "lang": "en",
+            "html": "<p class=\"empty-step\">Not developed yet.</p>",
+            "content_hash": "0d647ed91fe6c766cff82cac1e39ebd2c6396af8e3b0eb0764ac38aaba98ef13",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
+            "topic_id": "begrijpen",
+            "lang": "nl",
+            "html": "<p class=\"empty-step\">Nog niet uitgewerkt.</p>",
+            "content_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+            "updated_at": "2026-10-21T16:20:18Z"
         },
         {
             "topic_id": "breakdown-bij-ontbrekende-content",
@@ -1307,11 +1414,39 @@
             "updated_at": "2026-10-21T15:50:53Z"
         },
         {
+            "topic_id": "handelen",
+            "lang": "en",
+            "html": "<p class=\"empty-step\">Not developed yet.</p>",
+            "content_hash": "0d647ed91fe6c766cff82cac1e39ebd2c6396af8e3b0eb0764ac38aaba98ef13",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
+            "topic_id": "handelen",
+            "lang": "nl",
+            "html": "<p class=\"empty-step\">Nog niet uitgewerkt.</p>",
+            "content_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
             "topic_id": "hedonisch-en-pragmatisch",
             "lang": "nl",
             "html": "<div class=\"intro\">\r\n    <p>Marc Hassenzahl verschoof het begrip user experience van loutere taakefficiëntie naar ervaring, zelfbeeld en betekenis. Zijn onderscheid tussen pragmatische en hedonische kwaliteit (2003, 2006, 2010) is sindsdien een invloedrijk model om aspecten van UX te beschrijven en te meten.</p>\r\n</div>\r\n\r\n<div class=\"kernpunten\">\r\n    <span class=\"kernpunten-label\">Kernpunten</span>\r\n    <ul>\r\n        <li>UX omvat in dit model <strong>pragmatische</strong> kwaliteit (kan ik mijn doel bereiken?) en <strong>hedonische</strong> kwaliteit (stimulatie, identificatie, herinnering)</li>\r\n        <li>Meetinstrument: de <strong>AttrakDiff</strong>-vragenlijst (Hassenzahl, Burmester &amp; Koller, 2003)</li>\r\n        <li>Hassenzahl &amp; Tractinsky, \"User experience: a research agenda\" (<em>Behaviour &amp; Information Technology</em>, 2006)</li>\r\n        <li>Doctoraat aan de TU Darmstadt (verdedigd 2006; geraadpleegde editie 2007): <em>Die psychologischen Grundlagen der Reihenpräferenz und -wahl</em></li>\r\n        <li><em>Experience Design: Technology for All the Right Reasons</em> (2010) verbindt UX met psychologische basisbehoeften</li>\r\n    </ul>\r\n</div>\r\n\r\n<section>\r\n    <h1>Van bruikbaarheid naar ervaring</h1>\r\n    <h2>pragmatisch en hedonisch</h2>\r\n    <p>De klassieke usability-traditie uit de jaren tachtig en negentig meet of een taak lukt, hoe snel en met hoeveel fouten (\"do-goals\"). In \"The thing and I: understanding the relationship between user and product\" (2003) stelde Marc Hassenzahl dat dit maar de helft van het verhaal is. Mensen gebruiken dingen ook om zich competent te voelen, om geprikkeld te worden door iets nieuws (stimulatie), of om te tonen wie ze zijn (identificatie): zogeheten \"be-goals\". Die <strong>hedonische kwaliteit</strong> is geen versiering achteraf, maar een zelfstandige dimensie naast de <strong>pragmatische kwaliteit</strong>.</p>\r\n</section>\r\n\r\n<section>\r\n    <h1>AttrakDiff en de research agenda</h1>\r\n    <h2>ervaring meetbaar maken, 2003–2010</h2>\r\n    <p>Om beide dimensies te meten ontwikkelde Hassenzahl met Michael Burmester en Franz Koller (2003) de AttrakDiff-vragenlijst: paren van tegengestelde adjectieven (onpraktisch–praktisch, saai–boeiend, goedkoop–waardevol) waarop gebruikers een ontwerp beoordelen. Samen met Noam Tractinsky publiceerde hij in 2006 \"User experience: a research agenda\" in <em>Behaviour &amp; Information Technology</em>, het manifest dat UX afbakende tegenover de oudere fouten- en snelheidsmetingen. Zijn doctoraat aan de TU Darmstadt, verdedigd op 8 januari 2006 en in de geraadpleegde editie gedateerd 2007, heet <em>Die psychologischen Grundlagen der Reihenpräferenz und -wahl</em> en behandelt hoe mensen reeksen van ervaringen over de tijd waarderen en kiezen. Later volgde het syntheseboek <em>Experience Design: Technology for All the Right Reasons</em> (2010).</p>\r\n</section>\r\n\r\n<section>\r\n    <h1>Onderbouwing en tegenspraak</h1>\r\n    <h2>psychologische verrijking tegenover kritisch design</h2>\r\n    <p>Hassenzahls werk <strong>onderbouwt</strong> vanuit de psychologie wat de fenomenologie (<a href=\"#fenomenologie-en-breakdown\">Dourish</a>) en het emotie-onderzoek (<a href=\"#proefschriften-lage-landen\">Desmet, Wensveen, Fokkinga</a>) vanuit het ontwerp betogen: een interface is geen neutraal werktuig voor taakafhandeling, maar bemiddelt hoe iemand zichzelf en de wereld ervaart.</p>\r\n    <p>Tegelijk ontstaat een scherpe <strong>tegenspraak</strong> met de mediatheorie van <a href=\"#esthetiek-en-mediatheorie\">Vilém Flusser</a> en het critical design van <a href=\"#esthetiek-en-mediatheorie\">Anthony Dunne en Fiona Raby</a>. Hassenzahl zoekt binnen het productontwerp naar positieve behoeftevervulling en aangename stimulatie. Dunne (1997, 1999) en Flusser (1983) brengen daartegen in dat een \"aangename gebruikerservaring\" de gebruiker juist probleemloos laat meedraaien in het programma van het apparaat. Waar Experience Design vraagt hoe technologie plezier en verbondenheid ondersteunt, vraagt Critical Design welke maatschappelijke aannames achter dat comfort verborgen blijven.</p>\r\n</section>\r\n\r\n<section>\r\n    <h2>Verwant</h2>\r\n    <ul>\r\n        <li>De hedonische dimensie bouwt voort op het <a href=\"#esthetiek-en-bruikbaarheid\">esthetiek-bruikbaarheidseffect</a> dat Tractinsky mee aantoonde.</li>\r\n        <li>Pieter Desmets <em>Designing emotions</em> (TU Delft, 2002) en Steven Fokkinga's onderzoek naar rijke en gemengde emoties (TU Delft, 2015) sluiten hier in de Lage Landen op aan. Zie <a href=\"#proefschriften-lage-landen\">Nederland en België</a>.</li>\r\n        <li><a href=\"#41-shades-of-blue\">Google: 41 tinten blauw</a> laat zien wat er gebeurt wanneer een bedrijf ervaring weer herleidt tot één enkele klikmeting.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section class=\"bronreview\"><h2>Broncontrole en open werk</h2><p>Inhoudelijke redactie en broncontrole: Codex met AI-ondersteuning, 21 oktober 2026, voor deze cursus van Sebastien Vanblaere. Doelgroep: kunststudenten en docent. Scope: onderstaande claims; geen onafhankelijke vakreview of volledige wetenschappelijke goedkeuring. Filosofische koppelingen zijn cursuslezingen, geen empirisch geteste verklaringen.</p><ul><li data-claim=\"hedonisch-en-pragmatisch-doctoraat\"><strong>Hassenzahls studie over Reihenpräferenz is een doctoraat, verdedigd 8 januari 2006; titelbladeditie Darmstadt 2007.</strong> historisch-bibliografisch. <a href=\"https://tuprints.ulb.tu-darmstadt.de/bitstreams/b2b8de10-7578-480b-83c0-d59324adc3e5/download\" target=\"_blank\" rel=\"noopener\">Hassenzahl, Die psychologischen Grundlagen (editie 2007)</a>. Vindplaats: PDF p1 titelblad; PDF p8-9 Abstract. Titelblad noemt Dr. rer. nat., dissertation, indiening 2005, verdediging 2006 en editie 2007; abstract gaat over volgordekeuze. <em>Beperking:</em> Het doctoraat is niet hetzelfde document als AttrakDiff of research agenda; volledige psychometrische beoordeling daarvan staat open. Status: gecontroleerd.</li></ul><details><summary>Correcties van 21 oktober 2026</summary><ul><li>Eerder: het standaardmodel om UX empirisch te beschrijven en te meten. Nu: een invloedrijk model om aspecten van UX te beschrijven en te meten.</li><li>Eerder: UX = pragmatische kwaliteit. Nu: UX omvat in dit model pragmatische kwaliteit.</li><li>Eerder: Habilitatie/proefschrift aan de TU Darmstadt (2006). Nu: Doctoraat aan de TU Darmstadt (verdedigd 2006; geraadpleegde editie 2007).</li><li>Eerder: In hetzelfde jaar verscheen aan de TU Darmstadt zijn studie. Nu: Zijn doctoraat aan de TU Darmstadt, verdedigd op 8 januari 2006 en in de geraadpleegde editie gedateerd 2007, heet.</li><li>Eerder:  (2006) over hoe mensen reeksen. Nu:  over hoe mensen reeksen.</li></ul><p>Reden: datering, claimsoort of bewijskracht nauwkeuriger afbakenen; zie de specifieke dekking en beperkingen hierboven.</p></details><p><strong>Open:</strong> K03: verifieer The thing and I 2003, AttrakDiff 2003 en research agenda 2006 aan volledige originele teksten. K04: leg bij AttrakDiff-gebruik versie, taal, schalen, scoring en beperkingen vast; UX-samenvatting is geen optelformule. Technische toegankelijkheid en leerwinst zijn niet door deze broncontrole vastgesteld. <a href=\"#ordeningsprincipes\">Kwaliteitskader en toetsingscriteria</a>.</p></section>\r\n",
             "content_hash": "d69e7f2db9fe4bfa500e01b34d5abd3fe6718be24c2a94f6b955dc42bd501479",
             "updated_at": "2026-10-21T15:50:53Z"
+        },
+        {
+            "topic_id": "herkennen",
+            "lang": "en",
+            "html": "<p class=\"empty-step\">Not developed yet.</p>",
+            "content_hash": "0d647ed91fe6c766cff82cac1e39ebd2c6396af8e3b0eb0764ac38aaba98ef13",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
+            "topic_id": "herkennen",
+            "lang": "nl",
+            "html": "<p class=\"empty-step\">Nog niet uitgewerkt.</p>",
+            "content_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+            "updated_at": "2026-10-21T16:20:18Z"
         },
         {
             "topic_id": "hick-hyman-in-het-menu",
@@ -1377,6 +1512,20 @@
             "updated_at": "2026-10-21T15:50:53Z"
         },
         {
+            "topic_id": "onderzoeken",
+            "lang": "en",
+            "html": "<p class=\"empty-step\">Not developed yet.</p>",
+            "content_hash": "0d647ed91fe6c766cff82cac1e39ebd2c6396af8e3b0eb0764ac38aaba98ef13",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
+            "topic_id": "onderzoeken",
+            "lang": "nl",
+            "html": "<p class=\"empty-step\">Nog niet uitgewerkt.</p>",
+            "content_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
             "topic_id": "ongebruikelijke-interfaces",
             "lang": "nl",
             "html": "<div class=\"intro\">\n    <p>Vijftien websites die navigatie anders aanpakken dan menu, zoekveld en kruimelpad: je verdwaalt, je knipt, je wijst, je draait aan een wereldbol, je rijdt. De eerdere browserobservaties en opnames zijn gedateerd op 21 oktober 2026; niet elk voorbeeld is interactief getest. De labels beschrijven die eerdere controle, geen nieuwe beschikbaarheidsgarantie: <strong>live getest</strong> (een beschreven interactie werkte in die eerdere test), <strong>preservatie</strong> (emulatie of archief), <strong>video</strong> (alleen opnames van de maker) of <strong>beeld</strong> (alleen een statische schermafbeelding).</p>\n</div>\n\n<div class=\"kernpunten\">\n    <span class=\"kernpunten-label\">Acht navigatieprincipes</span>\n    <ul>\n        <li><strong>Labyrint</strong>: de bezoeker leert de site kennen door te verdwalen</li>\n        <li><strong>Fragmentatie</strong>: elke klik deelt of verandert het scherm; de bezoeker monteert</li>\n        <li><strong>Hover</strong>: aanwijzen en bewegen vervangen de klik</li>\n        <li><strong>Zwerm</strong>: informatie als deeltjes die zich telkens anders ordenen</li>\n        <li><strong>Ruimtelijke structuur</strong>: menu en inhoud vormen één ruimte waarin je beweegt</li>\n        <li><strong>Besturingssysteem</strong>: de site doet zich voor als bureaublad of apparaat</li>\n        <li><strong>Geografische navigatie</strong>: de kaart of de wereldbol is de index</li>\n        <li><strong>Uitvouwbare tekst</strong>: de uitleg groeit mee met de nieuwsgierigheid</li>\n    </ul>\n</div>\n\n<aside class=\"callout callout--let-op\">\n    <span class=\"callout-label\">Let op</span>\n    <p>Schermafbeeldingen met de vermelding \"eigen opname\" zijn tijdens de test gemaakt in een browservenster van ongeveer 720 bij 810 pixels; de sites tonen zich op een breed scherm ruimer. Archiefbeelden worden rechtstreeks van hun bron geladen en blijven eigendom van die bron.</p>\n</aside>\n\n<section>\n    <h2>Labyrint</h2>\n    <ul class=\"referentie\">\n        <li>\n            <figure>\n                <img src=\"assets/referentie/jodi.jpg\" alt=\"Groene tekens op zwart: de startpagina van wwwwwwwww.jodi.org\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026. De hele pagina is één link.</figcaption>\n            </figure>\n            <div>\n                <h3>JODI, wwwwwwwww.jodi.org</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> Joan Heemskerk en Dirk Paesmans, vanaf 1995. <a href=\"https://wwwwwwwww.jodi.org/\" target=\"_blank\" rel=\"noopener\">wwwwwwwww.jodi.org</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Je ziet een groen veld van tekens zonder uitleg. Pas als je klikt, of de broncode bekijkt, blijkt dat de hele pagina één hyperlink is naar een volgende map met schema's en verborgen links. Getest: de klik op de startpagina leidt naar de map 100 cc.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Breakdown als methode: de interface die hoort te verdwijnen, dringt zich op. Je leert navigeren door te verdwalen en door te kijken naar wat achter het scherm zit. Zie <a href=\"#fenomenologie-en-breakdown\">Fenomenologie en breakdown</a>.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Een ontdekkingsmodus voor wie wil: een site die niets uitlegt, kan nieuwsgierigheid belonen zolang er een uitweg is. Als oefening: laat lezers de broncode als tweede laag lezen.</dd>\n                </dl>\n            </div>\n        </li>\n        <li>\n            <figure>\n                <img src=\"assets/referentie/superbad-circles.jpg\" alt=\"Rode concentrische cirkels op wit, een binnenpagina van Superbad\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026, binnenpagina \"circles\". De startpagina is een lijst van onzinnige linknamen.</figcaption>\n            </figure>\n            <div>\n                <h3>Superbad</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> Ben Benjamin, 1997. <a href=\"https://superbad.com/\" target=\"_blank\" rel=\"noopener\">superbad.com</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>De startpagina geeft twaalf links met namen als \"neverdothis.42\" die niets verraden. Elke binnenpagina is een beeld of patroon waarin delen klikbaar zijn, zonder markering. Getest: de link \"iwasgoingtotakethattowork.45\" opent de cirkelpagina, en daar zijn de cirkels zelf de doorgang.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Beeld is tegelijk inhoud en doorgang. Er is geen hoofdmenu en geen \"je bent hier\"; de informatiegeur is bewust nul. Zie <a href=\"#navigatie-en-wayfinding\">Navigatie en wayfinding</a>.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Een tegenvoorbeeld om de waarde van geur te meten: laat studenten voorspellen waar een link heen gaat en tel hoe vaak ze het mis hebben.</dd>\n                </dl>\n            </div>\n        </li>\n        <li>\n            <figure>\n                <img src=\"https://www.webdesignmuseum.org/uploaded/fullscreen/soulbath-1999.png\" alt=\"Soulbath, 1999: een draadmodel van een gebouw met het opschrift Click here\" referrerpolicy=\"no-referrer\" loading=\"lazy\">\n                <figcaption>Archiefbeeld Web Design Museum. Het museum heeft ook een video van de werking.</figcaption>\n            </figure>\n            <div>\n                <h3>Soulbath (Greyscale Paradise)</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--video\">Video en beeld</span> Hi-ReS!, 1999. <a href=\"https://www.webdesignmuseum.org/gallery/soulbath-1999\" target=\"_blank\" rel=\"noopener\">Soulbath in het Web Design Museum</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Flash-site die niet meer draait. Volgens het archief en de video: nepcrashes, foutmeldingen die geen fout zijn, een \"click here\" dat van plaats verspringt. De bezoeker weet nooit of de interface werkt of kapot is, en navigeert door het uit te proberen. Niet zelf getest: alleen het archief bekeken.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Onzekerheid als onderdeel van de ervaring. Dezelfde breakdown als bij JODI, maar nagebootst en geregisseerd.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Als les over foutmeldingen: wat maakt een melding geloofwaardig, en wat gebeurt er met vertrouwen als een site daarmee speelt. Zie <a href=\"#therac-25\">Therac-25</a> voor de ernstige kant.</dd>\n                </dl>\n            </div>\n        </li>\n    </ul>\n</section>\n\n<section>\n    <h2>Fragmentatie</h2>\n    <ul class=\"referentie\">\n        <li>\n            <figure>\n                <img src=\"assets/referentie/lialina-war.jpg\" alt=\"Drie verticale frames in zwart-wit: een raam, de vraag Where are you, een gezicht\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026, na drie klikken op het origineel op teleportacia.org.</figcaption>\n            </figure>\n            <div>\n                <h3>My Boyfriend Came Back from the War</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> <span class=\"ref-status ref-status--preservatie\">Preservatie</span> Olia Lialina, 1996. <a href=\"http://www.teleportacia.org/war/\" target=\"_blank\" rel=\"noopener\">Origineel op teleportacia.org</a>, <a href=\"https://sites.rhizome.org/anthology/lialina.html\" target=\"_blank\" rel=\"noopener\">preservatie bij Rhizome</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Elke klik op een zin of beeld deelt het scherm in frames; wat je al zag blijft staan, het nieuwe komt ernaast. Getest op het origineel: na drie klikken staan drie kolommen naast elkaar, elk met een eigen vervolg. Rhizome toont het werk in een geëmuleerde Netscape 3.04; die emulator kon in mijn testbrowser niet geopend worden.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Navigatie wordt montage. De bezoeker bepaalt in welke volgorde tekst en beeld samenkomen en het scherm bewaart de geschiedenis van die keuzes. Het is het tegendeel van Nielsens kruimelpad: hier toont het scherm wel de geschiedenis.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Lezen als parallelle sporen: een verhaal of een uitleg waarbij eerder gelezen delen zichtbaar blijven. Verwant aan <a href=\"#pad-en-stap\">Pad en stap</a>, maar dan met de geschiedenis in beeld.</dd>\n                </dl>\n            </div>\n        </li>\n        <li>\n            <figure>\n                <img src=\"assets/referentie/zoomquilt.jpg\" alt=\"Een geschilderde scène uit de Zoomquilt met een rail en machines\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026. Het beeld zoomt onafgebroken.</figcaption>\n            </figure>\n            <div>\n                <h3>Zoomquilt</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> Nikolaus Baumgarten met twaalf illustratoren, 2004. <a href=\"https://zoomquilt.org/\" target=\"_blank\" rel=\"noopener\">zoomquilt.org</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Er is maar één handeling: dieper in het beeld gaan, of eruit. Een schuifregelaar bepaalt snelheid en richting. Getest: het beeld startte pas na een klik op het doek; daarna zoomde het door en toonde het menu met de makers.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Diepte als enige as. Geen pagina's, geen links: de inhoud is een oneindige lus van schilderijen die in elkaar overgaan. Dit is beeldverkenning, geen informatiesysteem.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Zoomen als vorm van \"verder lezen\": een overzicht dat bij inzoomen detail toont, zonder van pagina te wisselen. Vergelijk met semantisch zoomen in kaarten.</dd>\n                </dl>\n            </div>\n        </li>\n    </ul>\n</section>\n\n<section>\n    <h2>Hover</h2>\n    <ul class=\"referentie\">\n        <li>\n            <figure>\n                <img src=\"https://www.webdesignmuseum.org/uploaded/fullscreen/2005/dontclick_it-2005.png\" alt=\"Dontclick.it, 2005: een interface met de boodschap dat klikken niet nodig is\" referrerpolicy=\"no-referrer\" loading=\"lazy\">\n                <figcaption>Archiefbeeld Web Design Museum, categorie Unusual Navigation.</figcaption>\n            </figure>\n            <div>\n                <h3>Dontclick.it</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--beeld\">Beeld</span> Alex Frank, 2005. <a href=\"https://www.webdesignmuseum.org/flash-websites/dontclick-it-2005\" target=\"_blank\" rel=\"noopener\">Dontclick.it in het Web Design Museum</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Een Flash-experiment: je mag niet klikken. Menu's openen door eroverheen te bewegen, inhoud verschijnt door te blijven hangen. Wie toch klikt, krijgt dat te horen. De site werkt niet meer; alleen het archiefbeeld is bekeken.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Aanwijzen en wachten vervangen de klik. Het haalt de beslissing uit de handeling: je kiest door te blijven. De wachttijd voor activering is een extra ontwerpvariabele. Fitts' bewegingsmodel wordt daarmee geen wet voor wachttijd.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Hover is op aanraakschermen verdwenen, maar \"dwell\" leeft voort in blikbesturing en toegankelijkheid. Een goede oefening over wat een klik eigenlijk is: een bevestiging. Zie <a href=\"#toestand-versus-opdracht\">Toestand versus opdracht</a>.</dd>\n                </dl>\n            </div>\n        </li>\n    </ul>\n</section>\n\n<section>\n    <h2>Zwerm</h2>\n    <ul class=\"referentie\">\n        <li>\n            <figure>\n                <img src=\"https://cdn.jonathanharris.org/static/items/works/we-feel-fine/images/heart-medium.jpg\" alt=\"We Feel Fine: gekleurde deeltjes in de vorm van een hart\" referrerpolicy=\"no-referrer\" loading=\"lazy\">\n                <figcaption>Beeld van de maker, jonathanharris.org.</figcaption>\n            </figure>\n            <div>\n                <h3>We Feel Fine</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--beeld\">Beeld en documentatie</span> Jonathan Harris en Sep Kamvar, 2006. <a href=\"https://jonathanharris.org/we-feel-fine\" target=\"_blank\" rel=\"noopener\">Documentatie bij de maker</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Sinds augustus 2005 verzamelde het systeem zinnen met \"I feel\" uit blogs. Elke zin is een deeltje dat door het scherm zwerft; klik erop en je leest de zin, met leeftijd, geslacht, plaats en weer. Zes \"bewegingen\" ordenen dezelfde deeltjes telkens anders. Het Java-applet is verouderd; de maker biedt een app en beelden aan. Niet zelf getest.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Dezelfde informatie organiseert zich telkens opnieuw. De bezoeker kiest geen pagina maar een ordening. De zwerm is tegelijk visualisatie en menu.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Herordenbare collecties: één dataset, meerdere zichten, zonder pagina's. Drucker zou vragen welk argument elke ordening maakt. Zie <a href=\"#esthetiek-en-mediatheorie\">Esthetiek en mediatheorie</a>.</dd>\n                </dl>\n            </div>\n        </li>\n        <li>\n            <figure>\n                <img src=\"https://cdn.jonathanharris.org/static/items/works/universe/images/sketch1-medium.jpg\" alt=\"Ontwerpschets van Universe: een sterrenhemel van nieuwsitems\" referrerpolicy=\"no-referrer\" loading=\"lazy\">\n                <figcaption>Ontwerpschets van de maker, jonathanharris.org. Geen schermafbeelding van het werkende systeem.</figcaption>\n            </figure>\n            <div>\n                <h3>Universe</h3>\n                <p class=\"ref-meta\" data-claim=\"ongebruikelijke-interfaces-universe\"><span class=\"ref-status ref-status--beeld\">Beeld</span> Jonathan Harris, 2007. <a href=\"https://jonathanharris.org/universe\" target=\"_blank\" rel=\"noopener\">Documentatie bij de maker</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Nieuws uit meer dan 20.000 bronnen verscheen als sterrenhemel. Elk woord, citaat, persoon of beeld kon het middelpunt worden; de rest herschikte zich eromheen tot nieuwe sterrenbeelden. De toepassing is verdwenen omdat de nieuws-API (Daylife) niet meer bestaat. Dat zegt de maker zelf.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Geen hiërarchie maar een verplaatsbaar middelpunt. Alles is met alles verbonden; wat je kiest wordt het centrum. Het is Lynch zonder vaste oriëntatiepunten.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Verwantschapsnavigatie: de trefwoordenkolom van deze site doet iets gelijkaardigs, in klein. Les over afhankelijkheid: een interface die op een externe bron rust, sterft met die bron.</dd>\n                </dl>\n            </div>\n        </li>\n    </ul>\n</section>\n\n<section>\n    <h2>Ruimtelijke structuur</h2>\n    <ul class=\"referentie\">\n        <li>\n            <figure>\n                <img src=\"https://www.whitevoid.com/wordpress/wp-content/uploads/2019/02/3-2-3D-Web-Cloud-WHITEvoid-03-720x480.jpg\" alt=\"3D Web Cloud van WHITEvoid: mappen als blokken in een ruimte\" referrerpolicy=\"no-referrer\" loading=\"lazy\">\n                <figcaption>Beeld van de maker, whitevoid.com. De pagina bevat twee Vimeo-video's van de werking.</figcaption>\n            </figure>\n            <div>\n                <h3>WHITEvoid 3 D Portfolio / Web Cloud</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--video\">Video en beeld</span> WHITEvoid, 2008 tot 2010. <a href=\"https://www.whitevoid.com/3d-web-cloud/\" target=\"_blank\" rel=\"noopener\">3 D Web Cloud bij de maker</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Een driedimensionale boomstructuur: je pakt mappen vast, sleept ze en opent projecten in dezelfde ruimte. Menu en inhoud zijn één omgeving. De software draait niet meer in de browser; de maker toont video's. Niet zelf getest.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>De hiërarchie krijgt een plaats in de ruimte, en je beweegt erdoorheen in plaats van erlangs. Vastpakken en slepen in plaats van klikken: Merleau-Ponty's incorporatie van gereedschap. Zie <a href=\"#fenomenologie-en-breakdown\">Embodiment</a>.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Ontwerphypothese: een stabiele ruimtelijke indeling kan helpen onthouden waar iets ligt. Of dit voor deze collectie beter werkt dan een lijst, vraagt een gelijkwaardige gebruikerstest.</dd>\n                </dl>\n            </div>\n        </li>\n        <li>\n            <figure>\n                <img src=\"assets/referentie/bruno-simon.jpg\" alt=\"Een rode auto rijdt over de naam Bruno Simon in een 3D-landschap\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026, na starten en veertig keer de pijl omhoog.</figcaption>\n            </figure>\n            <div>\n                <h3>Bruno Simons portfolio</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> Bruno Simon, oorspronkelijk 2019, vernieuwd (huidige versie). <a href=\"https://bruno-simon.com/\" target=\"_blank\" rel=\"noopener\">bruno-simon.com</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Je bestuurt een auto met de pijltoetsen door een landschap; projecten, teksten en knoppen staan als objecten langs de weg. Getest: de site laadt een 3 D-scène, start na een klik en de auto rijdt met de pijltoetsen. De oorspronkelijke versie van 2019 was een eenvoudiger vlak terrein met dezelfde auto; de huidige versie is een volledig nieuw landschap met dag en nacht. Beide delen het principe.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Navigeren is rijden. De interface is een spelwereld, de muis is vervangen door een voertuig. Flow in plaats van efficiëntie. Zie <a href=\"#psychologische-principes\">Flow</a>.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Voor portfolio's en tentoonstellingen waar de ervaring de boodschap is. Niet voor wie snel iets zoekt: een menuknop als uitweg blijft nodig, en die heeft Simon ook.</dd>\n                </dl>\n            </div>\n        </li>\n    </ul>\n</section>\n\n<section>\n    <h2>Besturingssysteem</h2>\n    <ul class=\"referentie\">\n        <li>\n            <figure>\n                <img src=\"assets/referentie/windows93.jpg\" alt=\"Een bureaublad met tientallen absurde programma-iconen op een blauw-roze verloop\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026, na het opstarten.</figcaption>\n            </figure>\n            <div>\n                <h3>WINDOWS 93</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> Jankenpopp en Zombectro, 2014. <a href=\"https://www.windows93.net/\" target=\"_blank\" rel=\"noopener\">windows 93.net</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>De site start op als een besturingssysteem, met opstarttekst, en toont dan een bureaublad vol iconen: Cat Explorer, Trojan, Virtua DJ, Half-Life 3. Elk icoon opent een venster met een programma, spel of grap. Getest: het bureaublad laadt na een tiental seconden; vensters openen bij dubbelklik.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Het bureaublad als landschap van mogelijkheden. Er is geen volgorde en geen doel; het icoon is weer een ding, zoals op de Star en de Mac. Zie <a href=\"#beeld-dat-klikt\">Beeld dat klikt</a>.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Een vertrouwde metafoor als container voor onverwachte inhoud. Leerlingen kennen het bureaublad; wat erop staat mag alles zijn.</dd>\n                </dl>\n            </div>\n        </li>\n        <li>\n            <figure>\n                <img src=\"assets/referentie/cameronsworld.jpg\" alt=\"Een collage van planeten, ufo's en geanimeerde GIF's op een sterrenhemel\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026. De pagina is verticaal metershoog.</figcaption>\n            </figure>\n            <div>\n                <h3>Cameron's World</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> Cameron Askin, 2015. <a href=\"https://www.cameronsworld.net/\" target=\"_blank\" rel=\"noopener\">cameronsworld.net</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Een enorme collage van fragmenten uit oude GeoCities-sites, geordend in thema's van boven naar onder. Elk grafisch object linkt naar de gearchiveerde site waar het vandaan komt, via de fictieve \"Catscape Navigator\". Getest: de collage laadt en de objecten zijn klikbaar.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Het archief als landschap. Dit is een hedendaagse archiefcollage, geen site uit de jaren negentig: ze gebruikt de beeldtaal van toen om naar toen te verwijzen.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Een collage als index werkt als de beelden zelf de geur dragen: een ufo leidt naar ufo-sites. Vergelijk met de image map van 1995.</dd>\n                </dl>\n            </div>\n        </li>\n    </ul>\n</section>\n\n<section>\n    <h2>Geografische navigatie</h2>\n    <ul class=\"referentie\">\n        <li>\n            <figure>\n                <img src=\"assets/referentie/radio-garden.jpg\" alt=\"Een wereldbol met groene stippen voor radiozenders, gecentreerd op Europa\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026, na draaien en uitzoomen.</figcaption>\n            </figure>\n            <div>\n                <h3>Radio Garden</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> Studio Puckey en Moniker, voor het Nederlands Instituut voor Beeld en Geluid, 2016. <a href=\"https://radio.garden/\" target=\"_blank\" rel=\"noopener\">radio.garden</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Je draait aan een wereldbol; elke groene stip is een zender die live uitzendt. De stip in het midden van het vizier speelt. Getest: de bol draait met de muis en de zender onder het vizier wisselt mee. De site vraagt eerst toestemming voor advertenties; die is in de test geweigerd, en de bol werkte toch.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Geografie vervangt de zenderlijst. Reizen en luisteren vallen samen; de bol is afstemknop en index tegelijk. Lynch' mentale kaart is hier de echte kaart.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Voor alles wat een plaats heeft. De les: een kaart is een menu waarvan de lezer de structuur al kent.</dd>\n                </dl>\n            </div>\n        </li>\n    </ul>\n</section>\n\n<section>\n    <h2>Uitvouwbare tekst</h2>\n    <ul class=\"referentie\">\n        <li>\n            <figure>\n                <img src=\"assets/referentie/nutshell.jpg\" alt=\"Een kop What is Nutshell met daaronder een uitgevouwen blauwe uitleg\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026, na één klik.</figcaption>\n            </figure>\n            <div>\n                <h3>Nutshell</h3>\n                <p class=\"ref-meta\" data-claim=\"ongebruikelijke-interfaces-nutshell\"><span class=\"ref-status ref-status--live\">Live getest</span> Nicky Case, 2022. <a href=\"https://ncase.me/nutshell/\" target=\"_blank\" rel=\"noopener\">ncase.me/nutshell</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Een link met een dubbele punt ervoor vouwt de uitleg open in de tekst zelf, op de plek waar je leest. In die uitleg kunnen weer links staan die ook openvouwen. Getest: de klik op \"What is Nutshell?\" opent een blauw blok met daarin de link \"recursive\", die opnieuw opent.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>Het document groeit mee met de nieuwsgierigheid. Je verlaat de pagina nooit; de hyperlink brengt de bestemming naar jou. Dat is Bret Victors stelling in de praktijk: toon, laat pas dan klikken. Zie <a href=\"#raskin-en-victor\">Raskin en Victor</a>.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Direct toepasbaar op lesmateriaal: begrippen die openvouwen in plaats van wegleiden. Kandidaat voor deze site zelf.</dd>\n                </dl>\n            </div>\n        </li>\n        <li>\n            <figure>\n                <img src=\"assets/referentie/ishkur.jpg\" alt=\"Een vertakkende kaart van muziekgenres in neonkleuren op donkerblauw\" loading=\"lazy\">\n                <figcaption>Eigen opname, 21 oktober 2026, uitgezoomd tot de hele genrekaart.</figcaption>\n            </figure>\n            <div>\n                <h3>Ishkur's Guide to Electronic Music</h3>\n                <p class=\"ref-meta\"><span class=\"ref-status ref-status--live\">Live getest</span> Ishkur (Kenneth Taylor), vanaf 2000; huidige versie zonder Flash. <a href=\"https://music.ishkur.com/\" target=\"_blank\" rel=\"noopener\">music.ishkur.com</a></p>\n                <dl>\n                    <dt>Hoe je inhoud ontdekt</dt>\n                    <dd>Muziekgenres staan als vertakkende, gekleurde tijdlijnen op een kaart die je in- en uitzoomt. Elk genre opent uitleg en geluidsfragmenten. Getest: de kaart laadt met zoomknoppen en toont na uitzoomen de hele boom van bass tot eurotrash. De Flash-versie uit 2004 staat in het archief van NT 2 (UQAM), dat tijdens de test niet bereikbaar was.</dd>\n                    <dt>Navigatieprincipe</dt>\n                    <dd>De kennisstructuur zelf is de navigatie: de stamboom van de genres is het menu. Zoomen is bladeren, de vertakking is de hiërarchie.</dd>\n                    <dt>Bruikbaar vandaag</dt>\n                    <dd>Voor elk vak met een geschiedenis van stromingen. De tijdlijn van deze site is er een vlakke versie van. Zie <a href=\"#tijdlijn\">Tijdlijn van de interface</a>.</dd>\n                </dl>\n            </div>\n        </li>\n    </ul>\n</section>\n\n<section>\n    <h2>Vijf ideeën die hierop verder bouwen</h2>\n    <ol class=\"stappen\">\n        <li><strong>Het kruimelpad dat vertakt.</strong> Lialina's frames plus Nielsens kruimelpad: een pad dat niet één lijn toont maar de boom van alles wat je op deze site al opende, zij aan zij. Terugkeren is dan geen stap terug maar een stap opzij.</li>\n        <li><strong>De les die openvouwt.</strong> Nutshell toegepast op de stadia: in stadium 0 vouwt elk begrip open in de tekst, pas in stadium 2 krijgt de site een menu. De lezer ervaart hoe een document een site wordt.</li>\n        <li><strong>De trefwoordenzwerm.</strong> We Feel Fine op de tags van deze site: alle pagina's als deeltjes die zich ordenen op jaar, op persoon, op betrouwbaarheid of op categorie, met een knop per ordening. Hetzelfde paginacorpus, vier kaarten.</li>\n        <li><strong>De kaart van het onderzoekscentrum.</strong> Ishkur en Radio Garden samen: de categorieën als wijken op een plattegrond, pagina's als gebouwen, verwantschap als straten. Lynch letterlijk, met de tijdlijn als rivier erdoor.</li>\n        <li><strong>De eerlijke nepcrash.</strong> Soulbath omgekeerd: een demo waarin de site één keer een echte foutmelding toont en één keer een nagemaakte, en de lezer vraagt welke ze vertrouwt en waarom. Kennis als UX over geloofwaardigheid van feedback.</li>\n    </ol>\n</section>\n\n<section>\n    <h2>Verwant</h2>\n    <ul>\n        <li><a href=\"#creative-coding-als-interfacefilosofie\">Creative coding als interfacefilosofie</a>: JODI, Lialina en McCarthy in context.</li>\n        <li><a href=\"#navigatie-en-wayfinding\">Navigatie en wayfinding</a>: de theorie waartegen deze sites zich afzetten.</li>\n        <li><a href=\"#beeld-dat-klikt\">Beeld dat klikt</a>: de image map als voorouder van de collage.</li>\n    </ul>\n</section>\n\n<section class=\"bronverantwoording\"><h2>Broncontrole en beperkingen</h2><p>Inhoud: cursus van Sebastien Vanblaere. Review: Codex met AI-ondersteuning, 21 oktober 2026; geen onafhankelijke vakreview. Doelgroep: studenten en docent. Reikwijdte: Vijftien voorbeelden volledig gelezen; makersdocumentatie van Universe, We Feel Fine en Nutshell geopend.</p>\n<p><code>ongebruikelijke-interfaces-universe</code> - makerbeschrijving; gecontroleerd. <a href=\"https://jonathanharris.org/universe\">Bronpassage bij ongebruikelijke-interfaces-universe</a>. Locator: Bronpassage: ongebruikelijke-interfaces , Synopsis, alinea over 20.000 nieuwsbronnen en verplaatsbaar centrum. De maker beschrijft de datasetomvang en het herschikken rond een gekozen item.. makerbeschrijving; gecontroleerd. Bronpassage: ongebruikelijke-interfaces , Synopsis, alinea over 20.000 nieuwsbronnen en verplaatsbaar centrum. De maker beschrijft de datasetomvang en het herschikken rond een gekozen item. <strong>Beperking:</strong> Documentatie van de maker; geen nieuwe interactieve test of onafhankelijke controle van bronaantal.</p>\n<p><code>ongebruikelijke-interfaces-nutshell</code> - makerbeschrijving; gecontroleerd. <a href=\"https://ncase.me/nutshell/\">Bronpassage bij ongebruikelijke-interfaces-nutshell</a>. Locator: Bronpassage: ongebruikelijke-interfaces , What is Nutshell?, eerste drie alinea&amp;#x 27;s. De maker beschrijft recursief uitvouwbare verklaringen in dezelfde tekst.. makerbeschrijving; gecontroleerd. Bronpassage: ongebruikelijke-interfaces , What is Nutshell?, eerste drie alinea&amp;#x 27;s. De maker beschrijft recursief uitvouwbare verklaringen in dezelfde tekst. <strong>Beperking:</strong> Documentinhoud geopend; de eerdere live test is niet opnieuw uitgevoerd. Het bewijst geen leerwinst.</p>\n<p><strong>Correcties, 21 oktober 2026:</strong> De algemene claim dat elk voorbeeld getest was is vervangen door de werkelijk beschreven testscope. De claim over superieur ruimtelijk geheugen en de gelijkstelling van Fitts met dwell-tijd zijn ingetrokken.</p>\n<p><strong>Open:</strong> Controleer auteurschap, datering en interactiedocumentatie bij de overige werken. Herhaal eerdere live tests met vastgelegde browser en viewport.</p></section>\n",
@@ -1396,6 +1545,20 @@
             "html": "<aside data-migration-note=\"sqlite-1\" class=\"callout callout--let-op\"><span class=\"callout-label\">Implementatie bijgewerkt, 21 oktober 2026</span><p>Inhoud, onderwerpgegevens en controlehistoriek komen nu uit SQLite via PHP. De inhoudelijke audit hieronder bewaart haar oorspronkelijke datum en scope; migreren telt niet als nieuwe broncontrole. <a href=\"checks.php?topic=ordeningsprincipes\">Bekijk de actuele controles en datums</a>. De oude bestanden en auditexports zijn herstelbare momentopnamen.</p></aside><div class=\"intro\">\r\n    <p>Dit onderzoekscentrum groeit naarmate er nieuwe bronnen, anekdotes en lesideeën bijkomen. Om te voorkomen dat het een ongeordende stapel wordt, gelden voor elke toevoeging dezelfde regels.</p>\r\n</div>\r\n\r\n<section aria-labelledby=\"kwaliteitskader-titel\">\r\n    <h2 id=\"kwaliteitskader-titel\">Wetenschappelijke onderbouwing wordt controleerbaar</h2>\r\n    <p><strong>Kader versie 1.0, 21 oktober 2026.</strong> Voor hogeschoolstudenten in een kunstopleiding en hun docent. Onderzoek en eerste redactie: Codex met AI-ondersteuning voor deze cursus van Sebastien Vanblaere. Onafhankelijke inhoudelijke vakreview: open.</p>\r\n    <p>Deze cursus werkt met expliciete bronnen en een controleerbaar kwaliteitskader. Dat vraagt traceerbare beweringen, passende leervormen, verantwoorde onderzoeksmethoden en zichtbare correcties. Een bronlijst alleen bewijst geen juistheid; een werkende website bewijst geen leerwinst. Hieronder staan de voorwaarden waaraan we de cursus voortaan toetsen. Ze zijn <strong>onze operationele normen</strong>, afgeleid uit de vermelde richtlijnen en studies. Ze vormen geen externe accreditatie of wetenschappelijk keurmerk.</p>\r\n    <aside class=\"callout callout--let-op\"><span class=\"callout-label\">Inhoudsronde over alle 53 pagina’s - 21 oktober 2026</span><p>Alle 53 pagina’s zijn volledig gelezen en aan K01-K12 getoetst. De broncontrole betreft geselecteerde kernclaims en risicovolle passages; zij dekt niet alle beweringen. Dit is een AI-ondersteunde inhoudsronde, geen onafhankelijke vakreview, WCAG-conformiteitsverklaring of bewijs van leerwinst.</p></aside>\r\n    <h3>53 pagina’s beoordeeld binnen een begrensde scope</h3>\r\n    <p>Het register bevat 113 claimannotaties: 89 gecontroleerd, 18 gedeeltelijk, 4 niet bereikbaar en 2 open. Deze statussen gelden voor de genoemde bronpassage en dekking, nooit als keurmerk voor de hele pagina. Eén bron kan meerdere annotaties dragen. De 24 doctoraten en sleutelstudies hebben bovendien een afzonderlijk bibliografisch bewijsoverzicht.</p>\r\n    <p>De belangrijkste correcties begrenzen universele psychologische wetten, onderscheiden filosofische lezing van empirisch resultaat en maken historische dateringen, eenzijdige omzetclaims en bibliografische onzekerheid expliciet. Bronhiaten en volgende stappen blijven zichtbaar. <a href=\"data/bronnen/kwaliteitskader-audit-53-20261021.json\">Actueel gedetailleerd reviewregister (JSON)</a>; <a href=\"data/bronnen/kwaliteitskader-nulmeting-20261021.json\">historische nulmeting</a>; <a href=\"#open-vragen\">concrete onderzoeksagenda</a>.</p>\r\n    <details><summary>Alle 53 paginareviews en eerstvolgende open bron- of teststap</summary><p>De tabel volgt het menu. Elk JSON-record bewaart twaalf criteriumstatussen, annotaties, wijzigingen en al het open werk. De tabel toont alleen de eerstvolgende prioriteit; globale open taken hieronder gelden daarnaast.</p><table><caption>AI-ondersteunde inhouds- en bronreview, 21 oktober 2026; geen onafhankelijke vakreview</caption><thead><tr><th scope=\"col\">Pagina</th><th scope=\"col\">Geselecteerde claimannotaties</th><th scope=\"col\">Eerstvolgende open stap</th></tr></thead><tbody><tr><th scope=\"row\"><a href=\"#les-de-link\">Les 1: De link</a></th><td>3 gecontroleerd</td><td>K03: CERN-venstermaat 1120×832 en bewaarde versie tegen oorspronkelijk artefact toetsen.</td></tr><tr><th scope=\"row\"><a href=\"#les-de-lijst\">Les 2: Koppen en de lijst</a></th><td>1 gecontroleerd</td><td>K03: Yahoo 1994 en snapshot 1996 primair controleren.</td></tr><tr><th scope=\"row\"><a href=\"#over-dit-onderzoekscentrum\">Over dit onderzoekscentrum</a></th><td>1 gecontroleerd</td><td>K03: Sitebrede uitspraak over elk anekdotelabel toetsen aan definitief reviewregister.</td></tr><tr><th scope=\"row\"><a href=\"#twee-fundamenten\">Twee fundamenten: filosofie en psychologie</a></th><td>1 gecontroleerd</td><td>K03: Jaartallen en invloeden van Dreyfus, Flusser, Ihde, Latour, Verbeek en Hassenzahl afzonderlijk toetsen.</td></tr><tr><th scope=\"row\"><a href=\"#psychologische-principes\">Overzicht van psychologische principes</a></th><td>1 gecontroleerd, 2 gedeeltelijk</td><td>K03: Overige elf tabelrijen afzonderlijk annoteren met oorspronkelijke methode en beperkingen.</td></tr><tr><th scope=\"row\"><a href=\"#fenomenologie-en-breakdown\">Fenomenologie en breakdown</a></th><td>2 gecontroleerd</td><td>K03: Heidegger §§15-16 en Merleau-Pontys stok/hoed in oorspronkelijke edities controleren.</td></tr><tr><th scope=\"row\"><a href=\"#fitts-en-hick-hyman\">Fitts&#x27; law en Hick-Hyman</a></th><td>1 gecontroleerd, 1 gedeeltelijk</td><td>K03: Hick en Hyman volledige methodes openen; abstract/meta dekt deelnemers en oefeneffecten niet.</td></tr><tr><th scope=\"row\"><a href=\"#mother-of-all-demos\">Engelbart: The Mother of All Demos</a></th><td>2 gecontroleerd</td><td>K03: Video met tijdcodes bekijken; houten drieknopsmuis en exacte afstand nog toetsen.</td></tr><tr><th scope=\"row\"><a href=\"#winograd-en-shrdlu\">Winograd: van SHRDLU naar Heidegger</a></th><td>2 gecontroleerd</td><td>K03: Proefschrift 1971 en boek 1986 met exacte locators controleren; Engels opdrachtcitaat lokaliseren.</td></tr><tr><th scope=\"row\"><a href=\"#uitvinding-van-undo\">De uitvinding van undo</a></th><td>2 gecontroleerd</td><td>K03: Gypsy 1974-1975, Tesler/Mott en Ginn-datering vragen eerdere primaire documentatie.</td></tr><tr><th scope=\"row\"><a href=\"#xerox-parc-desktopmetafoor\">Xerox PARC en de desktopmetafoor</a></th><td>2 gecontroleerd</td><td>K03: Alto 1973-configuratie onderscheiden van latere Smalltalk-vensters met systeemdocumentatie.</td></tr><tr><th scope=\"row\"><a href=\"#affordances-en-signifiers\">Affordances en signifiers</a></th><td>2 gecontroleerd</td><td>K03: Gibson 1979 hoofdstuk 8 rechtstreeks openen; nu via Norman bemiddeld.</td></tr><tr><th scope=\"row\"><a href=\"#three-mile-island\">Three Mile Island</a></th><td>1 niet bereikbaar</td><td>K03: NRC 403/INL 502: originele Kemeny/Rogovin-passage ophalen voor lamp, bedrading en tijdlijn.</td></tr><tr><th scope=\"row\"><a href=\"#apple-atkinson-en-kare\">Apple: Bill Atkinson en Susan Kare</a></th><td>1 gecontroleerd, 1 gedeeltelijk</td><td>K03: QuickDraw, MacPaint en HyperCard-attributie en introductiedata met auteurs-/Apple-documentatie toetsen.</td></tr><tr><th scope=\"row\"><a href=\"#fitts-en-de-mac-menubalk\">Fitts&#x27; law en de Mac-menubalk</a></th><td>2 gecontroleerd</td><td>K03: Tog on Interface 1992 en vijf-plekkenquiz exacte passage openen.</td></tr><tr><th scope=\"row\"><a href=\"#therac-25\">Therac-25</a></th><td>3 gecontroleerd</td><td>K03: Dosisramingen en oorzaken per ongeval uit tabellen reconstrueren vóór algemene dosisfactor.</td></tr><tr><th scope=\"row\"><a href=\"#geheugen-en-cognitieve-belasting\">Geheugen en cognitieve belasting</a></th><td>2 gedeeltelijk</td><td>K03: Miller 1956 en Sweller 1988 volledig openen; Cowan/Sweller 2010 nu alleen abstract.</td></tr><tr><th scope=\"row\"><a href=\"#norman-door\">De Norman-deur</a></th><td>1 open, 1 gecontroleerd</td><td>K03: Norman 1988/2013 hoofdstuk 1 openen met precieze deurpassage; naamherkomst nog onbekend.</td></tr><tr><th scope=\"row\"><a href=\"#postfenomenologie-en-mediatie\">Postfenomenologie en technologische mediatie</a></th><td>1 gecontroleerd</td><td>K03: lees Ihde 1990 per relatie en Verbeeks slothoofdstuk met paginalocators.</td></tr><tr><th scope=\"row\"><a href=\"#eerste-webpagina\">De eerste webpagina</a></th><td>1 gecontroleerd</td><td>K03: verifieer NeXT-schermspecificatie, oorspronkelijke 1991-versie en CERN-restauratie via primaire archiefdocumenten.</td></tr><tr><th scope=\"row\"><a href=\"#gopher-versus-web\">Gopher versus het web</a></th><td>1 gecontroleerd</td><td>K03: controleer Minnesota-licentieaankondiging en CERN-vrijgave aan oorspronkelijke documenten.</td></tr><tr><th scope=\"row\"><a href=\"#beeld-dat-klikt\">Beeld dat klikt: GIF, JPEG en het icoon als link</a></th><td>2 gecontroleerd</td><td>K03: controleer IMG-mailinglijst, GIF89a/JPEG-norm, favicon en 88x31-datering afzonderlijk.</td></tr><tr><th scope=\"row\"><a href=\"#yahoo-en-google\">Yahoo 1994 en Google 1998: lijst en zoekveld</a></th><td>1 gedeeltelijk</td><td>K03: lees de volledige Stanford-paper; alleen abstract is nu gecontroleerd. Verifieer PageRank-passages.</td></tr><tr><th scope=\"row\"><a href=\"#navigatie-en-wayfinding\">Navigatie en wayfinding</a></th><td>1 gecontroleerd</td><td>K03: lees Lynch 1960 inclusief methode en woordgeschiedenis; vergelijk Pirolli/Card 1999 met primaire tekst.</td></tr><tr><th scope=\"row\"><a href=\"#esthetiek-en-bruikbaarheid\">Het esthetiek-bruikbaarheidseffect</a></th><td>1 gecontroleerd</td><td>K03: open Kurosu 1995 en Tractinsky 1997/2000; verifieer 26 layouts, r=.59, steekproeven en causale formuleringen.</td></tr><tr><th scope=\"row\"><a href=\"#clippy\">Microsoft Clippy</a></th><td>1 niet bereikbaar</td><td>K03: vind officiële gearchiveerde Office XP-mededeling en Office 97/2007-releasegegevens.</td></tr><tr><th scope=\"row\"><a href=\"#esthetiek-en-mediatheorie\">Esthetiek en mediatheorie van de interface</a></th><td>1 gecontroleerd</td><td>K03: vergelijk universitaire Manovich-kopie met uitgeverseditie en controleer overige boekduidingen.</td></tr><tr><th scope=\"row\"><a href=\"#raskin-en-victor\">Raskin en Victor: twee tekstuele klassiekers</a></th><td>1 gecontroleerd</td><td>K03: lees Raskin 2000 hoofdstukken aandacht, modes, gewoonte en noteer paginalocators.</td></tr><tr><th scope=\"row\"><a href=\"#hedonisch-en-pragmatisch\">Hedonisch en pragmatisch: Hassenzahl</a></th><td>1 gecontroleerd</td><td>K03: verifieer The thing and I 2003, AttrakDiff 2003 en research agenda 2006 aan volledige originele teksten.</td></tr><tr><th scope=\"row\"><a href=\"#eye-tracking-en-neuro-ux\">Eye-tracking en neuro-UX</a></th><td>2 gecontroleerd</td><td>K03: verifieer vervolg 2017 en afzonderlijke EEG/ecologische-validiteitsclaims in primaire studies.</td></tr><tr><th scope=\"row\"><a href=\"#300-million-button\">De 300 miljoen dollar-knop</a></th><td>2 gecontroleerd</td><td>K04: vraag openbare methode, dataset, meetperiode en onafhankelijke bevestiging voordat causale omzetgroei wordt geconcludeerd.</td></tr><tr><th scope=\"row\"><a href=\"#41-shades-of-blue\">Google: 41 tinten blauw</a></th><td>1 gecontroleerd</td><td>K03/K04: verkrijg Cobley 2014-opname en exacte locator; zoek openbare meetgegevens voor 200 miljoen.</td></tr><tr><th scope=\"row\"><a href=\"#skeuomorfisme-vs-flat\">Skeuomorfisme versus flat design</a></th><td>2 gecontroleerd</td><td>K03: verifieer Forstall-vertrek en iOS 7-uitrol afzonderlijk; interne ruzies blijven journalistiek.</td></tr><tr><th scope=\"row\"><a href=\"#ethiek-van-design\">Ethiek van design</a></th><td>2 gecontroleerd</td><td>K03: controleer Fogg-doctoraat/2009-artikel, Brignull 2010, Gray 2018 en Mathur 2020/2021 inclusief award bij originele bronnen.</td></tr><tr><th scope=\"row\"><a href=\"#creative-coding-als-interfacefilosofie\">Creative coding als interfacefilosofie</a></th><td>3 gecontroleerd</td><td>K03: controleer JODI-werk en datering via kunstenaarsarchief; bespreek alternatieve filosofische interpretatie.</td></tr><tr><th scope=\"row\"><a href=\"#lesidee-drie-knoppen\">Lesidee: één knop, drie versies</a></th><td>1 gecontroleerd</td><td>K03: lees oorspronkelijke Fitts 1954; slow-technology-definitie is aan auteursupload gecontroleerd.</td></tr><tr><th scope=\"row\"><a href=\"#ongebruikelijke-interfaces\">Ongebruikelijke interfaces: een visueel referentieoverzicht</a></th><td>2 gecontroleerd</td><td>K03/K04: controleer de overige dertien voorbeelden aan primaire makersdocumentatie; herhaal live-tests met browser en viewport.</td></tr><tr><th scope=\"row\"><a href=\"#klik-hier\">Klik hier, en waarom niet</a></th><td>2 gecontroleerd</td><td>K03: lokaliseer Raskins aandachtspassage en dateer het W3C-stijladvies; K11: test een schermlezerlinklijst.</td></tr><tr><th scope=\"row\"><a href=\"#fitts-op-deze-site\">Fitts&#x27; law op deze site</a></th><td>2 gecontroleerd</td><td>K08/K09: leg cursorstart, invoerapparaat, herhalingen en nauwkeurigheid vooraf vast; er is nog geen effectschatting.</td></tr><tr><th scope=\"row\"><a href=\"#hick-hyman-in-het-menu\">Hick-Hyman in het menu</a></th><td>1 gedeeltelijk, 1 gecontroleerd</td><td>K03/K08: lees oorspronkelijke methoden van Hick en Hyman en isoleer volgorde, doel en ordening.</td></tr><tr><th scope=\"row\"><a href=\"#f-patroon-en-koppen\">Het F-patroon en de koppen van deze site</a></th><td>3 gecontroleerd</td><td>K11: test focus en schermlezer bij verborgen koppen; K12: begrijpend lezen is niet gemeten.</td></tr><tr><th scope=\"row\"><a href=\"#toestand-versus-opdracht\">Toestand versus opdracht op deze site</a></th><td>3 gecontroleerd</td><td>K03: controleer de primaire TMI-detailpassage; K11: test snelle opeenvolgende klikken en beschrijf tellerreset.</td></tr><tr><th scope=\"row\"><a href=\"#breakdown-bij-ontbrekende-content\">Breakdown bij ontbrekende content</a></th><td>2 gecontroleerd</td><td>K03: lokaliseer Winograd/Flores- en Therac-passages; K11: test echte foutpaden.</td></tr><tr><th scope=\"row\"><a href=\"#pad-en-stap\">Pad en stap</a></th><td>2 gecontroleerd</td><td>K11: test focus, koppenlijst, touch en zoom; een title-tooltip biedt geen gegarandeerd alternatief.</td></tr><tr><th scope=\"row\"><a href=\"#proefschriften-internationaal\">Internationale pioniers</a></th><td>3 gedeeltelijk, 6 gecontroleerd, 2 niet bereikbaar, 1 open</td><td>K03: Card, Höök en Harwood deels; Dourish en Redström niet bereikbaar; Foggs oorspronkelijke bron nog open.</td></tr><tr><th scope=\"row\"><a href=\"#proefschriften-lage-landen\">Nederland en België</a></th><td>8 gecontroleerd, 4 gedeeltelijk</td><td>K03: los Hummels’ titelbladconflict op; controleer Desmet/Wensveen en open Zamans Lirias-pdf opnieuw.</td></tr><tr><th scope=\"row\"><a href=\"#proefschriften-recente-themas\">Recente thema&#x27;s en waar te zoeken</a></th><td>2 gecontroleerd</td><td>K03: controleer SIGCHI-jaargangen, prijsclaims en oorspronkelijke publicaties; verifieer actuele affiliaties.</td></tr><tr><th scope=\"row\"><a href=\"#leeslijst\">Leeslijst in twaalf stappen</a></th><td>3 gecontroleerd</td><td>K03: controleer overige edities, ISBN’s en passages; de leesvolgorde is geen bewezen effectieve leerlijn.</td></tr><tr><th scope=\"row\"><a href=\"#repositories-en-zoektermen\">Repositories en zoektermen</a></th><td>2 gecontroleerd</td><td>K03: controleer overige portals en gemigreerde records; voor systematisch zoeken ontbreken inclusiecriteria en zoeklog.</td></tr><tr><th scope=\"row\"><a href=\"#open-vragen\">Open vragen en te verifiëren punten</a></th><td>Geen afzonderlijke claimannotatie; kader-/referentiereview</td><td>K03/K04: werk open bronpassages af met verantwoordelijke reviewer; zie de concrete onderzoeksagenda.</td></tr><tr><th scope=\"row\"><a href=\"#ordeningsprincipes\">Ordeningsprincipes en wetenschappelijke kwaliteit</a></th><td>Geen afzonderlijke claimannotatie; kader-/referentiereview</td><td>K03: review de funderende richtlijnpassages afzonderlijk; K01: onafhankelijke vakreview blijft open.</td></tr><tr><th scope=\"row\"><a href=\"#voorbeeld-onderwerp\">Sjabloonpagina</a></th><td>1 gecontroleerd</td><td>K11: test volledige paginacontext met focus, zoom en koppenlijst; nieuwe inhoud vraagt eigen claimreview.</td></tr><tr><th scope=\"row\"><a href=\"#tijdlijn\">Tijdlijn van de interface</a></th><td>3 gedeeltelijk</td><td>K03: annoteer overige tijdlijnregels; thematische groepering is redactionele duiding.</td></tr></tbody></table></details>\r\n    <p><strong>Overal nog nodig:</strong> docent/vakreviewer controleert resterende bronclaims (K01-K04); docent werkt doel-activiteit-toets en feedback uit waar een leesstofpagina als les wordt ingezet (K06-K07); onderzoeker legt protocollen vast en verzamelt uitsluitend verantwoord deelnemersgegevens (K08-K10); toegankelijkheidsreviewer test menselijke bediening en WCAG-dekking (K11); docent/onderzoeker toetst prestaties en transfer (K12). Geen van deze open taken wordt door technische slaagmeldingen afgesloten.</p>\r\n        <h3>Vier statussen houden het oordeel eerlijk</h3>\r\n    <p><strong>Voldoet</strong> betekent dat vastgelegd bewijs de eis binnen de genoemde scope dekt; <strong>deels</strong> dat bewijs of uitvoering onvolledig is; <strong>open</strong> dat beoordeling of bewijs ontbreekt; <strong>niet van toepassing</strong> vraagt een reden. Niet beoordeeld blijft open. Een automatische controle kan ontbrekende velden signaleren, maar kent geen inhoudelijk keurmerk of automatische acht op tien toe.</p>\r\n\r\n    <h3>Twaalf criteria met aantoonbaar bewijs</h3>\r\n    <ol class=\"stappen\">\r\n        <li id=\"K01\"><strong>K01 - Auteur en transparantie.</strong> Vermeld verantwoordelijke auteur, inhoudelijke reviewer, wijzigingsdatum, doelgroep en reikwijdte. Benoem inzet van AI bij redactie of controle. Bewijs: zichtbare verantwoording en reviewlog. Een AI-controle is geen onafhankelijke collegiale toetsing. Grondslag: ALLEA, beginselen en §2.7; de concrete velden zijn onze norm.</li>\r\n        <li id=\"K02\"><strong>K02 - Het soort bewering is herkenbaar.</strong> Onderscheid waar nodig empirische bevinding, historische duiding, filosofische interpretatie, ontwerpheuristiek, norm en eigen voorbeeld. Bewijs: gecontroleerde passages met passend taalgebruik. Historische en filosofische argumenten vragen bronnen, expliciete aannames en tegenlezingen; ze hoeven geen experiment te worden. Grondslag: AHA, onderdelen 2-3; UNESCO, punten 4-6.</li>\r\n        <li id=\"K03\"><strong>K03 - Bronnen dragen concrete claims.</strong> Geef belangrijke feitelijke, kwantitatieve of betwistbare beweringen een stabiel claim-ID en een annotatie volgens het schema hieronder. Een reviewer opent de bronpassage en controleert de dekking. Bewijs: annotatie plus reviewdatum; een algemene leeslijst volstaat niet. Grondslag: W3C Annotation, §§3-4, en AHA, onderdeel 2; onze veldkeuze is lokaal.</li>\r\n        <li id=\"K04\"><strong>K04 - Bewijskracht en beperkingen staan erbij.</strong> Vermeld bij onderzoeksclaims methode, context, deelnemers voor zover bekend en wat niet volgt. Scheid bronresultaat van eigen ontwerpadvies; vermeld ontbrekende informatie. Bewijs: bronvergelijking en begrensde formulering. Een anekdote levert geen universele ontwerpwet. Grondslag: ALLEA §2.7 en SIGSOFT, Experiments.</li>\r\n        <li id=\"K05\"><strong>K05 - Correcties zijn terugvindbaar.</strong> Leg een inhoudelijke correctie vast met datum, oude claim, nieuwe formulering, reden en bron. Registreer belangen en onopgeloste tegenstrijdigheden. Bewijs: gedateerd correctielog en koppeling naar de gewijzigde passage. Grondslag: ALLEA §2.7; het logformaat is onze norm.</li>\r\n        <li id=\"K06\"><strong>K06 - Leerdoel, activiteit en toets passen.</strong> Iedere les noemt observeerbare leerdoelen, voorkennis, bijpassende oefeningen en beoordelingscriteria. Bewijs: een lesmatrix die elke doelstelling aan activiteit en leerlingprestatie koppelt. Een analyse- of ontwerpdoel vraagt toepassing met onderbouwing, niet uitsluitend feitenherkenning. Grondslag: CMU, Alignment; de lesmatrix is onze uitwerking.</li>\r\n        <li id=\"K07\"><strong>K07 - Controlevragen helpen verder.</strong> Laat leerlingen eerst zelfstandig antwoorden; geef daarna uitleg, een modelantwoord en een concrete herstap bij fouten. Koppel de vraag aan een leerdoel en laat begrippen later terugkomen. Bewijs: vraag, feedback en vervolgstap in de les. Grondslag: CMU, Formative assessment, en Roediger &amp; Karpicke (2006), abstract. Hun proza-geheugentaak bewijst geen UI/UX-ontwerpvaardigheid; dit pakket is een lokale ontwerpkeuze.</li>\r\n        <li id=\"K08\"><strong>K08 - Demo en onderzoek verschillen.</strong> Label activiteiten als illustratie, oefening, verkennende gebruikerstest of experiment. Leg voor dataverzameling vraag, deelnemers, taak, varianten, uitkomstmaat, instructies, stopregel en analyse vooraf vast. Houd vergelijkingen gelijkwaardig; balanceer waar passend A/B-volgorde en noteer oefening, vermoeidheid en overdracht. Bewijs: gedateerd protocol plus afwijkingenlog. Grondslag: SIGSOFT, Experiments.</li>\r\n        <li id=\"K09\"><strong>K09 - Resultaten tonen onzekerheid.</strong> Rapporteer deelnemers en metingen afzonderlijk, spreiding, uitval, ontbrekende gegevens en alternatieve verklaringen. Verantwoord de steekproef vanuit vraag en haalbaarheid; er bestaat geen magisch minimum. Gebruik bij een inferentiële analyse passende effectmaten en onzekerheidsintervallen. Bewijs: analyse met methodebeperkingen. Alleen gemiddelden of een voor-/nameting rechtvaardigen geen causaliteitsclaim. Grondslag: SIGSOFT, Experiments en General Standard.</li>\r\n        <li id=\"K10\"><strong>K10 - Deelnemers houden zeggenschap.</strong> Leg doel, duur, gegevens, toegang, bewaartermijn, publicatie en stopmogelijkheid vooraf uit; bied een gelijkwaardig alternatief. Lesdeelname is geen stilzwijgende onderzoekstoestemming. Verzamel minimaal; publiceer geen herkenbare leerlinggegevens. Bewijs: informatieblad, toestemmingsprocedure en gegevensplan. Deelnemerscodes garanderen geen anonimiteit. Controleer bij minderjarigen of formeel onderzoek eerst de schoolprocedure. Grondslag: SIGSOFT, Ethics: Human Participants; dit is onderzoekszorg, geen juridisch advies.</li>\r\n        <li id=\"K11\"><strong>K11 - Techniek en toegankelijkheid worden apart getest.</strong> Controleer links, routes en interacties; combineer automatische toegankelijkheidscontroles met toetsenbord, focus, zoom, labels en contrast. Bewijs: verslag per pagina of proces met WCAG-criterium, browser, datum en bevinding. Een steekproef of scan bewijst geen volledige conformiteit. Grondslag: WCAG 2.2, succescriteria en Conformance Requirements; WAI, Evaluating en Involving Users.</li>\r\n        <li id=\"K12\"><strong>K12 - Leeronderzoek en onderhoud sluiten de cyclus.</strong> Onderzoek beheersing met passende prestaties en een vooraf beschreven rubric. Houd percepties afzonderlijk. Bewijs: protocol, geanonimiseerde beoordelingsvoorbeelden en rapport met beperkingen; zolang uitvoering ontbreekt blijft leerwinst open. Heropen relevante criteria bij iedere inhoudswijziging. Grondslag: CMU, Components; de hashcontrole en reviewcyclus zijn onze werkwijze.</li>\r\n    </ol>\r\n\r\n    <h3>Annotaties verbinden bewering en bronpassage</h3>\r\n    <p>Gebruik per belangrijke claim: <strong>claim-ID; exacte cursuspassage; claimtype; auteur, titel, editie en jaar; DOI of URL; locator</strong> (pagina, paragraaf, figuur of tijdcode); <strong>wat de bron dekt; beperkingen en tegenbewijs; eigen gevolgtrekking; reviewer; controledatum</strong>. Noteer of het origineel, uitsluitend het abstract of een secundaire bespreking beschikbaar was. Een tweede lezer moet de passage kunnen vinden en de gevolgtrekking beoordelen. Het W3C-model helpt doelen en annotaties verbinden, maar garandeert geen waarheid en verplicht hier geen technisch annotatieplatform.</p>\r\n\r\n    <h3>Vier soorten toetsing beantwoorden verschillende vragen</h3>\r\n    <p><strong>Technische tests</strong> controleren werking en technische toegankelijkheid. <strong>Inhoudsreview</strong> controleert claims, bronnen en argumentatie. <strong>Gebruikerstests</strong> observeren of mensen taken kunnen uitvoeren en waar barrières ontstaan. <strong>Leeronderzoek</strong> beoordeelt verandering in kennis of vaardigheid. Bewaar afzonderlijke verslagen met scope en beperkingen. Een tevredenheidsscore vervangt geen prestatie; een correcte quiz bewijst geen ontwerpvaardigheid.</p>\r\n    <ol class=\"stappen\">\r\n        <li><strong>INHOUDSRONDE UITGEVOERD - Volledige dekking en onafhankelijke review open.</strong> Alle 53 pagina’s zijn gelezen; geselecteerde kernclaims zijn geannoteerd en gecorrigeerd. Laat een inhoudelijk competente reviewer de resterende claims en doel-activiteit-toetsmatrix controleren. Uitkomst: gevonden, opgeloste en open afwijkingen; geen betrouwbaarheidsscore.</li>\r\n        <li><strong>GEPLAND - Bruikbaarheid en toegankelijkheid.</strong> Selecteer relevante leerlingtaken en verschillende ondersteuningsbehoeften; verantwoord de deelnemerskeuze. Observeer navigatie, opdrachtbegrip en bediening, naast WCAG-controles. Leg succescriterium en observatieprotocol vooraf vast. Rapporteer barrières en taakuitkomsten binnen deze scope; enkele deelnemers vertegenwoordigen niet iedereen.</li>\r\n        <li><strong>GEPLAND - Leren en transfer.</strong> Gebruik vergelijkbare begin- en eindtaken met dezelfde rubric en waar haalbaar een latere transfertaak. Registreer voorkennis, hulp, uitval en toetsherhaling. Laat beoordelaars dezelfde voorbeelden beoordelen en bespreek verschillen. Verantwoord omvang en analyse vooraf. Zonder passend vergelijkingsontwerp kan verandering niet uitsluitend aan de cursus worden toegeschreven.</li>\r\n    </ol>\r\n\r\n    <details>\r\n        <summary>Bronnen: wat dragen ze, en wat niet?</summary>\r\n        <ul>\r\n            <li><a href=\"https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf\">ALLEA, European Code of Conduct (2023)</a>, beginselen en §§2.5, 2.7: integriteitsnorm voor transparantie, gegevens en correcties; geen cursuskeurmerk.</li>\r\n            <li><a href=\"https://www.unesco.org/en/legal-affairs/recommendation-open-science\">UNESCO, Recommendation on Open Science (2021)</a>, punten 4-7 en 14: institutionele aanbeveling over open, pluriforme wetenschap; geen effectstudie.</li>\r\n            <li><a href=\"https://www.historians.org/resource/statement-on-standards-of-professional-conduct/\">AHA, Standards of Professional Conduct</a>, onderdelen 2-3 en 6: beroepsnorm voor bronnen en historische interpretatie; geen experimentele UX-validatie.</li>\r\n            <li><a href=\"https://www.w3.org/TR/annotation-model/\">W3C, Web Annotation Data Model (2017)</a>, §§3-4: technische aanbeveling voor annotaties en precieze doelen; geen kwaliteitsbeoordeling van bronnen.</li>\r\n            <li><a href=\"https://www.cmu.edu/teaching/assessment/basics/alignment.html\">CMU, Alignment</a> en <a href=\"https://www.cmu.edu/teaching/assessment/basics/formative-summative.html\">Formative versus summative assessment</a>: universitaire ontwerpadviezen over samenhang en bijsturing; geen effectmeting van deze cursus.</li>\r\n            <li><a href=\"https://doi.org/10.1111/j.1467-9280.2006.01693.x\">Roediger &amp; Karpicke (2006)</a>, oorspronkelijk abstract, twee experimenten: ophalen en later onthouden van proza; geen rechtstreeks bewijs voor ontwerpvaardigheid.</li>\r\n            <li><a href=\"https://www.cmu.edu/teaching/assessment/assessprogram/components.html\">CMU, Components of the Program Assessment Process</a>, directe en indirecte beoordeling: handreiking voor prestatiegegevens en verbeteracties; geen causaal onderzoeksontwerp op zichzelf.</li>\r\n            <li><a href=\"https://www2.sigsoft.org/EmpiricalStandards/docs/standards\">SIGSOFT, Empirical Standards</a>, Experiments en General Standard, met supplement <a href=\"https://www2.sigsoft.org/EmpiricalStandards/docs/supplements?supplement=EthicsHumanParticipants\">Ethics: Human Participants</a>: methodische en ethische normen voor empirisch softwareonderzoek; lokale schoolprocedures blijven afzonderlijk te bepalen.</li>\r\n            <li><a href=\"https://www.w3.org/TR/WCAG22/\">W3C, WCAG 2.2</a>, succescriteria en Conformance Requirements: technische toegankelijkheidsnorm; dekt niet alle gebruikersbehoeften of leerresultaten.</li>\r\n            <li><a href=\"https://www.w3.org/WAI/test-evaluate/\">WAI, Evaluating Web Accessibility</a> en <a href=\"https://www.w3.org/WAI/test-evaluate/involving-users/\">Involving Users</a>: evaluatieadvies over menselijke beoordeling en gebruikers; geen conformiteitsbewijs voor deze site.</li>\r\n        </ul>\r\n    </details>\r\n    <h3>Iedere inhoudswijziging heropent de beoordeling</h3>\r\n    <p>Het register <code>data/bronnen/kwaliteitskader-audit-53-20261021.json</code> bewaart per pagina de inhoudshash, criteriumstatus, bewijs en open werk. Een gewijzigde hash vraagt nieuwe beoordeling van de geraakte criteria; een ongewijzigde hash bewijst alleen gelijkheid met de vastgelegde versie. Controleer nieuwe claims direct en plan vervolgens de resterende bronpassages en onafhankelijke review. Het register bewaart ook hashes van main.js, index.html, style.css en stadia.css: wijzigingen daarin heropenen betrokken demo-, route- en lokale technische claims. Leg selectie, reviewer, datum, correcties en beperkingen vast. <strong>Een geslaagd controleproces geldt alleen binnen zijn beschreven scope; volledige cursusvalidatie staat nog open.</strong></p>\r\n</section>\r\n<div class=\"kernpunten\">\r\n    <span class=\"kernpunten-label\">Kernpunten</span>\r\n    <ul>\r\n        <li>De kernstof is geordend in <strong>zes chronologische thema's (1910–2023)</strong>, aangevuld met Lessen, Introductie, Kennis als UX, Proefschriften, Bronnen, Werkplaats en Overzicht</li>\r\n        <li>Binnen elk thema staan <strong>psychologie</strong>, <strong>filosofie</strong> en <strong>anekdotes</strong> chronologisch bij elkaar, met expliciete onderbouwing en tegenspraak</li>\r\n        <li>Elke anekdote heeft een <strong>betrouwbaarheidslabel</strong> én een vaste slotsectie <strong>Functie van deze anekdote</strong></li>\r\n        <li>Nieuw materiaal loopt via drie plekken: <code>docs/inbox.md</code>, <code>data/bronnen/</code>, <code>content/</code></li>\r\n    </ul>\r\n</div>\r\n\r\n<section>\r\n    <h2>De dertien groepen in het menu</h2>\r\n    <p>Elke pagina hoort bij precies één groep in de SQLite-database. PHP levert die gegevens aan het menu. De zes chronologische thema's vormen het hart van de site:</p>\r\n    <ul>\r\n        <li><strong>Lessen</strong>: leerlingpagina's, elk gekoppeld aan een stadium van de interface.</li>\r\n        <li><strong>Introductie</strong>: doel van de site en het overzicht van de zes chronologische thema's op <a href=\"#twee-fundamenten\">Twee fundamenten</a>.</li>\r\n        <li><strong>1. Werktuig, lichaam en ruimte (1910–1968)</strong>: Gestalt, fenomenologie (Heidegger, Merleau-Ponty), Fitts &amp; Hick-Hyman en Engelbarts demo.</li>\r\n        <li><strong>2. Cognitieve modellen en breakdown (1970–1988)</strong>: van SHRDLU, Undo en Xerox PARC via Gibson en Norman naar Three Mile Island, Atkinson &amp; Kare, de Mac-menubalk, Therac-25, cognitieve belasting en de Norman-deur.</li>\r\n        <li><strong>3. Hypertext, boom en informatiegeur (1990–1999)</strong>: postfenomenologie, de eerste webpagina, Gopher versus het web, klikbaar beeld, Yahoo &amp; Google en navigatie/wayfinding.</li>\r\n        <li><strong>4. Schoonheid, ervaring en kritisch ontwerp (1995–2006)</strong>: het esthetiek-bruikbaarheidseffect, Clippy, mediatheorie &amp; kritisch design, Raskin &amp; Victor en Hassenzahl.</li>\r\n        <li><strong>5. Mediatie, overtuiging en A/B-data (1997–2015)</strong>: eye-tracking &amp; neuro-UX, de 300 miljoen dollar-knop, 41 tinten blauw en skeuomorfisme versus flat design.</li>\r\n        <li><strong>6. Ethiek, duistere patronen en kunstpraktijk (2010–2023)</strong>: ethiek van design, creative coding als interfacefilosofie, één knop in drie versies en ongebruikelijke interfaces.</li>\r\n        <li><strong>Kennis als UX</strong>: pagina's waarop de site haar eigen principes op zichzelf toepast en meetbaar maakt.</li>\r\n        <li><strong>Proefschriften</strong>: doctoraten en sleutelstudies (12 internationaal, 12 uit Nederland en België) en recente onderzoeksthema's.</li>\r\n        <li><strong>Bronnen</strong>: leeslijst, repositories en open vragen.</li>\r\n        <li><strong>Werkplaats</strong>: deze pagina en het sjabloon.</li>\r\n        <li><strong>Overzicht</strong>: de afsluitende <a href=\"#tijdlijn\">tijdlijn</a>.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section>\r\n    <h2>Tags</h2>\r\n    <p>Elke pagina krijgt tags bij haar onderwerpgegevens in de database. De rechterkolom gebruikt ze om verwante secties en verwante pagina's te vinden. Regels voor tags:</p>\r\n    <ul>\r\n        <li>Gebruik bestaande tags waar mogelijk, zodat pagina's elkaar vinden.</li>\r\n        <li>Persoonsnamen met hoofdletter: <code>Heidegger</code>, <code>Verbeek</code>, <code>Fitts</code>, <code>Norman</code>, <code>Hassenzahl</code>.</li>\r\n        <li>Begrippen in het Nederlands of in de ingeburgerde Engelse vorm: <code>fenomenologie</code>, <code>breakdown</code>, <code>affordance</code>, <code>signifier</code>, <code>dark patterns</code>, <code>cognitieve belasting</code>.</li>\r\n        <li>Elke anekdote krijgt de tag <code>anekdote</code> plus de neutrale tag <code>broncontrole</code>. De annotaties geven de feitelijke dekking en onzekerheid per claim aan.</li>\r\n        <li>Elke Nederlandse tag krijgt een Engelse vertaling in <code>tagTranslations</code> in <code>main.js</code>.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section>\r\n    <h2>Betrouwbaarheidslabels én functie bij anekdotes</h2>\r\n    <p>Elke anekdotepagina begint met één regel onder de titel (<code>&lt;p class=\"betrouwbaarheid\"&gt;</code>) en eindigt met een vaste sectie over haar rol in het betoog:</p>\r\n    <ul>\r\n        <li><strong>Goed gedocumenteerd</strong>: er zijn primaire bronnen, opnames, patenten of peer-reviewed reconstructies.</li>\r\n        <li><strong>Eenzijdig verslag</strong> of <strong>onvoldoende gecontroleerd</strong>: benoem precies welke claims controle missen. Gebruik “mythe” alleen wanneer aantoonbaar bewijs de gangbare versie tegenspreekt. Bestaande labels en tags worden bij bronreview opnieuw beoordeeld.</li>\r\n        <li><strong>Functie van deze anekdote (Onderbouwing en tegenspraak in het thema)</strong>: elke anekdote sluit af met een sectie die benoemt welk psychologisch begrip of filosofisch kader we als cursuslezing gebruiken en welke beperkingen of tegenargumenten daarbij horen.</li>\r\n    </ul>\r\n</section>\r\n\r\n<section>\r\n    <h2>Van inbox naar pagina</h2>\r\n    <ol class=\"stappen\">\r\n        <li><strong>Inbox</strong>: een losse vondst (naam, citaat, link, gedachte) gaat eerst in <code>docs/inbox.md</code>, zonder vormvereisten.</li>\r\n        <li><strong>Bronmap</strong>: als een onderwerp uitgewerkt wordt, komt het bronoverzicht als markdown in <code>data/bronnen/</code>.</li>\r\n        <li><strong>Pagina</strong>: pas als het geordend is, wordt het een HTML-fragment in <code>content/</code> en een ingang in het juiste chronologische thema in <code>main.js</code>, met de structuur van de <a href=\"#voorbeeld-onderwerp\">sjabloonpagina</a>.</li>\r\n    </ol>\r\n</section>\r\n\r\n<details><summary>Correcties in de kader- en voortgangsrapportage - 21 oktober 2026</summary><p>Eerder vermeldde deze pagina alleen drie gedeeltelijke reviews en vijftig nog te lezen pagina’s. Nu zijn alle 53 pagina’s gelezen met gerichte broncontrole; onvolledige claimdekking blijft expliciet. De tagregel geverifieerd/mythe is vervangen door broncontrole omdat een paginalabel geen claimdekking bewijst. De oorspronkelijke nulmeting blijft als historische snapshot beschikbaar.</p></details>\r\n<section><h2>Actueel beheer en hercontrole</h2><p>De database is de actieve inhoudsbron. De historische HTML-fragmenten en JSON-audits blijven bewaard; hun adressen leveren via PHP de actuele inhoud en het actuele register. Nieuwe inhoud wordt met het CLI-beheer in SQLite opgeslagen. Een inhoudswijziging verandert de versiehash, maar vernieuwt geen controledatum. Bronpoging, geslaagde broncontrole, criteriumbeoordeling en paginareview hebben afzonderlijke datums. Voorbeelden en beheerafspraken staan in de README van het project.</p></section>",
             "content_hash": "7ed7fdfd8d4e8974f0c398eab255fafe9496d68fb1dba78fab2288fda20f4ff2",
             "updated_at": "2026-10-21T15:56:50Z"
+        },
+        {
+            "topic_id": "orienteren",
+            "lang": "en",
+            "html": "<p class=\"empty-step\">Not developed yet.</p>",
+            "content_hash": "0d647ed91fe6c766cff82cac1e39ebd2c6396af8e3b0eb0764ac38aaba98ef13",
+            "updated_at": "2026-10-21T16:20:18Z"
+        },
+        {
+            "topic_id": "orienteren",
+            "lang": "nl",
+            "html": "<p class=\"empty-step\">Nog niet uitgewerkt.</p>",
+            "content_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+            "updated_at": "2026-10-21T16:20:18Z"
         },
         {
             "topic_id": "over-dit-onderzoekscentrum",
@@ -1579,8 +1742,8 @@
             "niet_bereikbaar": 4,
             "open": 2
         },
-        "page_count": 53,
-        "criterion_record_count": 636,
+        "page_count": 59,
+        "criterion_record_count": 708,
         "claim_annotation_count": 113,
         "dependency_hashes": {
             "main.js": "a22ee5c23d366b385135d6bee36a87d4ef4ed2faee5e24cde13f9c11f0ae0cd4",
@@ -1872,6 +2035,588 @@
             }
         ],
         "records": [
+            {
+                "id": "herkennen",
+                "review_status": "open",
+                "review_scope": "Lege structuur; inhoud, doelen, activiteiten en beoordeling nog uit te werken. Geen inhoudelijke controle uitgevoerd.",
+                "criteria": {
+                    "K01": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K02": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K03": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K04": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K05": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K06": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K07": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K08": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K09": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K10": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K11": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K12": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    }
+                },
+                "claims": [],
+                "review_language": "nl",
+                "last_checked_at": null,
+                "checked_hash": "",
+                "current_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+                "needs_content_review": true
+            },
+            {
+                "id": "begrijpen",
+                "review_status": "open",
+                "review_scope": "Lege structuur; inhoud, doelen, activiteiten en beoordeling nog uit te werken. Geen inhoudelijke controle uitgevoerd.",
+                "criteria": {
+                    "K01": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K02": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K03": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K04": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K05": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K06": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K07": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K08": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K09": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K10": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K11": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K12": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    }
+                },
+                "claims": [],
+                "review_language": "nl",
+                "last_checked_at": null,
+                "checked_hash": "",
+                "current_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+                "needs_content_review": true
+            },
+            {
+                "id": "orienteren",
+                "review_status": "open",
+                "review_scope": "Lege structuur; inhoud, doelen, activiteiten en beoordeling nog uit te werken. Geen inhoudelijke controle uitgevoerd.",
+                "criteria": {
+                    "K01": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K02": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K03": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K04": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K05": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K06": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K07": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K08": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K09": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K10": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K11": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K12": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    }
+                },
+                "claims": [],
+                "review_language": "nl",
+                "last_checked_at": null,
+                "checked_hash": "",
+                "current_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+                "needs_content_review": true
+            },
+            {
+                "id": "handelen",
+                "review_status": "open",
+                "review_scope": "Lege structuur; inhoud, doelen, activiteiten en beoordeling nog uit te werken. Geen inhoudelijke controle uitgevoerd.",
+                "criteria": {
+                    "K01": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K02": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K03": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K04": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K05": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K06": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K07": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K08": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K09": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K10": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K11": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K12": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    }
+                },
+                "claims": [],
+                "review_language": "nl",
+                "last_checked_at": null,
+                "checked_hash": "",
+                "current_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+                "needs_content_review": true
+            },
+            {
+                "id": "afwegen",
+                "review_status": "open",
+                "review_scope": "Lege structuur; inhoud, doelen, activiteiten en beoordeling nog uit te werken. Geen inhoudelijke controle uitgevoerd.",
+                "criteria": {
+                    "K01": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K02": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K03": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K04": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K05": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K06": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K07": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K08": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K09": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K10": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K11": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K12": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    }
+                },
+                "claims": [],
+                "review_language": "nl",
+                "last_checked_at": null,
+                "checked_hash": "",
+                "current_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+                "needs_content_review": true
+            },
+            {
+                "id": "onderzoeken",
+                "review_status": "open",
+                "review_scope": "Lege structuur; inhoud, doelen, activiteiten en beoordeling nog uit te werken. Geen inhoudelijke controle uitgevoerd.",
+                "criteria": {
+                    "K01": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K02": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K03": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K04": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K05": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K06": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K07": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K08": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K09": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K10": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K11": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    },
+                    "K12": {
+                        "status": "open",
+                        "evidence": "Nog niet uitgewerkt of beoordeeld.",
+                        "last_checked_at": null,
+                        "checked_hash": "",
+                        "needs_review": true
+                    }
+                },
+                "claims": [],
+                "review_language": "nl",
+                "last_checked_at": null,
+                "checked_hash": "",
+                "current_hash": "f3e9803c3a3ab4c79017ceeb3dd60cbf59408706efe7575d99d053d6a2185f5f",
+                "needs_content_review": true
+            },
             {
                 "id": "les-de-link",
                 "file": "content/les-de-link.html",
@@ -10384,7 +11129,7 @@
             {
                 "file": "main.js",
                 "checked_hash": "a22ee5c23d366b385135d6bee36a87d4ef4ed2faee5e24cde13f9c11f0ae0cd4",
-                "current_hash": "018c1308a5b0309754fe35b3b85f48a7f7e0a6163483195289422c41b30f4a45",
+                "current_hash": "00cffca7ab571ce3fd604e32ffa11b4da2811891f9c02b8c780f9e5399e59ad6",
                 "needs_review": true
             },
             {
@@ -10396,7 +11141,7 @@
             {
                 "file": "style.css",
                 "checked_hash": "cf0409ff19e25bf786799040f353cba44ce99743856f48064208b30ba39f0716",
-                "current_hash": "a276ea035833f778706bee704c53421cbd238c7e7181ea6cee46d5c6a16722a9",
+                "current_hash": "42941f81d9b89d5c73009e6d064ee49c1e2f8cc5fc57b11fb14a81e02fe3b063",
                 "needs_review": true
             },
             {
@@ -10406,27 +11151,33 @@
                 "needs_review": true
             }
         ],
+        "original_audit_counts": {
+            "pages": 53,
+            "criteria": 636
+        },
+        "unreviewed_page_count": 6,
+        "scope_note": "De oorspronkelijke auditscope betreft het archief van 53 pagina’s. Nieuw aangemaakte lege stappen zijn niet inhoudelijk beoordeeld.",
         "technical_validation": {
-            "validated_at": "2026-10-21T16:12:12+00:00",
-            "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle 53 API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
-            "contents": 54,
-            "topics": 53,
+            "validated_at": "2026-10-21T16:21:57+00:00",
+            "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle geregistreerde API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
+            "contents": 66,
+            "topics": 59,
             "file_hashes": {
-                "index.php": "c54bb3a543cba3942c6242c75fab188c1582dee6cb7fc9ff6dad22d77e1bb9a7",
+                "index.php": "9570ab96fdb87a2e81b569932561bd36fc373e9a2b614e751db090ecc1337068",
                 "api.php": "330743fa164723954f696bcde6632c0288fe77d7e39cd9825475ff20d4efb100",
-                "checks.php": "374574a2108a0489949651862b4e76027faf94f6bdb7c77d2085a15c08a3cedd",
-                "lib/course.php": "5ef35bc60eb518b9ce98aeda30460f2b2f10e878d6d6ace49ef27ad60b8a1ba5",
+                "checks.php": "acedfb2b0c03e4247f0740e84fc067fced5e14e241a07f3b461110e26aa90f15",
+                "lib/course.php": "b66e54b83841636eb3c320d98fd723a78eabb325cf7116b443b106863e161eec",
                 "lib/manage.php": "0eb63f74f9e60a54c485223ca2d6b4eb10792d1e1fc7146419f08087c3678a41",
-                "main.js": "018c1308a5b0309754fe35b3b85f48a7f7e0a6163483195289422c41b30f4a45",
+                "main.js": "00cffca7ab571ce3fd604e32ffa11b4da2811891f9c02b8c780f9e5399e59ad6",
                 "stadia.css": "345f8c7f381f10e680e4d8bf5980e91464c51aee798bad061fa651658aa391ef",
-                "style.css": "a276ea035833f778706bee704c53421cbd238c7e7181ea6cee46d5c6a16722a9",
+                "style.css": "42941f81d9b89d5c73009e6d064ee49c1e2f8cc5fc57b11fb14a81e02fe3b063",
                 ".htaccess": "ee99cc74ba8ad3ac80c744fc276b34014859f8f52f5e098208760a356aba7d77",
                 "styles/composition.css": "b1e987039779eab229fdf19196ca0def4ae976a7e4465d8c9223e74b08faa615",
                 "styles/column.css": "9e65d9747de9b82adcb5a2e65c208593fd0007cb4939e0c1e5bb27e2ed2742b6",
                 "styles/grid.css": "3da00c0df5aae203228b19a8591ca2263163944127ba350188582ed142aacada",
                 "styles/flex.css": "e2c4d070cd0814a22c6a75d9b0de85641d0386113ff7d2127f35e54da8412935",
                 "styles/checks.css": "603a9d3227e979bbbc82636fa20caad237d148258083619314549c5fba7477c4",
-                "tools/validate.php": "d69aa0c8bbcdbe4480db8bfacb773fa974414d1eb24844d100918b99f69a5d71"
+                "tools/validate.php": "6a631cb1c6e016663220be00289cb6a598f6d4eb2da10acb227b32a43aac9335"
             }
         },
         "storage": "SQLite; oorspronkelijke reviewdata blijven behouden bij migratie"

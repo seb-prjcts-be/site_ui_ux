@@ -23,7 +23,7 @@ const i18n = {
         welcomeTitle: "Welkom bij de UI/UX Cursus",
         welcomeText1: "Kies een onderwerp uit het menu om te beginnen, of gebruik de zoekfunctie om specifieke onderwerpen te vinden.",
         welcomeText2: "",
-        welcomeQuote: "Onderzoek hoe interfaces ons handelen, waarnemen en ervaren vormen. Psychologie helpt effecten meten; filosofie en kritisch design helpen de betekenis en wenselijkheid ervan bespreken. Twee lessen zijn uitgewerkt; de overige pagina’s vormen een thematisch bronnenarchief.",
+        welcomeQuote: "Onderzoek hoe interfaces ons handelen, waarnemen en ervaren vormen. Psychologie helpt effecten meten; filosofie en kritisch design helpen de betekenis en wenselijkheid ervan bespreken. De leerlijn staat klaar als zes nog lege stappen. Bestaande teksten blijven beschikbaar in het archief.",
         welcomeQuote2: "",
         welcomeAuthor: "Uitgangspunt van dit onderzoekscentrum",
         fontSizeLabel: "Lettergrootte",
@@ -43,7 +43,8 @@ const i18n = {
         prev: "Vorige",
         next: "Volgende",
         categories: {
-            "Lessen": "Lessen",
+            "Leerlijn": "Leerlijn",
+            "Eerdere uitwerkingen": "Eerdere uitwerkingen",
             "Introductie": "Introductie",
             "Thema 1: Werktuig, lichaam en ruimte (1910–1968)": "1. Werktuig, lichaam en ruimte (1910–1968)",
             "Thema 2: Cognitieve modellen en breakdown (1970–1988)": "2. Cognitieve modellen en breakdown (1970–1988)",
@@ -88,7 +89,7 @@ const i18n = {
         welcomeTitle: "Welcome to the UI/UX Course",
         welcomeText1: "Pick a topic from the menu to get started, or use the search to find specific subjects.",
         welcomeText2: "",
-        welcomeQuote: "Explore how interfaces shape action, perception and experience. Psychology helps measure effects; philosophy and critical design help discuss their meaning and desirability. Two lessons are developed; the other pages form a thematic reference collection. Most articles are currently in Dutch.",
+        welcomeQuote: "Explore how interfaces shape action, perception and experience. Psychology helps measure effects; philosophy and critical design help discuss their meaning and desirability. The learning path contains six empty steps. Existing articles remain available in the archive, mostly in Dutch.",
         welcomeQuote2: "",
         welcomeAuthor: "Starting point of this research centre",
         fontSizeLabel: "Font size",
@@ -108,7 +109,8 @@ const i18n = {
         prev: "Previous",
         next: "Next",
         categories: {
-            "Lessen": "Lessons",
+            "Leerlijn": "Learning path",
+            "Eerdere uitwerkingen": "Earlier explorations",
             "Introductie": "Introduction",
             "Thema 1: Werktuig, lichaam en ruimte (1910–1968)": "1. Tool, body and space (1910–1968)",
             "Thema 2: Cognitieve modellen en breakdown (1970–1988)": "2. Cognitive models and breakdown (1970–1988)",
@@ -868,7 +870,7 @@ function initRouter() {
         } else {
             renderWelcome(); updateActiveNav(null);
             const target = hash ? document.getElementById(hash) : null;
-            if (target) springNaarSectie(target);
+            if (target) { const archive = target.closest('details'); if (archive) archive.open = true; springNaarSectie(target); }
         }
         renderedTopic = hash;
         if (reading && request === navigationRequest) {
@@ -1589,7 +1591,7 @@ async function renderOnderwerp(onderwerp) {
         
         if (request !== courseRenderRequest) return;
         // Render content
-        const tags = getOnderwerpTags(onderwerp);
+        const tags = onderwerp.placeholder ? [] : getOnderwerpTags(onderwerp);
         const tagsSidebarHtml = tags.length > 0 && currentStadium >= 5 ? `
             <aside class="tags-sidebar">
                 <div id="tags-chip-flow" class="tags-chip-flow">
@@ -1600,12 +1602,12 @@ async function renderOnderwerp(onderwerp) {
 
         // Vorige/volgende binnen de zichtbare pagina's; aan het eind van een
         // stadium leidt "volgende" naar de eerste les van het volgende stadium.
-        const lijst = visibleOnderwerpen();
+        const lijst = visibleOnderwerpen().filter(item => (item.categorie === 'Leerlijn') === (onderwerp.categorie === 'Leerlijn'));
         const idx = lijst.indexOf(onderwerp);
         const prev = idx > 0 ? lijst[idx - 1] : null;
         let next = idx >= 0 && idx < lijst.length - 1 ? lijst[idx + 1] : null;
         let nextLabel = t('next');
-        if (!next && inLesmodus()) {
+        if (!next && inLesmodus() && onderwerp.categorie !== 'Leerlijn') {
             next = nextStadiumOnderwerp();
             if (next) nextLabel = t('nextStadium');
         }
@@ -1665,11 +1667,11 @@ async function renderOnderwerp(onderwerp) {
         animatePageIn(content);
         ensureContentAnchors(contentRoot, onderwerp.id);
         initCourseExperiments(contentRoot);
-        initJourneyActivity(contentRoot, onderwerp);
-        appendInterfaceReferences(contentRoot, onderwerp);
+        if (!onderwerp.placeholder) initJourneyActivity(contentRoot, onderwerp);
+        if (!onderwerp.placeholder) appendInterfaceReferences(contentRoot, onderwerp);
         if (getJourneyStep() !== null) contentRoot.insertAdjacentHTML('beforeend', journeyNav(true));
         initDemos(contentRoot);
-        initCompositionComparison(contentRoot);
+        if (!onderwerp.placeholder) initCompositionComparison(contentRoot);
         appendReviewStatus(contentRoot, onderwerp);
         setRelLinks(prev, next);
         document.title = `${topicTitle(onderwerp)} – ${tCat(onderwerp.categorie)} – ${t('siteTitle')}`;
@@ -1792,18 +1794,17 @@ function renderWelcome() {
     const lijst = visibleOnderwerpen();
     const groepen = navCategories
         .map(categorie => ({ categorie, items: lijst.filter(o => o.categorie === categorie) }))
-        .filter(groep => groep.items.length > 0);
+        .filter(groep => groep.items.length > 0 && groep.categorie !== 'Leerlijn');
 
     // De inhoud: een indexpagina zoals de eerste webpagina, elke link met een regel uitleg.
     const indexHtml = `
-        <section class="welcome-index">
-            <h2>${t('indexHeading')}</h2>
+        <details class="welcome-index archive-index"><summary>${currentLang === 'en' ? 'Archive' : 'Archief'}</summary>
             ${groepen.map(groep => `
                 <h3 id="index-${slugify(groep.categorie)}">${escapeHtml(tCat(groep.categorie))}</h3>
                 <ul>
                     ${groep.items.map(o => `<li><a href="#${o.id}">${escapeHtml(topicTitle(o))}</a><br><span class="welcome-index-samenvatting">${escapeHtml(topicSummary(o))}</span></li>`).join('')}
                 </ul>`).join('')}
-        </section>`;
+        </details>`;
 
     const volgendStadium = nextStadiumOnderwerp();
     const volgendHtml = volgendStadium
@@ -1902,13 +1903,14 @@ function buildNav() {
         items: visibleOnderwerpen().filter(onderwerp => onderwerp.categorie === categorie)
     })).filter(group => group.items.length > 0);
 
-    navList.innerHTML = groups.map(group => {
+    navList.innerHTML = groups.map((group, groupIndex) => {
         const groupId = `nav-group-${slugify(group.categorie)}`;
         const itemsMarkup = group.items.map(onderwerp => `
             <li><a href="#${onderwerp.id}">${topicTitle(onderwerp)}</a></li>
         `).join('');
 
         return `
+            ${group.categorie !== 'Leerlijn' && (groupIndex === 0 || groups[groupIndex - 1].categorie === 'Leerlijn') ? `<li class="nav-section-label">${currentLang === 'en' ? 'Archive' : 'Archief'}</li>` : ''}
             <li class="nav-group" data-category="${group.categorie}">
                 <button class="nav-group-toggle" type="button" aria-expanded="false" aria-controls="${groupId}">
                     <span class="nav-group-text">${tCat(group.categorie)}</span>
@@ -2169,7 +2171,8 @@ function journeyExitUrl() {
 }
 
 function journeyInvitation() {
-    return `<section class="journey-invitation"><h2>Lessen</h2><p>Begin met de link en onderzoek daarna hoe ordening je weg bepaalt. Je hebt een browser en een notitieblad nodig; programmeerkennis is voor deze twee lessen niet vereist.</p><p><a href="${journeyUrl(0)}">Les 1: De link</a></p><p><a href="${journeyUrl(1)}">Les 2: Koppen en de lijst</a></p></section>`;
+    const steps = onderwerpen.filter(topic => topic.categorie === 'Leerlijn');
+    return `<section class="journey-invitation" id="index-leerlijn"><h2>${currentLang === 'en' ? 'Learning path' : 'Leerlijn'}</h2><p>${currentLang === 'en' ? 'Six steps, ready to be developed.' : 'Zes stappen, klaar om uit te werken.'}</p><ol class="learning-path">${steps.map(topic => `<li><a href="#${topic.id}">${escapeHtml(topicTitle(topic))}</a><span>${currentLang === 'en' ? 'Not developed yet' : 'Nog niet uitgewerkt'}</span></li>`).join('')}</ol></section>`;
 }
 
 function journeyNav(bottom = false) {
@@ -2500,6 +2503,11 @@ async function appendReviewStatus(root, topic) {
         const review = await response.json();
         if (!root.isConnected) return;
         const date = document.createElement('p');
+        if (topic.placeholder) {
+            date.textContent = currentLang === 'en' ? 'Empty step. Content and review are still open.' : 'Lege stap. Inhoud en beoordeling staan nog open.';
+            note.append(date);
+            return;
+        }
         date.textContent = currentLang === 'en'
             ? `Last review of the Dutch source: ${review.last_checked_at || 'not recorded'}. ${review.needs_content_review ? 'Content changed since this review.' : 'The content matches the reviewed version.'}`
             : `Laatste paginareview (NL): ${review.last_checked_at || 'niet vastgelegd'}. ${review.needs_content_review ? 'Inhoud gewijzigd sinds deze controle: hercontrole nodig.' : 'De inhoud komt overeen met de beoordeelde versie.'}`;

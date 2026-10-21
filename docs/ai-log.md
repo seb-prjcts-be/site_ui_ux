@@ -580,3 +580,7 @@ Technische eindvalidatie: alle 53 inhoudsfragmenten HTTP 200 en alle 53 unieke r
 ## 2026-10-21 - Witte standaardstijl
 
 Instrument Sans, rustige typografische hiërarchie, lichtere kaders, zichtbare focus en directe weergave van pagina/menu/zoekresultaten toegepast op verzoek. Bootstrap- en code-iconen behouden hun eigen lettertype; code blijft monospace. Inhoud en reviewdatums behouden. Technische controle afzonderlijk vernieuwd.
+
+## 2026-10-21 - Lege leerlijn en bestaand archief
+
+Seb koos expliciet voor zes lege stappen met behoud van de bestaande inhoud als archief. Herkennen, Begrijpen, Oriënteren, Handelen, Afwegen en Onderzoeken bestaan als SQLite-items met lege inhoudsstatus, NL/EN en 12 open criteria zonder controledatum. De oorspronkelijke 53 inhoudsversies en reviews blijven behouden. Lessen is vervangen door Leerlijn; de twee vroegere items staan onder Eerdere uitwerkingen met hun bestaande adressen. De homepage zet de zes stappen voorop en het archief is uitklapbaar. Vorige/volgende blijft binnen leerlijn of archief.

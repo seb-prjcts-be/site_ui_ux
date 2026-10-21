@@ -13,6 +13,13 @@ het raster kan zichtbaar worden gemaakt. Onder Regels staan de uitgangspunten en
 
 ## Inhoud
 
+De startpagina toont zes bestaande, nog lege stappen onder Leerlijn: Herkennen,
+Begrijpen, Oriënteren, Handelen, Afwegen en Onderzoeken. De oorspronkelijke 53
+onderwerpen blijven als archief beschikbaar. De vroegere categorie Lessen heet
+Eerdere uitwerkingen; oude adressen blijven behouden. Voor de nieuwe stappen
+staan de inhoudelijke beoordeling en alle criteria open, zonder controledatum.
+
+
 Dertien groepen: Lessen, Introductie, zes historische thema’s, Kennis als UX,
 Proefschriften, Bronnen, Werkplaats en Overzicht. De actuele titels en toewijzing
 staan in SQLite (`topics` en `categories`). Twee lessen zijn uitgewerkt; de andere pagina’s zijn een

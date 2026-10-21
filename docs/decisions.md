@@ -351,3 +351,7 @@ Alle 53 onderwerpen, categorieën, taalversies en controles staan voortaan in SQ
 ### 2026-10-21 - Standaardstijl 1: wit en Instrument Sans
 
 Op verzoek van Seb krijgt de standaardweergave een minimaal hedendaags ontwerp: wit, Instrument Sans, donkere tekst en subtiele lijnen. Gewone hoofdletters vervangen de kapitalenstijl; koppen en leesbreedte dragen de hiërarchie. Decoratieve GSAP-entrees staan uit via --interface-motion, zonder onderwijsdemo’s te wijzigen. De drie composities delen deze basis; stadia 0-3 behouden de browserweergave. Inhoud en wetenschappelijke controledatums zijn niet gewijzigd.
+
+## 2026-10-21 - Lege leerlijn en bestaand archief
+
+Seb koos expliciet voor zes lege stappen met behoud van de bestaande inhoud als archief. Herkennen, Begrijpen, Oriënteren, Handelen, Afwegen en Onderzoeken bestaan als SQLite-items met lege inhoudsstatus, NL/EN en 12 open criteria zonder controledatum. De oorspronkelijke 53 inhoudsversies en reviews blijven behouden. Lessen is vervangen door Leerlijn; de twee vroegere items staan onder Eerdere uitwerkingen met hun bestaande adressen. De homepage zet de zes stappen voorop en het archief is uitklapbaar. Vorige/volgende blijft binnen leerlijn of archief.

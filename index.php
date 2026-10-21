@@ -34,7 +34,7 @@ header('Cache-Control: no-cache');
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=optional">
-    <link id="style-main" rel="stylesheet" href="style.css?v=20261021-instrument-2">
+    <link id="style-main" rel="stylesheet" href="style.css?v=20261021-leerlijn1">
     <link rel="stylesheet" href="stadia.css?v=20261021-themas">
     <link id="style-composition" rel="stylesheet" href="styles/composition.css?v=instrument1">
     <link id="style-kolom" rel="stylesheet" href="styles/column.css?v=sqlite1">
@@ -82,6 +82,6 @@ header('Cache-Control: no-cache');
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>window.COURSE_DATA = <?= json_encode($bootstrap, JSON_THROW_ON_ERROR | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;</script>
-    <script src="main.js?v=20261021-instrument1"></script>
+    <script src="main.js?v=20261021-leerlijn2"></script>
 </body>
 </html>
