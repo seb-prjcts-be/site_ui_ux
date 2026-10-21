@@ -11141,7 +11141,7 @@
             {
                 "file": "style.css",
                 "checked_hash": "cf0409ff19e25bf786799040f353cba44ce99743856f48064208b30ba39f0716",
-                "current_hash": "dd5b71bbd30017e1268dff39b342b5acc62a6b8c09500747218dd03ac747b7dd",
+                "current_hash": "f24f2ea3face9a8499d903897a06abf0a7d69206e0bcc674a8b4e617883b9e09",
                 "needs_review": true
             },
             {
@@ -11158,19 +11158,19 @@
         "unreviewed_page_count": 6,
         "scope_note": "De oorspronkelijke auditscope betreft het archief van 53 pagina’s. Nieuw aangemaakte lege stappen zijn niet inhoudelijk beoordeeld.",
         "technical_validation": {
-            "validated_at": "2026-10-21T16:26:34+00:00",
+            "validated_at": "2026-10-21T16:27:22+00:00",
             "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle geregistreerde API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
             "contents": 66,
             "topics": 59,
             "file_hashes": {
-                "index.php": "ce5e27764c09eb6a3d0077e87ec8b9f8421dc9ab64dddcdff35db5965da5e0c8",
+                "index.php": "74a1bd3cc7b0f9f2313ffff9032ee33e4b6b6607b0d784b9268072e9e0b769c5",
                 "api.php": "330743fa164723954f696bcde6632c0288fe77d7e39cd9825475ff20d4efb100",
                 "checks.php": "acedfb2b0c03e4247f0740e84fc067fced5e14e241a07f3b461110e26aa90f15",
                 "lib/course.php": "b66e54b83841636eb3c320d98fd723a78eabb325cf7116b443b106863e161eec",
                 "lib/manage.php": "0eb63f74f9e60a54c485223ca2d6b4eb10792d1e1fc7146419f08087c3678a41",
                 "main.js": "00cffca7ab571ce3fd604e32ffa11b4da2811891f9c02b8c780f9e5399e59ad6",
                 "stadia.css": "345f8c7f381f10e680e4d8bf5980e91464c51aee798bad061fa651658aa391ef",
-                "style.css": "dd5b71bbd30017e1268dff39b342b5acc62a6b8c09500747218dd03ac747b7dd",
+                "style.css": "f24f2ea3face9a8499d903897a06abf0a7d69206e0bcc674a8b4e617883b9e09",
                 ".htaccess": "ee99cc74ba8ad3ac80c744fc276b34014859f8f52f5e098208760a356aba7d77",
                 "styles/composition.css": "b1e987039779eab229fdf19196ca0def4ae976a7e4465d8c9223e74b08faa615",
                 "styles/column.css": "9e65d9747de9b82adcb5a2e65c208593fd0007cb4939e0c1e5bb27e2ed2742b6",

@@ -34,7 +34,7 @@ header('Cache-Control: no-cache');
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=optional">
-    <link id="style-main" rel="stylesheet" href="style.css?v=20261021-header20">
+    <link id="style-main" rel="stylesheet" href="style.css?v=20261021-header20vh">
     <link rel="stylesheet" href="stadia.css?v=20261021-themas">
     <link id="style-composition" rel="stylesheet" href="styles/composition.css?v=instrument1">
     <link id="style-kolom" rel="stylesheet" href="styles/column.css?v=sqlite1">
