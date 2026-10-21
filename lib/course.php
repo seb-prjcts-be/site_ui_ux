@@ -138,9 +138,10 @@ function course_reviews(PDO $db): array
     $audit['dependency_review'] = course_dependencies($db);
     $audit['original_audit_counts'] = ['pages' => $audit['page_count'] ?? null, 'criteria' => $audit['criterion_record_count'] ?? null];
     $audit['page_count'] = count($audit['records']);
+    $audit['claim_annotation_count'] = array_sum($audit['claim_status_counts']);
     $audit['criterion_record_count'] = array_sum(array_map(static fn(array $record): int => count($record['criteria']), $audit['records']));
     $audit['unreviewed_page_count'] = count(array_filter($audit['records'], static fn(array $record): bool => $record['last_checked_at'] === null));
-    $audit['scope_note'] = 'De oorspronkelijke auditscope betreft het archief van 53 pagina’s. Nieuw aangemaakte lege stappen zijn niet inhoudelijk beoordeeld.';
+    $audit['scope_note'] = 'De oorspronkelijke auditscope betreft het archief van 53 pagina’s. De zes praktijkonderwerpen hebben afzonderlijke scope, controledatums en open punten.';
     $audit['technical_validation'] = course_meta($db, 'technical_validation');
     $audit['storage'] = 'SQLite; oorspronkelijke reviewdata blijven behouden bij migratie';
     return $audit;

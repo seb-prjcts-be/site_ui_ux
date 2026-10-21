@@ -1,211 +1,68 @@
-# UI/UX Cursus Website
+# UI/UX - audiovisueel onderzoeksatelier
 
-Een website met PHP en SQLite die begint als onderzoekscentrum over UI/UX en uitgroeit tot een cursus voor hogeschoolstudenten in een kunstopleiding.
-Gebouwd met PHP, SQLite, HTML, CSS en JavaScript. Het menu, de styling en het systeem (router, zoekfunctie, trefwoordenkolom,
-NL/EN, lettergrootte) zijn overgenomen van de p5.js Cursus-site.
-
-Het inhoudsoverzicht, de voorgestelde leerlijn en de open bespreekpunten staan in [leerplan.md](leerplan.md).
-
-Vanaf de vormgegeven interface staan boven de inhoud de standen Kolom, Raster en Flexibel.
-[Open de vergelijking](http://localhost/cursus_UI_UX/index.html?reis=4&compositie=raster#esthetiek-en-bruikbaarheid).
-De standen gebruiken dezelfde inhoud en beschikbare breedte. Flexibel heeft twee verdelingen;
-het raster kan zichtbaar worden gemaakt. Onder Regels staan de uitgangspunten en boekverwijzingen.
+Een leeromgeving voor kunststudenten die zelf onderzoeken en maken. De site
+vertrekt vanuit beeld, kleur, tijd, montage en geluid. Praktijk biedt een concrete
+ingang; theorie blijft ook zelfstandig toegankelijk als denkoefening en inspiratie.
 
 ## Inhoud
 
-De startpagina toont zes bestaande, nog lege stappen onder Leerlijn: Herkennen,
-Begrijpen, Oriënteren, Handelen, Afwegen en Onderzoeken. De oorspronkelijke 53
-onderwerpen blijven als archief beschikbaar. De vroegere categorie Lessen heet
-Eerdere uitwerkingen; oude adressen blijven behouden. Voor de nieuwe stappen
-staan de inhoudelijke beoordeling en alle criteria open, zonder controledatum.
+Zes maakproeven met werkvlak, variant A bewaren/terughalen, beginstand, opdracht,
+observeerbaar doel, beoordelingsbewijs, zelfcontrole en gerichte onderzoekslinks:
 
+- Beeld en kadering: uitsnede wijzigen, eventueel met een eigen lokaal beeld.
+- Kleur en contrast: kleur, tekst en teken vergelijken.
+- Tijd en beweging: lokale wachttijd en tussenstaat onderzoeken.
+- Montage en volgorde: drie kaders herordenen met knoppen.
+- Geluid en reactie: zichtbare feedback, met een bewust ingeschakelde korte toon.
+- Beeld wordt interface: een aanwijzing vergelijken en een beeldvergroting openen.
 
-Dertien groepen: Lessen, Introductie, zes historische thema’s, Kennis als UX,
-Proefschriften, Bronnen, Werkplaats en Overzicht. De actuele titels en toewijzing
-staan in SQLite (`topics` en `categories`). Twee lessen zijn uitgewerkt; de andere pagina’s zijn een
-bronnenarchief en losse onderzoeksoefeningen. De periodes zijn zwaartepunten,
-geen gesloten tijdvakken. De selectie proefschriften bevat ook sleutelstudies;
-niet elk bronrecord is al rechtstreeks gelinkt.
+Alle 53 bestaande onderzoeksinhouden blijven behouden, inclusief bronnen,
+kanttekeningen en controlehistoriek. Nieuwe tekst, code en schematische beelden
+zijn voor dit project gemaakt; er is geen materiaal van de referentiesites gekopieerd.
 
-## Interfaceweergaven
+Eigen PNG/JPEG/WebP-beelden tot 10 MB blijven lokaal; geen upload, opname of
+antwoordenregistratie. Variant A vervalt bij het verlaten van het onderwerp.
 
-`index.html?reis=0#les-de-link` opent de eenvoudige tekstweergave.
-De bestaande parameter `reis=0..7` blijft behouden voor opgeslagen adressen.
-Vorige en volgende verbinden de onderwerpen in een vaste volgorde. Onder
-“Dezelfde pagina, andere weergave” zijn alle acht weergaven bereikbaar.
+## Interface
 
-Een wissel wordt binnen het huidige document uitgevoerd. De tekst blijft gelijk,
-de leespositie wordt aan een bestaande sectie gekoppeld en open onderdelen blijven
-open. Terug en vooruit in de browser werken ook tussen weergaven. Proefkeuzes van
-linkteksten en indexordening gelden voor dezelfde pagina in alle weergaven en
-blijven tijdelijk in het tabblad bewaard. Antwoorden worden niet opgeslagen.
+Wit, Instrument Sans, donkere hoofdkleur en roze accent. De publicatieopening
+verbindt zes praktijkingangen met vrij verkennen. Contextbediening werkt met
+muis, toetsenbord en aanraking. Op een smal scherm is het menu inklapbaar;
+een onderwerpkeuze verplaatst de focus naar de inhoud.
 
-Bij de onderwerpen staan verwijzingen naar Olia Lialina, JODI en Nutshell.
-In de eerste vier weergaven zijn dat tekstlinks. Vanaf de vormgegeven weergave
-verschijnen de bestaande schermafbeeldingen uit `assets/referentie/`, met maker
-en bron. De uitvoerige referentiepagina wordt niet met dezelfde beelden aangevuld.
-De oorspronkelijke bestanden in `content/` zijn voor deze aanpassing niet gewijzigd.
+De diagonale pijl rechts opent Weergave. Compositie, kleuren, typografie en ruimte
+zijn live aanpasbaar. Persoonlijke CSS-proeven worden lokaal bewaard, zijn te
+herstellen en te exporteren. De standaard en cursusinhoud worden niet gewijzigd.
+De schuifbeweging van 350 ms respecteert de voorkeur voor minder beweging.
 
-## Stadia: een interface per les
+Bestaande hashadressen, index.html en reis=0..7 blijven werken. De zes
+praktijkonderwerpen behouden hun eerdere stapadressen. Historische
+interfacecondities en tekstweergaven blijven beschikbaar als onderzoeksmateriaal.
 
-De vastgelegde leerlijn staat in `docs/decisions.md` onder "Leerlijn voor hogeschoolstudenten".
-Elke fase vertrekt van een ervaren ontwerpprobleem, gevolgd door onderzoek, theorie,
-een ontwerpinterventie en een beargumenteerde reflectie. De acht fasen zijn het
-programma; de eerste twee lespagina's zijn uitgewerkt op hogeschoolniveau met
-onderzoeksopdrachten op de cursuswebsite zelf. Lessen voor stadia 2-7 zijn nog
-werkvoorraad. De technische stadia zijn experimentele condities, geen rangorde
-van betere websites. Essentiële toegankelijkheid en een betrouwbare terugweg zijn
-voorwaarden voor de verdere uitwerking.
+## Starten en beheren
 
-Elke les heeft een `stadium` (0 Tekst, 1 Lijst, 2 Navigatie, 3 Zoeken, 4 Stijl, 5 Verwantschap, 6 Voorkeuren, 7 Kennis als UX).
-In lesmodus ziet een leerling alleen de interface van zijn stadium en alleen lessen tot en met zijn voortgang.
+Start Apache met PHP 8.2+ en PDO SQLite en open:
+http://localhost/cursus_UI_UX/?stadium=alles
 
-- Start lesmodus: `index.html?stadium=0` (de voortgang wordt in `localStorage` bewaard en groeit mee met de lessen).
-- Terug naar de volledige site: `index.html?stadium=alles`.
-- Zichtbaarheid per stadium: `stadia.css`. De huisstijl en Bootstrap worden pas vanaf stadium 4 geladen.
-- Onderzoekspagina's zonder `stadium` staan op 7.
+Gebruik de meegeleverde actieve database. Init is geen normale startstap.
+Apache verwerkt .htaccess en mod_rewrite; database en beheerbestanden zijn
+via HTTP afgeschermd. Geen buildstap of nieuwe frameworkinstallatie.
+Bootstrap 5.3.3 verzorgt het weergavepaneel.
 
-Het navigatiesysteem (kruimelpad, stapteller, vorige/volgende, `link rel="prev/next"`, pijltoetsen) werkt in elk stadium.
-Zie de pagina Pad en stap (`content/pad-en-stap.html`).
+De actieve inhoudsbron is data/private/course.sqlite. PHP levert inhoud en reviews;
+main.js verzorgt navigatie en practice.js de lokale maakproeven.
+Zie [SQLite-beheer](docs/sqlite-beheer.md) voor beheer, back-ups en herstel.
 
-De regels voor nieuw materiaal staan op de pagina Ordeningsprincipes (`content/ordeningsprincipes.html`).
-Brondocumenten staan in `data/bronnen/`.
+## Kwaliteit
 
-## Installatie onder XAMPP
+checks.php toont beoordeelde versies, datums, scope en open werk. De zes
+praktijkpagina's hebben een begrensde AI-review. Onafhankelijke vakreview,
+volledige toegankelijkheidsconformiteit en leerwinst zijn niet vastgesteld.
+Technische controles vernieuwen geen inhoudelijke controledatums.
 
-1. Zorg dat deze map onder `htdocs` staat (bv. `C:\server\htdocs\cursus_UI_UX`).
-2. Start Apache in het XAMPP Control Panel.
-3. Open `http://localhost/cursus_UI_UX/`.
+Controles vanuit de projectmap: node tests/practice.cjs, PHP tests/migration.php
+en PHP tools/validate.php. Gebruik lokaal C:/server/php/php.exe als runtime.
+De migratietest gebruikt een tijdelijke database; de HTTP-controle verifieert
+alle 59 onderwerpen. Browserproeven en beperkingen staan in docs/ai-log.md.
 
-PHP 8.2+ met PDO SQLite is vereist. Er is geen buildstap, Node.js of bundler nodig. Apache verwerkt de meegeleverde .htaccess-regels. De actieve database is al opgenomen; voer init niet uit bij normaal gebruik.
-
-## Structuur
-
-De actieve bron is `data/private/course.sqlite`. `index.php` levert de shell,
-`api.php` levert inhoud en reviews, `checks.php` toont controledatums. De oude
-HTML-bestanden blijven herstel-/imports snapshots. Zie [SQLite-beheer](docs/sqlite-beheer.md)
-voor structuur, CLI-opdrachten, tests en herstel.
-
-
-## Functionaliteiten
-
-- **Navigatie**: sidebar met uitklapbare categorieën, hash-based routing (`#voorbeeld-onderwerp`).
-- **Zoekfunctie**: client-side zoeken in titels, samenvattingen en tags, met highlights.
-- **Trefwoordenkolom**: rechterkolom met de tags van het onderwerp; klik op een tag voor gerelateerde secties en onderwerpen.
-- **Tweetalig**: NL/EN-knop in de header; EN-content komt uit SQLite, met terugval op NL.
-- **Lettergrootte**: drie standen, bewaard in `localStorage`.
-- **Vorige/volgende**: onderaan elke onderwerppagina, in de onderwerpvolgorde uit SQLite.
-- **Animaties**: GSAP voor het zacht binnenkomen van pagina's, menu-items en zoekresultaten. Valt stil terug zonder GSAP of bij `prefers-reduced-motion`.
-- **Demo's**: een contentblok met `data-demo="naam"` wordt na het renderen geactiveerd door `demos[naam]` in `main.js`. Zo blijft content statische HTML en staat gedrag op één plek.
-
-## Nieuw onderwerp toevoegen
-
-1. Maak `content/mijn-onderwerp.html` aan. Kopieer `content/voorbeeld-onderwerp.html` als vertrekpunt.
-2. Maak eventueel `content/en/mijn-onderwerp.html` aan voor de Engelse versie.
-3. Voeg het onderwerp toe aan de `onderwerpen`-array in `main.js`:
-
-```javascript
-{
-    id: "mijn-onderwerp",
-    titel: "Mijn onderwerp",
-    samenvatting: "Korte beschrijving voor zoekresultaten en navigatie.",
-    en: {
-        titel: "My topic",
-        samenvatting: "Short description for search results and navigation."
-    },
-    tags: ["tag1", "tag2", "tag3"],
-    contentFile: "content/mijn-onderwerp.html",
-    categorie: "Introductie"
-}
-```
-
-4. Gebruik je een nieuwe categorie, voeg ze dan toe aan `navCategories` én aan `i18n.nl.categories` en `i18n.en.categories`.
-5. Nieuwe NL-tags die een Engelse vertaling nodig hebben, komen in `tagTranslations`.
-
-## Visuele ankers in content
-
-```html
-<div class="intro"><p>Korte inleiding...</p></div>
-
-<div class="kernpunten">
-    <span class="kernpunten-label">Kernpunten</span>
-    <ul><li>...</li></ul>
-</div>
-
-<section>
-    <h2>Sectietitel</h2>
-    <p>...</p>
-</section>
-
-<aside class="callout callout--tip">       <!-- ook: callout--weetje, callout--let-op -->
-    <span class="callout-label">Tip</span>
-    <p>...</p>
-</aside>
-
-<ol class="stappen"><li>...</li></ol>
-
-<div class="voorbeeld"><h3>Voorbeeld</h3><p>...</p></div>
-
-<hr class="sectie-scheider">
-```
-
-Een onderwerp kan ook uit JSON komen via `dataFile` in plaats van `contentFile`; `renderTopicFromJson` in `main.js`
-rendert dan secties, leerdoelen en oefeningen per niveau (Nabootsen, Variëren, Creëren).
-
-## Huisstijl
-
-Witte standaardinterface met Instrument Sans voor tekst, koppen en bediening.
-Donkere tekst, subtiele grijze lijnen, onderstreepte tekstlinks en zichtbare toetsenbordfocus.
-Geen decoratieve entreeanimaties; onderwijsdemo’s behouden hun werking. De browser gebruikt
-zo nodig het systeemlettertype zonder te wachten op de webfont (`display=optional`).
-
-## Licentie
-
-Deze cursus website is gemaakt voor educatieve doeleinden.
-
-
-## Wetenschappelijke en didactische kwaliteitscontrole
-
-Het gepubliceerde kader staat op `index.html#ordeningsprincipes` (versie 1.0).
-`project.json` verwijst naar het kader en het reviewregister; `AI_RULES.md`
-verplicht de controle bij inhoudelijke wijzigingen. Het register bevat per
-onderwerppagina de status, bevindingen en SHA-256 van de beoordeelde versie.
-Een andere hash betekent dat de eerdere dekking opnieuw moet worden bekeken.
-De status is geen keurmerk. De actuele inhoudsronde omvat alle 53 pagina’s; gerichte bronpassages zijn gecontroleerd, niet iedere claim. Onafhankelijke vakreview, volledige claimdekking, menselijke toegankelijkheidstests en leeronderzoek blijven open. Bronnotities en de historische nulmeting staan in `data/bronnen/`.
-
-
-Actuele versieverschillen en open controles staan op [checks.php](http://localhost/cursus_UI_UX/checks.php)
-en in `tools/course.php status`. Beheercommando's bewaren afzonderlijke datums,
-beoordeelde hashes, reviewer, onderbouwing en historie. Zie [SQLite-beheer](docs/sqlite-beheer.md).
-De migratie heeft bestaande controledatums behouden. Technische tests zijn geen
-nieuwe wetenschappelijke broncontrole; de drie aangepaste beheerpagina's staan
-terecht als gewijzigd sinds de inhoudelijke review geregistreerd.
-
-## Weergavepaneel
-
-De knop Weergave opent rechts de bestaande Bootstrap Offcanvas-component.
-Compositie, rasterlijnen en uitleg staan hier, buiten het leesvlak. Zes schuiven
-regelen lettergrootte, regelafstand, tekstbreedte, bovenruimte, paginamarge en
-sectieafstand via CSS-variabelen. Persoonlijke proefwaarden worden in localStorage
-bewaard. Herstel standaard wist deze waarden en herstelt Kolom zonder rasterlijnen.
-Exporteer CSS downloadt de aangepaste variabelen; het bestand is bedoeld om naast
-de site-stylesheets te gebruiken. De gepubliceerde standaard en SQLite-inhoud
-worden niet gewijzigd. Bootstrap blijft op de bestaande versie 5.3.3.
-Op brede schermen blijft de pagina bedienbaar; onder 1100px gebruikt het paneel
-een achtergrond en modale toetsenbordbediening. Escape sluit het paneel.
-
-Het paneel schuift in 350 ms zoals het constellation-paneel op de eigen site.
-De pagina maakt gelijktijdig ruimte. Bij minder-bewegenvoorkeur valt de overgang
-weg. Sectieanker, toetsenbordfocus en waarden met eenheid horen bij de werking:
-de interface zelf dient als UX-voorbeeld.
-
-Onder Kleuren in Weergave zijn hoofdkleur (#202124) en accentkleur (#FF007D)
-aanpasbaar. Beide worden lokaal bewaard, hersteld en als CSS-variabelen geëxporteerd.
-
-## Startpagina als publicatie
-
-De volledige weergave opent met sterke typografie, de zes lege stappen en een
-bestaand archiefonderwerp. Een schematische deur laat greep en plaat wisselen;
-de bediening verschijnt bij aanwijzen of toetsenbordfocus en blijft op aanraking
-zichtbaar. Vrij verkennen opent het volledige archief. De eenvoudige stadia
-behouden hun tekstindex. De startpagina voegt geen leerresultaten of bronclaims toe.
+De inhoudelijke richting en historische voorstellen staan in leerplan.md.

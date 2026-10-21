@@ -35,13 +35,14 @@ header('Cache-Control: no-cache');
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=optional">
     <link id="style-main" rel="stylesheet" href="style.css?v=20261021-palette1">
-    <link rel="stylesheet" href="stadia.css?v=20261021-themas">
+    <link rel="stylesheet" href="stadia.css?v=20261021-practice">
     <link id="style-composition" rel="stylesheet" href="styles/composition.css?v=instrument1">
     <link id="style-kolom" rel="stylesheet" href="styles/column.css?v=sqlite1">
     <link id="style-raster" rel="stylesheet" href="styles/grid.css?v=sqlite1">
     <link id="style-flexibel" rel="stylesheet" href="styles/flex.css?v=sqlite1">
     <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=arrow1">
-    <link id="style-home" rel="stylesheet" href="styles/home.css?v=2">
+    <link id="style-home" rel="stylesheet" href="styles/home.css?v=3">
+    <link id="style-practice" rel="stylesheet" href="styles/practice.css?v=4">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 </head>
 <body>
@@ -62,7 +63,7 @@ header('Cache-Control: no-cache');
         </div>
     </header>
 
-    <nav id="main-nav">
+    <nav id="main-nav" aria-label="Onderwerpen"><button id="compact-menu-toggle" type="button" hidden aria-expanded="false" aria-controls="nav-list">Onderwerpen <span aria-hidden="true">＋</span></button>
         <h2>Onderwerpen</h2>
         <ul id="nav-list"><?php foreach ($bootstrap['categories'] as $category): ?><li><strong><?= course_e($category) ?></strong><ul><?php foreach ($bootstrap['topics'] as $topic): if ($topic['categorie'] !== $category) continue; ?><li><a href="index.php?topic=<?= course_e($topic['id']) ?>"><?= course_e($topic['titel']) ?></a></li><?php endforeach; ?></ul></li><?php endforeach; ?></ul>
     </nav>
@@ -95,7 +96,8 @@ header('Cache-Control: no-cache');
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>window.COURSE_DATA = <?= json_encode($bootstrap, JSON_THROW_ON_ERROR | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;</script>
+    <script src="practice.js?v=2"></script>
     <script src="view-panel.js?v=arrow1"></script>
-    <script src="main.js?v=20261021-publication2"></script>
+    <script src="main.js?v=20261021-practice3"></script>
 </body>
 </html>

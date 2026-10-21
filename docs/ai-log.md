@@ -604,3 +604,34 @@ Op verzoek zijn verklarende alinea’s, Regels en lege-inhoudinstructies uit Wee
 ## 2026-10-21 - Eerste scherm als kunstpublicatie
 
 Op basis van Sebs keuzes: kunststudent als onderzoeker/maker, rust en nieuwsgierigheid, een ontdekkend instrument met sterke publicatietypografie. Startpagina met twee ingangen: zes lege stappen en vrij verkennen. De bestaande Norman-deur is het eerste archiefvoorbeeld; een expliciet schematische tekening wisselt tussen greep en plaat. Contextbediening werkt met aanwijzen, focus en aanraking. Geen ingevulde nieuwe stappen of nieuwe wetenschappelijke claims. Het inhoudsmenu en zoeken blijven op onderwerpbladzijden beschikbaar; het archief staat op de startpagina uitklapbaar. Browsercontrole: twee objecttoestanden, archiefanker en openen, zes stappen, terugkeer naar onderwerpweergave en geen horizontale overflow op het gecontroleerde scherm.
+
+## 2026-10-21 - Zes audiovisuele praktijkonderwerpen
+
+Op verzoek van Seb zijn de zes lege stappen uitgewerkt als Beeld en kadering,
+Kleur en contrast, Tijd en beweging, Montage en volgorde, Geluid en reactie en
+Beeld wordt interface. Bestaande adressen behouden; categorie heet Praktijk.
+Alle 53 onderzoeksinhouden en oorspronkelijke reviews zijn byte-/recordgewijs
+vergeleken met de vorige commit en behouden. Onderzoek & inspiratie blijft vrij
+bereikbaar; elke maakproef heeft eigen gerichte verbindingen.
+
+Eigen SVG-beeldstudie en oorspronkelijke tekst/code; geen tekst, code of beelden
+van de twee referentiesites gekopieerd. Praktijk biedt het werkvlak eerst, met
+maakopdracht, doel, beoordelingsbewijs, zelfcontrole en beperkingen op verzoek.
+Variant A werkt in geheugen; eigen beeld via object-URL, geen upload. Geluid
+standaard uit; alleen korte toon na bewuste keuze en klik. Timers, object-URL,
+audio en beeldvenster worden bij navigatie opgeruimd.
+
+Verificatie: Node-syntax en modeltests (uitsnedegrenzen en omkeerbare volgorde),
+geïsoleerde migratietest, inhouds-/reviewbehoud, nieuwe interne links en HTTP-
+controle op alle 59 onderwerpen. Browser: zes werkvlakken; kadering bewaren,
+veranderen en terughalen; kleurtekst omschakelen; beeldvolgorde met focusterugkeer;
+tussenstaat en voltooiing; stille en expliciet hoorbare bevestiging; beeldvenster
+met Escape en focusherstel. 390px in een tijdelijk lokaal iframe bekeken;
+menu open/dicht en onderwerpkeuze met focus op de nieuwe titel gecontroleerd.
+
+De zes pagina's hebben 72 afzonderlijke criteriumbeoordelingen; K12 blijft open.
+Drie bronpassages geopend: W3C Understanding 1.4.1 en 4.1.3 (Success Criterion en
+Intent), MDN Web Audio API (concepts and usage). Dit is geen onafhankelijke
+vakreview, conformiteitsverklaring of leerwinstmeting. Open: docentcontrole,
+uitgewerkte rubric met voorbeeldprestaties, native bestandskiezer-/beelddecodeproef,
+volledige toetsenbord-/zoom-/schermlezer-/contrastreview en leeronderzoek.

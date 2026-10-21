@@ -2,7 +2,22 @@
 
 Werkdocument, 21 oktober 2026. Voor de ontwikkeling en bespreking van de cursus, niet als tekst voor de studenteninterface. Dit document beschrijft wat er nu staat, legt de zes chronologische thema's vast waarin filosofie en psychologie elkaar onderbouwen of tegenspreken, en werkt het voorstel uit voor sleepbare p5.js-schetsen.
 
-## Actueel onderzoeksvoorstel - aansluiten op de eigen praktijk
+## Uitgevoerde praktijkrichting - 21 oktober 2026
+
+De zes lege items zijn uitgewerkt als concrete maakproeven: beeld en kadering,
+kleur en contrast, tijd en beweging, montage en volgorde, geluid en reactie,
+en beeld wordt interface. Hun bestaande adressen blijven behouden. De praktijk
+is de ingang; de oorspronkelijke 53 onderzoeksinhouden blijven ongewijzigd als
+zelfstandige denkoefeningen en inspiratie, met gerichte verbindingen per proef.
+
+Alle zes hebben een werkend instrument, doel, opdracht, bewijs, zelfcontrole en
+expliciete grenzen. De startpagina gebruikt een eigen beeldstudie; er is geen
+materiaal van de referentiesites gekopieerd. De technische werking en begrensde
+AI-review zijn vastgelegd in SQLite. Docentcontrole, volledige toegankelijkheids-
+review en onderzoek naar leerresultaten staan open. Het onderstaande onderzoek
+en eerdere voorstellen blijven ontwikkelgeschiedenis, geen extra uitvoeringsplan.
+
+## Onderzoeksvoorstel - aansluiten op de eigen praktijk
 
 21 oktober 2026. Inhoudelijke vergelijking op verzoek van Seb; voorstel, nog geen
 nieuwe cursusinhoud of goedgekeurde vervanging van de zes lege stappen. De eerdere

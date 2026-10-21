@@ -294,3 +294,5 @@ html[data-stadium="7"] .interface-references ul { display: grid; grid-template-c
 
 /* Vormgevingsgereedschap hoort niet bij de eenvoudige browsercondities. */
 html:is([data-stadium="0"],[data-stadium="1"],[data-stadium="2"],[data-stadium="3"]) :is(#view-toggle,#view-panel) { display: none; }
+
+#compact-menu-toggle { display: none; }

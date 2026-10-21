@@ -375,3 +375,7 @@ Op verzoek zijn verklarende alinea’s, Regels en lege-inhoudinstructies uit Wee
 ## 2026-10-21 - Eerste scherm als kunstpublicatie
 
 Op basis van Sebs keuzes: kunststudent als onderzoeker/maker, rust en nieuwsgierigheid, een ontdekkend instrument met sterke publicatietypografie. Startpagina met twee ingangen: zes lege stappen en vrij verkennen. De bestaande Norman-deur is het eerste archiefvoorbeeld; een expliciet schematische tekening wisselt tussen greep en plaat. Contextbediening werkt met aanwijzen, focus en aanraking. Geen ingevulde nieuwe stappen of nieuwe wetenschappelijke claims. Het inhoudsmenu en zoeken blijven op onderwerpbladzijden beschikbaar; het archief staat op de startpagina uitklapbaar. Browsercontrole: twee objecttoestanden, archiefanker en openen, zes stappen, terugkeer naar onderwerpweergave en geen horizontale overflow op het gecontroleerde scherm.
+
+## 2026-10-21 - Praktijk als ingang, onderzoek als zelfstandig aanbod
+
+De concrete audiovisuele ingangen vervangen de abstracte stapnamen op dezelfde adressen. Zes originele maakproeven verbinden handeling, vergelijking, reflectie en gerichte verdieping. Alle 53 bestaande onderzoeken en reviews blijven behouden. De startpagina toont de eigen beeldstudie en twee ingangen; de mobiele navigatie is compact. De begrensde reviews en open controles staan in SQLite. Geen leerwinst of volledige toegankelijkheid geclaimd.

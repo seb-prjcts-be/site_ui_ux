@@ -101,8 +101,8 @@
     "role": "Een instrument dat je al doende ontdekt",
     "form": "Kunstpublicatie met sterke typografie",
     "entry_points": [
-      "zes lege stappen",
-      "vrij verkennen in bestaande inhoud"
+      "zes audiovisuele maakproeven",
+      "vrij verkennen in onderzoek en inspiratie"
     ],
     "controls": "Bij het relevante onderdeel, ook bereikbaar met toetsenbord en aanraking",
     "palette": [
@@ -110,7 +110,7 @@
       "#ff007d"
     ],
     "font": "Instrument Sans",
-    "scope": "Eerst startpagina uitwerken; inhoud en zes lege stappen behouden.",
+    "scope": "Zes praktijkonderwerpen uitgewerkt; alle 53 oorspronkelijke onderzoeksinhouden behouden.",
     "content_direction": "Beginnen vanuit audiovisuele maakpraktijk; UI/UX-vragen en theorie verbinden met concrete ingrepen.",
     "research_role": "Alle bestaande onderzoeken behouden als inspirerende denkoefeningen, voorbeelden en vrij toegankelijke verdieping.",
     "preserve_existing_research": true

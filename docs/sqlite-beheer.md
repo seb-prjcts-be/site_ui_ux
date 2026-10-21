@@ -71,3 +71,11 @@ De databank en beheerbestanden zijn via Apache afgeschermd. Schrijven gebeurt vi
 CLI, niet via een onbeveiligd webformulier. Voor een andere server moet dezelfde
 afscherming expliciet worden ingesteld. PHP's ingebouwde webserver verwerkt de
 Apache-regels niet en is daarom niet de ondersteunde publieke serverconfiguratie.
+
+## Praktijkuitwerking
+
+De actieve database bevat nu 59 onderwerpen: de oorspronkelijke 53 plus zes
+praktijkitems met behoud van hun eerdere stapadressen. practice.js bevat de lokale
+werkvlakken; de inhoud en begrensde reviews staan in SQLite. Een nieuwe lege import
+reconstrueert uitsluitend de oorspronkelijke momentopname en vervangt nooit een
+actuele databaseback-up. Voor de huidige site is de meegeleverde database vereist.

@@ -23,7 +23,7 @@ const i18n = {
         welcomeTitle: "Welkom bij de UI/UX Cursus",
         welcomeText1: "Kies een onderwerp uit het menu om te beginnen, of gebruik de zoekfunctie om specifieke onderwerpen te vinden.",
         welcomeText2: "",
-        welcomeQuote: "Onderzoek hoe interfaces ons handelen, waarnemen en ervaren vormen. Psychologie helpt effecten meten; filosofie en kritisch design helpen de betekenis en wenselijkheid ervan bespreken. De leerlijn staat klaar als zes nog lege stappen. Bestaande teksten blijven beschikbaar in het archief.",
+        welcomeQuote: "Onderzoek hoe interfaces ons handelen, waarnemen en ervaren vormen. Psychologie helpt effecten meten; filosofie en kritisch design helpen de betekenis en wenselijkheid ervan bespreken. Zes maakproeven verbinden beeld, kleur, tijd, montage, geluid en interactie. Het onderzoek blijft vrij toegankelijk als inspiratie.",
         welcomeQuote2: "",
         welcomeAuthor: "Uitgangspunt van dit onderzoekscentrum",
         fontSizeLabel: "Lettergrootte",
@@ -43,7 +43,7 @@ const i18n = {
         prev: "Vorige",
         next: "Volgende",
         categories: {
-            "Leerlijn": "Leerlijn",
+            "Praktijk": "Praktijk",
             "Eerdere uitwerkingen": "Eerdere uitwerkingen",
             "Introductie": "Introductie",
             "Thema 1: Werktuig, lichaam en ruimte (1910–1968)": "1. Werktuig, lichaam en ruimte (1910–1968)",
@@ -89,7 +89,7 @@ const i18n = {
         welcomeTitle: "Welcome to the UI/UX Course",
         welcomeText1: "Pick a topic from the menu to get started, or use the search to find specific subjects.",
         welcomeText2: "",
-        welcomeQuote: "Explore how interfaces shape action, perception and experience. Psychology helps measure effects; philosophy and critical design help discuss their meaning and desirability. The learning path contains six empty steps. Existing articles remain available in the archive, mostly in Dutch.",
+        welcomeQuote: "Explore how interfaces shape action, perception and experience. Psychology helps measure effects; philosophy and critical design help discuss their meaning and desirability. Six practical studies connect image, colour, time, editing, sound and interaction. Research remains freely accessible for inspiration.",
         welcomeQuote2: "",
         welcomeAuthor: "Starting point of this research centre",
         fontSizeLabel: "Font size",
@@ -109,7 +109,7 @@ const i18n = {
         prev: "Previous",
         next: "Next",
         categories: {
-            "Leerlijn": "Learning path",
+            "Praktijk": "Practice",
             "Eerdere uitwerkingen": "Earlier explorations",
             "Introductie": "Introduction",
             "Thema 1: Werktuig, lichaam en ruimte (1910–1968)": "1. Tool, body and space (1910–1968)",
@@ -734,7 +734,7 @@ function applyStadium(n) {
     const changed = currentStadium !== n;
     currentStadium = n;
     document.documentElement.dataset.stadium = n;
-    ['style-bootstrap', 'style-icons', 'style-main', 'style-composition', 'style-kolom', 'style-raster', 'style-flexibel', 'style-view-panel', 'style-home'].forEach(id => {
+    ['style-bootstrap', 'style-icons', 'style-main', 'style-composition', 'style-kolom', 'style-raster', 'style-flexibel', 'style-view-panel', 'style-home', 'style-practice'].forEach(id => {
         const link = document.getElementById(id);
         if (link) link.disabled = n < 4;
     });
@@ -819,7 +819,7 @@ function initVensterLinks() {
 function initKeyboardNav() {
     document.addEventListener('keydown', (event) => {
         if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
-        if (event.target.closest('#view-panel, .object-tools')) return;
+        if (event.target.closest('#view-panel, .object-tools, .practice-workbench, .practice-lightbox')) return;
         const tag = (event.target.tagName || '').toLowerCase();
         if (tag === 'input' || tag === 'textarea' || tag === 'select' || event.target.isContentEditable) return;
         const rel = event.key === 'ArrowRight' ? 'next' : event.key === 'ArrowLeft' ? 'prev' : null;
@@ -1544,6 +1544,8 @@ function initDemos(contentRoot) {
 // Render functie voor onderwerp pagina
 let courseRenderRequest = 0;
 async function renderOnderwerp(onderwerp) {
+    window.Practice?.dispose();
+    document.body.classList.toggle('practice-page', Boolean(onderwerp.practice));
     document.body.classList.remove('publication-home');
     const request = ++courseRenderRequest;
     resetViewPanelContent();
@@ -1594,7 +1596,7 @@ async function renderOnderwerp(onderwerp) {
         
         if (request !== courseRenderRequest) return;
         // Render content
-        const tags = onderwerp.placeholder ? [] : getOnderwerpTags(onderwerp);
+        const tags = onderwerp.placeholder || onderwerp.practice ? [] : getOnderwerpTags(onderwerp);
         const tagsSidebarHtml = tags.length > 0 && currentStadium >= 5 ? `
             <aside class="tags-sidebar">
                 <div id="tags-chip-flow" class="tags-chip-flow">
@@ -1605,12 +1607,12 @@ async function renderOnderwerp(onderwerp) {
 
         // Vorige/volgende binnen de zichtbare pagina's; aan het eind van een
         // stadium leidt "volgende" naar de eerste les van het volgende stadium.
-        const lijst = visibleOnderwerpen().filter(item => (item.categorie === 'Leerlijn') === (onderwerp.categorie === 'Leerlijn'));
+        const lijst = visibleOnderwerpen().filter(item => (item.categorie === 'Praktijk') === (onderwerp.categorie === 'Praktijk'));
         const idx = lijst.indexOf(onderwerp);
         const prev = idx > 0 ? lijst[idx - 1] : null;
         let next = idx >= 0 && idx < lijst.length - 1 ? lijst[idx + 1] : null;
         let nextLabel = t('next');
-        if (!next && inLesmodus() && onderwerp.categorie !== 'Leerlijn') {
+        if (!next && inLesmodus() && onderwerp.categorie !== 'Praktijk') {
             next = nextStadiumOnderwerp();
             if (next) nextLabel = t('nextStadium');
         }
@@ -1672,11 +1674,13 @@ async function renderOnderwerp(onderwerp) {
         initCourseExperiments(contentRoot);
         if (!onderwerp.placeholder) initJourneyActivity(contentRoot, onderwerp);
 
-        if (!onderwerp.placeholder) appendInterfaceReferences(contentRoot, onderwerp);
+        if (!onderwerp.placeholder && !onderwerp.practice) appendInterfaceReferences(contentRoot, onderwerp);
         if (getJourneyStep() !== null) contentRoot.insertAdjacentHTML('beforeend', journeyNav(true));
         initDemos(contentRoot);
-        if (!onderwerp.placeholder) initCompositionComparison(contentRoot);
+        window.Practice?.init(contentRoot);
+        if (!onderwerp.placeholder && !onderwerp.practice) initCompositionComparison(contentRoot);
         appendReviewStatus(contentRoot, onderwerp);
+        focusPracticeDestination();
         setRelLinks(prev, next);
         document.title = `${topicTitle(onderwerp)} – ${tCat(onderwerp.categorie)} – ${t('siteTitle')}`;
         primeRelatedContentCache(onderwerp);
@@ -1793,17 +1797,19 @@ function animatePageIn(content) {
 
 // Render welcome pagina
 function renderWelcome() {
+    window.Practice?.dispose();
+    document.body.classList.remove('practice-page');
     courseRenderRequest += 1;
     resetViewPanelContent();
     const content = document.getElementById('content');
     const lijst = visibleOnderwerpen();
     const groepen = navCategories
         .map(categorie => ({ categorie, items: lijst.filter(o => o.categorie === categorie) }))
-        .filter(groep => groep.items.length > 0 && groep.categorie !== 'Leerlijn');
+        .filter(groep => groep.items.length > 0 && groep.categorie !== 'Praktijk');
 
     // De inhoud: een indexpagina zoals de eerste webpagina, elke link met een regel uitleg.
     const indexHtml = `
-        <details id="publicatie-archief" class="welcome-index archive-index"><summary>${currentLang === 'en' ? 'Archive' : 'Archief'}</summary>
+        <details id="publicatie-archief" class="welcome-index archive-index"><summary>${currentLang === 'en' ? 'Research & inspiration' : 'Onderzoek & inspiratie'}</summary>
             ${groepen.map(groep => `
                 <h3 id="index-${slugify(groep.categorie)}">${escapeHtml(tCat(groep.categorie))}</h3>
                 <ul>
@@ -1837,6 +1843,7 @@ function renderWelcome() {
     `;
     }
     initCourseExperiments(content);
+    focusPracticeDestination();
     setRelLinks(null, lijst[0] || volgendStadium);
     document.title = t('pageTitle');
     animatePageIn(content);
@@ -1922,7 +1929,7 @@ function buildNav() {
         `).join('');
 
         return `
-            ${group.categorie !== 'Leerlijn' && (groupIndex === 0 || groups[groupIndex - 1].categorie === 'Leerlijn') ? `<li class="nav-section-label">${currentLang === 'en' ? 'Archive' : 'Archief'}</li>` : ''}
+            ${group.categorie !== 'Praktijk' && (groupIndex === 0 || groups[groupIndex - 1].categorie === 'Praktijk') ? `<li class="nav-section-label">${currentLang === 'en' ? 'Research & inspiration' : 'Onderzoek & inspiratie'}</li>` : ''}
             <li class="nav-group" data-category="${group.categorie}">
                 <button class="nav-group-toggle" type="button" aria-expanded="false" aria-controls="${groupId}">
                     <span class="nav-group-text">${tCat(group.categorie)}</span>
@@ -2183,8 +2190,8 @@ function journeyExitUrl() {
 }
 
 function journeyInvitation() {
-    const steps = onderwerpen.filter(topic => topic.categorie === 'Leerlijn');
-    return `<section class="journey-invitation" id="index-leerlijn"><h2>${currentLang === 'en' ? 'Learning path' : 'Leerlijn'}</h2><p>${currentLang === 'en' ? 'Six steps, ready to be developed.' : 'Zes stappen, klaar om uit te werken.'}</p><ol class="learning-path">${steps.map(topic => `<li><a href="#${topic.id}">${escapeHtml(topicTitle(topic))}</a><span>${currentLang === 'en' ? 'Not developed yet' : 'Nog niet uitgewerkt'}</span></li>`).join('')}</ol></section>`;
+    const steps = onderwerpen.filter(topic => topic.categorie === 'Praktijk');
+    return `<section class="journey-invitation" id="index-praktijk"><h2>${currentLang === 'en' ? 'Practice' : 'Praktijk'}</h2><p>${currentLang === 'en' ? 'Six practical studies.' : 'Zes maakproeven.'}</p><ol class="learning-path">${steps.map(topic => `<li><a href="#${topic.id}">${escapeHtml(topicTitle(topic))}</a><span>${escapeHtml(topicSummary(topic))}</span></li>`).join('')}</ol></section>`;
 }
 
 function journeyNav(bottom = false) {
@@ -2355,7 +2362,7 @@ function initJourneyActivity(root, topic) {
             status.textContent = changed ? 'Kruimelpad en stapteller zijn tijdelijk verborgen. Menu en paginatitel blijven zichtbaar.' : 'De plaatsaanwijzingen zijn terug.';
         } else if (activity.action === 'appearance') {
             changed = !changed; html.classList.toggle('journey-plain', changed);
-            ['style-bootstrap', 'style-icons', 'style-main', 'style-composition', 'style-kolom', 'style-raster', 'style-flexibel', 'style-view-panel', 'style-home'].forEach(id => { document.getElementById(id).disabled = changed; });
+            ['style-bootstrap', 'style-icons', 'style-main', 'style-composition', 'style-kolom', 'style-raster', 'style-flexibel', 'style-view-panel', 'style-home', 'style-practice'].forEach(id => { document.getElementById(id).disabled = changed; });
             button.textContent = changed ? 'Vormgeving aan' : labels[activity.action];
             status.textContent = changed ? 'De stijllagen zijn uitgeschakeld. Je leest dezelfde pagina zonder de huisstijl.' : 'Dezelfde inhoud heeft weer de oorspronkelijke vormgeving.';
         } else if (activity.action === 'search') {
@@ -2541,36 +2548,54 @@ window.addEventListener('course:view-reset', () => saveCourseExperiment('composi
 
 function publicationHome(archive) {
     const en = currentLang === 'en';
-    const steps = onderwerpen.filter(topic => topic.categorie === 'Leerlijn');
-    const example = onderwerpen.find(topic => topic.id === 'norman-door');
+    const steps = onderwerpen.filter(topic => topic.categorie === 'Praktijk');
+    const example = onderwerpen.find(topic => topic.id === 'herkennen');
     return `<div class="publication">
         <div class="publication-opening"><h1><span>${en ? 'Exploring' : 'Interfaces'}</span><span>${en ? 'interfaces.' : 'onderzoeken.'}</span></h1><a href="#publicatie-archief">${en ? 'Explore freely' : 'Vrij verkennen'} ↗</a></div>
         <div class="publication-spread">
-            <section id="index-leerlijn" aria-labelledby="path-heading"><h2 id="path-heading">${en ? 'Learning path' : 'Leerlijn'}</h2>
+            <section id="index-praktijk" aria-labelledby="path-heading"><h2 id="path-heading">${en ? 'Practice' : 'Praktijk'}</h2>
                 <ol class="path-list">${steps.map(topic => `<li><a href="#${topic.id}" aria-label="${escapeHtml(topicTitle(topic))}"><span class="path-name">${escapeHtml(topicTitle(topic))}</span><span class="path-arrow" aria-hidden="true">↗</span></a></li>`).join('')}</ol>
-                <p class="path-status">${en ? 'Six steps · not developed yet' : 'Zes stappen · nog niet uitgewerkt'}</p>
+                <p class="path-status">${en ? 'Six practical studies' : 'Zes maakproeven'}</p>
             </section>
-            <section aria-labelledby="object-heading"><h2 id="object-heading">${en ? 'From the archive' : 'Uit het archief'}</h2>
+            <section aria-labelledby="object-heading"><h2 id="object-heading">${en ? 'Start with an image' : 'Begin met een beeld'}</h2>
                 <figure class="publication-object"><div class="object-stage" data-door="grip">
-                    <svg viewBox="0 0 400 300" role="img" aria-labelledby="door-illustration-title"><title id="door-illustration-title">${en ? 'Door with a pull handle' : 'Deur met een greep'}</title>
-                        <path d="M105 285V20h190v265" fill="none" stroke="currentColor" stroke-width="2"/>
-                        <path d="M115 285V30h170v255" fill="white" stroke="currentColor" stroke-width="1"/>
-                        <path d="M80 286h240" fill="none" stroke="currentColor" stroke-width="1"/>
-                        <g class="door-grip" fill="none" stroke="var(--secondary-color)" stroke-width="8"><path d="M254 130h-14v62h14"/></g>
-                        <rect class="door-plate" x="238" y="120" width="25" height="85" rx="2" fill="var(--secondary-color)"/>
-                    </svg>
-                    <div class="object-tools" role="group" aria-label="${en ? 'Door fitting' : 'Deurbeslag'}"><button type="button" data-door-choice="grip" aria-pressed="true">${en ? 'Handle' : 'Greep'}</button><button type="button" data-door-choice="plate" aria-pressed="false">${en ? 'Plate' : 'Plaat'}</button></div>
-                </div><figcaption><a href="#${example.id}">${escapeHtml(topicTitle(example))} ↗</a><span>${en ? 'Schematic study' : 'Schematische studie'}</span></figcaption></figure>
+                    ${window.Practice.art()}
+                    <div class="object-tools" role="group" aria-label="${en ? 'Framing' : 'Kadering'}"><button type="button" data-crop-choice="wide" aria-pressed="true">${en ? 'Wide' : 'Ruim'}</button><button type="button" data-crop-choice="close" aria-pressed="false">${en ? 'Close' : 'Dichtbij'}</button></div>
+                </div><figcaption><a href="#${example.id}">${escapeHtml(topicTitle(example))} ↗</a><span>${en ? 'Own illustration' : 'Eigen beeldstudie'}</span></figcaption></figure>
             </section>
         </div>${archive}
     </div>`;
 }
 function initPublicationObject(root) {
     const stage = root.querySelector('.object-stage');
-    stage?.querySelectorAll('[data-door-choice]').forEach(button => button.addEventListener('click', () => {
-        const plate = button.dataset.doorChoice === 'plate';
-        stage.dataset.door = plate ? 'plate' : 'grip';
-        stage.querySelectorAll('[data-door-choice]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-        stage.querySelector('title').textContent = currentLang === 'en' ? (plate ? 'Door with a push plate' : 'Door with a pull handle') : (plate ? 'Deur met een duwplaat' : 'Deur met een greep');
+    stage?.querySelectorAll('[data-crop-choice]').forEach(button => button.addEventListener('click', () => {
+        const close = button.dataset.cropChoice === 'close';
+        stage.querySelector('svg').setAttribute('viewBox', close ? window.Practice.crop(2,70).join(' ') : '0 0 600 400');
+        stage.querySelector('svg').setAttribute('aria-label',currentLang === 'en' ? (close ? 'Close framing of the landscape' : 'Wide framing of the landscape') : (close ? 'Nauwe uitsnede van het landschap' : 'Ruime uitsnede van het landschap'));
+        stage.querySelectorAll('[data-crop-choice]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
     }));
+}
+
+// Keep the work itself near the top on narrow screens.
+document.addEventListener('DOMContentLoaded', () => {
+    const toggle=document.getElementById('compact-menu-toggle');
+    const nav=document.getElementById('main-nav');
+    nav.dataset.compactReady='true';toggle.hidden=false;
+    toggle.addEventListener('click',()=>{
+        const open=toggle.getAttribute('aria-expanded')!=='true';
+        toggle.setAttribute('aria-expanded',String(open));
+        toggle.querySelector('span').textContent=open?'−':'＋';
+        nav.classList.toggle('is-menu-open',open);
+    });
+    nav.addEventListener('click',event=>{
+        if(!matchMedia('(max-width: 768px)').matches || !event.target.closest('#nav-list a'))return;
+        window.courseFocusContent=true;
+        nav.classList.remove('is-menu-open');toggle.setAttribute('aria-expanded','false');toggle.querySelector('span').textContent='＋';
+    });
+});
+function focusPracticeDestination() {
+    if (!window.courseFocusContent) return;
+    const heading=document.querySelector('#content h1,#content h2');
+    if(heading){heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true});}
+    window.courseFocusContent=false;
 }
