@@ -1,0 +1,1560 @@
+{
+  "review_date": "2026-10-21",
+  "scope": "Pagina 19-36 in onderwerpenvolgorde",
+  "records": [
+    {
+      "id": "postfenomenologie-en-mediatie",
+      "file": "content/postfenomenologie-en-mediatie.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: postfenomenologie-en-mediatie-mediatie. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Geen empirische wet dat iedere interface hetzelfde effect heeft; Ihdes vier relaties en alle boekpassages nog niet integraal nagelezen."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over postfenomenologie-en-mediatie is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over postfenomenologie-en-mediatie."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "postfenomenologie-en-mediatie-mediatie",
+          "passage": "Technologie helpt in gebruik de relatie tussen mens en wereld vorm te geven.",
+          "type": "filosofisch",
+          "source": "https://ppverbeek.org/mediation-theory/",
+          "locator": "Mediation Theory, openingsalinea en Practically",
+          "verification": "gecontroleerd",
+          "supports": "Verbeeks eigen uitleg noemt mediatie en mogelijke ontwerptoepassing.",
+          "limitations": "Geen empirische wet dat iedere interface hetzelfde effect heeft; Ihdes vier relaties en alle boekpassages nog niet integraal nagelezen."
+        }
+      ],
+      "changes": [
+        "Een interface is daarom nooit neutraal: -> Binnen dit filosofische kader is een interface niet neutraal:",
+        "de technologie werkt zonder dat je ermee in relatie staat -> de technologie vormt de achtergrond van je ervaring zonder je gerichte aandacht te vragen",
+        "is het bekendste voorbeeld van een mislukte alteriteitsrelatie -> lezen we hier als een voorbeeld van een problematische alteriteitsrelatie",
+        "zijn de directe voorloper van Verbeeks mediatiebegrip -> zijn een verwante ingang tot Verbeeks mediatiebegrip"
+      ],
+      "open_items": [
+        "K03: lees Ihde 1990 per relatie en Verbeeks slothoofdstuk met paginalocators.",
+        "K02: smartphone- en Clippy-voorbeelden zijn cursusinterpretaties; bespreek alternatieve indelingen.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "eerste-webpagina",
+      "file": "content/eerste-webpagina.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: eerste-webpagina-bewaarde-tekst. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Dit is een kopie uit 1992; zij bewijst geen pixelgetrouwe weergave uit 1991 en geen bruikbaarheid voor alle gebruikers."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over eerste-webpagina is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over eerste-webpagina."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "eerste-webpagina-bewaarde-tekst",
+          "passage": "De bewaarde projectpagina combineert links met korte toelichtingen.",
+          "type": "historisch",
+          "source": "https://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html",
+          "locator": "World Wide Web; items What’s out there?, Help, Software Products",
+          "verification": "gecontroleerd",
+          "supports": "De geopende archieftekst bevat deze links en toelichtingen.",
+          "limitations": "Dit is een kopie uit 1992; zij bewijst geen pixelgetrouwe weergave uit 1991 en geen bruikbaarheid voor alle gebruikers."
+        }
+      ],
+      "changes": [
+        "als het nul-experiment van de hele cursus -> als historisch startpunt van de cursus, niet als gecontroleerd experiment",
+        "is de pagina volkomen bruikbaar -> biedt de bewaarde pagina een helder voorbeeld van tekstuele navigatie",
+        "Ze bewijst in de praktijk dat heldere taal de krachtigste -> Dat illustreert hoe heldere taal kan werken als",
+        "werkte precies hetzelfde bestand zowel op het grafische NeXT-scherm als op een kale tekstterminal of een schermlezer -> kon tekstuele hypertext door verschillende clients worden weergegeven; bediening en toegankelijkheid hangen ook van de client af",
+        "de exacte afmeting van het NeXT-scherm uit 1991 -> een gekozen reconstructiemaat, niet een exacte emulatie van scherm en browser"
+      ],
+      "open_items": [
+        "K03: verifieer NeXT-schermspecificatie, oorspronkelijke 1991-versie en CERN-restauratie via primaire archiefdocumenten.",
+        "K11: test bronvenster met toetsenbord, zoom en schermlezer; venstermaat simuleert geen oud apparaat.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "gopher-versus-web",
+      "file": "content/gopher-versus-web.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: gopher-versus-web-protocol. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Geen bron voor een enkelvoudige oorzaak van de overwinning van het web."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over gopher-versus-web is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over gopher-versus-web."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "gopher-versus-web-protocol",
+          "passage": "Gopher presenteert directoryhiërarchieën en ondersteunt zoekitems.",
+          "type": "historisch-technisch",
+          "source": "https://www.rfc-editor.org/rfc/rfc1436.txt",
+          "locator": "Introduction; §1(a-d), §2 itemtypes 0, 1, 7",
+          "verification": "gecontroleerd",
+          "supports": "De oorspronkelijke ontwerpers beschrijven bestandssysteemmetafoor, decentralisatie en zoekdiensten.",
+          "limitations": "Geen bron voor een enkelvoudige oorzaak van de overwinning van het web."
+        }
+      ],
+      "changes": [
+        "strakke, hiërarchische menu's -> hiërarchische menu's, met ook zoekdiensten",
+        "Gopher belichaamt de zuivere boomhiërarchie -> Gopher illustreert een boomhiërarchie, maar ondersteunt ook zoeken en verwijzingen naar andere servers",
+        "op elk niveau beperkt een kort menu de keuzetijd -> een kort menu kan de keuze op dat niveau vereenvoudigen; de totale zoektijd hangt ook af van diepte en labels",
+        "en weet de bezoeker precies op welke tak hij zit -> zonder daarmee te garanderen dat de bezoeker zijn positie begrijpt",
+        "Maar ook inhoudelijk liep Gopher vast: -> Als ontwerpinterpretatie kan een diepe boomstructuur bovendien een nadeel zijn:",
+        "moest de gebruiker door steeds diepere menulagen klikken voordat hij bij de tekst zelf kwam -> kan een gebruiker meerdere menulagen nodig hebben voordat hij de tekst vindt; dit bewijst niet dat menudiepte de historische neergang veroorzaakte"
+      ],
+      "open_items": [
+        "K03: controleer Minnesota-licentieaankondiging en CERN-vrijgave aan oorspronkelijke documenten.",
+        "K04: vergelijk historische gebruiksdata en meerdere oorzaken; Callee is een secundaire analyse.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "beeld-dat-klikt",
+      "file": "content/beeld-dat-klikt.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: beeld-dat-klikt-imagemap, beeld-dat-klikt-gif87. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Een voorgestelde voorziening bewijst geen implementatie of WCAG-conformiteit; voorstel uit 1995 nog open.; Geen volledige controle van GIF89a, JPEG, banners, favicon of browsergedrag."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over beeld-dat-klikt is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over beeld-dat-klikt."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "beeld-dat-klikt-imagemap",
+          "passage": "RFC 1980 dateert van augustus 1996 en beschrijft client-side image maps met tekstuele alternatieven.",
+          "type": "historisch-technisch",
+          "source": "https://www.rfc-editor.org/rfc/rfc1980.txt",
+          "locator": "Titelblok; §1.1-1.2; §2.1",
+          "verification": "gecontroleerd",
+          "supports": "De RFC verklaart de beperkingen van server-side kaarten en tekstbeschrijvingen voor een niet-grafische client.",
+          "limitations": "Een voorgestelde voorziening bewijst geen implementatie of WCAG-conformiteit; voorstel uit 1995 nog open."
+        },
+        {
+          "id": "beeld-dat-klikt-gif87",
+          "passage": "GIF87a is gedateerd 15 juni 1987 en kent maximaal 256 kleuren per beeld.",
+          "type": "historisch-technisch",
+          "source": "https://www.w3.org/Graphics/GIF/spec-gif87.txt",
+          "locator": "Titelblad; Screen Descriptor, p4",
+          "verification": "gecontroleerd",
+          "supports": "Datum en kleurindexomvang staan in de specificatie.",
+          "limitations": "Geen volledige controle van GIF89a, JPEG, banners, favicon of browsergedrag."
+        }
+      ],
+      "changes": [
+        "RFC 1980, mei 1996 -> RFC 1980, augustus 1996",
+        "in RFC 1980 in mei 1996 -> in RFC 1980 in augustus 1996",
+        "Mosaic tekende daarom standaard een <strong>blauwe rand van twee pixels</strong> -> Vroege browsers konden daarom een <strong>gekleurde linkrand</strong> tekenen; precieze kleur en dikte hangen af van browser en instellingen",
+        "zodat een plattegrond zowel visueel als voor een schermlezer navigeerbaar werd -> zodat tekstuele alternatieven in de client mogelijk werden; correcte alternatieven en browserondersteuning blijven vereist",
+        "wie zonder beeld of met het toetsenbord werkte, zag niets -> zonder beeld ontbrak vaak een bruikbaar alternatief; toetsenbordbediening hing af van client en aanvullende links",
+        "Ongeveer 44 procent van wie hem zag, klikte erop. -> De vaak herhaalde klikratio van 44 procent is hier niet met openbare primaire meetgegevens geverifieerd.",
+        "zonder de toegankelijkheid van de onderliggende HTML op te geven -> met mogelijkheden voor tekstuele alternatieven, zonder daarmee toegankelijkheid automatisch te garanderen"
+      ],
+      "open_items": [
+        "K03: controleer IMG-mailinglijst, GIF89a/JPEG-norm, favicon en 88x31-datering afzonderlijk.",
+        "K04: achterhaal primaire bannermeetgegevens; 44 procent blijft ongeverifieerd.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "yahoo-en-google",
+      "file": "content/yahoo-en-google.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: yahoo-en-google-pagerank. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Alleen abstract gelezen; Stanford-volledige tekst bleef onbereikbaar. PageRank-details, huisstijloorzaak en schermstatistieken nog niet gedekt."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over yahoo-en-google is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over yahoo-en-google."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "yahoo-en-google-pagerank",
+          "passage": "Brin en Page beschrijven een zoekmachine die links gebruikt om pagina’s te rangschikken.",
+          "type": "historisch-technisch",
+          "source": "https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/",
+          "locator": "Brin en Page 1998, Google Research, Abstract",
+          "verification": "gedeeltelijk",
+          "supports": "Geopend oorspronkelijk abstract beschrijft gebruik van hypertextstructuur en een prototype met tekst- en hyperlinkdatabase.",
+          "limitations": "Alleen abstract gelezen; Stanford-volledige tekst bleef onbereikbaar. PageRank-details, huisstijloorzaak en schermstatistieken nog niet gedekt."
+        }
+      ],
+      "changes": [
+        "De kale pagina was geen minimalistische stijlkeuze, maar de directe consequentie van een verschuiving -> We lezen de kale pagina hier als uitdrukking van een verschuiving",
+        "Google elimineert die keuzetijd -> Google vermindert het aantal zichtbare keuzes",
+        "wat niet op de eerste resultaatpagina staat, verdwijnt uit de leefwereld -> wat niet op de eerste resultaatpagina staat, kan minder zichtbaar worden",
+        "640 bij 480 pixels de ontwerpstandaard -> 640 bij 480 pixels een gangbare kleine schermmaat",
+        "800 bij 600 de meest gebruikte instelling -> 800 bij 600 in de genoemde selectieve bezoekersmetingen een veelgebruikte instelling",
+        "640 bij 480 was de schermnorm waarvoor ontwerpers bouwden -> 640 bij 480 is hier een reconstructiekeuze, geen bewezen universele ontwerpnorm"
+      ],
+      "open_items": [
+        "K03: lees de volledige Stanford-paper; alleen abstract is nu gecontroleerd. Verifieer PageRank-passages.",
+        "K03: controleer Yahoo-ontstaansgeschiedenis en gearchiveerde startpagina’s; oudste bewaard is geen bewezen wereldwijd oudste.",
+        "K04: verifieer GVU- en W3Schools-data met steekproef en exacte meetperiode.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "navigatie-en-wayfinding",
+      "file": "content/navigatie-en-wayfinding.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: navigatie-en-wayfinding-kruimelpad. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Praktijkadvies met voorbeelden; geen volledige experimentele dataset en geen regel voor iedere interface."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over navigatie-en-wayfinding is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over navigatie-en-wayfinding."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "navigatie-en-wayfinding-kruimelpad",
+          "passage": "Nielsen adviseert kruimelpaden die de hiërarchie tonen, niet de klikgeschiedenis.",
+          "type": "ontwerpheuristiek",
+          "source": "https://www.nngroup.com/articles/breadcrumb-navigation-useful/",
+          "locator": "Hierarchy or History?, 2007",
+          "verification": "gecontroleerd",
+          "supports": "De auteur onderscheidt expliciet location-based en path-based breadcrumbs.",
+          "limitations": "Praktijkadvies met voorbeelden; geen volledige experimentele dataset en geen regel voor iedere interface."
+        }
+      ],
+      "changes": [
+        "hij muntte het woord <strong>wayfinding</strong> -> hij werkte <strong>wayfinding</strong> uit in een invloedrijk stadsanalytisch kader",
+        "Hij muntte daarvoor de begrippen <em>imageability</em> en <em>wayfinding</em>. -> Hij verbond die analyse met <em>imageability</em> en <em>wayfinding</em>; dit is geen claim dat hij beide woorden als eerste gebruikte.",
+        "\"klik hier\" geeft geen geur -> \"klik hier\" geeft op zichzelf weinig informatie over de bestemming",
+        "bewijzen dat een interface ook gebouwd kan worden -> illustreren dat een interface ook gebouwd kan worden"
+      ],
+      "open_items": [
+        "K03: lees Lynch 1960 inclusief methode en woordgeschiedenis; vergelijk Pirolli/Card 1999 met primaire tekst.",
+        "K06/K07: voeg routeanalyse met criteria, modelantwoord en herstap toe.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "esthetiek-en-bruikbaarheid",
+      "file": "content/esthetiek-en-bruikbaarheid.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: esthetiek-en-bruikbaarheid-tuch. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Coauteurssamenvatting gelezen; uitgeverspagina 403. Geen universele weerlegging van eerdere studies; effectmaten en volledige methode nog niet beoordeeld."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over esthetiek-en-bruikbaarheid is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over esthetiek-en-bruikbaarheid."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "esthetiek-en-bruikbaarheid-tuch",
+          "passage": "Tuch e.a. vonden hier geen effect van esthetiek op ervaren bruikbaarheid, wel van bruikbaarheid op latere esthetische waardering.",
+          "type": "empirisch",
+          "source": "https://research.google/blog/is-beautiful-usable-what-is-the-influence-of-beauty-and-usability-on-reactions-to-a-product/",
+          "locator": "Javier Bargas-Avila, 14 mei 2012, alinea’s over 80 deelnemers en results",
+          "verification": "gecontroleerd",
+          "supports": "Geopende samenvatting door een coauteur beschrijft vier varianten, taak en richting van de resultaten.",
+          "limitations": "Coauteurssamenvatting gelezen; uitgeverspagina 403. Geen universele weerlegging van eerdere studies; effectmaten en volledige methode nog niet beoordeeld."
+        }
+      ],
+      "changes": [
+        "Het effect is dus tweerichtingsverkeer en contextafhankelijk. -> De richting en aanwezigheid van een verband hangen dus af van de onderzochte context.",
+        "Een verzorgde vormgeving wekt vertrouwen bij de eerste blik, maar koopt geen vergiffenis wanneer de taak vastloopt. -> In deze studie beschermde een mooiere vormgeving de ervaren bruikbaarheid niet tegen taakproblemen. Vertrouwen is een afzonderlijke uitkomst die hier niet is aangetoond.",
+        "Met een webshop-experiment waarin zowel visuele kwaliteit als daadwerkelijke taakbruikbaarheid werden gevarieerd -> Met een laboratoriumonderzoek met 80 deelnemers en vier webshopvarianten waarin visuele kwaliteit en taakbruikbaarheid werden gevarieerd"
+      ],
+      "open_items": [
+        "K03: open Kurosu 1995 en Tractinsky 1997/2000; verifieer 26 layouts, r=.59, steekproeven en causale formuleringen.",
+        "K04: lees volledige Tuch-paper voor effectmaten, toewijzing en onzekerheid.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "clippy",
+      "file": "content/clippy.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: clippy-uitgeschakeld. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Huidige URL gaf 404; introductiedatum, ontwerper en verwijdering 2007 blijven niet volledig gecontroleerd."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over clippy is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over clippy."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "clippy-uitgeschakeld",
+          "passage": "Microsoft beschreef in 2001 dat Clippy in Office XP niet langer automatisch zou verschijnen.",
+          "type": "historisch",
+          "source": "https://news.microsoft.com/2001/04/11/farewell-clippy-whats-happening-to-the-infamous-office-assistant-in-office-xp/",
+          "locator": "Farewell Clippy, 11 april 2001, bedoelde Microsoft-mededeling",
+          "verification": "niet_bereikbaar",
+          "supports": "Dit is de bedoelde primaire vindplaats voor standaard uitgeschakeld.",
+          "limitations": "Huidige URL gaf 404; introductiedatum, ontwerper en verwijdering 2007 blijven niet volledig gecontroleerd."
+        }
+      ],
+      "changes": [
+        "de praktijk het tegenovergestelde bereikte van wat de achterliggende psychologische theorie beloofde -> ons laat vragen of sociale-agenttheorie ook voldoende rekening houdt met de werksituatie",
+        "Reeves en Nass hadden gelijk dat gebruikers Clippy niet als een neutraal hulpmenu behandelden, maar als een sociaal wezen. -> Als cursusinterpretatie kan Clippy als een sociale tegenpartij worden gelezen. De genoemde experimenten onderzoeken niet rechtstreeks alle reacties op Clippy.",
+        "veroorzaakte de helper zelf de <em>breakdown</em> -> kan de helper zelf als aanleiding voor <em>breakdown</em> worden geïnterpreteerd",
+        "Het figuurtje werd het bekendste voorbeeld van een sociale interface die in ons laat vragen of sociale-agenttheorie ook voldoende rekening houdt met de werksituatie. -> Het figuurtje laat ons vragen of sociale-agenttheorie voldoende rekening houdt met de werksituatie."
+      ],
+      "open_items": [
+        "K03: vind officiële gearchiveerde Office XP-mededeling en Office 97/2007-releasegegevens.",
+        "K04: zoek directe Clippy-gebruiksstudies; algemene CASA-experimenten verklaren niet zonder meer zijn ontvangst.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "esthetiek-en-mediatheorie",
+      "file": "content/esthetiek-en-mediatheorie.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: esthetiek-en-mediatheorie-culturele-interface. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Originele tekst in universitaire kopie, geen uitgeverseditievergelijking; andere denkers en boekduidingen op deze pagina nog afzonderlijk te controleren."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over esthetiek-en-mediatheorie is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over esthetiek-en-mediatheorie."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "esthetiek-en-mediatheorie-culturele-interface",
+          "passage": "Manovich beschrijft de cultural interface als een samenspel van cinema, gedrukte taal en HCI.",
+          "type": "filosofisch-historisch",
+          "source": "https://designblog.uniandes.edu.co/blogs/dise2626/files/2011/01/manovich-langofnewmedia.pdf",
+          "locator": "The Language of Cultural Interfaces, PDF p79-83 (gedrukte paginanummers 79-83)",
+          "verification": "gecontroleerd",
+          "supports": "Geopende primaire boektekst benoemt cinema, printed word en HCI als historische bestanddelen van culturele interfaces.",
+          "limitations": "Originele tekst in universitaire kopie, geen uitgeverseditievergelijking; andere denkers en boekduidingen op deze pagina nog afzonderlijk te controleren."
+        }
+      ],
+      "changes": [
+        "Verbeeks latere mediatietheorie bouwt hier rechtstreeks op voort. -> Dit biedt een verwante ingang tot Verbeeks latere mediatietheorie; de precieze genealogie vraagt verdere bronvergelijking.",
+        "Dat vormt een directe filosofische tegenpool -> Wij lezen dit als een filosofische tegenpool"
+      ],
+      "open_items": [
+        "K03: vergelijk universitaire Manovich-kopie met uitgeverseditie en controleer overige boekduidingen.",
+        "K03: lees Flusser, Akrich/Latour, Dunne/Raby, Harwood, Galloway, Hookway en Drucker afzonderlijk; overzicht bevat nog ongeannoteerde boekduidingen.",
+        "K02: bespreek tegenlezing bij tegenstelling aangename UX versus critical design.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "raskin-en-victor",
+      "file": "content/raskin-en-victor.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: raskin-en-victor-magic-ink. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Geen representatieve meting van alle software of universele wet dat klikken slecht is; Raskins boek nog apart te lezen."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over raskin-en-victor is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over raskin-en-victor."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "raskin-en-victor-magic-ink",
+          "passage": "Victor bepleit voor informatiesoftware rijke contextgevoelige informatiegrafiek en zo weinig mogelijk noodzakelijke interactie.",
+          "type": "ontwerpessay",
+          "source": "https://worrydream.com/MagicInk/",
+          "locator": "Abstract; Scope and terminology; Most software is information software; Summary",
+          "verification": "gecontroleerd",
+          "supports": "Het essay argumenteert deze positie en begrenst software tot persoonlijke gebruikerssoftware.",
+          "limitations": "Geen representatieve meting van alle software of universele wet dat klikken slecht is; Raskins boek nog apart te lezen."
+        }
+      ],
+      "changes": [
+        "Modes leiden daardoor onvermijdelijk tot bedieningsfouten. -> Volgens Raskin vergroten zulke modes het risico op bedieningsfouten; de concrete foutkans hangt af van taak, signalen en training.",
+        "alleen zonder modes kan een interface werkelijk in het spiergeheugen verdwijnen -> het verminderen van modefouten kan routinematig handelen ondersteunen",
+        "Victor vertaalt <a href=\"#geheugen-en-cognitieve-belasting\">Swellers vermindering van extrinsieke belasting</a> naar typografie en informatiedichtheid. -> Wij verbinden Victors pleidooi hier met <a href=\"#geheugen-en-cognitieve-belasting\">cognitieve belasting</a>; dit is geen claim dat hij Swellers theorie experimenteel toetst."
+      ],
+      "open_items": [
+        "K03: lees Raskin 2000 hoofdstukken aandacht, modes, gewoonte en noteer paginalocators.",
+        "K04: toets Victors advies op concrete vergelijktaak; essay bewijst geen leerwinst.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "hedonisch-en-pragmatisch",
+      "file": "content/hedonisch-en-pragmatisch.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: hedonisch-en-pragmatisch-doctoraat. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Het doctoraat is niet hetzelfde document als AttrakDiff of research agenda; volledige psychometrische beoordeling daarvan staat open."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over hedonisch-en-pragmatisch is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over hedonisch-en-pragmatisch."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "hedonisch-en-pragmatisch-doctoraat",
+          "passage": "Hassenzahls studie over Reihenpräferenz is een doctoraat, verdedigd 8 januari 2006; titelbladeditie Darmstadt 2007.",
+          "type": "historisch-bibliografisch",
+          "source": "https://tuprints.ulb.tu-darmstadt.de/bitstreams/b2b8de10-7578-480b-83c0-d59324adc3e5/download",
+          "locator": "PDF p1 titelblad; PDF p8-9 Abstract",
+          "verification": "gecontroleerd",
+          "supports": "Titelblad noemt Dr. rer. nat., dissertation, indiening 2005, verdediging 2006 en editie 2007; abstract gaat over volgordekeuze.",
+          "limitations": "Het doctoraat is niet hetzelfde document als AttrakDiff of research agenda; volledige psychometrische beoordeling daarvan staat open."
+        }
+      ],
+      "changes": [
+        "het standaardmodel om UX empirisch te beschrijven en te meten -> een invloedrijk model om aspecten van UX te beschrijven en te meten",
+        "UX = <strong>pragmatische</strong> kwaliteit -> UX omvat in dit model <strong>pragmatische</strong> kwaliteit",
+        "Habilitatie/proefschrift aan de TU Darmstadt (2006) -> Doctoraat aan de TU Darmstadt (verdedigd 2006; geraadpleegde editie 2007)",
+        "In hetzelfde jaar verscheen aan de TU Darmstadt zijn studie -> Zijn doctoraat aan de TU Darmstadt, verdedigd op 8 januari 2006 en in de geraadpleegde editie gedateerd 2007, heet",
+        " (2006) over hoe mensen reeksen ->  over hoe mensen reeksen",
+        "kwaliteit (kan ik mijn doel bereiken?) + <strong>hedonische</strong> kwaliteit -> kwaliteit (kan ik mijn doel bereiken?) en <strong>hedonische</strong> kwaliteit",
+        "heet <em>Die psychologischen Grundlagen der Reihenpräferenz und -wahl</em> over hoe mensen reeksen van ervaringen over de tijd waarderen en kiezen, gevolgd door het syntheseboek -> heet <em>Die psychologischen Grundlagen der Reihenpräferenz und -wahl</em> en behandelt hoe mensen reeksen van ervaringen over de tijd waarderen en kiezen. Later volgde het syntheseboek"
+      ],
+      "open_items": [
+        "K03: verifieer The thing and I 2003, AttrakDiff 2003 en research agenda 2006 aan volledige originele teksten.",
+        "K04: leg bij AttrakDiff-gebruik versie, taal, schalen, scoring en beperkingen vast; UX-samenvatting is geen optelformule.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "eye-tracking-en-neuro-ux",
+      "file": "content/eye-tracking-en-neuro-ux.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: eye-tracking-en-neuro-ux-f-patroon, eye-tracking-en-neuro-ux-reverse-inference. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Geen universele leeswet; openbaar artikel is geen volledige dataset of onafhankelijke cursusmeting.; Geen specifieke EEG-headsetvalidatie en geen bewijs dat alle neuro-UX onwetenschappelijk is."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over eye-tracking-en-neuro-ux is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over eye-tracking-en-neuro-ux."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "eye-tracking-en-neuro-ux-f-patroon",
+          "passage": "Nielsen rapporteert 232 gebruikers en duizenden bekeken webpagina’s, met een globaal F-vormig patroon.",
+          "type": "empirisch-praktijkverslag",
+          "source": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/",
+          "locator": "16 april 2006, openingsresultaat en heatmaptoelichting",
+          "verification": "gecontroleerd",
+          "supports": "Auteur noemt aantal, meerdere sites en taken en afwijkingen van de F-vorm.",
+          "limitations": "Geen universele leeswet; openbaar artikel is geen volledige dataset of onafhankelijke cursusmeting."
+        },
+        {
+          "id": "eye-tracking-en-neuro-ux-reverse-inference",
+          "passage": "Reverse inference is niet deductief sluitend, maar kan bij voldoende selectiviteit informatie geven.",
+          "type": "methodologisch",
+          "source": "https://brainmapping.org/NITP/PNA/Readings/Poldrack2006.pdf",
+          "locator": "Poldrack 2006, p59 abstract; selectiviteit en Bayesiaanse analyse",
+          "verification": "gecontroleerd",
+          "supports": "Oorspronkelijke auteur begrenst bewijskracht expliciet en noemt benodigde selectiviteit.",
+          "limitations": "Geen specifieke EEG-headsetvalidatie en geen bewijs dat alle neuro-UX onwetenschappelijk is."
+        }
+      ],
+      "changes": [
+        "goedkope EEG-headsets meten vooral spier- en oogbewegingen -> EEG-metingen kunnen worden verstoord door spier- en oogartefacten; signaalkwaliteit en correctie moeten per studie worden beoordeeld",
+        "berust op een logische fout die in de neurowetenschap <em>reverse inference</em> heet -> is zonder bewijs voor de specificiteit van die activiteit geen sluitende gevolgtrekking; dit wordt <em>reverse inference</em> genoemd",
+        "Claims over \"neurodesign\" en \"neuro-UX\" komen vrijwel altijd uit commerciële adviesbureaus, niet uit reproduceerbaar onderzoek. Behandel ze met dezelfde scepsis als oncontroleerbare conversiecijfers. -> Beoordeel een neuro-UX-claim aan de concrete studie: meetkwaliteit, taak, steekproef, analyse, replicatie en aanvullende gedragsgegevens. Commerciële herkomst alleen bewijst noch weerlegt de claim.",
+        "Bezoekers fixeren dus vooral -> In deze voorbeelden fixeerden bezoekers vaak",
+        "en slaan de rechterhelft van lange tekstblokken grotendeels over -> zonder dat dit voor alle lezers en taken geldt"
+      ],
+      "open_items": [
+        "K03: verifieer vervolg 2017 en afzonderlijke EEG/ecologische-validiteitsclaims in primaire studies.",
+        "K08/K09: geen eigen oogbewegingsmetingen; verbonden teksttoggle meet geen fixaties.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "300-million-button",
+      "file": "content/300-million-button.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: spool-omzet, spool-45. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Auteurclaim gecontroleerd; geen dataset, onafhankelijke replicatie of causaal effect vastgesteld.; Geen conversieratio zonder bezoekersnoemer; onzekerheid, conditietoewijzing en steekproef ontbreken."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over 300-million-button is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over 300-million-button."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "spool-omzet",
+          "passage": "Spool rapporteert 300 miljoen dollar extra jaaromzet.",
+          "type": "praktijkverslag",
+          "source": "https://articles.centercentre.com/three_hund_million_button/",
+          "locator": "The $300,000,000 Fix",
+          "verification": "gecontroleerd",
+          "supports": "Geopende oorspronkelijke verslag vermeldt 15 miljoen eerste maand en 300 miljoen eerste jaar.",
+          "limitations": "Auteurclaim gecontroleerd; geen dataset, onafhankelijke replicatie of causaal effect vastgesteld."
+        },
+        {
+          "id": "spool-45",
+          "passage": "Spool noemt 45 procent meervoudige registraties en 45 procent meer kopende klanten.",
+          "type": "praktijkverslag",
+          "source": "https://articles.centercentre.com/three_hund_million_button/",
+          "locator": "Not So Good For Repeat Customers Either; The $300,000,000 Fix",
+          "verification": "gecontroleerd",
+          "supports": "Beide verschillende 45 procent-claims staan expliciet in het verslag.",
+          "limitations": "Geen conversieratio zonder bezoekersnoemer; onzekerheid, conditietoewijzing en steekproef ontbreken."
+        }
+      ],
+      "changes": [
+        "Omdat het bedrijf, de steekproef, de prijs van de producten en de meetperiode geheim bleven -> Omdat identiteit, steekproef, toewijzing en exacte afbakening van meetperiodes niet openbaar worden uitgewerkt",
+        "verplichte registratie (\"Forced Registration\" of \"Forced Continuity\") -> verplichte registratie (forced registration; forced continuity betreft het doorlopen van een abonnement of betaling en is niet hetzelfde)"
+      ],
+      "open_items": [
+        "K04: vraag openbare methode, dataset, meetperiode en onafhankelijke bevestiging voordat causale omzetgroei wordt geconcludeerd.",
+        "K03: verifieer bewering over rondgaande bedrijfsnamen en huidige deceptive-patternsterminologie.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "41-shades-of-blue",
+      "file": "content/41-shades-of-blue.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: 41-shades-of-blue-bowman. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Bewijs voor getuigenis, geen toegang tot testprotocol, resultaten of omzet; 200 miljoen afzonderlijk open."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over 41-shades-of-blue is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over 41-shades-of-blue."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "41-shades-of-blue-bowman",
+          "passage": "Bowman schrijft in zijn afscheidspost over 41 geteste blauwtinten en debat over 3, 4 of 5 pixels.",
+          "type": "historisch-getuigenis",
+          "source": "https://stopdesign.com/journal/2009/03/20/goodbye-google.html",
+          "locator": "20 maart 2009, alinea Yes, it’s true",
+          "verification": "gecontroleerd",
+          "supports": "Geopende eigen tekst bevestigt klacht en aantallen.",
+          "limitations": "Bewijs voor getuigenis, geen toegang tot testprotocol, resultaten of omzet; 200 miljoen afzonderlijk open."
+        }
+      ],
+      "changes": [
+        "Maar een A/B-test meet uitsluitend wat op korte termijn telbaar is (de onmiddellijke klik op een advertentielink), niet -> Een A/B-test met uitsluitend korte klikmetingen beoordeelt niet vanzelf",
+        "wordt de ontwerper letterlijk een \"functionaris\" -> lezen we de ontwerper als een \"functionaris\""
+      ],
+      "open_items": [
+        "K03/K04: verkrijg Cobley 2014-opname en exacte locator; zoek openbare meetgegevens voor 200 miljoen.",
+        "K02: Flusser/Zuboff-koppeling is cursusinterpretatie, geen door A/B-test bewezen filosofische conclusie.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "skeuomorfisme-vs-flat",
+      "file": "content/skeuomorfisme-vs-flat.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: skeuomorfisme-vs-flat-ios7, skeuomorfisme-vs-flat-zwakke-signifiers. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Marketingbeschrijving bewijst geen hogere bruikbaarheid en verklaart geen interne conflicten.; Desktopwebonderzoek, geen rechtstreeks iOS 7-onderzoek of bewijs van Apples besluitvorming."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over skeuomorfisme-vs-flat is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over skeuomorfisme-vs-flat."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "skeuomorfisme-vs-flat-ios7",
+          "passage": "Apple onthulde iOS 7 op 10 juni 2013 met eenvoudigere typografie en ook lagen, translucentie en beweging.",
+          "type": "historisch",
+          "source": "https://www.apple.com/newsroom/2013/06/10Apple-Unveils-iOS-7/",
+          "locator": "10 juni 2013, openingsalinea",
+          "verification": "gecontroleerd",
+          "supports": "Apple beschrijft nieuwe stijl in eigen aankondiging; geen volledig vlak scherm zonder diepte.",
+          "limitations": "Marketingbeschrijving bewijst geen hogere bruikbaarheid en verklaart geen interne conflicten."
+        },
+        {
+          "id": "skeuomorfisme-vs-flat-zwakke-signifiers",
+          "passage": "NN/g vergeleek zwakkere en sterkere signifiers in 9 webpagina’s met 71 deelnemers.",
+          "type": "empirisch-praktijkonderzoek",
+          "source": "https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/",
+          "locator": "Methodology; varianten en eyetrackingtaak, 2017",
+          "verification": "gecontroleerd",
+          "supports": "Geopende methode meet zoeken naar doelelementen, tijd en fixaties.",
+          "limitations": "Desktopwebonderzoek, geen rechtstreeks iOS 7-onderzoek of bewijs van Apples besluitvorming."
+        }
+      ],
+      "changes": [
+        "alle schaduwen, reliëfranden en knopkaders weg te snijden -> veel materiaalimitaties en expliciete knopkaders terug te dringen",
+        "het begrip <em>signifier</em> introduceerde -> het begrip <em>signifier</em> in zijn herziene boek benadrukte",
+        "wiste Apple zijn signifiers uit -> verminderde Apple sommige traditionele aanwijzingen, naast nieuwe aanwijzingen zoals kleur en beweging",
+        "totdat Apple in latere iOS-versies optionele knopvormen en subtiele achtergronden moest terugbrengen -> de relatie met latere Apple-keuzes is hiermee niet causaal vastgesteld",
+        "objectief sneller herkenbaar was -> in een specifieke taak sneller herkenbaar zou kunnen zijn",
+        "De Nielsen Norman Group stelde in gebruikersonderzoek vast dat die \"platgeslagen\" knoppen tot merkbare aarzeling en misklikken leidden, de relatie met latere Apple-keuzes is hiermee niet causaal vastgesteld. -> NN/g onderzocht in 2017 zwakke signifiers op desktopwebpagina’s en vond daar meer zoektijd en fixaties. Dit is geen directe test van iOS 7 en bewijst geen oorzaak van latere Apple-keuzes."
+      ],
+      "open_items": [
+        "K03: verifieer Forstall-vertrek en iOS 7-uitrol afzonderlijk; interne ruzies blijven journalistiek.",
+        "K04: toets knopherkenning per taak; geen universele winst voor alle skeuomorfie of flat design.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "ethiek-van-design",
+      "file": "content/ethiek-van-design.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: ethiek-van-design-fogg, ethiek-van-design-mediatie. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Geen rekenkundige vermenigvuldiging, ethische goedkeuring of afzonderlijk causaal effectbewijs.; Geen volledige controle van Moralizing Technology 2011 en geen bewijs dat gedragspsychologie geen ethiek kent."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over ethiek-van-design is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over ethiek-van-design."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "ethiek-van-design-fogg",
+          "passage": "Huidig Fogg-model laat motivatie, vermogen en prompt op hetzelfde moment samenkomen: B=MAP.",
+          "type": "ontwerpmodel",
+          "source": "https://www.behaviormodel.org/",
+          "locator": "How Behavior Works; B=MAP",
+          "verification": "gecontroleerd",
+          "supports": "Foggs eigen uitleg benoemt drie voorwaarden en notatie.",
+          "limitations": "Geen rekenkundige vermenigvuldiging, ethische goedkeuring of afzonderlijk causaal effectbewijs."
+        },
+        {
+          "id": "ethiek-van-design-mediatie",
+          "passage": "Verbeek verbindt mediatie met ethiek en ontwerpen van mens-techniekrelaties.",
+          "type": "filosofisch-normatief",
+          "source": "https://ppverbeek.org/mediation-theory/",
+          "locator": "Mediation Theory, theoretische implicaties en ontwerptoepassing",
+          "verification": "gecontroleerd",
+          "supports": "Zijn eigen uitleg koppelt mediatie aan ethiek en verantwoord ontwerpen.",
+          "limitations": "Geen volledige controle van Moralizing Technology 2011 en geen bewijs dat gedragspsychologie geen ethiek kent."
+        }
+      ],
+      "changes": [
+        "Waar de gedragspsychologie alleen meet <em>of</em> een interventie werkt -> Naast de empirische vraag <em>of</em> een interventie werkt",
+        "Gray en collega's (Purdue, later Indiana) maakten er een academisch veld van -> Gray en collega's (Purdue, later Indiana) droegen bij aan academisch onderzoek hierover"
+      ],
+      "open_items": [
+        "K03: controleer Fogg-doctoraat/2009-artikel, Brignull 2010, Gray 2018 en Mathur 2020/2021 inclusief award bij originele bronnen.",
+        "K02/K04: toets concrete dark patterns aan autonomie/welzijn; Zuboff is theoretische kritiek, geen uniforme beschrijving van alle interfaces.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "creative-coding-als-interfacefilosofie",
+      "file": "content/creative-coding-als-interfacefilosofie.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: creative-coding-als-interfacefilosofie-lauren, creative-coding-als-interfacefilosofie-lialina, creative-coding-als-interfacefilosofie-processing. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Ihde-koppeling is cursusinterpretatie; documentatie bewijst geen effect bij alle bezoekers.; Kritisch argument, geen experimentele vaststelling over iedere onzichtbare interface.; Doelstellingen bewijzen geen feitelijk gelijke toegang of leerresultaten voor alle gebruikers."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "open",
+          "evidence": "Leesstof over creative-coding-als-interfacefilosofie is aanwezig; paginadoelen en koppeling aan beoordeelbare toepassing nog niet volledig uitgewerkt."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Geen volledige doelgebonden controlevraag met feedback en herstap over creative-coding-als-interfacefilosofie."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze leesstofpagina verzamelt geen eigen meetgegevens; geciteerde studies zijn bronclaims, geen lokaal experiment."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokaal onderzoek gerapporteerd; beperkingen van externe studies staan per claim bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen deelnemers of gegevensverzameling op deze leesstofpagina."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "creative-coding-als-interfacefilosofie-lauren",
+          "passage": "McCarthy beschrijft LAUREN als menselijke Alexa met apparaten, camera’s en microfoons in huis.",
+          "type": "kunstenaarsdocumentatie",
+          "source": "https://get-lauren.net/LAUREN",
+          "locator": "Projectbeschrijving, alinea In LAUREN",
+          "verification": "gecontroleerd",
+          "supports": "Kunstenaar noemt controle, intimiteit, privacy, agency en menselijke arbeid.",
+          "limitations": "Ihde-koppeling is cursusinterpretatie; documentatie bewijst geen effect bij alle bezoekers."
+        },
+        {
+          "id": "creative-coding-als-interfacefilosofie-lialina",
+          "passage": "Lialina beargumenteert in 2012 dat onzichtbaar maken van de computer ook de gebruiker als herkenbare positie kan uitwissen.",
+          "type": "kritisch-essay",
+          "source": "https://contemporary-home-computing.org/turing-complete-user/",
+          "locator": "Invisible and Very Busy; slot en datering",
+          "verification": "gecontroleerd",
+          "supports": "Geopende eigen tekst verdedigt zichtbaar gebruikerschap en herbestemming.",
+          "limitations": "Kritisch argument, geen experimentele vaststelling over iedere onzichtbare interface."
+        },
+        {
+          "id": "creative-coding-als-interfacefilosofie-processing",
+          "passage": "Processing begon in 2001 bij Reas en Fry aan MIT; p5.js noemt McCarthy als creator vanaf 2013.",
+          "type": "historisch",
+          "source": "https://processing.org/overview/",
+          "locator": "Reas/Fry, slotgeschiedenis; aanvullende bron https://p5js.org/about/, People",
+          "verification": "gecontroleerd",
+          "supports": "Beide geopende projectpagina’s bevestigen makers, startjaren en toegankelijkheidsambitie.",
+          "limitations": "Doelstellingen bewijzen geen feitelijk gelijke toegang of leerresultaten voor alle gebruikers."
+        }
+      ],
+      "changes": [
+        "Het werk is een levende postfenomenologische analyse -> Wij lezen het werk als een postfenomenologische analyse",
+        "Dat is Heideggers breakdown als kunstvorm. -> Dat lezen we hier als Heideggers breakdown in een kunstpraktijk.",
+        "je schrijft een <em>sketch</em>, geen programma -> je schrijft een programma dat als <em>sketch</em> wordt benaderd",
+        "https://monoskop.org/Olia_Lialina -> https://contemporary-home-computing.org/turing-complete-user/",
+        "<p class=\"video-card-maker\">Olia Lialina, 2021</p> -> <p class=\"video-card-maker\">Olia Lialina, 2012</p>",
+        "<h3 class=\"video-card-title\">Turing Complete User, het boek</h3> -> <h3 class=\"video-card-title\">Turing Complete User, het essay</h3>",
+        "Resisting Alienation in Human Computer Interaction, als open pdf bij arthistoricum.net in Heidelberg. -> De oorspronkelijke tekst uit 2012, met een link naar de open boekuitgave uit 2021."
+      ],
+      "open_items": [
+        "K03: controleer JODI-werk en datering via kunstenaarsarchief; bespreek alternatieve filosofische interpretatie.",
+        "K11/K12: toegankelijkheidsambitie van tools is geen toegankelijke output of bewezen leerwinst.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    },
+    {
+      "id": "lesidee-drie-knoppen",
+      "file": "content/lesidee-drie-knoppen.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex met AI-ondersteuning; geen onafhankelijke vakreview",
+      "review_scope": "Gehele cursuspagina gelezen; gerichte controle/correcties van onderstaande centrale of risicovolle claims. Geen volledige bronvalidatie van secundaire details.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Reviewauteur, AI-inzet, datum, doelgroep en scope staan in Broncontrole; onafhankelijke inhoudelijke vakreview ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Geannoteerde claims hebben expliciet type; filosofische koppelingen zijn cursuslezingen. Overige boekduidingen en details vragen verdere passagecontrole."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Claim-ID’s en directe bronnen/locators toegevoegd voor: lesidee-drie-knoppen-slow. Niet alle belangrijke claims zijn gedekt."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Specifieke dekking en beperkingen per claim: Auteurswebsite gaf 502/timeout; auteursupload gelezen. Filosofische ontwerpagenda, geen bewijs dat elke wachttijd reflectie of leerwinst veroorzaakt."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Materiële wijzigingen met oude/nieuwe formulering, datum en reden zichtbaar op pagina."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Doel-activiteit-bewijsmatrix en voorkennis toegevoegd; docentkalibratie en uitvoering nog open."
+        },
+        "K07": {
+          "status": "deels",
+          "evidence": "Zelfcontrolevraag over wachttijd met modelantwoord en herstap toegevoegd; latere herhaling nog te plannen."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "Verkennende oefening gelabeld; protocol met condities, taak, volgorde, stopregel en analyse opgenomen. Geen uitgevoerd protocol/afwijkingenlog."
+        },
+        "K09": {
+          "status": "deels",
+          "evidence": "Rapportage-instructie voor ruwe metingen, fouten, spreiding, uitval en beperkingen; geen resultaten beschikbaar."
+        },
+        "K10": {
+          "status": "deels",
+          "evidence": "Fictieve demonstratie, geen echte misleiding, vrijwilligheid, alternatief en minimale gegevens toegevoegd; schoolprocedure formeel onderzoek open."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhoudsreview is geen browser-, toetsenbord-, schermlezer-, contrast- of WCAG-evaluatie; afzonderlijk verslag nodig."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen lokaal onderzoek met vooraf rubric, geanonimiseerde prestaties en leerresultaten; bronreview bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "lesidee-drie-knoppen-slow",
+          "passage": "Slow technology is een ontwerpagenda voor reflectie en mentale rust in plaats van uitsluitend efficiëntie.",
+          "type": "ontwerpfilosofie",
+          "source": "https://www.researchgate.net/publication/220141933_Slow_Technology_-_Designing_For_Reflection",
+          "locator": "Hallnäs en Redström 2001, auteursupload volledige tekst, Abstract",
+          "verification": "gecontroleerd",
+          "supports": "De geopende door Johan Redström gedeelde primaire tekst beschrijft een ontwerpagenda voor reflectie en mentale rust.",
+          "limitations": "Auteurswebsite gaf 502/timeout; auteursupload gelezen. Filosofische ontwerpagenda, geen bewijs dat elke wachttijd reflectie of leerwinst veroorzaakt."
+        }
+      ],
+      "changes": [
+        "Fitts-optimale -> op aanwijsbaarheid gerichte",
+        "Meet de tijd tussen het verschijnen van de knop en de klik, over tien pogingen. -> Gebruik tien pogingen per conditie als praktische klasafspraak, niet als statistisch minimum. Meet de tijd tussen verschijnen en klikken.",
+        "Deze versie is bedoeld om te herkennen, niet om te gebruiken. -> Maak een gelabelde, kritische demonstratie met fictieve inhoud en zonder betalingen, registraties of externe gegevensverzending. Deelname aan eventuele observatie is vrijwillig; gebruik nooit echte misleiding om onderzoeksresultaten te verzamelen."
+      ],
+      "open_items": [
+        "K03: lees oorspronkelijke Fitts 1954; slow-technology-definitie is aan auteursupload gecontroleerd.",
+        "K12: voer alleen met vooraf rubric, beoordeelde prestaties en geanonimiseerd verslag leeronderzoek uit; geen leerwinst gemeten.",
+        "K11: voer menselijke toetsenbord-, zoom-, focus-, contrast- en schermlezertest uit met browser/datum/criteria.",
+        "K12: ontwerp en voer passende prestatietoetsing uit; rapporteer beperkingen zonder leerwinst te veronderstellen."
+      ]
+    }
+  ]
+}

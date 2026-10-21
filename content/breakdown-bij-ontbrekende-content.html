@@ -1,12 +1,12 @@
 <div class="intro">
-    <p>Zolang deze site werkt, denk je niet aan de site. Je denkt aan Fitts, aan Norman, aan de klep van Three Mile Island. Pas als een pagina niet laadt, zie je het gereedschap zelf: een titel, een regel tekst en verder niets. Heidegger noemt dat moment breakdown. Winograd en Flores zeggen dat je er voor moet ontwerpen. Deze pagina toont de twee meldingen die deze site dan geeft, en vraagt of ze de lezer verder helpen.</p>
+    <p>Zolang deze site werkt, denk je niet aan de site. Je denkt aan Fitts, aan Norman, aan de klep van Three Mile Island. Pas als een pagina niet laadt, zie je het gereedschap zelf: een titel, een regel tekst en verder niets. De HCI-traditie rond Winograd en Flores bespreekt dit als breakdown, voortbouwend op Heideggers analyse van storend gereedschap. Winograd en Flores zeggen dat je er voor moet ontwerpen. Deze pagina toont de twee meldingen die deze site dan geeft, en vraagt of ze de lezer verder helpen.</p>
 </div>
 
 <div class="kernpunten">
     <span class="kernpunten-label">Kernpunten</span>
     <ul>
         <li>Een <strong>breakdown</strong> maakt het gereedschap zichtbaar; de melding op dat moment is de hele interface</li>
-        <li>Een goede melding zegt drie dingen: <strong>wat</strong> er mis is, <strong>wie</strong> er iets aan kan doen, en <strong>waar</strong> je nu heen kunt</li>
+        <li data-claim="breakdown-bij-ontbrekende-content-foutherstel">Een goede melding zegt drie dingen: <strong>wat</strong> er mis is, <strong>wie</strong> er iets aan kan doen, en <strong>waar</strong> je nu heen kunt</li>
         <li>De site heeft twee meldingen: een voor een ontbrekend bestand en een voor een laadfout</li>
         <li>De eerste melding spreekt de beheerder aan, niet de lezer; dat is in strijd met de schrijfregels van de site zelf</li>
     </ul>
@@ -14,7 +14,7 @@
 
 <section>
     <h2>De melding die je dan ziet</h2>
-    <p>De twee knoppen hieronder tonen in een kader precies wat deze site rendert als de inhoud van een pagina niet gevonden wordt, en wat ze toont als het laden om een andere reden mislukt. De tekst komt rechtstreeks uit de vertaaltabel van de site. Verandert die tekst ooit, dan verandert de demo mee. Onder het kader staat een korte telling van wat de melding wel en niet biedt.</p>
+    <p data-claim="breakdown-bij-ontbrekende-content-meldingen">De twee knoppen hieronder tonen in een kader dezelfde twee meldingsteksten als deze site gebruikt als de inhoud van een pagina niet gevonden wordt, en wat ze toont als het laden om een andere reden mislukt. De tekst komt rechtstreeks uit de vertaaltabel van de site; het kader is een vereenvoudigde weergave, met een nagebootste titel en zonder de volledige paginaomgeving. Verandert die tekst ooit, dan verandert de demo mee. Onder het kader staat een korte telling van wat de melding wel en niet biedt.</p>
     <div class="voorbeeld" data-demo="breakdown-bij-ontbrekende-content">
         <h3>Wat de lezer ziet</h3>
         <div class="breakdown-kader" data-demo-frame hidden></div>
@@ -62,3 +62,9 @@
         <li><a href="#klik-hier">Klik hier, en waarom niet</a>: een andere pagina die de site op zichzelf toetst.</li>
     </ul>
 </section>
+
+<section class="bronverantwoording"><h2>Broncontrole en beperkingen</h2><p>Inhoud: cursus van Sebastien Vanblaere. Review: Codex met AI-ondersteuning, 21 oktober 2026; geen onafhankelijke vakreview. Doelgroep: studenten en docent. Reikwijdte: Volledige pagina, foutvertalingen, echte rendercode, synthetische demo en Nielsens herstelheuristiek gelezen.</p>
+<p><code>breakdown-bij-ontbrekende-content-meldingen</code> - eigen code-inspectie; gecontroleerd. <a href="main.js">Code: breakdown-bij-ontbrekende-content</a>. Locator: Code: breakdown-bij-ontbrekende-content , i 18 n.nl contentNotFound/loadError; demos[breakdown-bij-ontbrekende-content].show en renderOnderwerp. De demo leest dezelfde meldingstekst; contentNotFound geeft een beheerderstaak, beide vertalingen bevatten geen link.. eigen code-inspectie; gecontroleerd. Code: breakdown-bij-ontbrekende-content , i 18 n.nl contentNotFound/loadError; demos[breakdown-bij-ontbrekende-content].show en renderOnderwerp. De demo leest dezelfde meldingstekst; contentNotFound geeft een beheerderstaak, beide vertalingen bevatten geen link. <strong>Beperking:</strong> De regex-audit zoekt woorden en HTML-patronen en beoordeelt geen menselijk begrip. De demo escapt tekst, de echte rendercontext verschilt.</p>
+<p><code>breakdown-bij-ontbrekende-content-foutherstel</code> - ontwerpheuristiek; gecontroleerd. <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Bronpassage bij breakdown-bij-ontbrekende-content-foutherstel</a>. Locator: Bronpassage: breakdown-bij-ontbrekende-content , Nielsen,9.Help Users Recognize, Diagnose, and Recover from Errors. Nielsen adviseert begrijpelijke probleemomschrijving en constructieve oplossingssuggesties.. ontwerpheuristiek; gecontroleerd. Bronpassage: breakdown-bij-ontbrekende-content , Nielsen,9.Help Users Recognize, Diagnose, and Recover from Errors. Nielsen adviseert begrijpelijke probleemomschrijving en constructieve oplossingssuggesties. <strong>Beperking:</strong> Wat/wie/waarheen is onze lokale checklist, geen gevalideerde schaal. Heidegger/Winogradduiding vraagt nog oorspronkelijke paginalocator.</p>
+<p><strong>Correcties, 21 oktober 2026:</strong> Breakdown niet langer als Heideggers eigen Engelstalige term gepresenteerd. Precies dezelfde render is begrensd tot dezelfde meldingstekst.</p>
+<p><strong>Open:</strong> Lokaliseer oorspronkelijke passages bij Winograd en Flores en Therac-25. Test echte ontbrekende inhoud en netwerkfouten naast de synthetische demonstratie.</p></section>

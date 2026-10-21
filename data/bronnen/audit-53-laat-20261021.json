@@ -1,0 +1,1971 @@
+{
+  "review_date": "2026-10-21",
+  "doctorate_records": [
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Stuart K. Card",
+      "claim_id": "proefschriften-internationaal-card",
+      "url": "https://iiif.library.cmu.edu/file/Newell_box00038_fld02809_doc0001/Newell_box00038_fld02809_doc0001.pdf",
+      "locator": "Card, Moran en Newell (1980), referentielijst p.74",
+      "verification": "gedeeltelijk",
+      "supports": "Het eigen artikel verwijst naar Cards psychologieproefschrift uit 1978 bij CMU.",
+      "limitations": "Het oorspronkelijke titelblad en de promotorclaim zijn niet geopend."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Bill Buxton",
+      "claim_id": "proefschriften-internationaal-buxton",
+      "url": "https://billbuxton.com/cv.html",
+      "locator": "Curriculum vitae, Education en Technical Reports, CSRG-97",
+      "verification": "gecontroleerd",
+      "supports": "De auteur noemt MSc Toronto 1978, de titel en vier eredoctoraten.",
+      "limitations": "Primair zelfverslag; geen integrale controle van thesis of diploma-archieven."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Jenny Preece",
+      "claim_id": "proefschriften-internationaal-preece",
+      "url": "https://oro.open.ac.uk/57008/",
+      "locator": "ORO-record 57008, Citation, Abstract en Item Type",
+      "verification": "gecontroleerd",
+      "supports": "Het oorspronkelijke repositoryrecord bevestigt PhD, 1985 en de titel; het abstract behandelt grafiekinterpretatie bij 14- en 15-jarigen.",
+      "limitations": "De promotor staat niet in het geopende record. Onderzoeksinhoud alleen op abstractniveau."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Paul Dourish",
+      "claim_id": "proefschriften-internationaal-dourish",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10103825/",
+      "locator": "UCL Discovery record 10103825, aanvraag op 21 oktober 2026:429",
+      "verification": "niet_bereikbaar",
+      "supports": "Het oorspronkelijke record kon niet worden geopend.",
+      "limitations": "Titel, graad en 1996 nog op het titelblad controleren. Het boekjaar 2001 is afzonderlijk door MIT Press bevestigd."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Kristina Höök",
+      "claim_id": "proefschriften-internationaal-hook",
+      "url": "https://people.dsv.su.se/~mad/DSV_40_years.pdf",
+      "locator": "DSV, ICT for People (2006), referentielijst p.143",
+      "verification": "gedeeltelijk",
+      "supports": "De afdelingsgeschiedenis noemt Höök, 1996, de titel en Dissertation SU.",
+      "limitations": "Institutionele terugblik, geen oorspronkelijk titelblad of gecontroleerde artikelversie."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "B.J. Fogg",
+      "claim_id": "proefschriften-internationaal-fogg",
+      "url": "https://captology.info/about",
+      "locator": "Oorspronkelijk Stanford-titelblad niet geopend; veldsite gaf timeout",
+      "verification": "open",
+      "supports": "Deze review heeft geen geopende primaire dissertatiepassage voor de rij.",
+      "limitations": "Titel, graad, jaar en promotor blijven te controleren. Zoekindextekst telt niet als passageverificatie."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Anthony Dunne",
+      "claim_id": "proefschriften-internationaal-dunne",
+      "url": "https://researchonline.rca.ac.uk/5943/1/PHD%20Thesis%20Anthony%20Dunne%201997%20Text.pdf",
+      "locator": "RCA-PDF, p.1 titelblad en p.3 abstract",
+      "verification": "gecontroleerd",
+      "supports": "Titel, auteur, PhD RCA en indiening in mei 1997 bevestigd; abstract beschrijft de kritische ontwerpbenadering.",
+      "limitations": "Indiening bewijst geen datum van verdediging of toekenning. Boekedities afzonderlijk controleren."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Phoebe Sengers",
+      "claim_id": "proefschriften-internationaal-sengers",
+      "url": "https://www.cs.cmu.edu/afs/cs/usr/phoebe/mosaic/work/cv.html",
+      "locator": "Auteur-CV, Education, Topic en Committee",
+      "verification": "gecontroleerd",
+      "supports": "De auteur noemt PhD CMU, augustus 1998, deze titel en Joseph Bates als voorzitter.",
+      "limitations": "Oorspronkelijke CMU-PDF gaf 502; de inhoudelijke relatie met reflective design is niet integraal getoetst."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Johan Redström",
+      "claim_id": "proefschriften-internationaal-redstrom",
+      "url": "https://www.redstrom.se/johan/thesis/index.html",
+      "locator": "Oorspronkelijke thesispagina op redstrom.se, aanvraag gaf timeout",
+      "verification": "niet_bereikbaar",
+      "supports": "De oorspronkelijke pagina kon niet worden geopend.",
+      "limitations": "Zoekindextekst noemt titel en 2001, maar telt niet als gelezen bronpassage. Titelblad en opgenomen artikelen blijven open."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "John Harwood",
+      "claim_id": "proefschriften-internationaal-harwood",
+      "url": "https://www.daniels.utoronto.ca/research-stream/phd-ald?page=1",
+      "locator": "Universiteitsprofiel John Harwood, opleiding en boekbeschrijving",
+      "verification": "gedeeltelijk",
+      "supports": "Het profiel noemt PhD Columbia 2006 en The Interface als boek uit 2011.",
+      "limitations": "Exacte dissertatietitel en relatie tussen proefschrift en boek blijven open."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Marc Hassenzahl",
+      "claim_id": "proefschriften-internationaal-hassenzahl",
+      "url": "https://tuprints.ulb.tu-darmstadt.de/bitstreams/b2b8de10-7578-480b-83c0-d59324adc3e5/download",
+      "locator": "TUprints-titelblad p.1, geopend door de mede-reviewer van audit-midden op 21 oktober 2026",
+      "verification": "gecontroleerd",
+      "supports": "Dr.rer.nat.; ingediend 8 september 2005; Disputation 8 januari 2006; Darmstadt 2007.",
+      "limitations": "Deze deelreview kreeg 403. Metadata berusten op de gedeelde bronpassage uit de mede-review; geen integrale controle van UX-resultaten."
+    },
+    {
+      "page": "proefschriften-internationaal",
+      "author": "Arunesh Mathur",
+      "claim_id": "proefschriften-internationaal-mathur",
+      "url": "https://aruneshmathur.co.in/files/cv.pdf",
+      "locator": "Auteur-CV, p.1 Education",
+      "verification": "gecontroleerd",
+      "supports": "De auteur noemt PhD Princeton 2016-2020, deze titel en de SIGCHI-dissertatieprijs van 2021.",
+      "limitations": "Princeton DataSpace gaf 401. Promotor en methoden nog in de dissertatie controleren."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Peter-Paul Verbeek",
+      "claim_id": "proefschriften-lage-landen-verbeek",
+      "url": "https://research.utwente.nl/en/publications/de-daadkracht-der-dingen/",
+      "locator": "UT-record, Award date, Research output en Cite this",
+      "verification": "gecontroleerd",
+      "supports": "Promotie op 8 december 2000 en titel bevestigd.",
+      "limitations": "Korte recordtitel; Boom-editie en inhoudelijke argumenten vragen eigen bronpassages."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Caroline Hummels",
+      "claim_id": "proefschriften-lage-landen-hummels",
+      "url": "https://research.tue.nl/en/publications/gestural-design-tools-prototypes-experiments-and-scenarios/",
+      "locator": "TU/e-record, Qualification, Supervisors, Award date en Publication status",
+      "verification": "gedeeltelijk",
+      "supports": "PhD Delft, award 5 september 2000, Smets en Overbeeke bevestigd.",
+      "limitations": "Hetzelfde record geeft publicatiejaar 2009. Delft-titelblad was niet bereikbaar; dit conflict blijft open."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Pieter Desmet",
+      "claim_id": "proefschriften-lage-landen-desmet",
+      "url": "https://repository.tudelft.nl/record/uuid:937aaf05-12f0-4283-adfb-007bdbbeaaa2",
+      "locator": "Delft-record, Doctoral Thesis, Author, Contributor en Files",
+      "verification": "gedeeltelijk",
+      "supports": "Jaar 2002, titel, Desmet en Jacobs bevestigd.",
+      "limitations": "25 juni is alleen in de bestandsnaam gelezen. Verdedigingsdatum en PrEmo-resultaten niet uit de thesis gecontroleerd."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Stephan Wensveen",
+      "claim_id": "proefschriften-lage-landen-wensveen",
+      "url": "https://repository.tudelft.nl/record/uuid:6c1677bd-048b-407c-ab64-3ed9bc329c24",
+      "locator": "Delft-record, Doctoral Thesis, Contributors, Abstract en Files",
+      "verification": "gedeeltelijk",
+      "supports": "Jaar 2005, titel, Aasman en Overbeeke bevestigd. Het abstract beschrijft know, feel en do.",
+      "limitations": "2 maart is alleen in de bestandsnaam gelezen. Exacte verdediging op het titelblad nog open."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Joep Frens",
+      "claim_id": "proefschriften-lage-landen-frens",
+      "url": "https://pure.tue.nl/ws/files/1743335/200610381.pdf",
+      "locator": "TU/e-PDF, p.1 metadata en p.5 titelblad",
+      "verification": "gecontroleerd",
+      "supports": "PhD Eindhoven, exacte titel en verdediging 19 april 2006 bevestigd.",
+      "limitations": "Titelbladcontrole; de methode en alle ontwerpconclusies zijn niet integraal herbeoordeeld."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Philip Ross",
+      "claim_id": "proefschriften-lage-landen-ross",
+      "url": "https://pure.tue.nl/ws/files/3660374/200910169.pdf",
+      "locator": "TU/e-PDF, p.1 metadata, p.5 titelblad en p.6 promotors",
+      "verification": "gecontroleerd",
+      "supports": "Titel en PhD Eindhoven, verdediging 17 december 2008 bevestigd.",
+      "limitations": "Cum laude niet in de bekeken passages bevestigd. Inhoudelijke theorieverbindingen vragen eigen locators."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Bieke Zaman",
+      "claim_id": "proefschriften-lage-landen-zaman",
+      "url": "https://soc.kuleuven.be/mintlab/projects/past-projects",
+      "locator": "KU Leuven Meaningful Interactions Lab, Past Projects, Laddering method with preschoolers (2011)",
+      "verification": "gedeeltelijk",
+      "supports": "De eigen onderzoeksgroep vermeldt de projecttitel en 2011.",
+      "limitations": "Lirias-PDF niet bereikbaar. Graad, titelblad en volledige subtitel niet uit de projectlijst vastgesteld."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Maurits Kaptein",
+      "claim_id": "proefschriften-lage-landen-kaptein",
+      "url": "https://research.tue.nl/en/publications/personalized-persuasion-in-ambient-intelligence-2/",
+      "locator": "TU/e-record, Qualification, Award date, Abstract en Cite this",
+      "verification": "gecontroleerd",
+      "supports": "PhD, titel en 29 maart 2012 bevestigd; abstract beschrijft gepersonaliseerde persuasie.",
+      "limitations": "Geen integrale heranalyse van methoden, effecten of generaliseerbaarheid."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Steven Fokkinga",
+      "claim_id": "proefschriften-lage-landen-fokkinga",
+      "url": "https://repository.tudelft.nl/record/uuid:f81fbaab-b3d1-407d-98d4-6775fed2ec81",
+      "locator": "Delft-record, Doctoral Thesis, Contributors en Abstract",
+      "verification": "gecontroleerd",
+      "supports": "Jaar 2015, titel en promotors Desmet en Hekkert bevestigd; abstract beschrijft rich experiences.",
+      "limitations": "Geen bewijs dat iedere negatieve emotie een positieve ervaring oplevert. Hoofdstukmethoden niet herbeoordeeld."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Jilles Smids",
+      "claim_id": "proefschriften-lage-landen-smids",
+      "url": "https://pure.tue.nl/ws/files/92133097/20180313_Smids.pdf",
+      "locator": "TU/e-PDF, p.1 metadata, p.4 titelblad en p.8 inhoudsopgave",
+      "verification": "gecontroleerd",
+      "supports": "PhD Eindhoven,13 maart 2018, titel en ethische focus bevestigd.",
+      "limitations": "Titelblad en inhoudsopgave valideren geen afzonderlijke conclusie of effectclaim."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Olya Kudina",
+      "claim_id": "proefschriften-lage-landen-kudina",
+      "url": "https://research.utwente.nl/en/publications/the-technological-mediation-of-morality-value-dynamism-and-the-co/",
+      "locator": "UT-record, Abstract, Qualification, Award date en Supervisors",
+      "verification": "gecontroleerd",
+      "supports": "PhD 17 mei 2019, titel, Verbeek, Nagenborg en het onderwerp waardedynamiek bevestigd.",
+      "limitations": "Inhoud alleen op abstractniveau; het record gebruikt Olga en het abstract Olya."
+    },
+    {
+      "page": "proefschriften-lage-landen",
+      "author": "Jan Bats",
+      "claim_id": "proefschriften-lage-landen-bats",
+      "url": "https://research.utwente.nl/en/publications/the-moral-matter-of-an-interactive-online-domain-a-philosophical-",
+      "locator": "UT-record, Qualification, Award date, Supervisors en Abstract",
+      "verification": "gecontroleerd",
+      "supports": "PhD 1 maart 2019, titel, Verbeek en Valkenburg bevestigd.",
+      "limitations": "Het abstract beschrijft drie experimenten; methoden en effectgroottes zijn niet integraal gecontroleerd."
+    }
+  ],
+  "records": [
+    {
+      "id": "ongebruikelijke-interfaces",
+      "file": "content/ongebruikelijke-interfaces.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Vijftien voorbeelden volledig gelezen; makersdocumentatie van Universe, We Feel Fine en Nutshell geopend.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Vijftien voorbeelden volledig gelezen; makersdocumentatie van Universe, We Feel Fine en Nutshell geopend. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "2 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Controleer auteurschap, datering en interactiedocumentatie bij de overige werken. Herhaal eerdere live tests met vastgelegde browser en viewport."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: De algemene claim dat elk voorbeeld getest was is vervangen door de werkelijk beschreven testscope. De claim over superieur ruimtelijk geheugen en de gelijkstelling van Fitts met dwell-tijd zijn ingetrokken."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Illustratieve oefening aanwezig; een volledige doel-activiteit-toetsmatrix en voorkennisbeschrijving ontbreken nog."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Een volledige cyclus van zelfstandig antwoord, modelantwoord en concrete herstap ontbreekt nog."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "De demonstratie is als illustratie afgebakend; hergebruik als onderzoek vraagt een vooraf vastgelegd protocol."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Controleer auteurschap, datering en interactiedocumentatie bij de overige werken. Herhaal eerdere live tests met vastgelegde browser en viewport."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen uitgevoerd leeronderzoek, rubricbeoordeling of uitgestelde transfermeting. Onderhoud verloopt via reviewregister en inhoudshash."
+        }
+      },
+      "claims": [
+        {
+          "id": "ongebruikelijke-interfaces-universe",
+          "passage": "Beeld Jonathan Harris, 2007. Documentatie bij de maker",
+          "type": "makerbeschrijving",
+          "source": "https://jonathanharris.org/universe",
+          "locator": "Bronpassage: ongebruikelijke-interfaces , Synopsis, alinea over 20.000 nieuwsbronnen en verplaatsbaar centrum. De maker beschrijft de datasetomvang en het herschikken rond een gekozen item.",
+          "verification": "gecontroleerd",
+          "supports": "makerbeschrijving; gecontroleerd. Bronpassage: ongebruikelijke-interfaces , Synopsis, alinea over 20.000 nieuwsbronnen en verplaatsbaar centrum. De maker beschrijft de datasetomvang en het herschikken rond een gekozen item.",
+          "limitations": "Documentatie van de maker; geen nieuwe interactieve test of onafhankelijke controle van bronaantal."
+        },
+        {
+          "id": "ongebruikelijke-interfaces-nutshell",
+          "passage": "Live getest Nicky Case, 2022. ncase.me/nutshell",
+          "type": "makerbeschrijving",
+          "source": "https://ncase.me/nutshell/",
+          "locator": "Bronpassage: ongebruikelijke-interfaces , What is Nutshell?, eerste drie alinea&#x 27;s. De maker beschrijft recursief uitvouwbare verklaringen in dezelfde tekst.",
+          "verification": "gecontroleerd",
+          "supports": "makerbeschrijving; gecontroleerd. Bronpassage: ongebruikelijke-interfaces , What is Nutshell?, eerste drie alinea&#x 27;s. De maker beschrijft recursief uitvouwbare verklaringen in dezelfde tekst.",
+          "limitations": "Documentinhoud geopend; de eerdere live test is niet opnieuw uitgevoerd. Het bewijst geen leerwinst."
+        }
+      ],
+      "changes": [
+        "De algemene claim dat elk voorbeeld getest was is vervangen door de werkelijk beschreven testscope. De claim over superieur ruimtelijk geheugen en de gelijkstelling van Fitts met dwell-tijd zijn ingetrokken."
+      ],
+      "open_items": [
+        "K03/K04: Controleer auteurschap, datering en interactiedocumentatie bij de overige werken. Herhaal eerdere live tests met vastgelegde browser en viewport.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K06/K07: werk observeerbaar doel, voorkennis, beoordelingscriteria, modelantwoord en herstap uit.",
+        "K12: leeronderzoek met vooraf vastgelegde rubric en transferopdracht blijft open."
+      ]
+    },
+    {
+      "id": "klik-hier",
+      "file": "content/klik-hier.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige pagina, W3C 2.4.4 en actuele linktekstteller gelezen.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige pagina, W3C 2.4.4 en actuele linktekstteller gelezen. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "2 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Controleer Raskins oorspronkelijke aandachtspassage en de datering van W3C-stijladvies. Test een losse linklijst met een schermlezer."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: De absolute aandachtsclaim is vervangen door een ontwerpinterpretatie. WCAG-context is nauwkeuriger beschreven; exacte titels zijn als lokale voorkeur benoemd."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Illustratieve oefening aanwezig; een volledige doel-activiteit-toetsmatrix en voorkennisbeschrijving ontbreken nog."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Een volledige cyclus van zelfstandig antwoord, modelantwoord en concrete herstap ontbreekt nog."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "De demonstratie is als illustratie afgebakend; hergebruik als onderzoek vraagt een vooraf vastgelegd protocol."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Controleer Raskins oorspronkelijke aandachtspassage en de datering van W3C-stijladvies. Test een losse linklijst met een schermlezer."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen uitgevoerd leeronderzoek, rubricbeoordeling of uitgestelde transfermeting. Onderhoud verloopt via reviewregister en inhoudshash."
+        }
+      },
+      "claims": [
+        {
+          "id": "klik-hier-wcag",
+          "passage": "Een schermlezer kan alle links van een pagina als lijst voorlezen, los van de tekst eromheen. Tien keer “klik hier” maakt kiezen uit zo'n losse lijst moeilijk, omdat de bestemmingen niet uit de labels blijken. De toegankelijkheidsrichtlijnen van het web vragen daarom dat het doel van een link uit de linktekst zelf blijkt, of uit een programmatisch bepaalbare context, zoals dezelfde zin, alinea, lijstitem of tabelcel. Dat is succescriterium 2.4.4 (niveau A); alleen linktekst volstaat bij het strengere 2.4.9 (niveau AAA).",
+          "type": "norm en toelichting",
+          "source": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html",
+          "locator": "Bronpassage: klik-hier , SC 2.4.4, Success Criterion en Intent, eerste vijf alinea&#x 27;s. Linkdoel mag blijken uit tekst plus programmatisch bepaalde context; assistieve technologie kan een losse linklijst aanbieden.",
+          "verification": "gecontroleerd",
+          "supports": "norm en toelichting; gecontroleerd. Bronpassage: klik-hier , SC 2.4.4, Success Criterion en Intent, eerste vijf alinea&#x 27;s. Linkdoel mag blijken uit tekst plus programmatisch bepaalde context; assistieve technologie kan een losse linklijst aanbieden.",
+          "limitations": "Een generiek label is niet automatisch een overtreding van 2.4.4; de teller beoordeelt context en toegankelijkheid niet."
+        },
+        {
+          "id": "klik-hier-demo",
+          "passage": "De teller zoekt in de inhoud en het onderwerpenmenu naar een vaste lijst generieke teksten. De vaste reisnavigatie blijft buiten de proef. Een gevonden woord is een aanleiding om tekst en context te onderzoeken; nul gevonden woorden bewijst geen goede UX.",
+          "type": "eigen code-inspectie",
+          "source": "main.js",
+          "locator": "Code: klik-hier , demos[klik-hier], GENERIC_LINK_TEXTS, pageLinks/allLinks/runAudit. De code vergelijkt exacte genormaliseerde teksten met een beperkte woordenlijst en sluit journey-nav uit.",
+          "verification": "gecontroleerd",
+          "supports": "eigen code-inspectie; gecontroleerd. Code: klik-hier , demos[klik-hier], GENERIC_LINK_TEXTS, pageLinks/allLinks/runAudit. De code vergelijkt exacte genormaliseerde teksten met een beperkte woordenlijst en sluit journey-nav uit.",
+          "limitations": "Geen semantische beoordeling; de teller is geen WCAG-test of meting van begrip."
+        }
+      ],
+      "changes": [
+        "De absolute aandachtsclaim is vervangen door een ontwerpinterpretatie. WCAG-context is nauwkeuriger beschreven; exacte titels zijn als lokale voorkeur benoemd."
+      ],
+      "open_items": [
+        "K03/K04: Controleer Raskins oorspronkelijke aandachtspassage en de datering van W3C-stijladvies. Test een losse linklijst met een schermlezer.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K06/K07: werk observeerbaar doel, voorkennis, beoordelingscriteria, modelantwoord en herstap uit.",
+        "K12: leeronderzoek met vooraf vastgelegde rubric en transferopdracht blijft open."
+      ]
+    },
+    {
+      "id": "fitts-op-deze-site",
+      "file": "content/fitts-op-deze-site.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige pagina, MacKenzies formulegeschiedenis en de meet-, fit- en doelcode inclusief CSS gelezen.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige pagina, MacKenzies formulegeschiedenis en de meet-, fit- en doelcode inclusief CSS gelezen. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "2 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Een reproduceerbare studie vraagt herhalingen, invoerapparaat, viewport, feitelijke cursorstart en eindpuntspreiding. De huidige tijden bevatten doelwaarneming en reactie; er is geen onzekerheidsinterval."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: De Shannon-variant is nu aan 1989 gekoppeld. Zuivere bewegingstijd en een gegarandeerd effect van de andere hand worden niet meer geclaimd."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Illustratieve oefening aanwezig; een volledige doel-activiteit-toetsmatrix en voorkennisbeschrijving ontbreken nog."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Een volledige cyclus van zelfstandig antwoord, modelantwoord en concrete herstap ontbreekt nog."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "De demonstratie is als illustratie afgebakend; hergebruik als onderzoek vraagt een vooraf vastgelegd protocol."
+        },
+        "K09": {
+          "status": "deels",
+          "evidence": "De code rapporteert individuele taak- of pogingtijden. Er is geen populatieschatting, replicatie of onzekerheidsinterval."
+        },
+        "K10": {
+          "status": "deels",
+          "evidence": "Demodata blijven in het geheugen van de huidige run; de demo bevat geen opslag- of verzendcode. Groepsonderzoek vraagt informatie, toestemming, alternatief en gegevensplan."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Een reproduceerbare studie vraagt herhalingen, invoerapparaat, viewport, feitelijke cursorstart en eindpuntspreiding. De huidige tijden bevatten doelwaarneming en reactie; er is geen onzekerheidsinterval."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen uitgevoerd leeronderzoek, rubricbeoordeling of uitgestelde transfermeting. Onderhoud verloopt via reviewregister en inhoudshash."
+        }
+      },
+      "claims": [
+        {
+          "id": "fitts-op-deze-site-shannon",
+          "passage": "Paul Fitts formuleerde de wet in 1954 voor bewegingen met een stift tussen twee metalen plaatjes. De vorm die in de interface-wereld gangbaar is, is de Shannon-variant van Scott MacKenzie (1989; verder uitgewerkt in 1992): de moeilijkheidsindex ID is log₂(D / W + 1), met D de afstand tot het doel en W de breedte van het doel in de bewegingsrichting. De bewegingstijd is dan a + b · ID, waarbij a en b afhangen van het apparaat en van de persoon.",
+          "type": "historische modelbeschrijving",
+          "source": "https://www.yorku.ca/mack/hhci2018.pdf",
+          "locator": "Bronpassage: fitts-op-deze-site , MacKenzie, Fitts&#x 27; Law (2018), pp. 350-354, vooral verg.17.6 en verwijzing naar 1989. De auteur onderscheidt Fitts&#x 27; oorspronkelijke index van zijn Shannon-variant uit 1989.",
+          "verification": "gecontroleerd",
+          "supports": "historische modelbeschrijving; gecontroleerd. Bronpassage: fitts-op-deze-site , MacKenzie, Fitts&#x 27; Law (2018), pp. 350-354, vooral verg.17.6 en verwijzing naar 1989. De auteur onderscheidt Fitts&#x 27; oorspronkelijke index van zijn Shannon-variant uit 1989.",
+          "limitations": "Historische samenvatting door de modelauteur; oorspronkelijke 1954-studie hier niet integraal herbeoordeeld."
+        },
+        {
+          "id": "fitts-op-deze-site-meting",
+          "passage": "Na tien pogingen verschijnt een tabel met per poging de breedte, de afstand, de moeilijkheidsindex en je tijd. Onder de tabel staat een rechte lijn door je punten: zoveel milliseconden per bit. De helling hangt af van apparaat, taak, oefening en meetopzet; deze korte proef levert geen normwaarde voor je vaardigheid.",
+          "type": "eigen code-inspectie",
+          "source": "main.js",
+          "locator": "Code: fitts-op-deze-site , demos[fitts-op-deze-site]: makePlan, placeTarget, home/target click handlers en finish; style.css .fitts-target. Negen nominale W/D-combinaties plus een herhaling; beperkte arena kan D verkleinen. De tabel past gewone lineaire regressie op tien tijden toe. W is in de gestyledeweergave de cirkeldiameter.",
+          "verification": "gecontroleerd",
+          "supports": "eigen code-inspectie; gecontroleerd. Code: fitts-op-deze-site , demos[fitts-op-deze-site]: makePlan, placeTarget, home/target click handlers en finish; style.css .fitts-target. Negen nominale W/D-combinaties plus een herhaling; beperkte arena kan D verkleinen. De tabel past gewone lineaire regressie op tien tijden toe. W is in de gestyledeweergave de cirkeldiameter.",
+          "limitations": "D wordt vanaf arenacentrum berekend, niet vanaf feitelijke cursorpositie; reactietijd inbegrepen. Geen eindpuntspreiding, onzekerheidsinterval of effectieve breedte."
+        }
+      ],
+      "changes": [
+        "De Shannon-variant is nu aan 1989 gekoppeld. Zuivere bewegingstijd en een gegarandeerd effect van de andere hand worden niet meer geclaimd."
+      ],
+      "open_items": [
+        "K03/K04: Een reproduceerbare studie vraagt herhalingen, invoerapparaat, viewport, feitelijke cursorstart en eindpuntspreiding. De huidige tijden bevatten doelwaarneming en reactie; er is geen onzekerheidsinterval.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K06/K07: werk observeerbaar doel, voorkennis, beoordelingscriteria, modelantwoord en herstap uit.",
+        "K12: leeronderzoek met vooraf vastgelegde rubric en transferopdracht blijft open."
+      ]
+    },
+    {
+      "id": "hick-hyman-in-het-menu",
+      "file": "content/hick-hyman-in-het-menu.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige pagina en code van beide zoekopdrachten gelezen; oorspronkelijke Hyman-bibliografie geopend.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige pagina en code van beide zoekopdrachten gelezen; oorspronkelijke Hyman-bibliografie geopend. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "2 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Open de oorspronkelijke methode- en resultatenpassages van Hick (1952) en Hyman (1953). De demo scheidt ordening niet van doelverschil, oefening en vaste conditievolgorde."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Onbekend/ongeordend is niet langer een noodzakelijke voorwaarde genoemd. Het gemiddelde van 25 is vervangen door een expliciet voorwaardelijk zoekmodel; twee tijden zijn wel gegevens, geen effectbewijs."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Illustratieve oefening aanwezig; een volledige doel-activiteit-toetsmatrix en voorkennisbeschrijving ontbreken nog."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Een volledige cyclus van zelfstandig antwoord, modelantwoord en concrete herstap ontbreekt nog."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "De demonstratie is als illustratie afgebakend; hergebruik als onderzoek vraagt een vooraf vastgelegd protocol."
+        },
+        "K09": {
+          "status": "deels",
+          "evidence": "De code rapporteert individuele taak- of pogingtijden. Er is geen populatieschatting, replicatie of onzekerheidsinterval."
+        },
+        "K10": {
+          "status": "deels",
+          "evidence": "Demodata blijven in het geheugen van de huidige run; de demo bevat geen opslag- of verzendcode. Groepsonderzoek vraagt informatie, toestemming, alternatief en gegevensplan."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Open de oorspronkelijke methode- en resultatenpassages van Hick (1952) en Hyman (1953). De demo scheidt ordening niet van doelverschil, oefening en vaste conditievolgorde."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen uitgevoerd leeronderzoek, rubricbeoordeling of uitgestelde transfermeting. Onderhoud verloopt via reviewregister en inhoudshash."
+        }
+      },
+      "claims": [
+        {
+          "id": "hick-hyman-in-het-menu-reactietijd",
+          "passage": "William Hick liet proefpersonen reageren op lampjes met bijbehorende toetsen. Met twee lampjes ging dat snel, met tien merkbaar trager, en de groei volgde een logaritme. Ray Hyman bevestigde dat een jaar later en voegde eraan toe dat ook de waarschijnlijkheid van elke optie meetelt: een optie die vaak voorkomt, kies je sneller.",
+          "type": "empirisch",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/13052851/",
+          "locator": "Bronpassage: hick-hyman-in-het-menu , Hyman (1953), bibliografisch record: Stimulus information as a determinant of reaction time. Het record bevestigt auteur, titel,1953 en publicatie; niet de hier samengevatte procedure.",
+          "verification": "gedeeltelijk",
+          "supports": "empirisch; gedeeltelijk. Bronpassage: hick-hyman-in-het-menu , Hyman (1953), bibliografisch record: Stimulus information as a determinant of reaction time. Het record bevestigt auteur, titel,1953 en publicatie; niet de hier samengevatte procedure.",
+          "limitations": "Geen abstract of primaire methodepassage beschikbaar in deze raadpleging. Hick 1952 PDF-timeout; specifieke lampjesaantallen nog primair controleren."
+        },
+        {
+          "id": "hick-hyman-in-het-menu-demo",
+          "passage": "De knop hieronder kiest een willekeurige pagina van deze site en vraagt je die in het menu aan te klikken. De klok loopt tot je de juiste link raakt. Daarna verliest het menu tijdelijk zijn groepen: alle pagina's staan in één lijst, in willekeurige volgorde. Je zoekt nog een pagina. Na de tweede klik krijgt het menu zijn gewone vorm terug en zie je beide tijden naast elkaar.",
+          "type": "eigen code-inspectie",
+          "source": "main.js",
+          "locator": "Code: hick-hyman-in-het-menu , demos[hick-hyman-in-het-menu]: candidates, pickTarget, onNavClick en renderResults. Eerst gegroepeerd, dan ongesorteerd, met een andere target; tijden en verkeerde menuklikken worden geregistreerd.",
+          "verification": "gecontroleerd",
+          "supports": "eigen code-inspectie; gecontroleerd. Code: hick-hyman-in-het-menu , demos[hick-hyman-in-het-menu]: candidates, pickTarget, onNavClick en renderResults. Eerst gegroepeerd, dan ongesorteerd, met een andere target; tijden en verkeerde menuklikken worden geregistreerd.",
+          "limitations": "Geen tegenbalancering; kolom Te lezen is aantal mogelijke titels, geen gemeten leesgedrag. Doel-, ordenings- en oefeneffecten niet gescheiden."
+        }
+      ],
+      "changes": [
+        "Onbekend/ongeordend is niet langer een noodzakelijke voorwaarde genoemd. Het gemiddelde van 25 is vervangen door een expliciet voorwaardelijk zoekmodel; twee tijden zijn wel gegevens, geen effectbewijs."
+      ],
+      "open_items": [
+        "K03/K04: Open de oorspronkelijke methode- en resultatenpassages van Hick (1952) en Hyman (1953). De demo scheidt ordening niet van doelverschil, oefening en vaste conditievolgorde.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K06/K07: werk observeerbaar doel, voorkennis, beoordelingscriteria, modelantwoord en herstap uit.",
+        "K12: leeronderzoek met vooraf vastgelegde rubric en transferopdracht blijft open."
+      ]
+    },
+    {
+      "id": "f-patroon-en-koppen",
+      "file": "content/f-patroon-en-koppen.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige pagina, oorspronkelijke NN/G-publicaties uit 2006 en 2017 en de toggle-CSS gelezen.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige pagina, oorspronkelijke NN/G-publicaties uit 2006 en 2017 en de toggle-CSS gelezen. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "3 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Test het verbergen en terugzetten van koppen met toetsenbord en schermlezer. De demo meet geen oogbewegingen, begrip of leerwinst."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Publicatiedatum 17 april gecorrigeerd naar 16 april 2006. Alle lezers, dubbel effect en hele structuur zijn vervangen door beperkte uitspraken."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Illustratieve oefening aanwezig; een volledige doel-activiteit-toetsmatrix en voorkennisbeschrijving ontbreken nog."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Een volledige cyclus van zelfstandig antwoord, modelantwoord en concrete herstap ontbreekt nog."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "De demonstratie is als illustratie afgebakend; hergebruik als onderzoek vraagt een vooraf vastgelegd protocol."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Test het verbergen en terugzetten van koppen met toetsenbord en schermlezer. De demo meet geen oogbewegingen, begrip of leerwinst."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen uitgevoerd leeronderzoek, rubricbeoordeling of uitgestelde transfermeting. Onderhoud verloopt via reviewregister en inhoudshash."
+        }
+      },
+      "claims": [
+        {
+          "id": "f-patroon-en-koppen-studie2006",
+          "passage": "De Nielsen Norman Group publiceerde op 16 april 2006 de resultaten van een eye-trackingstudie waarin ruim tweehonderd mensen duizenden webpagina's bekeken. De blikken van de deelnemers tekenden samen een letter F: een lange horizontale beweging bovenaan, een tweede kortere strook iets lager, en een verticale beweging langs de linkerkant. Dat beeld geldt niet voor ieder individu, iedere taak of ieder schermdeel; de gepubliceerde voorbeelden laten ook aandacht rechtsboven zien.",
+          "type": "empirisch",
+          "source": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/",
+          "locator": "Bronpassage: f-patroon-en-koppen , Nielsen,16 april 2006, hoofdtekst vanaf 232 users en toelichting bij drie heatmaps. De oorspronkelijke publicatie noemt 232 gebruikers en beschrijft een globaal, variabel F-patroon.",
+          "verification": "gecontroleerd",
+          "supports": "empirisch; gecontroleerd. Bronpassage: f-patroon-en-koppen , Nielsen,16 april 2006, hoofdtekst vanaf 232 users en toelichting bij drie heatmaps. De oorspronkelijke publicatie noemt 232 gebruikers en beschrijft een globaal, variabel F-patroon.",
+          "limitations": "Praktijkpublicatie met samengestelde heatmaps; geen bewijs dat iedereen zo leest of dat onze pagina-opbouw leerwinst geeft."
+        },
+        {
+          "id": "f-patroon-en-koppen-duiding2017",
+          "passage": "Het precieze aantal deelnemers was 232. Dat getal staat hier niet in een kop of een kader, met opzet: het is wat je zoekt als de ankers weg zijn. Het patroon zelf werd in 2017 door dezelfde groep opnieuw bekeken. De conclusie toen: het F-patroon verschijnt vooral als een pagina de lezer niets geeft om zich aan vast te houden. Een goed opgebouwde pagina wordt anders gelezen. Zie Eye-tracking en neuro-UX .",
+          "type": "empirisch",
+          "source": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/",
+          "locator": "Bronpassage: f-patroon-en-koppen , Pernice,12 november 2017, Introduction en Why People Scan in an F-Shaped Pattern. De herbespreking benadrukt meerdere scanpatronen en het belang van structuur.",
+          "verification": "gecontroleerd",
+          "supports": "empirisch; gecontroleerd. Bronpassage: f-patroon-en-koppen , Pernice,12 november 2017, Introduction en Why People Scan in an F-Shaped Pattern. De herbespreking benadrukt meerdere scanpatronen en het belang van structuur.",
+          "limitations": "Een ontwerpaanbeveling uit gebruikersobservaties is geen algemene cognitieve wet of test van deze cursus."
+        },
+        {
+          "id": "f-patroon-en-koppen-kopdemo",
+          "passage": "Een schermlezer kan alle koppen van een pagina als lijst voorlezen en laat de gebruiker van kop naar kop springen. Koppen kunnen voor schermlezergebruikers een belangrijk navigatiemiddel zijn, naast onder meer links, landmarks en zoeken. De demo op deze pagina verbergt de koppen ook voor de schermlezer. Wat voor een ziende lezer een oefening in scannen is, is voor een blinde lezer het verlies van de kopstructuur; andere navigatiemiddelen kunnen blijven bestaan.",
+          "type": "eigen code-inspectie",
+          "source": "main.js",
+          "locator": "Code: f-patroon-en-koppen , demos[f-patroon-en-koppen] en style.css .demo-zonder-ankers: display:none. De toggle verandert een CSS-klasse; sectiekoppen, kernpunten en labels verdwijnen via display:none ook uit de toegankelijkheidsboom.",
+          "verification": "gecontroleerd",
+          "supports": "eigen code-inspectie; gecontroleerd. Code: f-patroon-en-koppen , demos[f-patroon-en-koppen] en style.css .demo-zonder-ankers: display:none. De toggle verandert een CSS-klasse; sectiekoppen, kernpunten en labels verdwijnen via display:none ook uit de toegankelijkheidsboom.",
+          "limitations": "Geen eye-tracker; er worden geen oogbewegingen of zoektijden opgeslagen. De h 3 in het demoblok blijft staan."
+        }
+      ],
+      "changes": [
+        "Publicatiedatum 17 april gecorrigeerd naar 16 april 2006. Alle lezers, dubbel effect en hele structuur zijn vervangen door beperkte uitspraken."
+      ],
+      "open_items": [
+        "K03/K04: Test het verbergen en terugzetten van koppen met toetsenbord en schermlezer. De demo meet geen oogbewegingen, begrip of leerwinst.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K06/K07: werk observeerbaar doel, voorkennis, beoordelingscriteria, modelantwoord en herstap uit.",
+        "K12: leeronderzoek met vooraf vastgelegde rubric en transferopdracht blijft open."
+      ]
+    },
+    {
+      "id": "toestand-versus-opdracht",
+      "file": "content/toestand-versus-opdracht.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige pagina, routervolgorde en de gedeelde aanvraagnummering, timers en resetcode gelezen.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige pagina, routervolgorde en de gedeelde aanvraagnummering, timers en resetcode gelezen. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "3 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Controleer historische TMI-details bij de primaire rapportpassage. Test meervoudige snelle klikken en statusfeedback in de browser. Reset wist de aanvraagnummering niet."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: De onjuiste beschrijving van activeren vóór laden is vervangen door de actuele volgorde na renderen. Appvinkjes zijn niet langer algemeen als opdracht tegenover toestand beschreven."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Illustratieve oefening aanwezig; een volledige doel-activiteit-toetsmatrix en voorkennisbeschrijving ontbreken nog."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Een volledige cyclus van zelfstandig antwoord, modelantwoord en concrete herstap ontbreekt nog."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "De demonstratie is als illustratie afgebakend; hergebruik als onderzoek vraagt een vooraf vastgelegd protocol."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Controleer historische TMI-details bij de primaire rapportpassage. Test meervoudige snelle klikken en statusfeedback in de browser. Reset wist de aanvraagnummering niet."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen uitgevoerd leeronderzoek, rubricbeoordeling of uitgestelde transfermeting. Onderhoud verloopt via reviewregister en inhoudshash."
+        }
+      },
+      "claims": [
+        {
+          "id": "toestand-versus-opdracht-router",
+          "passage": "In de huidige router wacht loadOnderwerp op renderOnderwerp voordat updateActiveNav wordt aangeroepen. De nieuwe menumarkering volgt dus op het renderen. Tijdens het wachten kan de oude markering blijven staan; de inhoud toont dan een laadmelding. De markering bevestigt bovendien niet dat de bedoelde inhoud bestaat: ook een foutmelding kan gerenderd zijn.",
+          "type": "eigen code-inspectie",
+          "source": "main.js",
+          "locator": "Code: toestand-versus-opdracht , initRouter/loadOnderwerp: await renderOnderwerp, daarna updateActiveNav; renderOnderwerp fetch/error. Activering volgt de renderfunctie en kan ook op een foutpagina volgen.",
+          "verification": "gecontroleerd",
+          "supports": "eigen code-inspectie; gecontroleerd. Code: toestand-versus-opdracht , initRouter/loadOnderwerp: await renderOnderwerp, daarna updateActiveNav; renderOnderwerp fetch/error. Activering volgt de renderfunctie en kan ook op een foutpagina volgen.",
+          "limitations": "Code-inspectie; geen netwerkprofielmeting. Een markering bewijst geen inhoudelijk succesvolle bestemming."
+        },
+        {
+          "id": "toestand-versus-opdracht-serverdemo",
+          "passage": "Beide knoppen hieronder sturen dezelfde opdracht naar een nagebootste server, die na anderhalve seconde antwoordt. De linkse knop verandert meteen bij de klik: ze toont de opdracht. De rechtse knop wacht op het antwoord: ze toont de toestand. De server weigert elke derde opdracht. Klik een paar keer op elke knop en lees wat het logboek eronder zegt.",
+          "type": "eigen code-inspectie",
+          "source": "main.js",
+          "locator": "Code: toestand-versus-opdracht , demos[toestand-versus-opdracht]: DELAY 1500, requests, sendToServer en reset handler. Beide knoppen delen een teller; elke derde aanvraag wordt na minstens de geplande 1500 ms geweigerd.",
+          "verification": "gecontroleerd",
+          "supports": "eigen code-inspectie; gecontroleerd. Code: toestand-versus-opdracht , demos[toestand-versus-opdracht]: DELAY 1500, requests, sendToServer en reset handler. Beide knoppen delen een teller; elke derde aanvraag wordt na minstens de geplande 1500 ms geweigerd.",
+          "limitations": "Een deterministische timer simuleert een server; de browser kan later antwoorden. Reset wist timers en knoppen, maar zet requests niet terug."
+        },
+        {
+          "id": "toestand-versus-opdracht-feedback",
+          "passage": "Een knop die van kleur verandert zodra je klikt, bevestigt dat je klik aangekomen is. Dat is nuttig, maar het is iets anders dan bevestigen dat er gebeurd is wat je wilde. Tussen de klik en het resultaat zit een netwerk, een server, soms een mens. Zolang die niet geantwoord hebben, weet de knop niets. Een eerlijke knop zegt dan \"bezig\" en niets meer.",
+          "type": "ontwerpheuristiek",
+          "source": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "locator": "Bronpassage: toestand-versus-opdracht , Nielsen,10 heuristieken,1.Visibility of System Status. Feedback moet de actuele systeemstatus duidelijk maken.",
+          "verification": "gecontroleerd",
+          "supports": "ontwerpheuristiek; gecontroleerd. Bronpassage: toestand-versus-opdracht , Nielsen,10 heuristieken,1.Visibility of System Status. Feedback moet de actuele systeemstatus duidelijk maken.",
+          "limitations": "Ontwerpheuristiek, geen garantie dat deze demo begrepen wordt; de drie genoemde optimismevoorwaarden zijn lokale ontwerpadviezen."
+        }
+      ],
+      "changes": [
+        "De onjuiste beschrijving van activeren vóór laden is vervangen door de actuele volgorde na renderen. Appvinkjes zijn niet langer algemeen als opdracht tegenover toestand beschreven."
+      ],
+      "open_items": [
+        "K03/K04: Controleer historische TMI-details bij de primaire rapportpassage. Test meervoudige snelle klikken en statusfeedback in de browser. Reset wist de aanvraagnummering niet.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K06/K07: werk observeerbaar doel, voorkennis, beoordelingscriteria, modelantwoord en herstap uit.",
+        "K12: leeronderzoek met vooraf vastgelegde rubric en transferopdracht blijft open."
+      ]
+    },
+    {
+      "id": "breakdown-bij-ontbrekende-content",
+      "file": "content/breakdown-bij-ontbrekende-content.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige pagina, foutvertalingen, echte rendercode, synthetische demo en Nielsens herstelheuristiek gelezen.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige pagina, foutvertalingen, echte rendercode, synthetische demo en Nielsens herstelheuristiek gelezen. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "2 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Lokaliseer oorspronkelijke passages bij Winograd en Flores en Therac-25. Test echte ontbrekende inhoud en netwerkfouten naast de synthetische demonstratie."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Breakdown niet langer als Heideggers eigen Engelstalige term gepresenteerd. Precies dezelfde render is begrensd tot dezelfde meldingstekst."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Illustratieve oefening aanwezig; een volledige doel-activiteit-toetsmatrix en voorkennisbeschrijving ontbreken nog."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Een volledige cyclus van zelfstandig antwoord, modelantwoord en concrete herstap ontbreekt nog."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "De demonstratie is als illustratie afgebakend; hergebruik als onderzoek vraagt een vooraf vastgelegd protocol."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Lokaliseer oorspronkelijke passages bij Winograd en Flores en Therac-25. Test echte ontbrekende inhoud en netwerkfouten naast de synthetische demonstratie."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen uitgevoerd leeronderzoek, rubricbeoordeling of uitgestelde transfermeting. Onderhoud verloopt via reviewregister en inhoudshash."
+        }
+      },
+      "claims": [
+        {
+          "id": "breakdown-bij-ontbrekende-content-meldingen",
+          "passage": "De twee knoppen hieronder tonen in een kader dezelfde twee meldingsteksten als deze site gebruikt als de inhoud van een pagina niet gevonden wordt, en wat ze toont als het laden om een andere reden mislukt. De tekst komt rechtstreeks uit de vertaaltabel van de site; het kader is een vereenvoudigde weergave, met een nagebootste titel en zonder de volledige paginaomgeving. Verandert die tekst ooit, dan verandert de demo mee. Onder het kader staat een korte telling van wat de melding wel en niet biedt.",
+          "type": "eigen code-inspectie",
+          "source": "main.js",
+          "locator": "Code: breakdown-bij-ontbrekende-content , i 18 n.nl contentNotFound/loadError; demos[breakdown-bij-ontbrekende-content].show en renderOnderwerp. De demo leest dezelfde meldingstekst; contentNotFound geeft een beheerderstaak, beide vertalingen bevatten geen link.",
+          "verification": "gecontroleerd",
+          "supports": "eigen code-inspectie; gecontroleerd. Code: breakdown-bij-ontbrekende-content , i 18 n.nl contentNotFound/loadError; demos[breakdown-bij-ontbrekende-content].show en renderOnderwerp. De demo leest dezelfde meldingstekst; contentNotFound geeft een beheerderstaak, beide vertalingen bevatten geen link.",
+          "limitations": "De regex-audit zoekt woorden en HTML-patronen en beoordeelt geen menselijk begrip. De demo escapt tekst, de echte rendercontext verschilt."
+        },
+        {
+          "id": "breakdown-bij-ontbrekende-content-foutherstel",
+          "passage": "Een goede melding zegt drie dingen: wat er mis is, wie er iets aan kan doen, en waar je nu heen kunt",
+          "type": "ontwerpheuristiek",
+          "source": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "locator": "Bronpassage: breakdown-bij-ontbrekende-content , Nielsen,9.Help Users Recognize, Diagnose, and Recover from Errors. Nielsen adviseert begrijpelijke probleemomschrijving en constructieve oplossingssuggesties.",
+          "verification": "gecontroleerd",
+          "supports": "ontwerpheuristiek; gecontroleerd. Bronpassage: breakdown-bij-ontbrekende-content , Nielsen,9.Help Users Recognize, Diagnose, and Recover from Errors. Nielsen adviseert begrijpelijke probleemomschrijving en constructieve oplossingssuggesties.",
+          "limitations": "Wat/wie/waarheen is onze lokale checklist, geen gevalideerde schaal. Heidegger/Winogradduiding vraagt nog oorspronkelijke paginalocator."
+        }
+      ],
+      "changes": [
+        "Breakdown niet langer als Heideggers eigen Engelstalige term gepresenteerd. Precies dezelfde render is begrensd tot dezelfde meldingstekst."
+      ],
+      "open_items": [
+        "K03/K04: Lokaliseer oorspronkelijke passages bij Winograd en Flores en Therac-25. Test echte ontbrekende inhoud en netwerkfouten naast de synthetische demonstratie.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K06/K07: werk observeerbaar doel, voorkennis, beoordelingscriteria, modelantwoord en herstap uit.",
+        "K12: leeronderzoek met vooraf vastgelegde rubric en transferopdracht blijft open."
+      ]
+    },
+    {
+      "id": "pad-en-stap",
+      "file": "content/pad-en-stap.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige pagina, Nielsens breadcrumbadvies en de rel-, pijltoets-, reis- en onderwerpnavigatiecode gelezen.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige pagina, Nielsens breadcrumbadvies en de rel-, pijltoets-, reis- en onderwerpnavigatiecode gelezen. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "2 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Test headinglijst, focus, touch, zoom en pijltoetsconflicten. Een title-attribuut garandeert geen tooltip bij toetsenbordbediening of aanraking."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Drie extra h 1-koppen zijn h 2 geworden. Tooltipgarantie ingetrokken; reisnavigatie is onderscheiden van buuronderwerpen. Niet-onderzochte motivatie en leertransfer zijn begrensd."
+        },
+        "K06": {
+          "status": "deels",
+          "evidence": "Illustratieve oefening aanwezig; een volledige doel-activiteit-toetsmatrix en voorkennisbeschrijving ontbreken nog."
+        },
+        "K07": {
+          "status": "open",
+          "evidence": "Een volledige cyclus van zelfstandig antwoord, modelantwoord en concrete herstap ontbreekt nog."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "De demonstratie is als illustratie afgebakend; hergebruik als onderzoek vraagt een vooraf vastgelegd protocol."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Test headinglijst, focus, touch, zoom en pijltoetsconflicten. Een title-attribuut garandeert geen tooltip bij toetsenbordbediening of aanraking."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Geen uitgevoerd leeronderzoek, rubricbeoordeling of uitgestelde transfermeting. Onderhoud verloopt via reviewregister en inhoudshash."
+        }
+      },
+      "claims": [
+        {
+          "id": "pad-en-stap-hierarchie",
+          "passage": "Boven elke titel staat het pad van de startpagina via de categorie naar de pagina. Het volgt Nielsens regel: hiërarchie, niet geschiedenis. Wie via een zoekmachine of een gedeelde link op een pagina landt, ziet meteen in welke categorie ze hoort en kan één niveau omhoog. Het laatste item is geen link maar gewone tekst, met het kenmerk aria-current=\"page\" , zodat ook een schermlezer \"je bent hier\" hoort.",
+          "type": "ontwerpheuristiek",
+          "source": "https://www.nngroup.com/articles/breadcrumb-navigation-useful/",
+          "locator": "Bronpassage: pad-en-stap , Nielsen 2007, Hierarchy or History?. Het breadcrumbadvies gaat over de plaats in een hiërarchie, niet het afgelegde bezoekpad.",
+          "verification": "gecontroleerd",
+          "supports": "ontwerpheuristiek; gecontroleerd. Bronpassage: pad-en-stap , Nielsen 2007, Hierarchy or History?. Het breadcrumbadvies gaat over de plaats in een hiërarchie, niet het afgelegde bezoekpad.",
+          "limitations": "Een ontwerpheuristiek voor websites; geen bewijs van motivatie of leerwinst op deze cursus."
+        },
+        {
+          "id": "pad-en-stap-routecode",
+          "passage": "In het overzicht zonder reisparameter staan dezelfde buuronderwerpen onzichtbaar in de kop van de pagina als link rel=\"prev\" en rel=\"next\" . Browsers en hulpmiddelen die dat lezen, bieden dan hun eigen vorige/volgende aan. Met reis=0..7 volgen de reisnavigatie, de rel-links en de pijltoetsen juist de acht interfaceweergaven. De inhoud houdt daarnaast vorige/volgende-onderwerplinks. Pijltoetsen worden niet overgenomen in invoervelden, selects of bewerkbare tekst, en ook niet met een modificatietoets.",
+          "type": "eigen code-inspectie",
+          "source": "main.js",
+          "locator": "Code: pad-en-stap , setRelLinks, initKeyboardNav, renderOnderwerp kruimelpad/stapteller/prevHtml/nextHtml en getJourneyStep. Reis en onderwerpvolgorde verschillen; aria-current staat op huidige pagina; title draagt samenvatting.",
+          "verification": "gecontroleerd",
+          "supports": "eigen code-inspectie; gecontroleerd. Code: pad-en-stap , setRelLinks, initKeyboardNav, renderOnderwerp kruimelpad/stapteller/prevHtml/nextHtml en getJourneyStep. Reis en onderwerpvolgorde verschillen; aria-current staat op huidige pagina; title draagt samenvatting.",
+          "limitations": "Aanwezigheid van ARIA/title bewijst geen toegankelijk gebruik. Tooltip verschijnt niet gegarandeerd bij focus of aanraking."
+        }
+      ],
+      "changes": [
+        "Drie extra h 1-koppen zijn h 2 geworden. Tooltipgarantie ingetrokken; reisnavigatie is onderscheiden van buuronderwerpen. Niet-onderzochte motivatie en leertransfer zijn begrensd."
+      ],
+      "open_items": [
+        "K03/K04: Test headinglijst, focus, touch, zoom en pijltoetsconflicten. Een title-attribuut garandeert geen tooltip bij toetsenbordbediening of aanraking.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K06/K07: werk observeerbaar doel, voorkennis, beoordelingscriteria, modelantwoord en herstap uit.",
+        "K12: leeronderzoek met vooraf vastgelegde rubric en transferopdracht blijft open."
+      ]
+    },
+    {
+      "id": "proefschriften-internationaal",
+      "file": "content/proefschriften-internationaal.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Alle twaalf vermeldingen gelezen en per rij op bibliografische metadata beoordeeld; geen integrale dissertatiereview.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Alle twaalf vermeldingen gelezen en per rij op bibliografische metadata beoordeeld; geen integrale dissertatiereview. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "12 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Card, Höök en Harwood zijn gedeeltelijk gecontroleerd; Dourish en Redström waren niet bereikbaar. Foggs primaire titelblad blijft open. Onderzoeksclaims vragen eigen methode- en resultatenpassages."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Hassenzahls uitgave 2007 is onderscheiden van verdediging 2006 en gekoppeld aan het titelblad. Dunnes mei 1997 is als indiening benoemd. Ongecontroleerde promotor- en artikelgegevens zijn gemarkeerd; de suggestie dat Dourish pas in 2001 filosofisch werk deed is ingetrokken. Harwoods boek is niet langer als bewezen dissertatievervolg gepresenteerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Card, Höök en Harwood zijn gedeeltelijk gecontroleerd; Dourish en Redström waren niet bereikbaar. Foggs primaire titelblad blijft open. Onderzoeksclaims vragen eigen methode- en resultatenpassages."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "proefschriften-internationaal-card",
+          "passage": "Stuart K. Card Carnegie Mellon (psychologie), 1978, promotor Allen Newell Studies in the Psychology of Computer Text Editing Systems Geciteerd in ACM DL; CMU-bibliotheek Cognitieve psychologie, muis en Fitts' law, GOMS-voorloper",
+          "type": "bibliografische metadata",
+          "source": "https://iiif.library.cmu.edu/file/Newell_box00038_fld02809_doc0001/Newell_box00038_fld02809_doc0001.pdf",
+          "locator": "Card, Moran en Newell (1980), referentielijst p.74",
+          "verification": "gedeeltelijk",
+          "supports": "Het eigen artikel verwijst naar Cards psychologieproefschrift uit 1978 bij CMU.",
+          "limitations": "Het oorspronkelijke titelblad en de promotorclaim zijn niet geopend."
+        },
+        {
+          "id": "proefschriften-internationaal-buxton",
+          "passage": "Bill Buxton Univ. of Toronto, MSc 1978 (geen PhD) Design Issues in the Foundation of a Computer-Based Tool for Music Composition Tech. Report CSRG-97, billbuxton.com Muziek → HCI; vier eredoctoraten, o.a. TU/e 2010",
+          "type": "bibliografische metadata",
+          "source": "https://billbuxton.com/cv.html",
+          "locator": "Curriculum vitae, Education en Technical Reports, CSRG-97",
+          "verification": "gecontroleerd",
+          "supports": "De auteur noemt MSc Toronto 1978, de titel en vier eredoctoraten.",
+          "limitations": "Primair zelfverslag; geen integrale controle van thesis of diploma-archieven."
+        },
+        {
+          "id": "proefschriften-internationaal-preece",
+          "passage": "Jenny Preece Open University,1985 (promotor nog te verifiëren) Interpreting trends in graphs: A study of 14 and 15 year olds Open Research Online Educatieve technologie, graafperceptie",
+          "type": "bibliografische metadata",
+          "source": "https://oro.open.ac.uk/57008/",
+          "locator": "ORO-record 57008, Citation, Abstract en Item Type",
+          "verification": "gecontroleerd",
+          "supports": "Het oorspronkelijke repositoryrecord bevestigt PhD, 1985 en de titel; het abstract behandelt grafiekinterpretatie bij 14- en 15-jarigen.",
+          "limitations": "De promotor staat niet in het geopende record. Onderzoeksinhoud alleen op abstractniveau."
+        },
+        {
+          "id": "proefschriften-internationaal-dourish",
+          "passage": "Paul Dourish University College London, 1996 Open Implementation and Flexibility in CSCW Toolkits UCL Discovery Technisch (toolkit Prospero); fenomenologisch boek Where the Action Is (2001); dit dateert niet het begin van zijn filosofische werk",
+          "type": "bibliografische metadata",
+          "source": "https://discovery.ucl.ac.uk/id/eprint/10103825/",
+          "locator": "UCL Discovery record 10103825, aanvraag op 21 oktober 2026:429",
+          "verification": "niet_bereikbaar",
+          "supports": "Het oorspronkelijke record kon niet worden geopend.",
+          "limitations": "Titel, graad en 1996 nog op het titelblad controleren. Het boekjaar 2001 is afzonderlijk door MIT Press bevestigd."
+        },
+        {
+          "id": "proefschriften-internationaal-hook",
+          "passage": "Kristina Höök Stockholm University (DSV), 1996 A Glass Box Approach to Adaptive Hypermedia Doctoraatsvermelding in DSV-geschiedenis; geen gelijkstelling met een artikelversie Transparantie van adaptieve systemen; later somaesthetic design",
+          "type": "bibliografische metadata",
+          "source": "https://people.dsv.su.se/~mad/DSV_40_years.pdf",
+          "locator": "DSV, ICT for People (2006), referentielijst p.143",
+          "verification": "gedeeltelijk",
+          "supports": "De afdelingsgeschiedenis noemt Höök, 1996, de titel en Dissertation SU.",
+          "limitations": "Institutionele terugblik, geen oorspronkelijk titelblad of gecontroleerde artikelversie."
+        },
+        {
+          "id": "proefschriften-internationaal-fogg",
+          "passage": "B.J. Fogg Stanford University, 1997, promotor Clifford Nass Charismatic Computers: Creating More Likable and Persuasive Interactive Technologies by Leveraging Principles from Social Psychology Stanford Libraries / ProQuest (9810118) Captologie en persuasive technology; basis voor het latere gedragsmodel",
+          "type": "bibliografische metadata",
+          "source": "https://captology.info/about",
+          "locator": "Oorspronkelijk Stanford-titelblad niet geopend; veldsite gaf timeout",
+          "verification": "open",
+          "supports": "Deze review heeft geen geopende primaire dissertatiepassage voor de rij.",
+          "limitations": "Titel, graad, jaar en promotor blijven te controleren. Zoekindextekst telt niet als passageverificatie."
+        },
+        {
+          "id": "proefschriften-internationaal-dunne",
+          "passage": "Anthony Dunne Royal College of Art (Londen),1997; ingediend mei 1997 Hertzian Tales: An Investigation into the Critical and Aesthetic Potential of the Electronic Product as a Post-Optimal Object RCA Repository ; titelblad mei 1997; boekuitgaven apart controleren Critical design: ontwerp dat vragen stelt in plaats van te optimaliseren",
+          "type": "bibliografische metadata",
+          "source": "https://researchonline.rca.ac.uk/5943/1/PHD%20Thesis%20Anthony%20Dunne%201997%20Text.pdf",
+          "locator": "RCA-PDF, p.1 titelblad en p.3 abstract",
+          "verification": "gecontroleerd",
+          "supports": "Titel, auteur, PhD RCA en indiening in mei 1997 bevestigd; abstract beschrijft de kritische ontwerpbenadering.",
+          "limitations": "Indiening bewijst geen datum van verdediging of toekenning. Boekedities afzonderlijk controleren."
+        },
+        {
+          "id": "proefschriften-internationaal-sengers",
+          "passage": "Phoebe Sengers Carnegie Mellon, 1998, promotor Joseph Bates Anti-Boxology: Agent Design in Cultural Context CMU Tech Reports AI én cultuurtheorie; basis voor \"reflective design\"",
+          "type": "bibliografische metadata",
+          "source": "https://www.cs.cmu.edu/afs/cs/usr/phoebe/mosaic/work/cv.html",
+          "locator": "Auteur-CV, Education, Topic en Committee",
+          "verification": "gecontroleerd",
+          "supports": "De auteur noemt PhD CMU, augustus 1998, deze titel en Joseph Bates als voorzitter.",
+          "limitations": "Oorspronkelijke CMU-PDF gaf 502; de inhoudelijke relatie met reflective design is niet integraal getoetst."
+        },
+        {
+          "id": "proefschriften-internationaal-redstrom",
+          "passage": "Johan Redström Göteborg Universiteit, 2001 Designing Everyday Computational Things redstrom.se Bevat \"Slow Technology; Designing for Reflection\" (met Hallnäs)",
+          "type": "bibliografische metadata",
+          "source": "https://www.redstrom.se/johan/thesis/index.html",
+          "locator": "Oorspronkelijke thesispagina op redstrom.se, aanvraag gaf timeout",
+          "verification": "niet_bereikbaar",
+          "supports": "De oorspronkelijke pagina kon niet worden geopend.",
+          "limitations": "Zoekindextekst noemt titel en 2001, maar telt niet als gelezen bronpassage. Titelblad en opgenomen artikelen blijven open."
+        },
+        {
+          "id": "proefschriften-internationaal-harwood",
+          "passage": "John Harwood Columbia (kunstgeschiedenis), 2006 Boek ter vergelijking: The Interface: IBM and the Transformation of Corporate Design,1945–1976 (2011); dissertatietitel nog open Univ. of Minnesota Press Architectuur- en designgeschiedenis",
+          "type": "bibliografische metadata",
+          "source": "https://www.daniels.utoronto.ca/research-stream/phd-ald?page=1",
+          "locator": "Universiteitsprofiel John Harwood, opleiding en boekbeschrijving",
+          "verification": "gedeeltelijk",
+          "supports": "Het profiel noemt PhD Columbia 2006 en The Interface als boek uit 2011.",
+          "limitations": "Exacte dissertatietitel en relatie tussen proefschrift en boek blijven open."
+        },
+        {
+          "id": "proefschriften-internationaal-hassenzahl",
+          "passage": "Marc Hassenzahl TU Darmstadt (psychologie), 2006 Die psychologischen Grundlagen der Reihenpräferenz und -wahl TUprints, titelblad : verdediging 2006, uitgave 2007 Waardering van ervaringen over tijd; grondlegger hedonisch/pragmatisch model",
+          "type": "bibliografische metadata",
+          "source": "https://tuprints.ulb.tu-darmstadt.de/bitstreams/b2b8de10-7578-480b-83c0-d59324adc3e5/download",
+          "locator": "TUprints-titelblad p.1, geopend door de mede-reviewer van audit-midden op 21 oktober 2026",
+          "verification": "gecontroleerd",
+          "supports": "Dr.rer.nat.; ingediend 8 september 2005; Disputation 8 januari 2006; Darmstadt 2007.",
+          "limitations": "Deze deelreview kreeg 403. Metadata berusten op de gedeelde bronpassage uit de mede-review; geen integrale controle van UX-resultaten."
+        },
+        {
+          "id": "proefschriften-internationaal-mathur",
+          "passage": "Arunesh Mathur Princeton (informatica), 2020, promotor Marshini Chetty Identifying and measuring manipulative user interfaces at scale on the web Princeton DataSpace Dark patterns; SIGCHI Outstanding Dissertation Award 2021",
+          "type": "bibliografische metadata",
+          "source": "https://aruneshmathur.co.in/files/cv.pdf",
+          "locator": "Auteur-CV, p.1 Education",
+          "verification": "gecontroleerd",
+          "supports": "De auteur noemt PhD Princeton 2016-2020, deze titel en de SIGCHI-dissertatieprijs van 2021.",
+          "limitations": "Princeton DataSpace gaf 401. Promotor en methoden nog in de dissertatie controleren."
+        }
+      ],
+      "changes": [
+        "Hassenzahls uitgave 2007 is onderscheiden van verdediging 2006 en gekoppeld aan het titelblad. Dunnes mei 1997 is als indiening benoemd. Ongecontroleerde promotor- en artikelgegevens zijn gemarkeerd; de suggestie dat Dourish pas in 2001 filosofisch werk deed is ingetrokken. Harwoods boek is niet langer als bewezen dissertatievervolg gepresenteerd."
+      ],
+      "open_items": [
+        "K03/K04: Card, Höök en Harwood zijn gedeeltelijk gecontroleerd; Dourish en Redström waren niet bereikbaar. Foggs primaire titelblad blijft open. Onderzoeksclaims vragen eigen methode- en resultatenpassages.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast."
+      ]
+    },
+    {
+      "id": "proefschriften-lage-landen",
+      "file": "content/proefschriften-lage-landen.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Alle twaalf vermeldingen gelezen en per rij op bibliografische metadata beoordeeld; geen integrale dissertatiereview.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Alle twaalf vermeldingen gelezen en per rij op bibliografische metadata beoordeeld; geen integrale dissertatiereview. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "12 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Los bij Hummels het verschil tussen promotiedatum 2000 en publicatieveld 2009 op met het Delftse titelblad. Controleer exacte verdedigingdata van Desmet en Wensveen en het Lirias-titelblad van Zaman."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Bats' copromotor is gecorrigeerd van Søraker naarRianne Valkenburg op basis van het UT-record. Hummels' tweede promotor toegevoegd, maar het conflict 2000/2009 blijft zichtbaar open. Ross' ongecontroleerde cum-laudevermelding is niet langer als feit gegeven."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Los bij Hummels het verschil tussen promotiedatum 2000 en publicatieveld 2009 op met het Delftse titelblad. Controleer exacte verdedigingdata van Desmet en Wensveen en het Lirias-titelblad van Zaman."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "proefschriften-lage-landen-verbeek",
+          "passage": "Peter-Paul Verbeek Universiteit Twente, 2000 De daadkracht der dingen: over techniek, filosofie en vormgeving (Boom) Postfenomenologie en design",
+          "type": "bibliografische metadata",
+          "source": "https://research.utwente.nl/en/publications/de-daadkracht-der-dingen/",
+          "locator": "UT-record, Award date, Research output en Cite this",
+          "verification": "gecontroleerd",
+          "supports": "Promotie op 8 december 2000 en titel bevestigd.",
+          "limitations": "Korte recordtitel; Boom-editie en inhoudelijke argumenten vragen eigen bronpassages."
+        },
+        {
+          "id": "proefschriften-lage-landen-hummels",
+          "passage": "Caroline Hummels TU Delft, 2000 (promotiedatum volgens TU/e); promotors G.J.F.Smets en C.J.Overbeeke Gestural design tools: prototypes, experiments and scenarios Belichaamde, ecologisch-psychologische interactie",
+          "type": "bibliografische metadata",
+          "source": "https://research.tue.nl/en/publications/gestural-design-tools-prototypes-experiments-and-scenarios/",
+          "locator": "TU/e-record, Qualification, Supervisors, Award date en Publication status",
+          "verification": "gedeeltelijk",
+          "supports": "PhD Delft, award 5 september 2000, Smets en Overbeeke bevestigd.",
+          "limitations": "Hetzelfde record geeft publicatiejaar 2009. Delft-titelblad was niet bereikbaar; dit conflict blijft open."
+        },
+        {
+          "id": "proefschriften-lage-landen-desmet",
+          "passage": "Pieter Desmet TU Delft, 2002 (verdedigd 25 juni 2002), promotor J.J. Jacobs Designing emotions Appraisaltheorie, PrEmo-meetinstrument",
+          "type": "bibliografische metadata",
+          "source": "https://repository.tudelft.nl/record/uuid:937aaf05-12f0-4283-adfb-007bdbbeaaa2",
+          "locator": "Delft-record, Doctoral Thesis, Author, Contributor en Files",
+          "verification": "gedeeltelijk",
+          "supports": "Jaar 2002, titel, Desmet en Jacobs bevestigd.",
+          "limitations": "25 juni is alleen in de bestandsnaam gelezen. Verdedigingsdatum en PrEmo-resultaten niet uit de thesis gecontroleerd."
+        },
+        {
+          "id": "proefschriften-lage-landen-wensveen",
+          "passage": "Stephan Wensveen TU Delft, 2005 (verdedigd 2 maart 2005), promotors J. Aasman & C.J. Overbeeke A tangibility approach to affective interaction \"Know, feel, do\": cognitie, perceptueel-motorisch, affect",
+          "type": "bibliografische metadata",
+          "source": "https://repository.tudelft.nl/record/uuid:6c1677bd-048b-407c-ab64-3ed9bc329c24",
+          "locator": "Delft-record, Doctoral Thesis, Contributors, Abstract en Files",
+          "verification": "gedeeltelijk",
+          "supports": "Jaar 2005, titel, Aasman en Overbeeke bevestigd. Het abstract beschrijft know, feel en do.",
+          "limitations": "2 maart is alleen in de bestandsnaam gelezen. Exacte verdediging op het titelblad nog open."
+        },
+        {
+          "id": "proefschriften-lage-landen-frens",
+          "passage": "Joep Frens TU Eindhoven, 2006 (verdedigd 19 april 2006) Designing for Rich Interaction: Integrating Form, Interaction, and Function Alternatief voor \"menus on screens\"; research-through-design",
+          "type": "bibliografische metadata",
+          "source": "https://pure.tue.nl/ws/files/1743335/200610381.pdf",
+          "locator": "TU/e-PDF, p.1 metadata en p.5 titelblad",
+          "verification": "gecontroleerd",
+          "supports": "PhD Eindhoven, exacte titel en verdediging 19 april 2006 bevestigd.",
+          "limitations": "Titelbladcontrole; de methode en alle ontwerpconclusies zijn niet integraal herbeoordeeld."
+        },
+        {
+          "id": "proefschriften-lage-landen-ross",
+          "passage": "Philip Ross TU Eindhoven,2008; onderscheiding nog te verifiëren Ethics and Aesthetics in Intelligent Product and System Design Pragmatistische esthetiek (Shusterman), waardentheorie (Schwartz), Verbeek",
+          "type": "bibliografische metadata",
+          "source": "https://pure.tue.nl/ws/files/3660374/200910169.pdf",
+          "locator": "TU/e-PDF, p.1 metadata, p.5 titelblad en p.6 promotors",
+          "verification": "gecontroleerd",
+          "supports": "Titel en PhD Eindhoven, verdediging 17 december 2008 bevestigd.",
+          "limitations": "Cum laude niet in de bekeken passages bevestigd. Inhoudelijke theorieverbindingen vragen eigen locators."
+        },
+        {
+          "id": "proefschriften-lage-landen-zaman",
+          "passage": "Bieke Zaman KU Leuven, Sociale Wetenschappen, 2011 Laddering method with preschoolers: Understanding preschoolers' user experience with digital media UX bij kleuters, \"third-wave HCI\"",
+          "type": "bibliografische metadata",
+          "source": "https://soc.kuleuven.be/mintlab/projects/past-projects",
+          "locator": "KU Leuven Meaningful Interactions Lab, Past Projects, Laddering method with preschoolers (2011)",
+          "verification": "gedeeltelijk",
+          "supports": "De eigen onderzoeksgroep vermeldt de projecttitel en 2011.",
+          "limitations": "Lirias-PDF niet bereikbaar. Graad, titelblad en volledige subtitel niet uit de projectlijst vastgesteld."
+        },
+        {
+          "id": "proefschriften-lage-landen-kaptein",
+          "passage": "Maurits Kaptein TU Eindhoven, 2012 Personalized persuasion in ambient intelligence Sociale psychologie van gepersonaliseerde persuasie",
+          "type": "bibliografische metadata",
+          "source": "https://research.tue.nl/en/publications/personalized-persuasion-in-ambient-intelligence-2/",
+          "locator": "TU/e-record, Qualification, Award date, Abstract en Cite this",
+          "verification": "gecontroleerd",
+          "supports": "PhD, titel en 29 maart 2012 bevestigd; abstract beschrijft gepersonaliseerde persuasie.",
+          "limitations": "Geen integrale heranalyse van methoden, effecten of generaliseerbaarheid."
+        },
+        {
+          "id": "proefschriften-lage-landen-fokkinga",
+          "passage": "Steven Fokkinga TU Delft, 2015, promotor P.M.A. Desmet Design -|+ Negative emotions for positive experiences Hoe spanning, wrijving en negatieve emoties leiden tot rijke productervaringen",
+          "type": "bibliografische metadata",
+          "source": "https://repository.tudelft.nl/record/uuid:f81fbaab-b3d1-407d-98d4-6775fed2ec81",
+          "locator": "Delft-record, Doctoral Thesis, Contributors en Abstract",
+          "verification": "gecontroleerd",
+          "supports": "Jaar 2015, titel en promotors Desmet en Hekkert bevestigd; abstract beschrijft rich experiences.",
+          "limitations": "Geen bewijs dat iedere negatieve emotie een positieve ervaring oplevert. Hoofdstukmethoden niet herbeoordeeld."
+        },
+        {
+          "id": "proefschriften-lage-landen-smids",
+          "passage": "Jilles Smids TU Eindhoven, 2018 Persuasive technology, allocation of control, and mobility: an ethical analysis Ethiek van persuasive technology en behoud van controle",
+          "type": "bibliografische metadata",
+          "source": "https://pure.tue.nl/ws/files/92133097/20180313_Smids.pdf",
+          "locator": "TU/e-PDF, p.1 metadata, p.4 titelblad en p.8 inhoudsopgave",
+          "verification": "gecontroleerd",
+          "supports": "PhD Eindhoven,13 maart 2018, titel en ethische focus bevestigd.",
+          "limitations": "Titelblad en inhoudsopgave valideren geen afzonderlijke conclusie of effectclaim."
+        },
+        {
+          "id": "proefschriften-lage-landen-kudina",
+          "passage": "Olya Kudina Universiteit Twente, 2019, promotors P.-P. Verbeek & M. Nagenborg The technological mediation of morality: value dynamism, and the complex interaction between ethics and technology Postfenomenologie, waardedynamiek",
+          "type": "bibliografische metadata",
+          "source": "https://research.utwente.nl/en/publications/the-technological-mediation-of-morality-value-dynamism-and-the-co/",
+          "locator": "UT-record, Abstract, Qualification, Award date en Supervisors",
+          "verification": "gecontroleerd",
+          "supports": "PhD 17 mei 2019, titel, Verbeek, Nagenborg en het onderwerp waardedynamiek bevestigd.",
+          "limitations": "Inhoud alleen op abstractniveau; het record gebruikt Olga en het abstract Olya."
+        },
+        {
+          "id": "proefschriften-lage-landen-bats",
+          "passage": "Jan Bats Universiteit Twente, 2019, promotor P.-P.Verbeek; copromotor Rianne Valkenburg The Moral Matter of an Interactive Online Domain: A Philosophical and Empirical Exploration of How Our Relation with the Online Domain Mediates Online Morality Postfenomenologie toegepast op online interfaces en moreel handelen",
+          "type": "bibliografische metadata",
+          "source": "https://research.utwente.nl/en/publications/the-moral-matter-of-an-interactive-online-domain-a-philosophical-",
+          "locator": "UT-record, Qualification, Award date, Supervisors en Abstract",
+          "verification": "gecontroleerd",
+          "supports": "PhD 1 maart 2019, titel, Verbeek en Valkenburg bevestigd.",
+          "limitations": "Het abstract beschrijft drie experimenten; methoden en effectgroottes zijn niet integraal gecontroleerd."
+        }
+      ],
+      "changes": [
+        "Bats' copromotor is gecorrigeerd van Søraker naar Rianne Valkenburg op basis van het UT-record. Hummels' tweede promotor toegevoegd, maar het conflict 2000/2009 blijft zichtbaar open. Ross' ongecontroleerde cum-laudevermelding is niet langer als feit gegeven."
+      ],
+      "open_items": [
+        "K03/K04: Los bij Hummels het verschil tussen promotiedatum 2000 en publicatieveld 2009 op met het Delftse titelblad. Controleer exacte verdedigingdata van Desmet en Wensveen en het Lirias-titelblad van Zaman.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast."
+      ]
+    },
+    {
+      "id": "proefschriften-recente-themas",
+      "file": "content/proefschriften-recente-themas.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige zoekwijzer, de officiële DiVA-zoekportal en het uitgeversrecord van Höök gelezen.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige zoekwijzer, de officiële DiVA-zoekportal en het uitgeversrecord van Höök gelezen. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "2 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Controleer SIGCHI-prijswinnaars per jaargang en de oorspronkelijke publicaties van Gray en Bardzell. Affiliaties zijn tijdgebonden. De selectie is verkennend."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: De ongedekte algemene claim over vrijwel volledige open access is ingetrokken;2026-prijsdekking niet verondersteld."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Controleer SIGCHI-prijswinnaars per jaargang en de oorspronkelijke publicaties van Gray en Bardzell. Affiliaties zijn tijdgebonden. De selectie is verkennend."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "proefschriften-recente-themas-diva",
+          "passage": "Zoek in DiVA (diva-portal.org) op thema, niet op naam. Gebruik het filter voor beschikbare volledige tekst; niet ieder record geeft vrij toegankelijke inhoud.",
+          "type": "bibliografisch zoekhulpmiddel",
+          "source": "https://www.diva-portal.org/",
+          "locator": "Simple search; Only documents with full text in DiVA",
+          "verification": "gecontroleerd",
+          "supports": "DiVA ontsluit publicaties en proefschriften; volledige tekst is een apart zoekfilter.",
+          "limitations": "Geen bewijs dat alle Zweedse proefschriften vrij toegankelijk zijn."
+        },
+        {
+          "id": "proefschriften-recente-themas-soma",
+          "passage": "Somaesthetics Kristina Höök (KTH) Designing with the Body (2018); DiVA voor KTH-doctoraten",
+          "type": "bibliografische metadata",
+          "source": "https://mitpress.mit.edu/9780262038560/designing-with-the-body/",
+          "locator": "Hardcovermetadata, publicatiedatum 13 november 2018 en Description",
+          "verification": "gecontroleerd",
+          "supports": "Höök, titel, jaar en onderwerp somaesthetic interaction design bevestigd.",
+          "limitations": "Uitgeversmetadata, geen nieuwe dissertatie of lokale cursusvalidatie."
+        }
+      ],
+      "changes": [
+        "De ongedekte algemene claim over vrijwel volledige open access is ingetrokken;2026-prijsdekking niet verondersteld."
+      ],
+      "open_items": [
+        "K03/K04: Controleer SIGCHI-prijswinnaars per jaargang en de oorspronkelijke publicaties van Gray en Bardzell. Affiliaties zijn tijdgebonden. De selectie is verkennend.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast."
+      ]
+    },
+    {
+      "id": "leeslijst",
+      "file": "content/leeslijst.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Alle twaalf leesstappen geteld en gelezen; drie oorspronkelijke uitgeversrecords gecontroleerd.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Alle twaalf leesstappen geteld en gelezen; drie oorspronkelijke uitgeversrecords gecontroleerd. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "3 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Controleer de overige leesstappen per editie, ISBN en relevante boekpassage. De voorgestelde leesvolgorde is niet empirisch gevalideerd."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Twaalf boeken is gecorrigeerd naar twaalf leesstappen; verplicht samenlezen enbewezen beheersing zijn vervangen door een redactioneel advies."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Controleer de overige leesstappen per editie, ISBN en relevante boekpassage. De voorgestelde leesvolgorde is niet empirisch gevalideerd."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "leeslijst-dourish",
+          "passage": "Dourish , Where the Action Is (2001).",
+          "type": "bibliografische metadata",
+          "source": "https://mitpress.mit.edu/9780262541787/where-the-action-is/",
+          "locator": "Hardcover ISBN 9780262041966; Pub date 14 september 2001; Description",
+          "verification": "gecontroleerd",
+          "supports": "De eerste hardcover dateert uit 2001; paperback en eBook uit 2004 zijn andere edities.",
+          "limitations": "Metadata en uitgeversbeschrijving, geen integrale boekreview."
+        },
+        {
+          "id": "leeslijst-dunne-raby",
+          "passage": "Dunne & Raby , Speculative Everything (2013).",
+          "type": "bibliografische metadata",
+          "source": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+          "locator": "Titel, auteurs, Pub date 6 december 2013; Description",
+          "verification": "gecontroleerd",
+          "supports": "Titel, beide auteurs en 2013 bevestigd; speculatief ontwerp wordt als voorstel beschreven.",
+          "limitations": "De bron onderbouwt geen optimale leesvolgorde of leerresultaat."
+        },
+        {
+          "id": "leeslijst-hook",
+          "passage": "Höök , Designing with the Body (2018).",
+          "type": "bibliografische metadata",
+          "source": "https://mitpress.mit.edu/9780262038560/designing-with-the-body/",
+          "locator": "Hardcover 13 november 2018; eBook 19 oktober 2018; Description",
+          "verification": "gecontroleerd",
+          "supports": "Beide edities dateren uit 2018; de paperback uit 2024 is een heruitgave.",
+          "limitations": "Inhoudelijke conclusies vragen concrete boekpassages."
+        }
+      ],
+      "changes": [
+        "Twaalf boeken is gecorrigeerd naar twaalf leesstappen; verplicht samenlezen enbewezen beheersing zijn vervangen door een redactioneel advies."
+      ],
+      "open_items": [
+        "K03/K04: Controleer de overige leesstappen per editie, ISBN en relevante boekpassage. De voorgestelde leesvolgorde is niet empirisch gevalideerd.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast."
+      ]
+    },
+    {
+      "id": "repositories-en-zoektermen",
+      "file": "content/repositories-en-zoektermen.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Volledige zoekwijzer gelezen; DiVA en het oorspronkelijke ORO-record van Preece geopend.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Volledige zoekwijzer gelezen; DiVA en het oorspronkelijke ORO-record van Preece geopend. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "2 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Controleer overige portals en gemigreerde records per proefschrift. Systematisch zoeken vraagt geregistreerde zoekstrings, datum, filters en selectiecriteria."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Meeste open access enmeest opbrengende zoektermen zijn niet langer als gemeten feiten gepresenteerd; zoekregistratie toegevoegd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Controleer overige portals en gemigreerde records per proefschrift. Systematisch zoeken vraagt geregistreerde zoekstrings, datum, filters en selectiecriteria."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "repositories-en-zoektermen-diva",
+          "passage": "DiVA diva-portal.org Publicaties en proefschriften van deelnemende instellingen; controleer instelling en documenttype per record",
+          "type": "bibliografisch zoekhulpmiddel",
+          "source": "https://www.diva-portal.org/",
+          "locator": "Simple search, Advanced search en fulltextfilter",
+          "verification": "gecontroleerd",
+          "supports": "De officiële portal biedt zoekingangen en een apart filter voor volledige tekst.",
+          "limitations": "Geen garantie dat iedere genoemde instelling hier haar volledige collectie ontsluit."
+        },
+        {
+          "id": "repositories-en-zoektermen-ou",
+          "passage": "Open Research Online oro.open.ac.uk Preece",
+          "type": "bibliografische metadata",
+          "source": "https://oro.open.ac.uk/57008/",
+          "locator": "Preece 1985, Citation, Item Type en downloadlinks",
+          "verification": "gecontroleerd",
+          "supports": "Preece staat in ORO met PhD,1985 en PDF-downloads.",
+          "limitations": "Eén record bewijst geen volledige beschikbaarheid van alle genoemde proefschriften."
+        }
+      ],
+      "changes": [
+        "Meeste open access enmeest opbrengende zoektermen zijn niet langer als gemeten feiten gepresenteerd; zoekregistratie toegevoegd."
+      ],
+      "open_items": [
+        "K03/K04: Controleer overige portals en gemigreerde records per proefschrift. Systematisch zoeken vraagt geregistreerde zoekstrings, datum, filters en selectiecriteria.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast."
+      ]
+    },
+    {
+      "id": "open-vragen",
+      "file": "content/open-vragen.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Gehele pagina alleen gelezen en vergeleken met de nieuwe controle van 24 bibliografische vermeldingen.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Read-only review; transparantie en actuele reviewscope moeten bij de centrale redactie worden bijgewerkt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Gehele pagina alleen gelezen en vergeleken met de nieuwe controle van 24 bibliografische vermeldingen. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "0 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Centrale redactie: onderscheid Foggs open bronrecord, Dunnes indiening in mei 1997 en Hassenzahls verdediging in 2006 tegenover uitgave in 2007. Vervang algemene bevestigingsclaims door aantoonbare controlescope."
+        },
+        "K05": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen materiële feitcorrectie in deze read-only- of sjabloonreview; volgende inhoudswijzigingen vragen een correctielog."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Centrale redactie: onderscheid Foggs open bronrecord, Dunnes indiening in mei 1997 en Hassenzahls verdediging in 2006 tegenover uitgave in 2007. Vervang algemene bevestigingsclaims door aantoonbare controlescope."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [],
+      "changes": [],
+      "open_items": [
+        "K03/K04: Centrale redactie: onderscheid Foggs open bronrecord, Dunnes indiening in mei 1997 en Hassenzahls verdediging in 2006 tegenover uitgave in 2007. Vervang algemene bevestigingsclaims door aantoonbare controlescope.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast."
+      ]
+    },
+    {
+      "id": "ordeningsprincipes",
+      "file": "content/ordeningsprincipes.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Het volledige K01-K12-kader en de werkafspraken alleen gelezen en op deze zeventien pagina’s toegepast.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Read-only review; transparantie en actuele reviewscope moeten bij de centrale redactie worden bijgewerkt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Het volledige K01-K12-kader en de werkafspraken alleen gelezen en op deze zeventien pagina’s toegepast. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "0 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Centrale redactie: actualiseer de nulmeting en bestaande tabel van drie pagina’s. Herzie de tagregel geverifieerd/mythe naast de genuanceerdere betrouwbaarheidslabels. Controleer de oorspronkelijke kwaliteitsbronnen afzonderlijk."
+        },
+        "K05": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen materiële feitcorrectie in deze read-only- of sjabloonreview; volgende inhoudswijzigingen vragen een correctielog."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Centrale redactie: actualiseer de nulmeting en bestaande tabel van drie pagina’s. Herzie de tagregel geverifieerd/mythe naast de genuanceerdere betrouwbaarheidslabels. Controleer de oorspronkelijke kwaliteitsbronnen afzonderlijk."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [],
+      "changes": [],
+      "open_items": [
+        "K03/K04: Centrale redactie: actualiseer de nulmeting en bestaande tabel van drie pagina’s. Herzie de tagregel geverifieerd/mythe naast de genuanceerdere betrouwbaarheidslabels. Controleer de oorspronkelijke kwaliteitsbronnen afzonderlijk.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast."
+      ]
+    },
+    {
+      "id": "voorbeeld-onderwerp",
+      "file": "content/voorbeeld-onderwerp.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Het volledige sjabloon en de WAI-koppenrichtlijn gelezen; de tekst is een schrijfvoorbeeld.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Het volledige sjabloon en de WAI-koppenrichtlijn gelezen; de tekst is een schrijfvoorbeeld. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "1 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Test de volledige paginacontext inclusief hoofdtitel, focus, zoom en afbeeldingsalternatieven. Nieuwe feitelijke inhoud vraagt een nieuwe claimreview."
+        },
+        "K05": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen materiële feitcorrectie in deze read-only- of sjabloonreview; volgende inhoudswijzigingen vragen een correctielog."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: Test de volledige paginacontext inclusief hoofdtitel, focus, zoom en afbeeldingsalternatieven. Nieuwe feitelijke inhoud vraagt een nieuwe claimreview."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "voorbeeld-onderwerp-structuur",
+          "passage": "Secties krijgen een h2 , subsecties een h3",
+          "type": "normatief schrijfvoorbeeld",
+          "source": "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+          "locator": "Heading ranks en Organize content",
+          "verification": "gecontroleerd",
+          "supports": "WAI beschrijft betekenisvolle koppen met een logische rangorde.",
+          "limitations": "De site levert de hoofdtitel; h 2/h 3 in een fragment bewijzen geen volledige toegankelijkheid."
+        }
+      ],
+      "changes": [],
+      "open_items": [
+        "K03/K04: Test de volledige paginacontext inclusief hoofdtitel, focus, zoom en afbeeldingsalternatieven. Nieuwe feitelijke inhoud vraagt een nieuwe claimreview.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast."
+      ]
+    },
+    {
+      "id": "tijdlijn",
+      "file": "content/tijdlijn.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex, AI-ondersteunde bron- en redactiecontrole; geen onafhankelijke vakreview",
+      "review_scope": "Alle chronologieregels gelezen; drie kernclaims gedeeltelijk geannoteerd en overige regels expliciet als open geregistreerd.",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Auteur, AI-review, doelgroep, datum en reikwijdte zijn in de bronverantwoording benoemd. Onafhankelijke vakreview staat open."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Alle chronologieregels gelezen; drie kernclaims gedeeltelijk geannoteerd en overige regels expliciet als open geregistreerd. Feitelijke beschrijving, eigen interpretatie, norm en lokale illustratie zijn binnen de aangegeven scope onderscheiden."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "3 stabiele claimannotaties met bron, locator en beperkingen; de controle geldt alleen voor de expliciet beschreven dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "De overige tijdlijnregels staan met jaartal en onderwerp op de pagina als direct nog ongeannoteerd. Bronnen op verwante pagina’s valideren niet automatisch de hele tijdlijnregel. Vergelijkingen zijn redactionele duiding, geen bewezen historische invloed."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde materiële correcties zijn zichtbaar op de pagina: Muis psychologischbewezen enCowan corrigeertMiller zijn genuanceerd. Historische schermformaten zijn alsreconstructie onderscheiden. B=MAP wordt nietmeer ongedekt aan 2009 gedateerd. Waarderende claims overiOS 7/standaardwerk zijn beperkt."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Dit is een bronnen-, overzichts- of werkplaatspagina, geen afgeronde les. Lesgebruik vraagt een eigen doel-activiteit-toetsmatrix."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina of sjabloon is geen formatieve les. Ontwerp feedback bij eventueel lesgebruik."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen nieuw deelnemersonderzoek uitgevoerd. Bibliografische selectie is verkennend, geen systematische literatuurreview."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen lokale geaggregeerde onderzoeksdata of inferentiële uitkomst op deze pagina. Bronresultaten zijn geen lokale cursusvalidatie."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze review verzamelt of publiceert geen persoonlijke leerlinggegevens. Toekomstig onderzoek vereist een afzonderlijke procedure."
+        },
+        "K11": {
+          "status": "open",
+          "evidence": "Deze inhouds- en codecontrole bewijst geen WCAG-conformiteit. Technische en browserchecks worden afzonderlijk gerapporteerd. Specifieke vervolgstap: De overige tijdlijnregels staan met jaartal en onderwerp op de pagina als direct nog ongeannoteerd. Bronnen op verwante pagina’s valideren niet automatisch de hele tijdlijnregel. Vergelijkingen zijn redactionele duiding, geen bewezen historische invloed."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Relevante claims en criteria bij inhoudswijzigingen heropenen. Het onderhoudsregister bewijst geen leerwinst."
+        }
+      },
+      "claims": [
+        {
+          "id": "tijdlijn-keuzewetten",
+          "passage": "1952–1954 Keuzetijd en bewegingstijd zijn logaritmisch te voorspellen. Hick en Hyman meten de reactietijd bij onbekende keuzes, Fitts de beweging naar een doel. Fitts' law en Hick-Hyman",
+          "type": "historisch modelschema",
+          "source": "https://www.yorku.ca/mack/CHI92.html",
+          "locator": "Fitts’ Law, vergelijkingen 1-3; The Geometry of Input Tasks",
+          "verification": "gedeeltelijk",
+          "supports": "MacKenzie en Buxton beschrijven Fitts’ model en de modelvarianten.",
+          "limitations": "Oorspronkelijke methoden van Hick 1952 en Hyman 1953 hier niet volledig gecontroleerd; geen onbeperkte menutoepassing."
+        },
+        {
+          "id": "tijdlijn-heuristieken",
+          "passage": "1990–1992 Technologie bemiddelt in vier relaties en draagt morele scripts. Ihde (1990) beschrijft embodiment, hermeneutiek, alteriteit en achtergrond; Latour en Akrich (1992) analyseren scripts; Nielsen en Molich (1990) formuleren hun heuristieken. Postfenomenologie , Latour",
+          "type": "historische duiding",
+          "source": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "locator": "Historische toelichting bij de samenwerking met Molich in 1990 en verfijning in 1994",
+          "verification": "gedeeltelijk",
+          "supports": "De auteur onderscheidt de oorspronkelijke samenwerking van de latere tien heuristieken.",
+          "limitations": "Dezelfde rij noemt Ihde, Latour en Akrich; die passages blijven apart open. De oorspronkelijke ACM-tekst gaf 403."
+        },
+        {
+          "id": "tijdlijn-fogg",
+          "passage": "2009 A/B-data tegen ontwerpoordeel, en conversieparabels zonder bron. Bowmans afscheid wegens 41 tinten blauw, Spools 300 miljoen dollar-knop en Foggs gedragsmodel. De huidige auteurssite schrijft B = MAP ; die huidige terminologie is geen bewijs voor de woordkeuze in 2009. 41 tinten blauw , De 300 miljoen dollar-knop",
+          "type": "modelauteur enredactionele duiding",
+          "source": "https://www.behaviormodel.org/",
+          "locator": "How Behavior Works; B=MAP",
+          "verification": "gedeeltelijk",
+          "supports": "De huidige auteurssite gebruikt Motivation, Ability en Prompt.",
+          "limitations": "Geen bewijs dat in 2009 dezelfde afkorting werd gebruikt. Bowman en Spool blijven afzonderlijke eenzijdige casussen."
+        }
+      ],
+      "changes": [
+        "Muis psychologisch bewezen en Cowan corrigeert Miller zijn genuanceerd. Historische schermformaten zijn alsreconstructie onderscheiden. B=MAP wordt niet meer ongedekt aan 2009 gedateerd. Waarderende claims over iOS 7/standaardwerk zijn beperkt."
+      ],
+      "open_items": [
+        "K03/K04: De overige tijdlijnregels staan met jaartal en onderwerp op de pagina als direct nog ongeannoteerd. Bronnen op verwante pagina’s valideren niet automatisch de hele tijdlijnregel. Vergelijkingen zijn redactionele duiding, geen bewezen historische invloed.",
+        "K01: plan onafhankelijke inhoudelijke vakreview.",
+        "K11: leg browser-, toetsenbord-, zoom- en schermlezercontroles met scope vast.",
+        "K03: directe bronannotatie voor 1910-1930: Gestalt",
+        "K03: directe bronannotatie voor 1927: Heidegger",
+        "K03: directe bronannotatie voor 1945: Merleau-Ponty",
+        "K03: directe bronannotatie voor 1956: Miller en Cowan",
+        "K03: directe bronannotatie voor 1960: Lynch",
+        "K03: directe bronannotatie voor 1966: Bruner",
+        "K03: directe bronannotatie voor 1968: Engelbart",
+        "K03: directe bronannotatie voor 1970-1972: SHRDLU en Dreyfus",
+        "K03: directe bronannotatie voor 1972-1975: Undo en Gypsy",
+        "K03: directe bronannotatie voor 1973-1981: Xerox",
+        "K03: directe bronannotatie voor 1978: Card en Buxton",
+        "K03: directe bronannotatie voor 1979: Gibson en Three Mile Island",
+        "K03: directe bronannotatie voor 1983-1984: Flusser en Macintosh",
+        "K03: directe bronannotatie voor 1985-1988: Therac-25, Kay, GIF, Norman en Sweller",
+        "K03: directe bronannotatie voor 1991: web en Gopher",
+        "K03: directe bronannotatie voor 1992-1995: beeldformaten en beeldlinks",
+        "K03: directe bronannotatie voor 1994-1998: Yahoo en Google",
+        "K03: directe bronannotatie voor 1995: esthetiekonderzoek en JODI",
+        "K03: directe bronannotatie voor 1996-1997: Reeves en Nass, Clippy, Fogg en Dunne",
+        "K03: directe bronannotatie voor 1999: information foraging en favicon",
+        "K03: directe bronannotatie voor 2000-2001: Verbeek, Raskin, Dourish en Redström",
+        "K03: directe bronannotatie voor 2003-2006: UX, F-patroon en Victor",
+        "K03: directe bronannotatie voor 2007: breadcrumbadvies",
+        "K03: directe bronannotatie voor 2010-2012: ethiek en Tuch",
+        "K03: directe bronannotatie voor 2013: Norman, iOS7 en p5.js",
+        "K03: directe bronannotatie voor 2014-2015: Drucker, Hookway en Fokkinga",
+        "K03: directe bronannotatie voor 2017-2021: kunst en dark patterns",
+        "K03: directe bronannotatie voor 2023: Brignull"
+      ]
+    }
+  ],
+  "reviewer": "Codex, AI-ondersteunde bronreview",
+  "scope": "Zeventien volledige pagina’s en 24 bibliografische vermeldingen; geen onafhankelijke vakreview of leeronderzoek."
+}

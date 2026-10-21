@@ -1,0 +1,2466 @@
+{
+  "review_date": "2026-10-21",
+  "scope": "Hele 18 teksten gelezen; geselecteerde belangrijke claims getoetst, geen volledige validatie.",
+  "records": [
+    {
+      "id": "les-de-link",
+      "file": "content/les-de-link.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele les; linkdefinitie, browsergeschiedenis, drie doelen, zelfcontrole en klasopdracht.",
+      "content_sha256": "1605456423b7ba99f7ab4cc50cb924e722b7d87df995d425554a60c17489f04c",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele les; linkdefinitie, browsergeschiedenis, drie doelen, zelfcontrole en klasopdracht. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: les-de-link-browser (gecontroleerd), les-de-link-doel (gecontroleerd). Dit is de afgebakende dekking. Lokale context expliciet gecontroleerd: les-de-link-router, initRouter in main.js."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: CERN-venstermaat 1120×832 en bewaarde versie tegen oorspronkelijk artefact toetsen."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "voldoet",
+          "evidence": "Drie bestaande doelen hebben elk activiteit, zichtbaar beoordelingsbewijs, voorkennis en herwerking."
+        },
+        "K07": {
+          "status": "voldoet",
+          "evidence": "Bestaande begripsvraag en nieuwe toepassingsvraag met modelantwoord en herstap sluiten op de drie doelen aan; geen gevalideerde toets."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "Verkennend protocol met vraag, deelnemers, taken, varianten, volgorde, uitkomsten, instructies, stop en analyse. Zelfgemaakte taken vragen docentcontrole op gelijkwaardigheid."
+        },
+        "K09": {
+          "status": "open",
+          "evidence": "Geen uitgevoerde metingen beschikbaar; protocol bevat taakgewijze analyse en beperkingen."
+        },
+        "K10": {
+          "status": "deels",
+          "evidence": "Vrijwilligheid, duur, alternatief, minimale gegevens, toegang en verwijdering beschreven; formeel onderzoek vraagt schoolprocedure."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Matrix voorbereid; geen begin-/eind-/transfertaken uitgevoerd en geen leerwinst aangetoond."
+        }
+      },
+      "claims": [
+        {
+          "id": "les-de-link-browser",
+          "passage": "Deze weergave beperkt de site tot tekst en links om hun werking te onderzoeken. Ze is geen reconstructie van de eerste browser: WorldWideWeb was in 1990 al een grafische browser én editor op een NeXT-computer. En toch kun je je weg vinden. Deze les gaat over het ene element dat daarvoor zorgt: de link.",
+          "type": "historisch",
+          "source": {
+            "title": "CERN, History of WorldWideWeb (2019)",
+            "url": "https://worldwideweb.cern.ch/history/"
+          },
+          "locator": "1990; Philosophy of the Web",
+          "verification": "gecontroleerd",
+          "supports": "Browser/editor op NeXT in 1990.",
+          "limitations": "Institutionele terugblik; geen exacte reconstructie van iedere vroege pagina."
+        },
+        {
+          "id": "les-de-link-doel",
+          "passage": "Een link doet twee dingen tegelijk. Hij zegt dat je ergens heen kunt, en zijn tekst zegt waar . Dat tweede is het belangrijkste. Vergelijk: \"lees hier meer\" tegenover \"lees over de eerste webpagina \". De tweede link vertelt je waar je terechtkomt voor je klikt.",
+          "type": "norm",
+          "source": {
+            "title": "W3C WAI, Understanding SC 2.4.4",
+            "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html"
+          },
+          "locator": "Success Criterion; Intent; noot over bewust onbekend doel",
+          "verification": "gecontroleerd",
+          "supports": "Linkdoel is uit tekst of programmatisch bepaalde context afleidbaar.",
+          "limitations": "Normuitleg, geen lokale effectmeting; spanning kan bewust zijn."
+        },
+        {
+          "id": "les-de-link-router",
+          "passage": "Op een gewone HTML-pagina kan #uitleg naar de sectie met dat id springen, zolang scripts de navigatie niet anders afhandelen. In deze cursus leest de router het hashdeel als onderwerp-ID: #eerste-webpagina laat de inhoud van dat onderwerp laden. Het adres begint in beide gevallen met #, maar de pagina en haar scripts bepalen wat er gebeurt. Beschrijvende linktekst blijft nodig om de bestemming of functie te begrijpen; meer dan één formulering kan passend zijn.",
+          "type": "lokale_documentatie",
+          "source": {
+            "title": "main.js - initRouter en loadOnderwerp",
+            "url": "main.js"
+          },
+          "locator": "initRouter: location.hash.slice(1), onderwerpen.find, renderOnderwerp en hashchange",
+          "verification": "gecontroleerd",
+          "supports": "De lokale router gebruikt het hashdeel als onderwerp-ID en laadt bijbehorende inhoud.",
+          "limitations": "Broncodecontrole; gewone HTML-fragmentnavigatie is een vergelijking, geen opdracht om een niet-bestaande ankerlink in deze cursus te vinden."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Een link is een stuk tekst dat naar een andere pagina leidt.",
+          "new": "Een link verwijst naar een bestemming: bijvoorbeeld een andere pagina, een plaats op dezelfde pagina of een bestand. Hier onderzoeken we tekstlinks; ook een afbeelding kan een link bevatten.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Meer heb je niet nodig.",
+          "new": "Voor deze oefening gebruiken we die beperkte navigatie.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "net als in 1991",
+          "new": "als bewuste vereenvoudiging voor deze les",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Noem een link die op dezelfde pagina blijft. Hoe herken je die verwijzing? Herschrijf daarna “meer” voor een zelfgekozen bestemming en leg uit wat de lezer vooraf weet.",
+          "new": "Vergelijk twee situaties zonder iets te hoeven openen: een gewone HTML-pagina heeft een sectie met id=\"uitleg\" en een link met href=\"#uitleg\". Deze cursus heeft een link met href=\"#eerste-webpagina\". Waarom kan een adres dat met # begint toch verschillend gedrag hebben? Herschrijf daarna “meer” voor een zelfgekozen bestemming en leg uit wat de lezer vooraf weet.",
+          "reason": "Laatste contextcontrole: routergedrag en onderscheid tussen Therac-ongevallen precies benoemd."
+        },
+        {
+          "old": "Een fragmentlink verwijst binnen dezelfde pagina. Onderstreping en bediening helpen herkenning; een betekenisvolle tekst benoemt de bestemming of functie. Meer dan één formulering kan passend zijn.",
+          "new": "Op een gewone HTML-pagina kan #uitleg naar de sectie met dat id springen, zolang scripts de navigatie niet anders afhandelen. In deze cursus leest de router het hashdeel als onderwerp-ID: #eerste-webpagina laat de inhoud van dat onderwerp laden. Het adres begint in beide gevallen met #, maar de pagina en haar scripts bepalen wat er gebeurt. Beschrijvende linktekst blijft nodig om de bestemming of functie te begrijpen; meer dan één formulering kan passend zijn.",
+          "reason": "Laatste contextcontrole: routergedrag en onderscheid tussen Therac-ongevallen precies benoemd."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "CERN-venstermaat 1120×832 en bewaarde versie tegen oorspronkelijk artefact toetsen.",
+          "next_step": "CERN-venstermaat 1120×832 en bewaarde versie tegen oorspronkelijk artefact toetsen."
+        },
+        {
+          "criterion": "K03",
+          "issue": "TNT-video niet inhoudelijk bekeken; bespreekvraag is geen studie.",
+          "next_step": "TNT-video niet inhoudelijk bekeken; bespreekvraag is geen studie."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        },
+        {
+          "criterion": "K12",
+          "issue": "Leerwinst niet onderzocht.",
+          "next_step": "Na schoolafstemming vergelijkbare begin-/eind-/transfertaken met rubric uitvoeren; hulp, voorkennis en uitval registreren."
+        }
+      ]
+    },
+    {
+      "id": "les-de-lijst",
+      "file": "content/les-de-lijst.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele les; ordeningsclaims, kopsemantiek, drie doelen en zoekvergelijking.",
+      "content_sha256": "6d793dd1cb67615495f8dfbdbda24528cf7d9f3d022b384f12af823a4709affb",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele les; ordeningsclaims, kopsemantiek, drie doelen en zoekvergelijking. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: les-de-lijst-koppen (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Yahoo 1994 en snapshot 1996 primair controleren."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "voldoet",
+          "evidence": "Drie bestaande doelen hebben elk activiteit, zichtbaar beoordelingsbewijs, voorkennis en herwerking."
+        },
+        "K07": {
+          "status": "voldoet",
+          "evidence": "Bestaande begripsvraag en nieuwe toepassingsvraag met modelantwoord en herstap sluiten op de drie doelen aan; geen gevalideerde toets."
+        },
+        "K08": {
+          "status": "deels",
+          "evidence": "Verkennend protocol met vraag, deelnemers, taken, varianten, volgorde, uitkomsten, instructies, stop en analyse. Zelfgemaakte taken vragen docentcontrole op gelijkwaardigheid."
+        },
+        "K09": {
+          "status": "open",
+          "evidence": "Geen uitgevoerde metingen beschikbaar; protocol bevat taakgewijze analyse en beperkingen."
+        },
+        "K10": {
+          "status": "deels",
+          "evidence": "Vrijwilligheid, duur, alternatief, minimale gegevens, toegang en verwijdering beschreven; formeel onderzoek vraagt schoolprocedure."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "open",
+          "evidence": "Matrix voorbereid; geen begin-/eind-/transfertaken uitgevoerd en geen leerwinst aangetoond."
+        }
+      },
+      "claims": [
+        {
+          "id": "les-de-lijst-koppen",
+          "passage": "Een kop is een regel die boven een stuk tekst staat en zegt waar het over gaat. HTML benoemt kopniveaus van h1 tot h6; de stylesheet bepaalt hoe ze eruitzien. Bij doelgericht zoeken scannen lezers vaak koppen voordat ze een passage lezen. Bij aandachtig of literair lezen kan de leeswijze anders zijn. Koppen zijn dus geen versiering maar navigatie binnen de pagina.",
+          "type": "norm",
+          "source": {
+            "title": "W3C WAI, Headings (2017)",
+            "url": "https://www.w3.org/WAI/tutorials/page-structure/headings/"
+          },
+          "locator": "Overview; Heading ranks",
+          "verification": "gecontroleerd",
+          "supports": "Kopniveaus tonen inhoudsstructuur en ondersteunen navigatie.",
+          "limitations": "Ontwerpadvies, geen universele uitspraak over leesgedrag."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Zodra een site meer dan een handvol pagina's heeft, is een lijst van links niet meer genoeg. In 1993 en 1994 begonnen mensen hun pagina's te ordenen met koppen en indexpagina's: lijsten van lijsten.",
+          "new": "Bij een groeiende verzameling kan groepering het zoeken ondersteunen. Koppen en indexen bieden daarvoor een mogelijkheid; er is geen vast aantal pagina's waarna een lijst niet meer werkt.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De browser maakt hem groter en vet.",
+          "new": "HTML benoemt kopniveaus van h1 tot h6; de stylesheet bepaalt hoe ze eruitzien.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Een indexpagina is een pagina die alleen uit links bestaat, gegroepeerd onder koppen.",
+          "new": "Een indexpagina brengt verwijzingen naar inhoud samen, bijvoorbeeld onder koppen; ze kan ook uitleg bevatten.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Yahoo 1994 en snapshot 1996 primair controleren.",
+          "next_step": "Yahoo 1994 en snapshot 1996 primair controleren."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Claim over lezers die koppen scannen mist geopende oorspronkelijke studie.",
+          "next_step": "Claim over lezers die koppen scannen mist geopende oorspronkelijke studie."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        },
+        {
+          "criterion": "K12",
+          "issue": "Leerwinst niet onderzocht.",
+          "next_step": "Na schoolafstemming vergelijkbare begin-/eind-/transfertaken met rubric uitvoeren; hulp, voorkennis en uitval registreren."
+        }
+      ]
+    },
+    {
+      "id": "over-dit-onderzoekscentrum",
+      "file": "content/over-dit-onderzoekscentrum.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele introductie; doelgroep, status, zes thema’s en navigatiedata.",
+      "content_sha256": "02984f7b42d85a4c8290781c19311eb2df1edbb7e26ef4ba0c0bab6501e2973e",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele introductie; doelgroep, status, zes thema’s en navigatiedata. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "voldoet",
+          "evidence": "Geselecteerde claims: over-dit-onderzoekscentrum-themas (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Sitebrede uitspraak over elk anekdotelabel toetsen aan definitief reviewregister."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "over-dit-onderzoekscentrum-themas",
+          "passage": "De kernstof is geordend in zes chronologische thema's (1910–2023) waarin psychologie en filosofie elkaar onderbouwen of tegenspreken",
+          "type": "lokale_documentatie",
+          "source": {
+            "title": "Lokale navigatiedata en kwaliteitsbeleid, 21 oktober 2026",
+            "url": "main.js"
+          },
+          "locator": "onderwerpen-array; project.json quality_policy",
+          "verification": "gecontroleerd",
+          "supports": "Zes themacategorieën en twee lesingangen in de lokale navigatiedata gelezen.",
+          "limitations": "Bestandscontrole is geen browser-/volledigheids-/leerwinstbewijs."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Alles wat hier binnenkomt wordt chronologisch geijkt, in zes historische thema's geordend en kritisch tegen het licht gehouden, zodat het als lesmateriaal bruikbaar is.",
+          "new": "Het materiaal wordt in zes historische thema's geordend en stapsgewijs gecontroleerd. Twee lessen zijn uitgewerkt; de andere pagina's zijn een thematisch bronnenarchief. Het reviewregister toont de reikwijdte en de open punten van de kwaliteitscontrole.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Sitebrede uitspraak over elk anekdotelabel toetsen aan definitief reviewregister.",
+          "next_step": "Sitebrede uitspraak over elk anekdotelabel toetsen aan definitief reviewregister."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "twee-fundamenten",
+      "file": "content/twee-fundamenten.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele overzicht; tweedeling als redactionele keuze en filosofische HCI-lijn.",
+      "content_sha256": "c69d208e32d12fdde4509f773e6df6dff302ce7d61e597636919ad799b32358d",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele overzicht; tweedeling als redactionele keuze en filosofische HCI-lijn. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: twee-fundamenten-invalshoeken (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Jaartallen en invloeden van Dreyfus, Flusser, Ihde, Latour, Verbeek en Hassenzahl afzonderlijk toetsen."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "twee-fundamenten-invalshoeken",
+          "passage": "Voor deze cursus kiezen we twee theoretische invalshoeken met wortels in de twintigste eeuw: filosofie en experimentele psychologie. Dit is onze redactionele ordening; het vak omvat ook ergonomie, informatica, sociologie en ontwerppraktijk. Het eerste is filosofisch: de fenomenologie van Heidegger (1927) en Merleau-Ponty (1945), via Dreyfus (1972), Winograd & Flores (1986) en Dourish (2001), en daarnaast de postfenomenologie en mediatietheorie van Flusser (1983), Ihde (1990), Latour (1992) en Verbeek (2000, 2011). Het tweede is experimenteel-psychologisch: Gestalt (1910–1930), Hick en Hyman (1952–1953), Fitts (1954), Miller (1956) en Sweller (1988), aangevuld met Kurosu & Kashimura (1995) en Hassenzahl (2003–2010).",
+          "type": "filosofische_interpretatie",
+          "source": {
+            "title": "Paul Dourish, auteursbeschrijving Where the Action Is (2001)",
+            "url": "https://www.dourish.com/~dourishc/embodied/"
+          },
+          "locator": "alinea over phenomenology; slotalinea voor More Information",
+          "verification": "gecontroleerd",
+          "supports": "Auteur beschrijft betekenisvorming door interactie.",
+          "limitations": "Boekbeschrijving, geen volledige boekcontrole of experiment."
+        }
+      ],
+      "changes": [
+        {
+          "old": "UI/UX rust op twee theoretische fundamenten die al in de eerste helft van de twintigste eeuw ontstaan.",
+          "new": "Voor deze cursus kiezen we twee theoretische invalshoeken met wortels in de twintigste eeuw: filosofie en experimentele psychologie. Dit is onze redactionele ordening; het vak omvat ook ergonomie, informatica, sociologie en ontwerppraktijk.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Stuart Card bracht die meettraditie in 1978 bij Xerox PARC en Carnegie Mellon de HCI binnen.",
+          "new": "Card, English en Burr pasten die meettraditie in 1978 toe op tekstselectie met invoerapparaten bij Xerox PARC.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De twee tradities onderbouwen elkaar",
+          "new": "In onze lezing raken de twee tradities elkaar",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Jaartallen en invloeden van Dreyfus, Flusser, Ihde, Latour, Verbeek en Hassenzahl afzonderlijk toetsen.",
+          "next_step": "Jaartallen en invloeden van Dreyfus, Flusser, Ihde, Latour, Verbeek en Hassenzahl afzonderlijk toetsen."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Tegenlezing van tegenstelling tussen hele tradities; tweedeling is geen uitputtende vakgeschiedenis.",
+          "next_step": "Tegenlezing van tegenstelling tussen hele tradities; tweedeling is geen uitputtende vakgeschiedenis."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "psychologische-principes",
+      "file": "content/psychologische-principes.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele tabel met veertien principes; gerichte broncontrole Fitts, Cowan en cognitive load.",
+      "content_sha256": "b33572ffdd703dbdab8685a35f3d4ae1ff77443ee79b5226f84bbcc1faa6099d",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele tabel met veertien principes; gerichte broncontrole Fitts, Cowan en cognitive load. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: psychologische-principes-fitts (gecontroleerd), psychologische-principes-cowan (gedeeltelijk), psychologische-principes-belasting (gedeeltelijk). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Overige elf tabelrijen afzonderlijk annoteren met oorspronkelijke methode en beperkingen."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "psychologische-principes-fitts",
+          "passage": "Fitts' law Paul Fitts, 1954 Shannon-variant: MT = a + b · log₂(D/W + 1) Empirisch model; formule, taak en doelgeometrie expliciteren",
+          "type": "empirisch_model",
+          "source": {
+            "title": "I. S. MacKenzie en W. Buxton, Extending Fitts’ Law to Two-Dimensional Tasks (1992), CHI, pp. 219-226",
+            "url": "https://www.yorku.ca/mack/CHI92.html"
+          },
+          "locator": "FITTS’ LAW, vergelijkingen 1-3; Geometry; METHOD",
+          "verification": "gecontroleerd",
+          "supports": "Formulevarianten en richtingsgevoelige doelbreedte.",
+          "limitations": "Twaalf computerervaren deelnemers, muis/CRT; geen universele GUI-snelheid of fysiologische grens."
+        },
+        {
+          "id": "psychologische-principes-cowan",
+          "passage": "Magical number 7±2 George Miller, 1956 Grenzen van het kortetermijngeheugen Vaak misbruikt (\"max 7 menu-items\"); Cowan (2001) stelt eerder ~4 chunks",
+          "type": "empirische_synthese",
+          "source": {
+            "title": "Nelson Cowan, The magical number 4 in short-term memory (2001), BBS 24(1), pp. 87-114",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11515286/"
+          },
+          "locator": "oorspronkelijk abstract: voorwaarden 1-4 en slotzin",
+          "verification": "gedeeltelijk",
+          "supports": "Gemiddeld ongeveer vier chunks onder expliciete afbakeningen.",
+          "limitations": "Alleen abstract; geen universele persoonslimiet of menu-experiment."
+        },
+        {
+          "id": "psychologische-principes-belasting",
+          "passage": "Cognitive load John Sweller, 1988 Belasting bij probleemoplossen en leren; later uitgewerkt in intrinsieke, extrinsieke en germane belasting De driedeling niet volledig aan 1988 toeschrijven; germane wordt later herzien",
+          "type": "theoretisch_model",
+          "source": {
+            "title": "John Sweller, Element Interactivity and Intrinsic, Extraneous, and Germane Cognitive Load (2010), EPR 22, pp. 123-138",
+            "url": "https://link.springer.com/article/10.1007/s10648-010-9128-5"
+          },
+          "locator": "Abstract",
+          "verification": "gedeeltelijk",
+          "supports": "Abstract herformuleert germane belasting in relatie tot intrinsieke belasting.",
+          "limitations": "Alleen abstract toegankelijk; geen volledige reconstructie 1988-2010 of lokale effectmeting."
+        }
+      ],
+      "changes": [
+        {
+          "old": "De sterkste zijn experimenteel : Fitts, Hick-Hyman, de esthetiek-bruikbaarheidsstudies",
+          "new": "Fitts, Hick-Hyman en esthetiek-bruikbaarheid zijn experimenteel onderzocht ; bewijskracht hangt af van vraag, methode en toepassingsgebied",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De meest misbruikte is Millers 7±2",
+          "new": "Een vaak verkeerd toegepaste vuistregel is Millers 7±2",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Intrinsieke, extrinsieke en germane belasting",
+          "new": "Belasting bij probleemoplossen en leren; later uitgewerkt in intrinsieke, extrinsieke en germane belasting",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Ontwikkeld voor instructie, niet voor UI",
+          "new": "De driedeling niet volledig aan 1988 toeschrijven; germane wordt later herzien",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Tien vuistregels voor expertevaluatie",
+          "new": "Inspectiemethode met heuristieken; de bekende tien werden later herzien",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Een argument dat Fitts' law aanhaalt staat op vaste grond.",
+          "new": "Een argument met Fitts' law vraagt een passende taak, doelgeometrie en empirische toetsing.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Bewegingstijd ∝ log₂(afstand/doelgrootte)",
+          "new": "Shannon-variant: MT = a + b · log₂(D/W + 1)",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "Robuust; via Card en Buxton in HCI gebracht",
+          "new": "Empirisch model; formule, taak en doelgeometrie expliciteren",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "Geldt vooral voor ongeordende, onbekende keuzes",
+          "new": "Keuze-reactietaken; frequentie, training, ordening en zoeken afzonderlijk onderzoeken",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "Effect is omkeerbaar en contextafhankelijk",
+          "new": "Ervaren bruikbaarheid onderscheiden van taakprestatie; context en onderzoeksopzet tellen",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "UX = pragmatische + hedonische kwaliteit",
+          "new": "Pragmatische en hedonische kwaliteit onderscheiden in een ervaringsmodel",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "De basis van elke expertevaluatie.",
+          "new": "Een veelgebruikte set voor heuristische inspectie.",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Overige elf tabelrijen afzonderlijk annoteren met oorspronkelijke methode en beperkingen.",
+          "next_step": "Overige elf tabelrijen afzonderlijk annoteren met oorspronkelijke methode en beperkingen."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Default-effecten, Nielsen 1990/1994 en Fogg 2009/MAP vereisen juiste afzonderlijke primaire bronnen.",
+          "next_step": "Default-effecten, Nielsen 1990/1994 en Fogg 2009/MAP vereisen juiste afzonderlijke primaire bronnen."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "fenomenologie-en-breakdown",
+      "file": "content/fenomenologie-en-breakdown.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele filosofische tekst; Dourish §5.1 geopend, gevolgtrekkingen begrensd.",
+      "content_sha256": "d7e00995b7602132514abe48ba5cc8a13e3c97405ee19b120f118f09c85ed3b2",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele filosofische tekst; Dourish §5.1 geopend, gevolgtrekkingen begrensd. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: fenomenologie-en-breakdown-gereedschap (gecontroleerd), fenomenologie-en-breakdown-embodied (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Heidegger §§15-16 en Merleau-Pontys stok/hoed in oorspronkelijke edities controleren."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "fenomenologie-en-breakdown-gereedschap",
+          "passage": "In Sein und Zeit (1927, §§ 15–16) beschrijft Martin Heidegger onze dagelijkse omgang met werktuigen ( Zeug ). Een hamer die werkt, is zuhanden : je richt je aandacht niet op de hamer maar op de spijker en het werkstuk. Pas bij een verstoring, wanneer de steel knapt, de hamer te zwaar blijkt of een onderdeel ontbreekt, wordt het werktuig vorhanden : een object waar je van buitenaf naar kijkt en over moet nadenken. In de HCI-literatuur heet dat omslagpunt breakdown .",
+          "type": "filosofische_interpretatie",
+          "source": {
+            "title": "Paul Dourish, Embodied Interaction, conceptartikel (1999)",
+            "url": "https://www.dourish.com/publications/misc/embodied.pdf"
+          },
+          "locator": "§5.1, PDF pp. 8-9; §6",
+          "verification": "gecontroleerd",
+          "supports": "Dourish verbindt betekenis en gesitueerd handelen met fenomenologie.",
+          "limitations": "Primair HCI-betoog; bemiddelt Heidegger en Merleau-Ponty, geen controle van hun originele edities."
+        },
+        {
+          "id": "fenomenologie-en-breakdown-embodied",
+          "passage": "Paul Dourish verbindt in Where the Action Is: The Foundations of Embodied Interaction (MIT Press, 2001) tangible computing en social computing via de fenomenologie van Husserl, Heidegger, Alfred Schutz, Merleau-Ponty en de late Wittgenstein. Zijn begrip embodied interaction stelt dat betekenis niet vooraf in het systeem ligt opgeslagen, maar telkens opnieuw ontstaat in het concrete, sociaal en lichamelijk gesitueerde handelen van mensen.",
+          "type": "filosofische_interpretatie",
+          "source": {
+            "title": "Paul Dourish, auteursbeschrijving Where the Action Is (2001)",
+            "url": "https://www.dourish.com/~dourishc/embodied/"
+          },
+          "locator": "alinea over phenomenology; slotalinea voor More Information",
+          "verification": "gecontroleerd",
+          "supports": "Auteur beschrijft betekenisvorming door interactie.",
+          "limitations": "Boekbeschrijving, geen volledige boekcontrole of experiment."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Het meest geciteerde filosofische idee in HCI",
+          "new": "Een invloedrijk filosofisch idee in HCI",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Ze verklaart waarom Fitts' law en consistente bediening ( Raskin ) werken: alleen wanneer een handeling zonder hapering verloopt, kan de interface als werktuig verdwijnen ( zuhanden ).",
+          "new": "In deze cursus lezen we Fitts' law en consistente bediening ( Raskin ) naast het idee van vertrouwd gereedschap. Dat is een filosofische vergelijking, geen empirische verklaring van de bewegingswet.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De fenomenologie laat zien dat mensen pas expliciet gaan redeneren wanneer de gewoontehandeling door een breakdown wordt onderbroken.",
+          "new": "Deze fenomenologische lezing benadrukt dat een verstoring vertrouwd gereedschap onderwerp van reflectie kan maken. Zij sluit reflectie tijdens vloeiend handelen niet uit.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Heidegger §§15-16 en Merleau-Pontys stok/hoed in oorspronkelijke edities controleren.",
+          "next_step": "Heidegger §§15-16 en Merleau-Pontys stok/hoed in oorspronkelijke edities controleren."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Dreyfus, Höök, Winograd/Flores en GOMS afzonderlijk lokaliseren en tegenlezing toevoegen.",
+          "next_step": "Dreyfus, Höök, Winograd/Flores en GOMS afzonderlijk lokaliseren en tegenlezing toevoegen."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "fitts-en-hick-hyman",
+      "file": "content/fitts-en-hick-hyman.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele theoriepagina; formule/geometrie, vergrotingsredenering en Hick-bronbereik.",
+      "content_sha256": "308271f513a610bc781c1507b64e480a2ca6e20c594c18b469e1522014bbbb07",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele theoriepagina; formule/geometrie, vergrotingsredenering en Hick-bronbereik. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: fitts-en-hick-hyman-formule (gecontroleerd), fitts-en-hick-hyman-hick (gedeeltelijk). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Hick en Hyman volledige methodes openen; abstract/meta dekt deelnemers en oefeneffecten niet."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "fitts-en-hick-hyman-formule",
+          "passage": "Voor berekeningen gebruiken we MT = a + b · log₂(D/W + 1), de Shannon-variant van MacKenzie. Dit is niet Fitts’ oorspronkelijke formule uit 1954. a en b worden geschat uit meetgegevens; D en W hebben dezelfde lengte-eenheid.",
+          "type": "empirisch_model",
+          "source": {
+            "title": "I. S. MacKenzie en W. Buxton, Extending Fitts’ Law to Two-Dimensional Tasks (1992), CHI, pp. 219-226",
+            "url": "https://www.yorku.ca/mack/CHI92.html"
+          },
+          "locator": "FITTS’ LAW, vergelijkingen 1-3; Geometry; METHOD",
+          "verification": "gecontroleerd",
+          "supports": "Formulevarianten en richtingsgevoelige doelbreedte.",
+          "limitations": "Twaalf computerervaren deelnemers, muis/CRT; geen universele GUI-snelheid of fysiologische grens."
+        },
+        {
+          "id": "fitts-en-hick-hyman-hick",
+          "passage": "William Hick (1952) en Ray Hyman (1953) toonden dat de reactietijd bij een keuze logaritmisch toeneemt met het aantal gelijkwaardige alternatieven. Twee keer zoveel opties kost niet twee keer zoveel tijd, maar wel meetbaar meer beslissingstijd.",
+          "type": "empirisch_model",
+          "source": {
+            "title": "W. E. Hick, On the Rate of Gain of Information (1952)",
+            "url": "https://journals.sagepub.com/doi/pdf/10.1080/17470215208416600"
+          },
+          "locator": "oorspronkelijk abstract via zoekindex; directe opening timeout",
+          "verification": "gedeeltelijk",
+          "supports": "Abstract beschrijft twee keuze-reactie-experimenten tot tien alternatieven.",
+          "limitations": "Bronpassage niet rechtstreeks geopend; deelnemers, training en details blijven open. Hyman 1953 alleen bibliografie gevonden."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Omdat de relatie logaritmisch is, levert het verdubbelen van een al grote knop weinig tijdwinst op, terwijl een piepkleine knop onevenredig veel correctietijd en misklikken veroorzaakt.",
+          "new": "Het model beschrijft een afweging tussen snelheid en nauwkeurigheid. Het effect van verdubbeling hangt af van D/W en de geschatte parameters; de logaritme bewijst op zichzelf geen universele tijdwinst of foutkans.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De muis won niet omdat ze modieus was, maar omdat haar bewegingstijd het dichtst tegen de fysiologische bovengrens van oog en hand lag.",
+          "new": "De studie vergeleek invoerapparaten bij een afgebakende tekstselectietaak. Een gunstige modelpassing bewijst geen universele fysiologische grens of dat de muis voor iedere taak de beste keuze is.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Hick-Hyman geldt voor ongeordende keuzes; zodra gewoonte of duidelijke ordening meespeelt, verandert de taak",
+          "new": "Hick-Hyman modelleert keuze-reactietaken; ordening, frequenties, training en zoeken moeten afzonderlijk worden onderzocht",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Hick en Hyman volledige methodes openen; abstract/meta dekt deelnemers en oefeneffecten niet.",
+          "next_step": "Hick en Hyman volledige methodes openen; abstract/meta dekt deelnemers en oefeneffecten niet."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Card/English/Burr 1978 en Buxton vanaf 1978 primair controleren.",
+          "next_step": "Card/English/Burr 1978 en Buxton vanaf 1978 primair controleren."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "mother-of-all-demos",
+      "file": "content/mother-of-all-demos.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele casus; demo-datum, NLS-functies en Paxton tegen opnamecatalogus.",
+      "content_sha256": "7a80786f29ae1e64ee88db0d8217b0981254f7f849426c2a5d9f301b179ed6f7",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele casus; demo-datum, NLS-functies en Paxton tegen opnamecatalogus. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: mother-of-all-demos-datum (gecontroleerd), mother-of-all-demos-nls (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Video met tijdcodes bekijken; houten drieknopsmuis en exacte afstand nog toetsen."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "mother-of-all-demos-datum",
+          "passage": "Op 9 december 1968 toonde Doug Engelbart op de Fall Joint Computer Conference in San Francisco in één live demonstratie de muis, hypertext, gedeelde schermen en videoconferentie. De demo kreeg later de naam \"The Mother of All Demos\". Wij gebruiken de demo als invloedrijke historische casus van computergebruik als versterking van menselijk denken en handelen; het is geen enig beginpunt.",
+          "type": "historisch",
+          "source": {
+            "title": "Doug Engelbart Institute, 1968 Demo, opnamecatalogus",
+            "url": "https://www.dougengelbart.org/mousesite/1968Demo.html"
+          },
+          "locator": "inleiding; clips 3-8 en 25-28",
+          "verification": "gecontroleerd",
+          "supports": "Catalogus dateert demo en beschrijft tekstbewerking, links en samenwerking met Paxton.",
+          "limitations": "Catalogus geopend; video niet integraal bekeken. Geen leer- of filosofisch effectbewijs."
+        },
+        {
+          "id": "mother-of-all-demos-nls",
+          "passage": "Engelbart en zijn team van het Augmentation Research Center (Stanford Research Institute) demonstreerden het NLS-systeem ( oN-Line System ) anderhalf uur lang live voor een zaal informatici. Hij werkte met een houten muis met drie knoppen, een gewoon toetsenbord en een vijfknops-akkoordtoetsenbord voor de linkerhand, vouwde teksten in en uit tot hiërarchische overzichten, sprong via links tussen bestanden en werkte op een gedeeld scherm samen met Bill Paxton in Menlo Park, vijftig kilometer verderop.",
+          "type": "historisch",
+          "source": {
+            "title": "Doug Engelbart Institute, 1968 Demo, opnamecatalogus",
+            "url": "https://www.dougengelbart.org/mousesite/1968Demo.html"
+          },
+          "locator": "inleiding; clips 3-8 en 25-28",
+          "verification": "gecontroleerd",
+          "supports": "Catalogus dateert demo en beschrijft tekstbewerking, links en samenwerking met Paxton.",
+          "limitations": "Catalogus geopend; video niet integraal bekeken. Geen leer- of filosofisch effectbewijs."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Het is het oermoment van interactief computergebruik als versterking van het menselijk denken en handelen.",
+          "new": "Wij gebruiken de demo als invloedrijke historische casus van computergebruik als versterking van menselijk denken en handelen; het is geen enig beginpunt.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "precies zoals <a",
+          "new": "in een mogelijke filosofische lezing naast <a",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Engelbart sprak zich scherp uit tegen de droom van de kunstmatige intelligentie om de mens te vervangen door een automaat: hij wilde het menselijk intellect versterken , niet ontzien.",
+          "new": "De demo presenteert intellectuele versterking als ontwerpdoel. Dat bewijst niet dat Engelbart alle automatisering of AI afwees.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Video met tijdcodes bekijken; houten drieknopsmuis en exacte afstand nog toetsen.",
+          "next_step": "Video met tijdcodes bekijken; houten drieknopsmuis en exacte afstand nog toetsen."
+        },
+        {
+          "criterion": "K03",
+          "issue": "1962-rapport en viool/fiets-analogie lokaliseren; geen algemeen anti-AI-motief veronderstellen.",
+          "next_step": "1962-rapport en viool/fiets-analogie lokaliseren; geen algemeen anti-AI-motief veronderstellen."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "winograd-en-shrdlu",
+      "file": "content/winograd-en-shrdlu.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele casus; periode en domeingrenzen tegen auteursartikel 1980.",
+      "content_sha256": "b8d31b7bc3700dd998976f13b4e66bc45f4949eb3074bdf6899ec55d6516dd74",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele casus; periode en domeingrenzen tegen auteursartikel 1980. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: winograd-en-shrdlu-periode (gecontroleerd), winograd-en-shrdlu-domein (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Proefschrift 1971 en boek 1986 met exacte locators controleren; Engels opdrachtcitaat lokaliseren."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "winograd-en-shrdlu-periode",
+          "passage": "Terry Winograd schreef tussen 1968 en 1970 aan het MIT het programma SHRDLU, dat in gewone Engelse zinnen over een gesimuleerde blokkenwereld kon redeneren. Het werd het paradepaardje van de klassieke AI. Zestien jaar later publiceerde dezelfde Winograd, met Fernando Flores, een boek dat fundamentele kritiek op de aannames achter die AI formuleerde en de fenomenologie van Heidegger de informatica binnenbracht.",
+          "type": "historisch",
+          "source": {
+            "title": "Terry Winograd, What Does It Mean to Understand Language? (1980), Cognitive Science 4, pp. 209-241",
+            "url": "https://hci.stanford.edu/courses/cs047n/readings/winograd-understand.pdf"
+          },
+          "locator": "pp. 212-215: SHRDLU; Seeing Some Shortcomings; p. 219",
+          "verification": "gecontroleerd",
+          "supports": "Auteur beschrijft ontwikkeling 1968-1970 en beperkingen van taalbegrip in gesloten domein.",
+          "limitations": "Theoretische terugblik; geen algemene weerlegging van AI, boek 1986 niet integraal getoetst."
+        },
+        {
+          "id": "winograd-en-shrdlu-domein",
+          "passage": "SHRDLU bestierde een virtuele tafel met blokken, piramides en een doos in verschillende kleuren. De gebruiker typte opdrachten als \"Find a block which is taller than the one you are holding and put it into the box\", en het programma voerde de handeling uit, vroeg om opheldering bij dubbelzinnige woorden en legde uit waarom een stap nodig was. De demonstraties maakten SHRDLU invloedrijk, maar bewezen niet dat menselijk taalbegrip volledig uit zulke regels en modellen bestaat. Winograd beschreef de beperkingen zelf al in 1980.",
+          "type": "filosofische_interpretatie",
+          "source": {
+            "title": "Terry Winograd, What Does It Mean to Understand Language? (1980), Cognitive Science 4, pp. 209-241",
+            "url": "https://hci.stanford.edu/courses/cs047n/readings/winograd-understand.pdf"
+          },
+          "locator": "pp. 212-215: SHRDLU; Seeing Some Shortcomings; p. 219",
+          "verification": "gecontroleerd",
+          "supports": "Auteur beschrijft ontwikkeling 1968-1970 en beperkingen van taalbegrip in gesloten domein.",
+          "limitations": "Theoretische terugblik; geen algemene weerlegging van AI, boek 1986 niet integraal getoetst."
+        }
+      ],
+      "changes": [
+        {
+          "old": "het boek dat de aannames achter die AI weerlegde",
+          "new": "een boek dat fundamentele kritiek op de aannames achter die AI formuleerde",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Binnen de AI gold dat als het bewijs dat menselijk taalbegrip uit formele regels en interne wereldmodellen bestond.",
+          "new": "De demonstraties maakten SHRDLU invloedrijk, maar bewezen niet dat menselijk taalbegrip volledig uit zulke regels en modellen bestaat. Winograd beschreef de beperkingen zelf al in 1980.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "weerlegt deze anekdote van binnenuit het idee",
+          "new": "bekritiseert deze terugblik van binnenuit het idee",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "leggen Winograd en Flores uit waarom die belofte een gezichtsbedrog was",
+          "new": "beargumenteren Winograd en Flores waarom de belofte van algemeen taalbegrip te ver ging",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Proefschrift 1971 en boek 1986 met exacte locators controleren; Engels opdrachtcitaat lokaliseren.",
+          "next_step": "Proefschrift 1971 en boek 1986 met exacte locators controleren; Engels opdrachtcitaat lokaliseren."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Clippy/taalmodelvergelijking vraagt afzonderlijke argumentatie en bronnen.",
+          "next_step": "Clippy/taalmodelvergelijking vraagt afzonderlijke argumentatie en bronnen."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "uitvinding-van-undo",
+      "file": "content/uitvinding-van-undo.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele geschiedenis; Teitelman selectief undo en Gypsy herstel met PASTE.",
+      "content_sha256": "1e40a3947f5d64cdac2f0916c30b266c1f7b8a8da20683dccba2568b0e534db4",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele geschiedenis; Teitelman selectief undo en Gypsy herstel met PASTE. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: uitvinding-van-undo-teitelman (gecontroleerd), uitvinding-van-undo-gypsy (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Gypsy 1974-1975, Tesler/Mott en Ginn-datering vragen eerdere primaire documentatie."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "uitvinding-van-undo-teitelman",
+          "passage": "Warren Teitelman publiceerde in december 1972 \"Automated Programmering: The Programmer's Assistant\". In BBN-LISP (kort daarna Interlisp bij Xerox PARC) bewaarde het systeem elke ingevoerde opdracht in een geschiedenislijst, zodat een programmeur met UNDO een eerdere bewerking kon terugdraaien, zelfs nadat een fout al gevolgen had gehad. Het was ontworpen om vrijuit te kunnen experimenteren zonder angst om lopend werk kwijt te raken.",
+          "type": "historisch",
+          "source": {
+            "title": "Warren Teitelman, Automated programmering: The programmer’s assistant (1972)",
+            "url": "https://softwarepreservation.computerhistory.org/LISP/interlisp/Teitelman-FCJJ1972.pdf"
+          },
+          "locator": "pp. 918-919: history list; selective undo; Implementation of Undo",
+          "verification": "gecontroleerd",
+          "supports": "BBN-LISP bewaart geschiedenis en kan opgeslagen neveneffecten selectief herstellen.",
+          "limitations": "Systeembeschrijving door maker, geen uitputtend bewijs van uitvindersprioriteit of angstvermindering."
+        },
+        {
+          "id": "uitvinding-van-undo-gypsy",
+          "passage": "De Gypsy-handleiding beschrijft het systeem als onderdeel van het Ginn Publishing System van PARC en XEOS. De precieze ontwikkelingsperiode en de afzonderlijke rollen van Larry Tesler en Tim Mott vragen aanvullende primaire documenten. Gypsy gebruikte selectie met de muis, knippen en plakken. De handleiding van 11 mei 1978 beschrijft concreet herstel van een verwijdering met PASTE; een universele Undo-opdracht is daarmee niet aangetoond.",
+          "type": "historisch",
+          "source": {
+            "title": "Gypsy Operator’s Handbook, 11 mei 1978",
+            "url": "https://www.bitsavers.org/pdf/xerox/alto/gypsy/Gypsy_Operators_Handbook_May1978.pdf"
+          },
+          "locator": "Command summary, gedrukte p. 3 (PDF p. 3)",
+          "verification": "gecontroleerd",
+          "supports": "Handleiding laat een verwijdering herstellen met PASTE.",
+          "limitations": "Bewijst geen universele Undo-opdracht in 1974-1975 of eerste uitvinding."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Op de computer ontstond die mogelijkheid tussen 1972 en 1975 op twee plekken tegelijk: bij Warren Teitelman in de programmeeromgeving Interlisp en bij Larry Tesler en Tim Mott in de modeloze tekstverwerker Gypsy bij Xerox PARC.",
+          "new": "Twee vroege lijnen zijn Teitelmans Programmer’s Assistant in BBN-LISP, gedocumenteerd in 1972, en tekstherstel in Gypsy bij Xerox PARC, waarvan hier de handleiding uit 1978 is gecontroleerd. Daarmee is geen eerste of gelijktijdige uitvinding vastgesteld.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Gypsy verving die modes door directe selectie met de muis, knippen en plakken, en een universele Undo-opdracht voor de laatst uitgevoerde handeling.",
+          "new": "Gypsy gebruikte selectie met de muis, knippen en plakken. De handleiding van 11 mei 1978 beschrijft concreet herstel van een verwijdering met PASTE; een universele Undo-opdracht is daarmee niet aangetoond.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "de twee primaire bronnen zijn nauwkeurig gedateerd",
+          "new": "de geraadpleegde primaire documenten tonen afzonderlijke ontwikkelingslijnen",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "en Larry Tesler en Tim Mott bouwden in 1974–1975 bij Xerox PARC de editor Gypsy met Undo, Cut, Copy en Paste.",
+          "new": "en de Gypsy-handleiding van 11 mei 1978 beschrijft selectie, knippen en herstel door plakken. De ontwikkelingsdatering 1974–1975 vraagt aanvullende primaire controle.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Geen enkele fysieke beitel of typemachine laat een gemaakte vergissing met één toetsaanslag verdwijnen.",
+          "new": "Fysieke sporen zijn vaak moeilijk terug te draaien; digitaal herstel heeft zijn eigen geschiedenis.",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "Enkele gangen verder bij Xerox PARC werkten Larry Tesler en Tim Mott in 1974–1975 aan de tekstverwerker Gypsy voor uitgeverij Ginn & Co. Tesler had bij gebruikersonderzoek gezien hoe beginners voortdurend verdwaalden in editors met verschillende modes (waarbij dezelfde lettertoets de ene keer tekst typt en de andere keer een opdracht uitvoert).",
+          "new": "De Gypsy-handleiding beschrijft het systeem als onderdeel van het Ginn Publishing System van PARC en XEOS. De precieze ontwikkelingsperiode en de afzonderlijke rollen van Larry Tesler en Tim Mott vragen aanvullende primaire documenten.",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "Twee bronnen, 1972–1975",
+          "new": "Twee documenten, 1972 en 1978",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "neemt undo de angst voor misklikken weg",
+          "new": "kan undo de gevolgen van vergissingen beperken; of gebruikers minder angst ervaren vraagt afzonderlijk onderzoek",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "Er is geen enkele uitvinder, maar de geraadpleegde",
+          "new": "Deze review kent geen unieke uitvinder toe; de geraadpleegde",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Gypsy 1974-1975, Tesler/Mott en Ginn-datering vragen eerdere primaire documentatie.",
+          "next_step": "Gypsy 1974-1975, Tesler/Mott en Ginn-datering vragen eerdere primaire documentatie."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Bravo en eerdere editors meenemen vóór claims over eerste of gelijktijdige uitvinding.",
+          "next_step": "Bravo en eerdere editors meenemen vóór claims over eerste of gelijktijdige uitvinding."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "xerox-parc-desktopmetafoor",
+      "file": "content/xerox-parc-desktopmetafoor.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele GUI-casus; Star-aankondiging en noun-verb-bediening uit ontwerperspublicatie.",
+      "content_sha256": "c4c247d68895df6e29fdefd9bf397f0d9a598d93deb735fa5db881932ee253cb",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele GUI-casus; Star-aankondiging en noun-verb-bediening uit ontwerperspublicatie. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: xerox-parc-desktopmetafoor-star (gecontroleerd), xerox-parc-desktopmetafoor-volgorde (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Alto 1973-configuratie onderscheiden van latere Smalltalk-vensters met systeemdocumentatie."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "xerox-parc-desktopmetafoor-star",
+          "passage": "De Xerox Alto (1973, ontworpen door onder anderen Chuck Thacker, Butler Lampson en Alan Kay) werd een onderzoeksplatform voor een staand bitmapscherm, muisbediening en later Smalltalk-interfaces met vensters, voortbouwend op de muis van Engelbart . De configuratie van 1973 moet van latere systeemversies worden onderscheiden. De Xerox 8010 Star Information System maakte daar in april 1981 een samenhangend kantoorproduct van: documenten, mappen, postvakken en printers verschenen als zichtbare iconen op een bureaublad.",
+          "type": "historisch",
+          "source": {
+            "title": "D. C. Smith, C. Irby, R. Kimball, B. Verplank en E. Harslem, Designing the Star User Interface (1982), Byte april, pp. 242-282",
+            "url": "https://guidebookgallery.org/articles/designingthestaruserinterface/"
+          },
+          "locator": "opening; Desktop Metaphor; Universal Commands; Modeless Interaction",
+          "verification": "gecontroleerd",
+          "supports": "Ontwerpers beschrijven aankondiging april 1981 en object-eerst-bediening met uitzonderingen.",
+          "limitations": "Primaire publicatie in transcriptie; Alto-configuratie en Kay/Bruner nog niet hiermee gecontroleerd."
+        },
+        {
+          "id": "xerox-parc-desktopmetafoor-volgorde",
+          "passage": "De ontwerpers beschrijven doorgaans een noun-verb-volgorde: eerst het object selecteren, dan de handeling. Zij noemen uitzonderingen zoals HELP en UNDO.",
+          "type": "historisch",
+          "source": {
+            "title": "D. C. Smith, C. Irby, R. Kimball, B. Verplank en E. Harslem, Designing the Star User Interface (1982), Byte april, pp. 242-282",
+            "url": "https://guidebookgallery.org/articles/designingthestaruserinterface/"
+          },
+          "locator": "opening; Desktop Metaphor; Universal Commands; Modeless Interaction",
+          "verification": "gecontroleerd",
+          "supports": "Ontwerpers beschrijven aankondiging april 1981 en object-eerst-bediening met uitzonderingen.",
+          "limitations": "Primaire publicatie in transcriptie; Alto-configuratie en Kay/Bruner nog niet hiermee gecontroleerd."
+        }
+      ],
+      "changes": [
+        {
+          "old": "combineerde voor het eerst een staand bitmapscherm, overlappende vensters, de muis van Engelbart en de objectgeoriënteerde omgeving Smalltalk.",
+          "new": "werd een onderzoeksplatform voor een staand bitmapscherm, muisbediening en later Smalltalk-interfaces met vensters, voortbouwend op de muis van Engelbart . De configuratie van 1973 moet van latere systeemversies worden onderscheiden.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "met de vaste grammatica dat je eerst een object aanwijst en daarna een handeling toepast.",
+          "new": "De ontwerpers beschrijven doorgaans een noun-verb-volgorde: eerst het object selecteren, dan de handeling. Zij noemen uitzonderingen zoals HELP en UNDO.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "laat zien dat de GUI niet als cosmetisch jasje begon, maar als een pedagogisch en psychologisch gefundeerd alternatief",
+          "new": "presenteert de GUI als een pedagogisch geïnspireerd alternatief",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "",
+          "new": "",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "op een bureaublad, De ontwerpers beschrijven",
+          "new": "op een bureaublad. De ontwerpers beschrijven",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "brachten het grafische scherm, de vensters en de desktopmetafoor voort",
+          "new": "waren belangrijke stappen in de ontwikkeling van grafische interfaces, vensters en de desktopmetafoor",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Alto 1973-configuratie onderscheiden van latere Smalltalk-vensters met systeemdocumentatie.",
+          "next_step": "Alto 1973-configuratie onderscheiden van latere Smalltalk-vensters met systeemdocumentatie."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Bruner 1966 en Kay 1987 lezing/tijdcodes en publicatie 1990 nog exact openen.",
+          "next_step": "Bruner 1966 en Kay 1987 lezing/tijdcodes en publicatie 1990 nog exact openen."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "affordances-en-signifiers",
+      "file": "content/affordances-en-signifiers.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele begrippenpagina; Norman relationele definitie en signifiers 2008.",
+      "content_sha256": "782b0463ae5ede15d15de1d43b29fe6b9c76e61ba537f41179d49505ee14472b",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele begrippenpagina; Norman relationele definitie en signifiers 2008. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: affordances-en-signifiers-affordance (gecontroleerd), affordances-en-signifiers-signifier (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Gibson 1979 hoofdstuk 8 rechtstreeks openen; nu via Norman bemiddeld."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "affordances-en-signifiers-affordance",
+          "passage": "In The Ecological Approach to Visual Perception (1979) definieert James J. Gibson affordances als wat de omgeving een dier of mens handelingsmatig aanbiedt: een vlakke, stevige ondergrond biedt steun om op te lopen, een handvat op grijphoogte biedt grip. De affordance ligt niet in het object alleen en niet in het subject alleen, maar in de relatie tussen lichaam en omgeving. Ze bestaat ook wanneer niemand haar opmerkt.",
+          "type": "theoretisch_model",
+          "source": {
+            "title": "Don Norman, Affordances and Design (webdatum 2008)",
+            "url": "https://jnd.org/affordances-and-design/"
+          },
+          "locator": "AFFORDANCE; PERCEIVED AFFORDANCE; CULTURAL CONSTRAINTS",
+          "verification": "gecontroleerd",
+          "supports": "Auteur onderscheidt relationele mogelijkheden, waarneming en schermconventies.",
+          "limitations": "Geen originele Gibson-editie of gebruikersexperiment."
+        },
+        {
+          "id": "affordances-en-signifiers-signifier",
+          "passage": "Norman gebruikt het begrip signifier al in zijn artikel uit 2008 en werkt het verder uit in de herziene editie van 2013: het waarneembare teken dat aangeeft wáár en hoe je kunt handelen. Een deur laat zich fysiek openen (affordance), maar het is de vlakke duwplaat, de trekstang of het opschrift \"Duwen\" dat aangeeft welke handeling werkt (signifier). De affordance is de mogelijkheid, de signifier is de aanwijzing.",
+          "type": "historisch",
+          "source": {
+            "title": "Don Norman, Signifiers, Not Affordances (2008), interactions 15(6), pp. 18-19",
+            "url": "https://www.alice.id.tue.nl/references/norman-2008.pdf"
+          },
+          "locator": "pp. 18-19, definitie en terugblik op 1988; DOI 10.1145/1409040.1409044",
+          "verification": "gecontroleerd",
+          "supports": "Norman publiceerde signifiers aantoonbaar al in 2008.",
+          "limitations": "Ontwerpbetoog, geen experiment of claim over oorsprong van het woord in andere disciplines."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Norman corrigeerde zichzelf in 2013 met het begrip signifier.",
+          "new": "Norman verduidelijkte het onderscheid met signifiers, al gepubliceerd in 2008 en opgenomen in de herziene editie van 2013.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Norman (2013): signifiers",
+          "new": "Norman (2008, 2013): signifiers",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De correctie, 2013",
+          "new": "De verduidelijking, 2008 en 2013",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "In de herziene editie van 2013 herstelt Norman het onderscheid en voert hij het begrip signifier in:",
+          "new": "Norman gebruikt het begrip signifier al in zijn artikel uit 2008 en werkt het verder uit in de herziene editie van 2013:",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Op een aanraakscherm heeft elke pixel exact dezelfde fysieke affordance:",
+          "new": "Op een vlak aanraakscherm biedt het glas niet vanzelf voor elke functie een andere voelbare vorm:",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "berust daarom nooit op een fysieke eigenschap van het oppervlak, maar altijd op een signifier",
+          "new": "wordt doorgaans herkenbaar door een signifier",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Gibson 1979 hoofdstuk 8 rechtstreeks openen; nu via Norman bemiddeld.",
+          "next_step": "Gibson 1979 hoofdstuk 8 rechtstreeks openen; nu via Norman bemiddeld."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Functionele/digitale affordances en verschillende lichamen als tegenlezing verder uitwerken.",
+          "next_step": "Functionele/digitale affordances en verschillende lichamen als tegenlezing verder uitwerken."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "three-mile-island",
+      "file": "content/three-mile-island.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele veiligheidsanekdote; oversimplificatie en exacte lampclaim begrensd; officiële bronopening mislukt.",
+      "content_sha256": "c62d130041a1a602bcfad47d449ecb976b6c9145affdb840c8463b77a6f6d1c7",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele veiligheidsanekdote; oversimplificatie en exacte lampclaim begrensd; officiële bronopening mislukt. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: three-mile-island-indicator (niet_bereikbaar). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: NRC 403/INL 502: originele Kemeny/Rogovin-passage ophalen voor lamp, bedrading en tijdlijn."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "three-mile-island-indicator",
+          "passage": "In reactor 2 (TMI-2) bij Harrisburg, Pennsylvania, ging een druk-ontlastklep (de PORV) open en bleef mechanisch klemmen, waardoor koelwater uit het reactorvat bleef wegstromen. De indicator van de aansturing gaf de operatoren aanleiding te denken dat de klep gesloten was; een opdracht is geen gemeten klepstand. De precieze signaallogica, bedrading en tijdlijn vragen nog een bereikbare passage uit het oorspronkelijke rapport. De NRC-bron was bij deze review geblokkeerd.",
+          "type": "historisch",
+          "source": {
+            "title": "US NRC, Backgrounder on the Three Mile Island Accident",
+            "url": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/3mile-isle.html"
+          },
+          "locator": "ongevalsverloop; bronopening HTTP 403",
+          "verification": "niet_bereikbaar",
+          "supports": "Officiële bron beoogd voor klep/indicator; passage niet geopend in deze review.",
+          "limitations": "Kemeny/Rogovin, exacte lamp-logica en tijdlijn blijven open; INL Rogovin gaf HTTP 502."
+        }
+      ],
+      "changes": [
+        {
+          "old": "wat \"menselijke fout\" heet, is meestal een ontwerpfout.",
+          "new": "onderzoek menselijke fouten binnen het bredere systeem van ontwerp, training en organisatie. Deze casus rechtvaardigt geen uitspraak dat de meeste menselijke fouten ontwerpfouten zijn.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Op het bedieningspaneel brandde echter het lampje dat volgens het opschrift betekende dat de klep gesloten was. Dat lampje was namelijk niet aangesloten op de klep zelf, maar op de stroomdraad naar de magneetspoel: het toonde enkel dat het sluitsignaal verstuurd was. Ruim twee uur lang handelden de operatoren in de veronderstelling dat de klep dicht zat, terwijl honderden andere alarmbellen tegelijk afgingen.",
+          "new": "De indicator van de aansturing gaf de operatoren aanleiding te denken dat de klep gesloten was; een opdracht is geen gemeten klepstand. De precieze signaallogica, bedrading en tijdlijn vragen nog een bereikbare passage uit het oorspronkelijke rapport. De NRC-bron was bij deze review geblokkeerd.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "en één cruciale indicator verkeerd bedraadt, faalt niet de aandacht van de operator maar de informatiearchitectuur van de regelkamer.",
+          "new": "en de cruciale indicator geen gemeten klepstand toont, kan de inrichting van de regelkamer bijdragen aan verkeerde beslissingen. Dat sluit technische, organisatorische of opleidingsfactoren niet uit.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Foto's en onderzoeksrapporten van de Amerikaanse overheid zijn publiek domein.",
+          "new": "Controleer bij hergebruik de rechten per foto of document; opname in een overheidscollectie garandeert niet dat ieder onderdeel vrij van auteursrechten is.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Als een paneel honderden ongeordende alarmen tegelijk laat rinkelen",
+          "new": "Als een paneel veel gelijktijdige alarmen onvoldoende ordent",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "NRC 403/INL 502: originele Kemeny/Rogovin-passage ophalen voor lamp, bedrading en tijdlijn.",
+          "next_step": "NRC 403/INL 502: originele Kemeny/Rogovin-passage ophalen voor lamp, bedrading en tijdlijn."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Norman 1980/1981 en alarmenaantallen afzonderlijk toetsen.",
+          "next_step": "Norman 1980/1981 en alarmenaantallen afzonderlijk toetsen."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Rechten per INL-foto controleren; collectie is geen algemene publiekdomeinverklaring.",
+          "next_step": "Rechten per INL-foto controleren; collectie is geen algemene publiekdomeinverklaring."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "apple-atkinson-en-kare",
+      "file": "content/apple-atkinson-en-kare.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele Apple-casus; MoMA-artefact, Mac/Lisa-specificatie en onderscheid effect/illustratie.",
+      "content_sha256": "e2d03c93e42beacd453afcf9b68394f9d7205c20fd4e5437d4a37a494b1a4e54",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele Apple-casus; MoMA-artefact, Mac/Lisa-specificatie en onderscheid effect/illustratie. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: apple-atkinson-en-kare-schetsboek (gecontroleerd), apple-atkinson-en-kare-scherm (gedeeltelijk). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: QuickDraw, MacPaint en HyperCard-attributie en introductiedata met auteurs-/Apple-documentatie toetsen."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "apple-atkinson-en-kare-schetsboek",
+          "passage": "Susan Kare werkte haar Macintosh-iconen uit op ruitjespapier, met een vakje per pixel; het MoMA registreert haar iconschetsboek als 1982. Het werk omvatte iconen, cursors en schermletters, waaronder Chicago en Geneva. Rasters verschillen per element; niet iedere cursor of letter is een icoon van 32 bij 32 pixels. Ze behandelde een pixelraster niet als een wiskundige beperking, maar als mozaïek of kruissteek: hoe minder punten je hebt, hoe helderder het gebaar moet zijn.",
+          "type": "historisch",
+          "source": {
+            "title": "MoMA, Susan Kare: Apple Macintosh OS icon sketchbook (1982), object 112.2015",
+            "url": "https://www.moma.org/collection/works/188382"
+          },
+          "locator": "objectvelden; zaaltekst Never Alone (2022-2023)",
+          "verification": "gecontroleerd",
+          "supports": "Schetsboek 1982, gezamenlijk bezit en ruitjespapier gedocumenteerd.",
+          "limitations": "Artefactdocumentatie, geen causaal bewijs van opleiding of begrijpelijkheid."
+        },
+        {
+          "id": "apple-atkinson-en-kare-scherm",
+          "passage": "QuickDraw ondersteunde grafische vensters, gebieden en letters in Apples interfaces. Het hier bedoelde scherm van 512 bij 342 pixels hoort bij de compacte Macintosh; de Lisa mag niet dezelfde specificatie worden toegeschreven. MacPaint maakte van dat scherm een direct tekenblad, en HyperCard (augustus 1987) verbond kaarten, knoppen en scripts tot een toegankelijke hypertextomgeving nog voor het World Wide Web ontstond.",
+          "type": "historisch",
+          "source": {
+            "title": "Apple, Macintosh 512K: Technical Specifications",
+            "url": "https://support.apple.com/en-ca/112187"
+          },
+          "locator": "Video Memory: Notes, Screen size is 512x342",
+          "verification": "gedeeltelijk",
+          "supports": "Specifieke noot noemt 512×342 voor Macintosh 512K.",
+          "limitations": "Record heeft ook inconsistente generieke videotabel 512×384; geen Lisa-specificatie."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Dat Kare een beeldend kunstenaar en kunsthistorica was en geen ingenieur, maakte het verschil tussen een technisch bedieningspaneel en een leesbare beeldtaal.",
+          "new": "Wij lezen haar werk als een voorbeeld van beeldende vormgeving in interfaceontwerp; haar opleiding bewijst op zichzelf geen oorzakelijk effect op begrijpelijkheid.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "QuickDraw stelde de Apple Lisa (1983) en de Macintosh (januari 1984) in staat om vlot afgeronde vensters, uitgeknipte gebieden en proportionele drukletters op een zwart-wit bitmapscherm van 512 bij 342 pixels te tekenen.",
+          "new": "QuickDraw ondersteunde grafische vensters, gebieden en letters in Apples interfaces. Het hier bedoelde scherm van 512 bij 342 pixels hoort bij de compacte Macintosh; de Lisa mag niet dezelfde specificatie worden toegeschreven.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Susan Kare, gepromoveerd in de beeldende kunst en kunstgeschiedenis, begon haar werk voor de Macintosh in een roze ruitjesschrift waarin elk vakje één pixel voorstelde.",
+          "new": "Susan Kare werkte haar Macintosh-iconen uit op ruitjespapier, met een vakje per pixel; het MoMA registreert haar iconschetsboek als 1982.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "en demonstreren tien jaar vóór",
+          "new": "en bieden een historisch bespreekvoorbeeld naast",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "waarom visuele zorg een technisch systeem toegankelijk en vertrouwd maakt.",
+          "new": "over het verband tussen visuele vorm en ervaren bruikbaarheid. De iconen vormen op zichzelf geen effectstudie en waren niet voor elke gebruiker meteen begrijpelijk.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Op een raster van 32 bij 32 pixels ontwierp ze de prullenbak, het lachende Mac-icoon, het verfblik, de lasso, het handje en het bommetje bij een systeemfout, plus schermlettertypes als Chicago en Geneva.",
+          "new": "Het werk omvatte iconen, cursors en schermletters, waaronder Chicago en Geneva. Rasters verschillen per element; niet iedere cursor of letter is een icoon van 32 bij 32 pixels.",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "Onderbouwing van beeld als signifier en van het esthetiek-bruikbaarheidseffect.",
+          "new": "Beeld als signifier; vergelijking met esthetiek en bruikbaarheid.",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        },
+        {
+          "old": "een onmiddellijk herkenbare <a",
+          "new": "een zichtbare <a",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "QuickDraw, MacPaint en HyperCard-attributie en introductiedata met auteurs-/Apple-documentatie toetsen.",
+          "next_step": "QuickDraw, MacPaint en HyperCard-attributie en introductiedata met auteurs-/Apple-documentatie toetsen."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Promotietitel Kare en rasters van verschillende iconen/cursors apart controleren.",
+          "next_step": "Promotietitel Kare en rasters van verschillende iconen/cursors apart controleren."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Originele 128K- en Lisa-specificaties openen; 512K-webrecord heeft tegenstrijdige tabel.",
+          "next_step": "Originele 128K- en Lisa-specificaties openen; 512K-webrecord heeft tegenstrijdige tabel."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "fitts-en-de-mac-menubalk",
+      "file": "content/fitts-en-de-mac-menubalk.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele casus; cursoropvang en touch-randvoorwaarde tegen Tognazzini.",
+      "content_sha256": "146b00024e1872340b43a76fd0ceb918e3e924a9d1a6519bea326075d954f9b0",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele casus; cursoropvang en touch-randvoorwaarde tegen Tognazzini. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: fitts-en-de-mac-menubalk-rand (gecontroleerd), fitts-en-de-mac-menubalk-touch (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Tog on Interface 1992 en vijf-plekkenquiz exacte passage openen."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "fitts-en-de-mac-menubalk-rand",
+          "passage": "Een menubalk op een ondoorgankelijke cursorgrens kan overschieten naar boven voorkomen. ‘Oneindig diep’ is een geometrische ontwerpmetafoor, geen letterlijk oneindige W die je zonder meer in de formule invult. Horizontaal moet je het juiste menu nog vinden en raken.",
+          "type": "ontwerpheuristiek",
+          "source": {
+            "title": "Bruce Tognazzini, First Principles of Interaction Design, herzien 2014",
+            "url": "https://asktog.com/atc/principles-of-interaction-design/"
+          },
+          "locator": "Fitts’s Law: pinning; touch; stopwatch test",
+          "verification": "gecontroleerd",
+          "supports": "Auteur beschrijft voordeel cursoropvang aan randen en ontbreken daarvan bij touch.",
+          "limitations": "Praktijkbetoog; snelheidsfactoren niet tegen oorspronkelijke metingen getoetst; geen letterlijk oneindige W."
+        },
+        {
+          "id": "fitts-en-de-mac-menubalk-touch",
+          "passage": "Tegenspraak en randvoorwaarde bij veranderende hardware. Dezelfde formule onthult ook wanneer Tognazzini's regel haar voordeel verliest. Op een hedendaags breedbeeldscherm of bij twee monitoren naast elkaar wordt de afstand D van een venster rechtsonder naar de menubalk linksboven zeer groot, en verdwijnt de bovenrand op het grensvlak tussen een boven- en onderscherm. Op een aanraakscherm bestaat bovendien helemaal geen cursor die tegen een rand botst: een vinger zweeft in drie dimensies boven het glas. Bij aanraking ontbreekt de cursoropvang aan de rand. Fitts blijft een empirisch model met randvoorwaarden; het voordeel van een concrete menubalk vraagt een passende vergelijking.",
+          "type": "ontwerpheuristiek",
+          "source": {
+            "title": "Bruce Tognazzini, First Principles of Interaction Design, herzien 2014",
+            "url": "https://asktog.com/atc/principles-of-interaction-design/"
+          },
+          "locator": "Fitts’s Law: pinning; touch; stopwatch test",
+          "verification": "gecontroleerd",
+          "supports": "Auteur beschrijft voordeel cursoropvang aan randen en ontbreken daarvan bij touch.",
+          "limitations": "Praktijkbetoog; snelheidsfactoren niet tegen oorspronkelijke metingen getoetst; geen letterlijk oneindige W."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Op de Macintosh (1984) staat één gemeenschappelijke menubalk helemaal tegen de bovenrand van het beeldscherm. De fysieke grens van het scherm vangt de cursor op. Daardoor wordt W in de opwaartse richting effectief oneindig groot en vervalt de remfase van de handbeweging.",
+          "new": "Een menubalk op een ondoorgankelijke cursorgrens kan overschieten naar boven voorkomen. ‘Oneindig diep’ is een geometrische ontwerpmetafoor, geen letterlijk oneindige W die je zonder meer in de formule invult. Horizontaal moet je het juiste menu nog vinden en raken.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De Mac-menubalk bewijst dat",
+          "new": "De Mac-menubalk illustreert hoe",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Een ergonomische wet klopt altijd, maar een ontwerpconventie alleen zolang het fysieke apparaat gelijk blijft.",
+          "new": "Bij aanraking ontbreekt de cursoropvang aan de rand. Fitts blijft een empirisch model met randvoorwaarden; het voordeel van een concrete menubalk vraagt een passende vergelijking.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "waar $D = 0$",
+          "new": "waar D = 0 is",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Tog on Interface 1992 en vijf-plekkenquiz exacte passage openen.",
+          "next_step": "Tog on Interface 1992 en vijf-plekkenquiz exacte passage openen."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Kwantitatieve snelheid en meerdere schermen met vergelijkend onderzoek toetsen.",
+          "next_step": "Kwantitatieve snelheid en meerdere schermen met vergelijkend onderzoek toetsen."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "therac-25",
+      "file": "content/therac-25.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele reconstructie; zes ongevallen, hardware/software en Tyler-racecondition tegen Leveson/Turner I-III.",
+      "content_sha256": "970b43697eab37eb42aa3d554a350febbce7b0b173d35d1a04cd7ceb81397f0a",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele reconstructie; zes ongevallen, hardware/software en Tyler-racecondition tegen Leveson/Turner I-III. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: therac-25-ongevallen (gecontroleerd), therac-25-tyler (gecontroleerd), therac-25-melding (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Dosisramingen en oorzaken per ongeval uit tabellen reconstrueren vóór algemene dosisfactor."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "therac-25-ongevallen",
+          "passage": "De Therac-25 was een computergestuurd bestralingstoestel dat tussen juni 1985 en januari 1987 bij zes bekende ongevallen een massale overdosis straling toediende, met sterfgevallen en blijvende verminkingen tot gevolg. De reconstructie beschrijft verschillende software- en veiligheidsproblemen; de racecondition bij snelle invoercorrecties betreft de Tyler-ongevallen. In deze cursus gebruiken we de casus om de samenhang van software, feedback, hardwarebeveiliging en organisatie te onderzoeken.",
+          "type": "historisch",
+          "source": {
+            "title": "N. Leveson en C. Turner, An Investigation of the Therac-25 Accidents (1993), IEEE Computer 26(7), pp. 18-41",
+            "url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_1.html"
+          },
+          "locator": "inleiding; Genesis of the Therac-25",
+          "verification": "gecontroleerd",
+          "supports": "Zes bekende ongevallen en minder onafhankelijke hardwarebeveiligingen.",
+          "limitations": "Reconstructie meldt onvolledige fabrikantdocumentatie en meerdere oorzaken."
+        },
+        {
+          "id": "therac-25-tyler",
+          "passage": "Waar oudere modellen (Therac-6 en Therac-20) nog mechanische vergrendelingen hadden die verhinderden dat een onverzwakte elektronenbundel werd afgevuurd, kreeg de software van de Therac-25 meer veiligheidsverantwoordelijkheid en werden niet alle onafhankelijke hardwarebeveiligingen overgenomen. Voor de Tyler-ongevallen beschrijven Leveson en Turner een race condition : wanneer een geroutineerde ziekenhuisoperator op het tekstscherm een typefout in de modus (bijvoorbeeld x voor röntgen in plaats van e voor elektronen) binnen acht seconden met de pijltjestoets corrigeerde, nam het scherm de wijziging wel over, maar bleef een deel van de interne instellingen op vol vermogen staan. Dosisramingen verschillen per ongeval; deze timingfout verklaart niet zonder meer alle zes ongevallen.",
+          "type": "historisch",
+          "source": {
+            "title": "Leveson en Turner (1993), deel III",
+            "url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_3.html"
+          },
+          "locator": "openingsalinea over Tyler en achtsecondenvenster",
+          "verification": "gecontroleerd",
+          "supports": "Tyler-timingfout gedocumenteerd, naast andere fouten.",
+          "limitations": "Niet alle zes ongevallen zijn aan deze racecondition toe te schrijven."
+        },
+        {
+          "id": "therac-25-melding",
+          "passage": "In Tyler verscheen Malfunction 54 met een treatment pause en een misleidende onderdosisindicatie. De beschikbare uitleg ‘dose input 2’ maakte de ernst onvoldoende duidelijk. De reconstructie beschrijft dat de operator na eerdere weinig ernstige onderbrekingen de P -toets ( Proceed ) gebruikte. Dit vraagt analyse van feedback, training en veiligheidsorganisatie; niet alle ongevallen verliepen identiek.",
+          "type": "historisch",
+          "source": {
+            "title": "Leveson en Turner (1993), deel II",
+            "url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_2.html"
+          },
+          "locator": "East Texas Cancer Center, March 1986: Malfunction 54; proceed",
+          "verification": "gecontroleerd",
+          "supports": "Tyler-beschrijving documenteert misleidende foutmelding en herstart.",
+          "limitations": "Historische reconstructie; geen universele foutfrequentiemeting."
+        }
+      ],
+      "changes": [
+        {
+          "old": "bij zes patiënten",
+          "new": "bij zes bekende ongevallen",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "vertrouwde de Therac-25 volledig op software.",
+          "new": "kreeg de software van de Therac-25 meer veiligheidsverantwoordelijkheid en werden niet alle onafhankelijke hardwarebeveiligingen overgenomen.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Leveson en Turner toonden aan dat de besturing een race condition bevatte:",
+          "new": "Voor de Tyler-ongevallen beschrijven Leveson en Turner een race condition :",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De patiënt kreeg daardoor tot honderd keer de voorgeschreven stralingsdosis.",
+          "new": "Dosisramingen verschillen per ongeval; deze timingfout verklaart niet zonder meer alle zes ongevallen.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Wanneer het systeem een afwijking opmerkte, verscheen op de terminal enkel een code als MALFUNCTION 54 zonder vermelding van de aard of de ernst van de storing. Omdat zulke foutnummers tientallen keren per week verschenen bij onschuldige schommelingen en de handleiding de codes niet toelichtte, drukten operatoren routinematig op de P -toets ( Proceed ) om de behandeling voort te zetten, tot vijf keer na elkaar tijdens hetzelfde ongeval.",
+          "new": "In Tyler verscheen Malfunction 54 met een treatment pause en een misleidende onderdosisindicatie. De beschikbare uitleg ‘dose input 2’ maakte de ernst onvoldoende duidelijk. De reconstructie beschrijft dat de operator na eerdere weinig ernstige onderbrekingen de P -toets ( Proceed ) gebruikte. Dit vraagt analyse van feedback, training en veiligheidsorganisatie; niet alle ongevallen verliepen identiek.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "het scherpste bewijsstuk",
+          "new": "een ernstig historisch grensgeval",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "De combinatie van een verborgen race condition in de software, cryptische foutcodes op het scherm en gewenning bij de operatoren maakte het tot de standaardcasus over interfaceontwerp en veiligheid.",
+          "new": "De reconstructie beschrijft verschillende software- en veiligheidsproblemen; de racecondition bij snelle invoercorrecties betreft de Tyler-ongevallen. In deze cursus gebruiken we de casus om de samenhang van software, feedback, hardwarebeveiliging en organisatie te onderzoeken.",
+          "reason": "Laatste contextcontrole: routergedrag en onderscheid tussen Therac-ongevallen precies benoemd."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Dosisramingen en oorzaken per ongeval uit tabellen reconstrueren vóór algemene dosisfactor.",
+          "next_step": "Dosisramingen en oorzaken per ongeval uit tabellen reconstrueren vóór algemene dosisfactor."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Fabrikantdocumentatie en originele broncode zijn in de reconstructie deels onbekend.",
+          "next_step": "Fabrikantdocumentatie en originele broncode zijn in de reconstructie deels onbekend."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "geheugen-en-cognitieve-belasting",
+      "file": "content/geheugen-en-cognitieve-belasting.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele psychologische tekst; chunks en veranderende cognitive-load-theorie op abstractniveau.",
+      "content_sha256": "466144025bbb28ea62a6b59e6480d827183300d3c0d7d110a24a4352207cb05c",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele psychologische tekst; chunks en veranderende cognitive-load-theorie op abstractniveau. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: geheugen-en-cognitieve-belasting-chunks (gedeeltelijk), geheugen-en-cognitieve-belasting-germane (gedeeltelijk). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Miller 1956 en Sweller 1988 volledig openen; Cowan/Sweller 2010 nu alleen abstract."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "geheugen-en-cognitieve-belasting-chunks",
+          "passage": "George Millers artikel \"The Magical Number Seven, Plus or Minus Two\" ( Psychological Review , 1956) beschrijft twee verschillende dingen: hoeveel eendimensionale prikkels mensen uit elkaar houden, en hoeveel losse eenheden ( chunks ) ze in hun onmiddellijke geheugen kunnen vasthouden. Cowan beargumenteerde in 2001 op basis van uiteenlopende studies gemiddeld ongeveer vier chunks onder expliciete voorwaarden die herhalen en hergroeperen beperken. Dat is geen exact maximum voor elke persoon of taak.",
+          "type": "empirische_synthese",
+          "source": {
+            "title": "Nelson Cowan, The magical number 4 in short-term memory (2001), BBS 24(1), pp. 87-114",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11515286/"
+          },
+          "locator": "oorspronkelijk abstract: voorwaarden 1-4 en slotzin",
+          "verification": "gedeeltelijk",
+          "supports": "Gemiddeld ongeveer vier chunks onder expliciete afbakeningen.",
+          "limitations": "Alleen abstract; geen universele persoonslimiet of menu-experiment."
+        },
+        {
+          "id": "geheugen-en-cognitieve-belasting-germane",
+          "passage": "John Sweller ontwikkelde in 1988 (\"Cognitive load during problem solving: Effects on learning\", Cognitive Science ) de cognitive load theory voor het onderwijs. De vaak gebruikte driedeling is later uitgewerkt en mag niet volledig aan het artikel uit 1988 worden toegeschreven: intrinsiek (de complexiteit van de leerstof zelf), extrinsiek (de extra moeite die voortkomt uit een onhandige presentatie) en germane (de mentale inspanning die daadwerkelijk bijdraagt aan begrip en schemavorming).",
+          "type": "theoretisch_model",
+          "source": {
+            "title": "John Sweller, Element Interactivity and Intrinsic, Extraneous, and Germane Cognitive Load (2010), EPR 22, pp. 123-138",
+            "url": "https://link.springer.com/article/10.1007/s10648-010-9128-5"
+          },
+          "locator": "Abstract",
+          "verification": "gedeeltelijk",
+          "supports": "Abstract herformuleert germane belasting in relatie tot intrinsieke belasting.",
+          "limitations": "Alleen abstract toegankelijk; geen volledige reconstructie 1988-2010 of lokale effectmeting."
+        }
+      ],
+      "changes": [
+        {
+          "old": "Cowan (2001) corrigeert dat naar ongeveer",
+          "new": "Cowan (2001) beargumenteert onder afgebakende omstandigheden ongeveer",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Sweller (1988): intrinsieke, extrinsieke en germane belasting; ontwikkeld voor",
+          "new": "Cognitive load theory vanaf Sweller (1988), met later uitgewerkte en herziene driedeling; ontwikkeld voor",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Nelson Cowan toonde in 2001 aan dat de zuivere capaciteit eerder rond vier chunks ligt zodra proefpersonen niet kunnen herhalen of hergroeperen.",
+          "new": "Cowan beargumenteerde in 2001 op basis van uiteenlopende studies gemiddeld ongeveer vier chunks onder expliciete voorwaarden die herhalen en hergroeperen beperken. Dat is geen exact maximum voor elke persoon of taak.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Hij onderscheidt drie soorten belasting:",
+          "new": "De vaak gebruikte driedeling is later uitgewerkt en mag niet volledig aan het artikel uit 1988 worden toegeschreven:",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Daarmee verdwijnt precies Swellers derde categorie: soms is enige wrijving of inspanning (germane load) nodig om te begrijpen wat je doet.",
+          "new": "Sweller herformuleerde germane load in 2010 in relatie tot intrinsieke belasting. De ontwerples ‘behoud productieve inspanning’ is hier een interpretatie, geen lokale effectmeting.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Miller 1956 en Sweller 1988 volledig openen; Cowan/Sweller 2010 nu alleen abstract.",
+          "next_step": "Miller 1956 en Sweller 1988 volledig openen; Cowan/Sweller 2010 nu alleen abstract."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Debat over germane load en empirische meetbaarheid met latere oorspronkelijke studies toetsen.",
+          "next_step": "Debat over germane load en empirische meetbaarheid met latere oorspronkelijke studies toetsen."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    },
+    {
+      "id": "norman-door",
+      "file": "content/norman-door.html",
+      "review_status": "beoordeeld_met_open_punten",
+      "review_date": "2026-10-21",
+      "reviewer": "Codex (AI), geen onafhankelijke vakreview",
+      "review_scope": "Hele deurcasus; bewijsclaim, bijnaamherkomst en signifierchronologie begrensd.",
+      "content_sha256": "6c0a7c21fc36152137c503164d6e85bd0371c83137c12c7c73041c106c242f82",
+      "criteria": {
+        "K01": {
+          "status": "deels",
+          "evidence": "Zichtbare verantwoording noemt auteur, doelgroep, datum en AI; onafhankelijke reviewer ontbreekt."
+        },
+        "K02": {
+          "status": "deels",
+          "evidence": "Hele deurcasus; bewijsclaim, bijnaamherkomst en signifierchronologie begrensd. Soorten beweringen geannoteerd, overige verbanden nog niet allemaal afgedekt."
+        },
+        "K03": {
+          "status": "deels",
+          "evidence": "Geselecteerde claims: norman-door-deur (open), norman-door-signifier (gecontroleerd). Dit is de afgebakende dekking."
+        },
+        "K04": {
+          "status": "deels",
+          "evidence": "Bronnotities geven dekking en beperking. Nog open: Norman 1988/2013 hoofdstuk 1 openen met precieze deurpassage; naamherkomst nog onbekend."
+        },
+        "K05": {
+          "status": "voldoet",
+          "evidence": "Gedateerde oude/nieuwe formuleringen op deze pagina gepubliceerd."
+        },
+        "K06": {
+          "status": "niet_van_toepassing",
+          "evidence": "Bronnen-/theorietekst, geen uitgewerkte les met beoordeling; eventuele oefenvraag is een suggestie."
+        },
+        "K07": {
+          "status": "niet_van_toepassing",
+          "evidence": "Deze referentiepagina biedt geen uitgewerkte zelftoets of summatieve toets."
+        },
+        "K08": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen dataverzameling of experiment; analyse vraagt bronnen en argumenten."
+        },
+        "K09": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen eigen onderzoeksresultaten of lokale meetuitkomsten gerapporteerd; geselecteerde bronbeperkingen bij K04."
+        },
+        "K10": {
+          "status": "niet_van_toepassing",
+          "evidence": "Geen deelnemersgegevens of onderzoeksdeelname verzameld op deze referentiepagina."
+        },
+        "K11": {
+          "status": "deels",
+          "evidence": "Fragment gelezen; routes behouden. Volledige browser-/WCAG-beoordeling en media-alternatieven niet per pagina aangetoond."
+        },
+        "K12": {
+          "status": "deels",
+          "evidence": "Reviewdatum, scope en inhoudshash vastgelegd; onafhankelijke vakreview en volgende onderhoudsronde blijven open."
+        }
+      },
+      "claims": [
+        {
+          "id": "norman-door-deur",
+          "passage": "Een deur met aan beide zijden dezelfde prominente trekstang nodigt overal uit tot trekken, ook aan de kant waar het scharnier alleen duwen toelaat. Een symmetrische glazen deur zonder zichtbare scharnieren laat helemaal in het midden aan welke zijde ze opendraait. Het opgeplakte briefje \"Duwen\" of \"Pull\" kan een aanwijzing zijn dat de vorm onvoldoende richting geeft; tekst kan ook een bewuste, toegankelijke aanvulling zijn.",
+          "type": "eigen_voorbeeld",
+          "source": {
+            "title": "Don Norman, The Design of Everyday Things, herziene editie 2013",
+            "url": "https://jnd.org/books/"
+          },
+          "locator": "hoofdstuk 1, deurvoorbeelden: editiepassage nog te openen",
+          "verification": "open",
+          "supports": "Exacte boekpassages en eerste herkomst bijnaam nog niet gecontroleerd.",
+          "limitations": "Voorbeeld is geen experiment; opschrift bewijst niet automatisch een ontwerpfout."
+        },
+        {
+          "id": "norman-door-signifier",
+          "passage": "Onderbouwing van het onderscheid tussen affordance en signifier. De casus laat in één alledaags voorwerp zien hoe Norman vanaf 2008 zijn begrippenkader met signifiers verduidelijkte . De fysieke affordance (de deur kan om haar as draaien) is aanwezig, maar de signifier (de beugel die \"trekken\" roept) wijst de verkeerde handeling aan.",
+          "type": "filosofische_interpretatie",
+          "source": {
+            "title": "Don Norman, Signifiers, Not Affordances (2008), interactions 15(6), pp. 18-19",
+            "url": "https://www.alice.id.tue.nl/references/norman-2008.pdf"
+          },
+          "locator": "pp. 18-19, definitie en terugblik op 1988; DOI 10.1145/1409040.1409044",
+          "verification": "gecontroleerd",
+          "supports": "Norman publiceerde signifiers aantoonbaar al in 2008.",
+          "limitations": "Ontwerpbetoog, geen experiment of claim over oorsprong van het woord in andere disciplines."
+        }
+      ],
+      "changes": [
+        {
+          "old": "De benaming \"Norman door\" is niet door Norman zelf bedacht, maar door lezers en ontwerpers (onder meer gepopulariseerd door Roman Mars' 99% Invisible en Vox in 2016).",
+          "new": "De bijnaam circuleert in ontwerpmedia, onder meer bij 99% Invisible en Vox in 2016. Eerste bedenker en vroegste datering zijn hier nog niet vastgesteld.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "is dan het bewijs dat de vorm van het object zelf zijn werking niet meedeelt.",
+          "new": "kan een aanwijzing zijn dat de vorm onvoldoende richting geeft; tekst kan ook een bewuste, toegankelijke aanvulling zijn.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "waarom Norman in 2013 zijn eigen begrippenkader uit 1988 moest corrigeren",
+          "new": "hoe Norman vanaf 2008 zijn begrippenkader met signifiers verduidelijkte",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "hoe iOS 7 in 2013 digitale Norman-deuren creëerde door schaduwen en knopranden weg te laten.",
+          "new": "bespreek wanneer het weglaten van schaduwen en knopranden herkenning van bediening kan bemoeilijken.",
+          "reason": "Bronreview en afbakening volgens K02-K05."
+        },
+        {
+          "old": "Goed gedocumenteerd verschijnsel, latere naam",
+          "new": "Deurvoorbeeld; naamherkomst nog te controleren",
+          "reason": "Nacontrole: claimbereik, grammatica en brondekking precies afgebakend."
+        }
+      ],
+      "open_items": [
+        {
+          "criterion": "K03",
+          "issue": "Norman 1988/2013 hoofdstuk 1 openen met precieze deurpassage; naamherkomst nog onbekend.",
+          "next_step": "Norman 1988/2013 hoofdstuk 1 openen met precieze deurpassage; naamherkomst nog onbekend."
+        },
+        {
+          "criterion": "K03",
+          "issue": "Vox/99% Invisible 2016 oorspronkelijke video/audio met tijdcodes bekijken.",
+          "next_step": "Vox/99% Invisible 2016 oorspronkelijke video/audio met tijdcodes bekijken."
+        },
+        {
+          "criterion": "K01",
+          "issue": "Onafhankelijke vakreview ontbreekt.",
+          "next_step": "Tweede inhoudelijk competente lezer laat claims en interpretatie controleren."
+        },
+        {
+          "criterion": "K11",
+          "issue": "Geen volledige pagina-audit.",
+          "next_step": "WCAG per route, interactie en medium toetsen; browser, datum en succescriterium rapporteren."
+        }
+      ]
+    }
+  ]
+}

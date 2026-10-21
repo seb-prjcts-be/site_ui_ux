@@ -7,7 +7,7 @@
     <ul>
         <li>Het <strong>kruimelpad</strong> toont de hiërarchie (categorie › pagina), nooit de geschiedenis</li>
         <li>De <strong>stapteller</strong> zegt "pagina 3 van 7 in deze categorie"</li>
-        <li><strong>Vorige en volgende</strong> noemen altijd de titel van de bestemming en tonen bij aanraking de samenvatting: de informatiegeur</li>
+        <li><strong>Vorige en volgende</strong> noemen altijd de titel van de bestemming en kunnen via het title-attribuut aanvullende informatie geven; aanraakbediening toont zo'n tooltip niet gegarandeerd</li>
         <li>De pijltoetsen ← en → doen hetzelfde als de links</li>
         <li>Elke pagina meldt de browser haar buren via <code>link rel="prev"</code> en <code>rel="next"</code></li>
         <li>In stadium 0 is het hele systeem gewone tekst met links; in hogere stadia krijgt het vorm</li>
@@ -15,22 +15,19 @@
 </div>
 
 <section>
-    <h1>Waar ben je</h1>
-    <h2>het kruimelpad</h2>
-    <p>Boven elke titel staat het pad van de startpagina via de categorie naar de pagina. Het volgt Nielsens regel: hiërarchie, niet geschiedenis. Wie via een zoekmachine of een gedeelde link op een pagina landt, ziet meteen in welke categorie ze hoort en kan één niveau omhoog. Het laatste item is geen link maar gewone tekst, met het kenmerk <code>aria-current="page"</code>, zodat ook een schermlezer "je bent hier" hoort.</p>
+    <h2>Waar ben je: het kruimelpad</h2>
+    <p data-claim="pad-en-stap-hierarchie">Boven elke titel staat het pad van de startpagina via de categorie naar de pagina. Het volgt Nielsens regel: hiërarchie, niet geschiedenis. Wie via een zoekmachine of een gedeelde link op een pagina landt, ziet meteen in welke categorie ze hoort en kan één niveau omhoog. Het laatste item is geen link maar gewone tekst, met het kenmerk <code>aria-current="page"</code>, zodat ook een schermlezer "je bent hier" hoort.</p>
 </section>
 
 <section>
-    <h1>Hoever ben je</h1>
-    <h2>de stapteller</h2>
-    <p>Onder het pad staat de positie binnen de categorie: "pagina 3 van 7". Dat is de stapaanduiding uit meerstapsformulieren, toegepast op lezen. Ze geeft een gevoel van controle en maakt zichtbaar wanneer een categorie afloopt. De teller telt binnen de categorie, niet over de hele site, omdat een reeks van veertig pagina's niemand moed geeft.</p>
+    <h2>Hoever ben je: de stapteller</h2>
+    <p>Onder het pad staat de positie binnen de categorie: "pagina 3 van 7". Dat is de stapaanduiding uit meerstapsformulieren, toegepast op lezen. Ze geeft een gevoel van controle en maakt zichtbaar wanneer een categorie afloopt. De teller telt binnen de categorie, niet over de hele site, om de huidige categorie af te bakenen. Of dat motiveert, is hier niet onderzocht.</p>
 </section>
 
 <section>
-    <h1>Waar kun je heen</h1>
-    <h2>vorige en volgende</h2>
-    <p>Onderaan elke pagina staan twee links, in de leesvolgorde van de site. Ze noemen de titel van de bestemming, nooit alleen "volgende". Wie er met de muis over gaat of ze met de toetsen bereikt, ziet ook de samenvatting. Dat is informatiegeur: je weet wat je zult vinden voor je klikt. Als de volgende pagina in een andere categorie ligt, zegt de link dat erbij, zodat de grens van de wijk zichtbaar is.</p>
-    <p>Dezelfde links staan onzichtbaar in de kop van de pagina als <code>link rel="prev"</code> en <code>rel="next"</code>. Browsers en hulpmiddelen die dat lezen, bieden dan hun eigen vorige/volgende aan. De pijltoetsen ← en → volgen de links, behalve wanneer de cursor in een invoerveld staat.</p>
+    <h2>Waar kun je heen: vorige en volgende</h2>
+    <p>Onderaan elke pagina staan twee links, in de leesvolgorde van de site. Ze noemen de titel van de bestemming, nooit alleen "volgende". De samenvatting staat in een title-attribuut. De browser kan dat bij muisaanwijzen tonen, maar toetsenbord- en aanraakgebruikers krijgen deze tooltip niet gegarandeerd. Dat is informatiegeur: je weet wat je zult vinden voor je klikt. Als de volgende pagina in een andere categorie ligt, zegt de link dat erbij, zodat de grens van de wijk zichtbaar is.</p>
+    <p data-claim="pad-en-stap-routecode">In het overzicht zonder reisparameter staan dezelfde buuronderwerpen onzichtbaar in de kop van de pagina als <code>link rel="prev"</code> en <code>rel="next"</code>. Browsers en hulpmiddelen die dat lezen, bieden dan hun eigen vorige/volgende aan. Met reis=0..7 volgen de reisnavigatie, de rel-links en de pijltoetsen juist de acht interfaceweergaven. De inhoud houdt daarnaast vorige/volgende-onderwerplinks. Pijltoetsen worden niet overgenomen in invoervelden, selects of bewerkbare tekst, en ook niet met een modificatietoets.</p>
 </section>
 
 <section>
@@ -56,7 +53,7 @@
             <tr><td>4 Stijl en hoger</td><td>Vormgegeven, Oswald, klein</td><td>Vormgegeven</td><td>Twee knoppen met pijl, titel en samenvatting</td></tr>
         </tbody>
     </table>
-    <p>Het systeem verandert dus niet van werking, alleen van vorm. Wat een leerling in stadium 0 leert, blijft geldig in stadium 7.</p>
+    <p>In het corpusoverzicht blijft de onderwerpvolgorde herkenbaar bij een andere vormgeving. De reis door interfaceweergaven heeft een ander navigatiedoel; die twee reeksen moet je onderscheiden. Dit beschrijft de implementatie, geen bewezen leertransfer.</p>
 </section>
 
 <section>
@@ -67,3 +64,9 @@
         <li><a href="#eerste-webpagina">De eerste webpagina</a>: navigatie met alleen tekst en links.</li>
     </ul>
 </section>
+
+<section class="bronverantwoording"><h2>Broncontrole en beperkingen</h2><p>Inhoud: cursus van Sebastien Vanblaere. Review: Codex met AI-ondersteuning, 21 oktober 2026; geen onafhankelijke vakreview. Doelgroep: studenten en docent. Reikwijdte: Volledige pagina, Nielsens breadcrumbadvies en de rel-, pijltoets-, reis- en onderwerpnavigatiecode gelezen.</p>
+<p><code>pad-en-stap-hierarchie</code> - ontwerpheuristiek; gecontroleerd. <a href="https://www.nngroup.com/articles/breadcrumb-navigation-useful/">Bronpassage bij pad-en-stap-hierarchie</a>. Locator: Bronpassage: pad-en-stap , Nielsen 2007, Hierarchy or History?. Het breadcrumbadvies gaat over de plaats in een hiërarchie, niet het afgelegde bezoekpad.. ontwerpheuristiek; gecontroleerd. Bronpassage: pad-en-stap , Nielsen 2007, Hierarchy or History?. Het breadcrumbadvies gaat over de plaats in een hiërarchie, niet het afgelegde bezoekpad. <strong>Beperking:</strong> Een ontwerpheuristiek voor websites; geen bewijs van motivatie of leerwinst op deze cursus.</p>
+<p><code>pad-en-stap-routecode</code> - eigen code-inspectie; gecontroleerd. <a href="main.js">Code: pad-en-stap</a>. Locator: Code: pad-en-stap , setRelLinks, initKeyboardNav, renderOnderwerp kruimelpad/stapteller/prevHtml/nextHtml en getJourneyStep. Reis en onderwerpvolgorde verschillen; aria-current staat op huidige pagina; title draagt samenvatting.. eigen code-inspectie; gecontroleerd. Code: pad-en-stap , setRelLinks, initKeyboardNav, renderOnderwerp kruimelpad/stapteller/prevHtml/nextHtml en getJourneyStep. Reis en onderwerpvolgorde verschillen; aria-current staat op huidige pagina; title draagt samenvatting. <strong>Beperking:</strong> Aanwezigheid van ARIA/title bewijst geen toegankelijk gebruik. Tooltip verschijnt niet gegarandeerd bij focus of aanraking.</p>
+<p><strong>Correcties, 21 oktober 2026:</strong> Drie extra h 1-koppen zijn h 2 geworden. Tooltipgarantie ingetrokken; reisnavigatie is onderscheiden van buuronderwerpen. Niet-onderzochte motivatie en leertransfer zijn begrensd.</p>
+<p><strong>Open:</strong> Test headinglijst, focus, touch, zoom en pijltoetsconflicten. Een title-attribuut garandeert geen tooltip bij toetsenbordbediening of aanraking.</p></section>

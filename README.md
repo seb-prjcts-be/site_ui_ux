@@ -172,15 +172,18 @@ Het gepubliceerde kader staat op `index.html#ordeningsprincipes` (versie 1.0).
 verplicht de controle bij inhoudelijke wijzigingen. Het register bevat per
 onderwerppagina de status, bevindingen en SHA-256 van de beoordeelde versie.
 Een andere hash betekent dat de eerdere dekking opnieuw moet worden bekeken.
-De status is geen keurmerk. Bronnotities en nulmeting staan in `data/bronnen/`.
+De status is geen keurmerk. De actuele inhoudsronde omvat alle 53 pagina’s; gerichte bronpassages zijn gecontroleerd, niet iedere claim. Onafhankelijke vakreview, volledige claimdekking, menselijke toegankelijkheidstests en leeronderzoek blijven open. Bronnotities en de historische nulmeting staan in `data/bronnen/`.
 
 
 Snelle controle op verouderde inhoudsversies (PowerShell, vanuit de projectmap):
 
 ```powershell
-$qualityReview = Get-Content data/bronnen/kwaliteitskader-nulmeting-20261021.json -Raw | ConvertFrom-Json
+$qualityReview = Get-Content data/bronnen/kwaliteitskader-audit-53-20261021.json -Raw | ConvertFrom-Json
+$qualityReview.dependency_hashes.PSObject.Properties | Where-Object { (Get-FileHash -LiteralPath $_.Name -Algorithm SHA256).Hash.ToLower() -ne $_.Value } | Select-Object Name
 $qualityReview.records | Where-Object { (Get-FileHash -LiteralPath $_.file -Algorithm SHA256).Hash.ToLower() -ne $_.sha256 } | Select-Object id, review_status
 ```
 
 Geen uitvoer betekent alleen dat de opgeslagen inhoudsversies gelijk zijn.
 Een afwijking vraagt inhoudelijke herbeoordeling, geen automatische goedkeuring.
+
+Wijzigingen aan main.js, index.html, style.css of stadia.css heropenen betrokken demo-, route- en lokale technische claims; inhoudshashes alleen dekken deze afhankelijkheden niet.

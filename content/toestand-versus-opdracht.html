@@ -7,14 +7,14 @@
     <ul>
         <li>Een indicator toont de <strong>opdracht</strong> (wat je vroeg) of de <strong>toestand</strong> (wat er is); het eerste voelt sneller, het tweede is eerlijk</li>
         <li>De opdracht tonen is verdedigbaar als de handeling lokaal, omkeerbaar en bijna zeker is</li>
-        <li>Het menu van deze site toont de opdracht, de laadindicator en het zoekveld tonen de toestand</li>
+        <li>De actieve menulink wordt in de huidige code na het renderen bijgewerkt; laden en zoeken hebben eigen toestandssignalen</li>
         <li>In de demo mislukt elke derde opdracht; let op welke knop dat merkt</li>
     </ul>
 </div>
 
 <section>
     <h2>Twee knoppen, één server</h2>
-    <p>Beide knoppen hieronder sturen dezelfde opdracht naar een nagebootste server, die na anderhalve seconde antwoordt. De linkse knop verandert meteen bij de klik: ze toont de opdracht. De rechtse knop wacht op het antwoord: ze toont de toestand. De server weigert elke derde opdracht. Klik een paar keer op elke knop en lees wat het logboek eronder zegt.</p>
+    <p data-claim="toestand-versus-opdracht-serverdemo">Beide knoppen hieronder sturen dezelfde opdracht naar een nagebootste server, die na anderhalve seconde antwoordt. De linkse knop verandert meteen bij de klik: ze toont de opdracht. De rechtse knop wacht op het antwoord: ze toont de toestand. De server weigert elke derde opdracht. Klik een paar keer op elke knop en lees wat het logboek eronder zegt.</p>
     <div class="voorbeeld" data-demo="toestand-versus-opdracht">
         <h3>Opslaan, twee keer</h3>
         <div class="toestand-paar">
@@ -36,14 +36,14 @@
 
 <section>
     <h2>Het verschil</h2>
-    <p>Een knop die van kleur verandert zodra je klikt, bevestigt dat je klik aangekomen is. Dat is nuttig, maar het is iets anders dan bevestigen dat er gebeurd is wat je wilde. Tussen de klik en het resultaat zit een netwerk, een server, soms een mens. Zolang die niet geantwoord hebben, weet de knop niets. Een eerlijke knop zegt dan "bezig" en niets meer.</p>
+    <p data-claim="toestand-versus-opdracht-feedback">Een knop die van kleur verandert zodra je klikt, bevestigt dat je klik aangekomen is. Dat is nuttig, maar het is iets anders dan bevestigen dat er gebeurd is wat je wilde. Tussen de klik en het resultaat zit een netwerk, een server, soms een mens. Zolang die niet geantwoord hebben, weet de knop niets. Een eerlijke knop zegt dan "bezig" en niets meer.</p>
     <p>In de controlekamer van Three Mile Island zat precies dat gat tussen lampje en klep. De operatoren vertrouwden het lampje, en handelden uren lang op een verkeerd beeld van de installatie. Zie <a href="#three-mile-island">Three Mile Island</a>.</p>
 </section>
 
 <section>
-    <h2>Waar deze site de opdracht toont</h2>
-    <p>Klik een link in het menu. Het menu-item wordt op datzelfde moment zwart en actief, nog voor de pagina geladen is. Dat is een opdrachtindicator: het menu zegt "je hebt dit gevraagd", niet "dit is er". Op een snelle verbinding valt het niet op, omdat de inhoud een fractie van een seconde later verschijnt. Op een trage verbinding staat het menu even te liegen.</p>
-    <p>Dat is hier verdedigbaar. Een pagina openen is lokaal, omkeerbaar en bijna altijd succesvol. Als het toch misgaat, staat er een melding in het midden van het scherm. Zie <a href="#breakdown-bij-ontbrekende-content">Breakdown bij ontbrekende content</a>.</p>
+    <h2>Wanneer het menu actief wordt</h2>
+    <p data-claim="toestand-versus-opdracht-router">In de huidige router wacht loadOnderwerp op renderOnderwerp voordat updateActiveNav wordt aangeroepen. De nieuwe menumarkering volgt dus op het renderen. Tijdens het wachten kan de oude markering blijven staan; de inhoud toont dan een laadmelding. De markering bevestigt bovendien niet dat de bedoelde inhoud bestaat: ook een foutmelding kan gerenderd zijn.</p>
+    <p>Dit is een analyse van de huidige code, geen gemeten garantie over laadsnelheid of succes. Pagina-inhoud wordt via fetch opgevraagd; een foutmelding is een afzonderlijke toestand. Zie <a href="#breakdown-bij-ontbrekende-content">Breakdown bij ontbrekende content</a>.</p>
 </section>
 
 <section>
@@ -53,13 +53,13 @@
 
     <aside class="callout callout--weetje">
         <span class="callout-label">Weetje</span>
-        <p>Een verzonden bericht met één vinkje toont de opdracht: het bericht heeft je telefoon verlaten. Het tweede vinkje toont de toestand: het is aangekomen. Veel chat-apps hebben die twee stappen precies omdat gebruikers het verschil willen weten.</p>
+        <p>Bij een berichtenapp kunnen verzonden, afgeleverd en gelezen verschillende toestanden zijn. Wat een vinkje betekent, hangt van de app af; controleer haar documentatie voordat je het als voorbeeld gebruikt.</p>
     </aside>
 </section>
 
 <section>
     <h2>Wanneer je de opdracht mag tonen</h2>
-    <p>Ontwerpers noemen het "optimistisch" om de opdracht te tonen alsof ze al toestand is. Dat is verdedigbaar als drie dingen kloppen: de handeling slaagt bijna altijd, ze is omkeerbaar als ze toch mislukt, en de gebruiker is er nog als het antwoord komt. Een vinkje bij een taak in een lijst voldoet. Een knop "Betalen" voldoet niet, en een klep in een kerncentrale al helemaal niet.</p>
+    <p>Ontwerpers noemen het "optimistisch" om de opdracht te tonen alsof ze al toestand is. Dat is verdedigbaar als drie dingen kloppen: de handeling slaagt bijna altijd, ze is omkeerbaar als ze toch mislukt, en de gebruiker is er nog als het antwoord komt. Een vinkje bij een taak in een lijst voldoet. Bij betalen of een veiligheidskritische klep vraagt een succesmelding bevestiging van het relevante resultaat; een directe melding dat de opdracht is ontvangen kan daarnaast nuttig zijn.</p>
     <p>De demo laat zien waarom de derde voorwaarde telt. Wie na de linkse knop wegklikt, neemt "Opgeslagen" mee als waarheid. Het logboek weet beter, maar het logboek is er alleen op deze pagina.</p>
 
     <aside class="callout callout--tip">
@@ -77,3 +77,12 @@
         <li><a href="#affordances-en-signifiers">Affordances en signifiers</a>: wat een knop belooft voor je erop klikt.</li>
     </ul>
 </section>
+
+<section class="bronverantwoording"><h2>Broncontrole en beperkingen</h2><p>Inhoud: cursus van Sebastien Vanblaere. Review: Codex met AI-ondersteuning, 21 oktober 2026; geen onafhankelijke vakreview. Doelgroep: studenten en docent. Reikwijdte: Volledige pagina, routervolgorde en de gedeelde aanvraagnummering, timers en resetcode gelezen.</p>
+<p><code>toestand-versus-opdracht-router</code> - eigen code-inspectie; gecontroleerd. <a href="main.js">Code: toestand-versus-opdracht</a>. Locator: Code: toestand-versus-opdracht , initRouter/loadOnderwerp: await renderOnderwerp, daarna updateActiveNav; renderOnderwerp fetch/error. Activering volgt de renderfunctie en kan ook op een foutpagina volgen.. eigen code-inspectie; gecontroleerd. Code: toestand-versus-opdracht , initRouter/loadOnderwerp: await renderOnderwerp, daarna updateActiveNav; renderOnderwerp fetch/error. Activering volgt de renderfunctie en kan ook op een foutpagina volgen. <strong>Beperking:</strong> Code-inspectie; geen netwerkprofielmeting. Een markering bewijst geen inhoudelijk succesvolle bestemming.</p>
+<p><code>toestand-versus-opdracht-serverdemo</code> - eigen code-inspectie; gecontroleerd. <a href="main.js">Code: toestand-versus-opdracht</a>. Locator: Code: toestand-versus-opdracht , demos[toestand-versus-opdracht]: DELAY 1500, requests, sendToServer en reset handler. Beide knoppen delen een teller; elke derde aanvraag wordt na minstens de geplande 1500 ms geweigerd.. eigen code-inspectie; gecontroleerd. Code: toestand-versus-opdracht , demos[toestand-versus-opdracht]: DELAY 1500, requests, sendToServer en reset handler. Beide knoppen delen een teller; elke derde aanvraag wordt na minstens de geplande 1500 ms geweigerd. <strong>Beperking:</strong> Een deterministische timer simuleert een server; de browser kan later antwoorden. Reset wist timers en knoppen, maar zet requests niet terug.</p>
+<p><code>toestand-versus-opdracht-feedback</code> - ontwerpheuristiek; gecontroleerd. <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Bronpassage bij toestand-versus-opdracht-feedback</a>. Locator: Bronpassage: toestand-versus-opdracht , Nielsen,10 heuristieken,1.Visibility of System Status. Feedback moet de actuele systeemstatus duidelijk maken.. ontwerpheuristiek; gecontroleerd. Bronpassage: toestand-versus-opdracht , Nielsen,10 heuristieken,1.Visibility of System Status. Feedback moet de actuele systeemstatus duidelijk maken. <strong>Beperking:</strong> Ontwerpheuristiek, geen garantie dat deze demo begrepen wordt; de drie genoemde optimismevoorwaarden zijn lokale ontwerpadviezen.</p>
+<p><strong>Correcties, 21 oktober 2026:</strong> De onjuiste beschrijving van activeren vóór laden is vervangen door de actuele volgorde na renderen. Appvinkjes zijn niet langer algemeen als opdracht tegenover toestand beschreven.</p>
+<p><strong>Open:</strong> Controleer historische TMI-details bij de primaire rapportpassage. Test meervoudige snelle klikken en statusfeedback in de browser. Reset wist de aanvraagnummering niet.</p></section>
+
+<aside class="callout callout--let-op"><span class="callout-label">Illustratie, geen experiment</span><p>Illustratieprotocol: beide knoppen delen één aanvraagnummering; iedere derde opdracht wordt geweigerd. De timer plant het antwoord na 1500 ms, maar de browser kan later reageren. Zet de knoppen terug wist timers en knoptoestanden, maar niet de teller. Herladen begint opnieuw. Er is geen echte server, verzending of opslag.</p></aside>

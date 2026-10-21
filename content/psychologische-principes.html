@@ -6,8 +6,8 @@
     <span class="kernpunten-label">Kernpunten</span>
     <ul>
         <li>Veertien principes, van Gestalt (jaren 1910) tot Self-Determination Theory</li>
-        <li>De sterkste zijn <strong>experimenteel</strong>: Fitts, Hick-Hyman, de esthetiek-bruikbaarheidsstudies</li>
-        <li>De meest misbruikte is <strong>Millers 7±2</strong></li>
+        <li>Fitts, Hick-Hyman en esthetiek-bruikbaarheid zijn <strong>experimenteel onderzocht</strong>; bewijskracht hangt af van vraag, methode en toepassingsgebied</li>
+        <li>Een vaak verkeerd toegepaste vuistregel is <strong>Millers 7±2</strong></li>
         <li>Enkele populaire bronnen (Krug, Norman 2004) zijn praktijkboeken, geen onderzoek</li>
     </ul>
 </div>
@@ -20,14 +20,14 @@
         </thead>
         <tbody>
             <tr><td>Gestalt (nabijheid, gelijkenis, sluiting)</td><td>Wertheimer, Köhler, Koffka (1910–30)</td><td>Waarneming organiseert zich in gehelen</td><td>Beschrijvend, weinig voorspellend</td></tr>
-            <tr><td>Fitts' law</td><td>Paul Fitts, 1954</td><td>Bewegingstijd ∝ log₂(afstand/doelgrootte)</td><td>Robuust; via Card en Buxton in HCI gebracht</td></tr>
-            <tr><td>Hick-Hyman law</td><td>Hick 1952, Hyman 1953</td><td>Keuzetijd groeit logaritmisch met aantal opties</td><td>Geldt vooral voor ongeordende, onbekende keuzes</td></tr>
-            <tr><td>Magical number 7±2</td><td>George Miller, 1956</td><td>Grenzen van het kortetermijngeheugen</td><td>Vaak misbruikt ("max 7 menu-items"); Cowan (2001) stelt eerder ~4 chunks</td></tr>
-            <tr><td>Cognitive load</td><td>John Sweller, 1988</td><td>Intrinsieke, extrinsieke en germane belasting</td><td>Ontwikkeld voor instructie, niet voor UI</td></tr>
+            <tr data-claim="psychologische-principes-fitts"><td>Fitts' law</td><td>Paul Fitts, 1954</td><td>Shannon-variant: MT = a + b · log₂(D/W + 1)</td><td>Empirisch model; formule, taak en doelgeometrie expliciteren</td></tr>
+            <tr><td>Hick-Hyman law</td><td>Hick 1952, Hyman 1953</td><td>Keuzetijd groeit logaritmisch met aantal opties</td><td>Keuze-reactietaken; frequentie, training, ordening en zoeken afzonderlijk onderzoeken</td></tr>
+            <tr data-claim="psychologische-principes-cowan"><td>Magical number 7±2</td><td>George Miller, 1956</td><td>Grenzen van het kortetermijngeheugen</td><td>Vaak misbruikt ("max 7 menu-items"); Cowan (2001) stelt eerder ~4 chunks</td></tr>
+            <tr data-claim="psychologische-principes-belasting"><td>Cognitive load</td><td>John Sweller, 1988</td><td>Belasting bij probleemoplossen en leren; later uitgewerkt in intrinsieke, extrinsieke en germane belasting</td><td>De driedeling niet volledig aan 1988 toeschrijven; germane wordt later herzien</td></tr>
             <tr><td>Heuristieken en biases</td><td>Tversky & Kahneman 1974; prospect theory 1979</td><td>Framing, anchoring, default-effecten</td><td>Basis voor nudging én dark patterns</td></tr>
-            <tr><td>Aesthetic-usability effect</td><td>Kurosu & Kashimura (CHI '95); Tractinsky 1997; Tractinsky, Katz & Ikar 2000</td><td>Mooi oogt bruikbaar</td><td>Effect is omkeerbaar en contextafhankelijk</td></tr>
-            <tr><td>Heuristic evaluation</td><td>Nielsen & Molich, CHI 1990</td><td>Tien vuistregels voor expertevaluatie</td><td>Pragmatisch, weinig theoretisch</td></tr>
-            <tr><td>Hedonic/pragmatic</td><td>Hassenzahl (2003, 2010)</td><td>UX = pragmatische + hedonische kwaliteit</td><td>AttrakDiff-vragenlijst</td></tr>
+            <tr><td>Aesthetic-usability effect</td><td>Kurosu & Kashimura (CHI '95); Tractinsky 1997; Tractinsky, Katz & Ikar 2000</td><td>Mooi oogt bruikbaar</td><td>Ervaren bruikbaarheid onderscheiden van taakprestatie; context en onderzoeksopzet tellen</td></tr>
+            <tr><td>Heuristic evaluation</td><td>Nielsen & Molich, CHI 1990</td><td>Inspectiemethode met heuristieken; de bekende tien werden later herzien</td><td>Pragmatisch, weinig theoretisch</td></tr>
+            <tr><td>Hedonic/pragmatic</td><td>Hassenzahl (2003, 2010)</td><td>Pragmatische en hedonische kwaliteit onderscheiden in een ervaringsmodel</td><td>AttrakDiff-vragenlijst</td></tr>
             <tr><td>Flow</td><td>Csikszentmihalyi, 1990</td><td>Balans uitdaging/vaardigheid</td><td>Relevant voor games en creatieve tools</td></tr>
             <tr><td>Emotional Design</td><td>Norman, 2004</td><td>Visceraal, gedragsmatig, reflectief</td><td>Populair-wetenschappelijk</td></tr>
             <tr><td>Behavior model</td><td>Fogg, 2009</td><td>B = MAP: motivatie, vermogen en prompt komen samen</td><td>Ethisch omstreden in toepassing</td></tr>
@@ -39,7 +39,7 @@
 
 <section>
     <h2>Hoe je de tabel leest</h2>
-    <p>De kolom "Kanttekening" is de belangrijkste. Ze scheidt wat experimenteel onderbouwd is van wat beschrijvend of populair is. Een argument dat Fitts' law aanhaalt staat op vaste grond. Een regel als "maximaal zeven menu-items" op gezag van Miller, niet.</p>
+    <p>De kolom "Kanttekening" is de belangrijkste. Ze scheidt wat experimenteel onderbouwd is van wat beschrijvend of populair is. Een argument met Fitts' law vraagt een passende taak, doelgeometrie en empirische toetsing. Een regel als "maximaal zeven menu-items" op gezag van Miller, niet.</p>
 
     <aside class="callout callout--let-op">
         <span class="callout-label">Let op</span>
@@ -65,7 +65,7 @@
                 <div class="video-card-body">
                     <p class="video-card-maker">Nielsen Norman Group</p>
                     <h3 class="video-card-title">Tien usability-heuristieken</h3>
-                    <p class="video-card-desc">Nielsen en Molich, 1990, herzien in 1994. De basis van elke expertevaluatie.</p>
+                    <p class="video-card-desc">Nielsen en Molich, 1990, herzien in 1994. Een veelgebruikte set voor heuristische inspectie.</p>
                 </div>
             </a>
         </li>
@@ -100,3 +100,5 @@
         <li><a href="#eye-tracking-en-neuro-ux">Eye-tracking en neuro-UX</a></li>
     </ul>
 </section>
+
+<section><h2>Broncontrole en open werk</h2><p><strong>21 oktober 2026.</strong> Cursus van Sebastien Vanblaere, voor hogeschoolstudenten in een kunstopleiding en hun docent. Review: Codex (AI), geen onafhankelijke vakreview. Bereik: Hele tabel met veertien principes; gerichte broncontrole Fitts, Cowan en cognitive load.</p><ol><li id="bron-psychologische-principes-fitts"><code>psychologische-principes-fitts</code> (empirisch_model; gecontroleerd). <a href="https://www.yorku.ca/mack/CHI92.html" target="_blank" rel="noopener">I. S. MacKenzie en W. Buxton, Extending Fitts’ Law to Two-Dimensional Tasks (1992), CHI, pp. 219-226</a>. <strong>Locator:</strong> FITTS’ LAW, vergelijkingen 1-3; Geometry; METHOD. <strong>Dekking:</strong> Formulevarianten en richtingsgevoelige doelbreedte. <strong>Beperking:</strong> Twaalf computerervaren deelnemers, muis/CRT; geen universele GUI-snelheid of fysiologische grens.</li><li id="bron-psychologische-principes-cowan"><code>psychologische-principes-cowan</code> (empirische_synthese; gedeeltelijk). <a href="https://pubmed.ncbi.nlm.nih.gov/11515286/" target="_blank" rel="noopener">Nelson Cowan, The magical number 4 in short-term memory (2001), BBS 24(1), pp. 87-114</a>. <strong>Locator:</strong> oorspronkelijk abstract: voorwaarden 1-4 en slotzin. <strong>Dekking:</strong> Gemiddeld ongeveer vier chunks onder expliciete afbakeningen. <strong>Beperking:</strong> Alleen abstract; geen universele persoonslimiet of menu-experiment.</li><li id="bron-psychologische-principes-belasting"><code>psychologische-principes-belasting</code> (theoretisch_model; gedeeltelijk). <a href="https://link.springer.com/article/10.1007/s10648-010-9128-5" target="_blank" rel="noopener">John Sweller, Element Interactivity and Intrinsic, Extraneous, and Germane Cognitive Load (2010), EPR 22, pp. 123-138</a>. <strong>Locator:</strong> Abstract. <strong>Dekking:</strong> Abstract herformuleert germane belasting in relatie tot intrinsieke belasting. <strong>Beperking:</strong> Alleen abstract toegankelijk; geen volledige reconstructie 1988-2010 of lokale effectmeting.</li></ol><p>De verbanden tussen geschiedenis, psychologie en filosofie zijn cursusargumenten. Een voorbeeld bewijst geen algemene ontwerpwet of leerwinst.</p><details><summary>Wat nog openstaat</summary><ul><li>Overige elf tabelrijen afzonderlijk annoteren met oorspronkelijke methode en beperkingen.</li><li>Default-effecten, Nielsen 1990/1994 en Fogg 2009/MAP vereisen juiste afzonderlijke primaire bronnen.</li><li>Onafhankelijke vakreview en volledige toetsing met toetsenbord, focus, zoom, contrast en ondersteunende technologie ontbreken nog voor deze pagina.</li></ul></details><details><summary>Correcties - 21 oktober 2026</summary><ul><li>Voorheen: De basis van elke expertevaluatie. Nu: Een veelgebruikte set voor heuristische inspectie. Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: UX = pragmatische + hedonische kwaliteit Nu: Pragmatische en hedonische kwaliteit onderscheiden in een ervaringsmodel Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: Effect is omkeerbaar en contextafhankelijk Nu: Ervaren bruikbaarheid onderscheiden van taakprestatie; context en onderzoeksopzet tellen Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: Geldt vooral voor ongeordende, onbekende keuzes Nu: Keuze-reactietaken; frequentie, training, ordening en zoeken afzonderlijk onderzoeken Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: Robuust; via Card en Buxton in HCI gebracht Nu: Empirisch model; formule, taak en doelgeometrie expliciteren Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: Bewegingstijd ∝ log₂(afstand/doelgrootte) Nu: Shannon-variant: MT = a + b · log₂(D/W + 1) Reden: Nacontrole: claimbereik, grammatica en brondekking precies afgebakend.</li><li>Voorheen: De sterkste zijn experimenteel : Fitts, Hick-Hyman, de esthetiek-bruikbaarheidsstudies Nu: Fitts, Hick-Hyman en esthetiek-bruikbaarheid zijn experimenteel onderzocht ; bewijskracht hangt af van vraag, methode en toepassingsgebied Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: De meest misbruikte is Millers 7±2 Nu: Een vaak verkeerd toegepaste vuistregel is Millers 7±2 Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: Intrinsieke, extrinsieke en germane belasting Nu: Belasting bij probleemoplossen en leren; later uitgewerkt in intrinsieke, extrinsieke en germane belasting Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: Ontwikkeld voor instructie, niet voor UI Nu: De driedeling niet volledig aan 1988 toeschrijven; germane wordt later herzien Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: Tien vuistregels voor expertevaluatie Nu: Inspectiemethode met heuristieken; de bekende tien werden later herzien Reden: Bronreview en afbakening volgens K02-K05.</li><li>Voorheen: Een argument dat Fitts&#x27; law aanhaalt staat op vaste grond. Nu: Een argument met Fitts&#x27; law vraagt een passende taak, doelgeometrie en empirische toetsing. Reden: Bronreview en afbakening volgens K02-K05.</li></ul></details></section>

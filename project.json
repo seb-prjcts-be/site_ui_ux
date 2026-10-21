@@ -44,7 +44,7 @@
   "quality_policy": {
     "framework_version": "1.0",
     "framework_page": "content/ordeningsprincipes.html",
-    "review_register": "data/bronnen/kwaliteitskader-nulmeting-20261021.json",
+    "review_register": "data/bronnen/kwaliteitskader-audit-53-20261021.json",
     "required_on_content_change": true,
     "review_changed_claims": true,
     "require_claim_source_locator_and_limitations": true,
@@ -55,6 +55,7 @@
     "technical_checks_do_not_certify_content": true,
     "invalidate_review_when_content_hash_changes": true,
     "publish_material_corrections": true,
-    "no_automatic_quality_score": true
+    "no_automatic_quality_score": true,
+    "invalidate_technical_claims_when_dependencies_change": true
   }
 }

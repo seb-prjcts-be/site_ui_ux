@@ -14,7 +14,7 @@
 
 <section>
     <h2>Meet je eigen bewegingstijd</h2>
-    <p>Het veld hieronder toont tien keer een startknop in het midden en daarna een roze doel. Het doel wisselt van grootte en afstand. Klik op de startknop, en klik dan zo snel als je kunt op het doel. De tijd tussen beide klikken is je bewegingstijd. Een klik naast het doel telt als misklik.</p>
+    <p>Het veld hieronder toont tien keer een startknop in het midden en daarna een roze doel. Het doel wisselt van grootte en afstand. Klik op de startknop, en klik dan zo snel als je kunt op het doel. De tijd tussen beide klikken omvat doelwaarneming, reactietijd, beweging en klikafhandeling; het is geen zuivere bewegingstijd. Een klik naast het doel telt als misklik.</p>
     <div class="voorbeeld" data-demo="fitts-op-deze-site">
         <h3>Tien doelen, drie breedtes, drie afstanden</h3>
         <p data-demo-status aria-live="polite">Druk op de knop om te beginnen.</p>
@@ -26,8 +26,8 @@
 
 <section>
     <h2>Wat de wet zegt</h2>
-    <p>Paul Fitts formuleerde de wet in 1954 voor bewegingen met een stift tussen twee metalen plaatjes. De vorm die in de interface-wereld gangbaar is, komt van Scott MacKenzie (1992): de moeilijkheidsindex ID is log₂(D / W + 1), met D de afstand tot het doel en W de breedte van het doel in de bewegingsrichting. De bewegingstijd is dan a + b · ID, waarbij a en b afhangen van het apparaat en van de persoon.</p>
-    <p>De logaritme is het belangrijkste deel. Een doel van 24 pixels op 260 pixels afstand heeft een index van ruim 3,5 bits. Hetzelfde doel op 80 pixels afstand zit onder de 2,2 bits. Een doel van 72 pixels op 260 pixels afstand zit op ongeveer 2,2 bits. Afstand ruim halveren of breedte verdrievoudigen levert dus ongeveer hetzelfde op.</p>
+    <p data-claim="fitts-op-deze-site-shannon">Paul Fitts formuleerde de wet in 1954 voor bewegingen met een stift tussen twee metalen plaatjes. De vorm die in de interface-wereld gangbaar is, is de Shannon-variant van Scott MacKenzie (1989; verder uitgewerkt in 1992): de moeilijkheidsindex ID is log₂(D / W + 1), met D de afstand tot het doel en W de breedte van het doel in de bewegingsrichting. De bewegingstijd is dan a + b · ID, waarbij a en b afhangen van het apparaat en van de persoon.</p>
+    <p>De logaritme is het belangrijkste deel. Een doel van 24 pixels op 260 pixels afstand heeft een index van ruim 3,5 bits. Hetzelfde doel op 80 pixels afstand zit onder de 2,2 bits. Een doel van 72 pixels op 260 pixels afstand zit op ongeveer 2,2 bits. De afstand van 260 naar 80 pixels verkleinen of de breedte van 24 naar 72 pixels vergroten geeft hier dus een vergelijkbare nominale index, geen gegarandeerd gelijke gemeten tijd.</p>
 
     <aside class="callout callout--let-op">
         <span class="callout-label">Let op</span>
@@ -49,12 +49,12 @@
 
 <section>
     <h2>Wat je meting laat zien</h2>
-    <p>Na tien pogingen verschijnt een tabel met per poging de breedte, de afstand, de moeilijkheidsindex en je tijd. Onder de tabel staat een rechte lijn door je punten: zoveel milliseconden per bit. De helling hangt af van apparaat, taak, oefening en meetopzet; deze korte proef levert geen normwaarde voor je vaardigheid.</p>
-    <p>Tien pogingen kunnen een patroon suggereren, maar ook een vlakke of negatieve helling opleveren. De klok meet bovendien reactietijd én bewegingstijd, omdat het doel pas na de startklik verschijnt. Toetsenbordbediening meet hier geen aanwijsbeweging. Fitts gebruikte honderden herhalingen per proefpersoon. Herhaal de meting een paar keer en kijk of de helling stabiel blijft. Misklikken zijn ook informatie: wie te snel beweegt naar een klein doel, mist vaker. Dat is de afruil tussen snelheid en nauwkeurigheid die Fitts al beschreef.</p>
+    <p data-claim="fitts-op-deze-site-meting">Na tien pogingen verschijnt een tabel met per poging de breedte, de afstand, de moeilijkheidsindex en je tijd. Onder de tabel staat een rechte lijn door je punten: zoveel milliseconden per bit. De helling hangt af van apparaat, taak, oefening en meetopzet; deze korte proef levert geen normwaarde voor je vaardigheid.</p>
+    <p>Tien pogingen kunnen een patroon suggereren, maar ook een vlakke of negatieve helling opleveren. De klok meet bovendien reactietijd én bewegingstijd, omdat het doel pas na de startklik verschijnt. Toetsenbordbediening meet hier geen aanwijsbeweging. Fitts gebruikte herhaalde, vooraf bekende bewegingen in een andere experimentele taak. Herhaal de meting een paar keer en kijk of de helling stabiel blijft. Misklikken zijn ook informatie: wie te snel beweegt naar een klein doel, mist vaker. Dat is de afruil tussen snelheid en nauwkeurigheid die Fitts al beschreef.</p>
 
     <aside class="callout callout--tip">
         <span class="callout-label">Tip</span>
-        <p>Oefening: doe de meting met je gewone hand en daarna met je andere hand. Vergelijk de hellingen. De wet blijft gelden, maar b verandert. Dat is precies wat b betekent: hoe goed hand en apparaat op elkaar zijn afgestemd.</p>
+        <p>Oefening: doe de meting met je gewone hand en daarna met je andere hand. Vergelijk de hellingen. Behandel een verschil als een oefenobservatie. Hand, oefenvolgorde, doelvolgorde en apparaat kunnen de korte fit beïnvloeden; b is hier geen vaardigheidscijfer.</p>
     </aside>
 </section>
 
@@ -67,3 +67,11 @@
         <li><a href="#lesidee-drie-knoppen">Lesidee: één knop, drie versies</a>: een Fitts-optimale knop bouwen in p5.js.</li>
     </ul>
 </section>
+
+<section class="bronverantwoording"><h2>Broncontrole en beperkingen</h2><p>Inhoud: cursus van Sebastien Vanblaere. Review: Codex met AI-ondersteuning, 21 oktober 2026; geen onafhankelijke vakreview. Doelgroep: studenten en docent. Reikwijdte: Volledige pagina, MacKenzies formulegeschiedenis en de meet-, fit- en doelcode inclusief CSS gelezen.</p>
+<p><code>fitts-op-deze-site-shannon</code> - historische modelbeschrijving; gecontroleerd. <a href="https://www.yorku.ca/mack/hhci2018.pdf">Bronpassage bij fitts-op-deze-site-shannon</a>. Locator: Bronpassage: fitts-op-deze-site , MacKenzie, Fitts&amp;#x 27; Law (2018), pp. 350-354, vooral verg.17.6 en verwijzing naar 1989. De auteur onderscheidt Fitts&amp;#x 27; oorspronkelijke index van zijn Shannon-variant uit 1989.. historische modelbeschrijving; gecontroleerd. Bronpassage: fitts-op-deze-site , MacKenzie, Fitts&amp;#x 27; Law (2018), pp. 350-354, vooral verg.17.6 en verwijzing naar 1989. De auteur onderscheidt Fitts&amp;#x 27; oorspronkelijke index van zijn Shannon-variant uit 1989. <strong>Beperking:</strong> Historische samenvatting door de modelauteur; oorspronkelijke 1954-studie hier niet integraal herbeoordeeld.</p>
+<p><code>fitts-op-deze-site-meting</code> - eigen code-inspectie; gecontroleerd. <a href="main.js">Code: fitts-op-deze-site</a>. Locator: Code: fitts-op-deze-site , demos[fitts-op-deze-site]: makePlan, placeTarget, home/target click handlers en finish; style.css .fitts-target. Negen nominale W/D-combinaties plus een herhaling; beperkte arena kan D verkleinen. De tabel past gewone lineaire regressie op tien tijden toe. W is in de gestyledeweergave de cirkeldiameter.. eigen code-inspectie; gecontroleerd. Code: fitts-op-deze-site , demos[fitts-op-deze-site]: makePlan, placeTarget, home/target click handlers en finish; style.css .fitts-target. Negen nominale W/D-combinaties plus een herhaling; beperkte arena kan D verkleinen. De tabel past gewone lineaire regressie op tien tijden toe. W is in de gestyledeweergave de cirkeldiameter. <strong>Beperking:</strong> D wordt vanaf arenacentrum berekend, niet vanaf feitelijke cursorpositie; reactietijd inbegrepen. Geen eindpuntspreiding, onzekerheidsinterval of effectieve breedte.</p>
+<p><strong>Correcties, 21 oktober 2026:</strong> De Shannon-variant is nu aan 1989 gekoppeld. Zuivere bewegingstijd en een gegarandeerd effect van de andere hand worden niet meer geclaimd.</p>
+<p><strong>Open:</strong> Een reproduceerbare studie vraagt herhalingen, invoerapparaat, viewport, feitelijke cursorstart en eindpuntspreiding. De huidige tijden bevatten doelwaarneming en reactie; er is geen onzekerheidsinterval.</p></section>
+
+<aside class="callout callout--let-op"><span class="callout-label">Illustratie, geen experiment</span><p>Illustratieprotocol: tien pogingen per run, met negen nominale W/D-combinaties en één herhaling. De arena kan D verkleinen. Noteer apparaat en viewport. De klok begint wanneer het doel verschijnt, niet bij het verlaten van de startknop. Herladen wist de meetgegevens; er staat geen opslag- of verzendcode in deze demo. Gebruik de fit als observatie, niet als vaardigheidsscore of populatieschatting.</p></aside>
