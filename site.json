@@ -1,0 +1,31 @@
+{
+  "site": {
+    "name": "UI/UX Cursus",
+    "type": "static-course-site",
+    "homepage": "/"
+  },
+  "routing": {
+    "mode": "hash",
+    "note": "Elke pagina is /#<id>. De ids en hun categorie staan in de onderwerpen-array in main.js; dat bestand is de bron van waarheid voor de sitemap. De optionele queryparameter reis=0..7 kiest de interfaceweergave. Wisselen gebeurt binnen hetzelfde document met behoud van de hashpagina; browsergeschiedenis blijft beschikbaar. Vorige en volgende volgen de vaste onderwerpvolgorde."
+  },
+  "routes": [
+    {
+      "path": "/",
+      "title": "Home",
+      "purpose": "Welkomstpagina met uitgangspunt van het onderzoekscentrum",
+      "status": "live",
+      "public": true,
+      "ai_may_change_content": true,
+      "ai_may_change_layout": false
+    },
+    {
+      "path": "/#<id>",
+      "title": "Onderwerppagina",
+      "purpose": "Een pagina per begrip, anekdote of bron, in acht categorieën (zie README)",
+      "status": "live",
+      "public": true,
+      "ai_may_change_content": true,
+      "ai_may_change_layout": false
+    }
+  ]
+}

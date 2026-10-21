@@ -1,0 +1,137 @@
+<div class="intro">
+    <p>Het web begon zonder beeld. In 1993 kwam de afbeelding in de pagina, en bijna meteen werd ze aanklikbaar: als link, als kaart waarop elk gebied ergens anders heen leidt, als knopje van 88 bij 31 pixels, en in 1999 als icoontje naast de naam van de site. Deze pagina volgt GIF, JPEG en het icoon van hun ontstaan tot het moment waarop beeld navigatie werd.</p>
+</div>
+
+<aside class="callout callout--weetje">
+    <span class="callout-label">Goed gedocumenteerd, met drie losse eindjes</span>
+    <p>De kerndata komen uit primaire bronnen: de GIF-specificatie van 15 juni 1987, de JPEG-norm van september 1992, Andreessens berichten op www-talk van 25 februari en 12 maart 1993, Seidmans Internet-Draft van augustus 1995 en RFC 1980 uit 1996. Niet geverifieerd: het jaar van GIF89a (de naam zegt 1989, het bewaarde document draagt 31 juli 1990), de precieze herkomst van de "Netscape Now"-knop, en wie de server-side image map schreef.</p>
+</aside>
+
+<section>
+    <h1>Voor het web</h1>
+    <h2>het icoon als ding</h2>
+    <p>De eerste aanklikbare afbeelding is ouder dan het web. Op de Xerox Star (1981) en de Macintosh (1984) is een icoon geen plaatje bij een bestand, het <em>is</em> het bestand: je selecteert het en kiest dan een actie. Susan Kare tekende die iconen op ruitjespapier. Het web zou dat principe tien jaar later opnieuw uitvinden, met één verschil: een icoon op het web is geen ding dat je vastpakt, maar een deur die je opent. Zie <a href="#xerox-parc-desktopmetafoor">Xerox PARC</a> en <a href="#apple-atkinson-en-kare">Apple: Atkinson en Kare</a>.</p>
+</section>
+
+<section>
+    <h1>1987</h1>
+    <h2>GIF</h2>
+    <p>Steve Wilhite bouwde bij CompuServe het Graphics Interchange Format voor gebruikers met modems van 2400 bits per seconde: LZW-compressie en een palet van hoogstens 256 kleuren. De eerste openbare specificatie, GIF87a, dateert van 15 juni 1987. De opvolger GIF89a voegde transparantie en de bouwstenen voor animatie toe. Omdat het formaat klein, scherp en overal leesbaar was, werd het het beeldformaat van het vroege web: logo's, knoppen, lijntekeningen.</p>
+    <p>Eind 1994 kondigden Unisys en CompuServe aan dat makers van commerciële GIF-software licentie moesten betalen voor het LZW-patent. Het antwoord was PNG, een vrij formaat, in 1996 een W3C-aanbeveling.</p>
+</section>
+
+<section>
+    <h1>1992</h1>
+    <h2>JPEG</h2>
+    <p>De Joint Photographic Experts Group legde in september 1992 de norm vast die als ITU-T T.81 bekendstaat. Eric Hamilton van C-Cube Microsystems schreef in hetzelfde jaar het bestandsformaat JFIF, zodat een JPEG-beeld van het ene programma naar het andere kon. JPEG gooit informatie weg die het oog niet mist en is daardoor geknipt voor foto's; GIF bewaart elke pixel en is geknipt voor vlakke tekeningen. Die taakverdeling bepaalde het uiterlijk van het web tot ver in de jaren 2000.</p>
+</section>
+
+<section>
+    <h1>1993</h1>
+    <h2>het beeld in de pagina</h2>
+    <p>De eerste webpagina had geen beeld; de browser van Berners-Lee opende afbeeldingen in een apart venster. Op 25 februari 1993 stelde Marc Andreessen op de mailinglijst www-talk een nieuwe tag voor: <code>IMG</code>, met één verplicht argument, <code>SRC</code>, de naam van een bitmap die de browser ophaalt en in de tekst zet. Berners-Lee stelde andere namen voor, zoals <code>INCLUDE</code> of <code>EMBED</code>. Andreessen antwoordde op 12 maart dat Mosaic 0.10 bijna klaar was en GIF en XBM inline zou tonen. De tag kwam in HTML 2.0 (1995) en bestaat nog altijd.</p>
+    <p>Aanklikbaar werd het beeld door het simpelweg in een link te zetten. Mosaic tekende een blauwe rand rond zo'n afbeelding: dezelfde kleur als een tekstlink, en dus dezelfde signifier. Die rand verdween later uit de mode, en daarmee begon de vraag die flat design in 2013 opnieuw stelde: hoe zie je dat een beeld klikbaar is? Zie <a href="#affordances-en-signifiers">Affordances en signifiers</a>.</p>
+</section>
+
+<section>
+    <h1>1993–1996</h1>
+    <h2>de kaart die je aanklikt</h2>
+    <p>Eén beeld, meerdere bestemmingen: dat is de image map. In de eerste versie (<code>ISMAP</code>, HTML 2.0) stuurde de browser de coördinaten van de klik naar de server, die uitzocht waar je terechtkwam. Dat werkte alleen over HTTP en gaf een tekstbrowser niets. James Seidman van Spyglass stelde in augustus 1995 de client-side kaart voor, <code>USEMAP</code> met een <code>MAP</code> van gebieden in de pagina zelf. Netscape 2.0 nam ze in december 1995 over, RFC 1980 beschreef ze in 1996 en HTML 3.2 nam ze op in 1997.</p>
+    <p>De image map maakte van een tekening een menu: een plattegrond waarop je een gebouw aanklikt, een landkaart waarop je een land kiest. Dat is Lynch letterlijk genomen: de mentale kaart als interface. Zie <a href="#navigatie-en-wayfinding">Navigatie en wayfinding</a>.</p>
+</section>
+
+<section>
+    <h1>1994–1995</h1>
+    <h2>Netscape, foto's en beweging</h2>
+    <p>Netscape Navigator 1.0 (december 1994) was de eerste browser die JPEG rechtstreeks in de pagina toonde; foto's hoorden voortaan bij het web. Netscape 2.0 (eind 1995) voegde twee dingen toe die het web van de jaren negentig zijn uiterlijk gaven: progressieve JPEG, die scherper wordt terwijl hij laadt, en de herhalende animatie in GIF via een eigen uitbreidingsblok dat tot vandaag de naam "NETSCAPE2.0" draagt. Daarmee begon de tijd van de bewegende "under construction"-bordjes.</p>
+    <p>Uit dezelfde jaren stamt het knopje van 88 bij 31 pixels: "Netscape Now", "Best viewed in", later duizenden varianten op persoonlijke sites. Een klein aanklikbaar beeld dat zegt bij wie je hoort. Het is de voorloper van elk deelknopje en elke badge van nu.</p>
+
+    <aside class="callout callout--let-op">
+        <span class="callout-label">Let op</span>
+        <p>Dat de 88×31-knop uit een Netscape-promotie van 1995 komt en dat Netscapes eigen maat 88×32 was, komt uit secundaire bronnen zonder bevestiging van Netscape zelf.</p>
+    </aside>
+</section>
+
+<section>
+    <h1>1994</h1>
+    <h2>het beeld dat verkoopt</h2>
+    <p>Op 27 oktober 1994 verscheen op HotWired de eerste banner, van AT&amp;T: een aanklikbare afbeelding met de tekst "Have you ever clicked your mouse right here? You will." Het klikbare beeld was nog geen twee jaar oud en werd al verkocht. Van hier loopt een rechte lijn naar de nepknoppen in advertenties en de dark patterns van later. Zie <a href="#ethiek-van-design">Ethiek van design</a>.</p>
+</section>
+
+<section>
+    <h1>1999</h1>
+    <h2>de favicon</h2>
+    <p>Internet Explorer 5 (maart 1999) toonde een icoontje van 16 bij 16 pixels naast elke site in de favorietenlijst, zodat gebruikers ze uit elkaar konden houden. Ontwikkelaar Bharat Shyam maakte het eenvoudig: zet een bestand <code>favicon.ico</code> in de hoofdmap en de browser haalt het op. Het W3C nam het in december 1999 op in HTML 4.01. Het icoon verhuisde zo van de inhoud naar de rand van de browser, waar het vandaag in elk tabblad staat: het kleinste klikbare beeld van het web, en het meest gebruikte.</p>
+</section>
+
+<section>
+    <h2>Waarom het telt voor UI/UX</h2>
+    <ul>
+        <li><strong>Beeld als signifier.</strong> De blauwe rand van 1993 zei "dit kun je aanklikken". Toen de rand verdween, moest vorm, positie of conventie het overnemen. Dat is het debat van <a href="#skeuomorfisme-vs-flat">skeuomorfisme tegen flat design</a> in een notendop.</li>
+        <li><strong>Beeld als navigatie.</strong> De image map is een menu zonder woorden. Ze werkt zolang de lezer de kaart herkent, en faalt zonder tekstalternatief, de les die RFC 1980 in 1996 al trok.</li>
+        <li><strong>Beeld als identiteit.</strong> Het icoon van 1984, de badge van 1995 en de favicon van 1999 zeggen alle drie: dit ben ik. Een pictogram dat je overal herkent, is navigatie op de schaal van het hele web.</li>
+        <li><strong>Beeld als verleiding.</strong> De banner van 1994 toont dat het klikbare beeld van bij het begin ook een economisch instrument was.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Bekijk het origineel</h2>
+    <p>De specificaties en de mailinglijstberichten zijn vrij te lezen.</p>
+    <ul class="video-cards bron-kaarten">
+        <li>
+            <a class="video-card bron-kaart" href="https://ksi.cpsc.ucalgary.ca/archives/WWW-TALK/www-talk-1993q1.messages/174.html" target="_blank" rel="noopener">
+                <div class="video-card-body">
+                    <p class="video-card-maker">Marc Andreessen, www-talk, 25 februari 1993</p>
+                    <h3 class="video-card-title">proposed new tag: IMG</h3>
+                    <p class="video-card-desc">Het bericht waarmee het beeld in de webpagina kwam, met de reactie van Berners-Lee in de draad.</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="video-card bron-kaart" href="https://www.w3.org/Graphics/GIF/spec-gif87.txt" target="_blank" rel="noopener">
+                <div class="video-card-body">
+                    <p class="video-card-maker">CompuServe, 15 juni 1987</p>
+                    <h3 class="video-card-title">GIF87a, de specificatie</h3>
+                    <p class="video-card-desc">Het oorspronkelijke tekstbestand, bewaard door het W3C.</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="video-card bron-kaart" href="https://www.rfc-editor.org/rfc/rfc1980.txt" target="_blank" rel="noopener">
+                <div class="video-card-body">
+                    <p class="video-card-maker">James Seidman, RFC 1980, 1996</p>
+                    <h3 class="video-card-title">A Proposed Extension to HTML: Client-Side Image Maps</h3>
+                    <p class="video-card-desc">Waarom de server-side kaart niet volstond en hoe USEMAP werkt.</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="video-card bron-kaart" href="https://www.webdesignmuseum.org/web-design-history/favicon-1999" target="_blank" rel="noopener">
+                <div class="video-card-body">
+                    <p class="video-card-maker">Web Design Museum</p>
+                    <h3 class="video-card-title">Favicon, 1999</h3>
+                    <p class="video-card-desc">Internet Explorer 5 en de eerste favicons, met schermafbeeldingen.</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="video-card bron-kaart" href="https://jordaneldredge.com/badges/" target="_blank" rel="noopener">
+                <div class="video-card-body">
+                    <p class="video-card-maker">Jordan Eldredge, uit GeoCities-archieven</p>
+                    <h3 class="video-card-title">Verzameling 88×31-knopjes</h3>
+                    <p class="video-card-desc">Honderden badges uit de jaren negentig en 2000, waaronder "Netscape Now".</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Verwant</h2>
+    <ul>
+        <li><a href="#eerste-webpagina">De eerste webpagina</a>: het web zonder beeld.</li>
+        <li><a href="#apple-atkinson-en-kare">Apple: Atkinson en Kare</a>: het icoon als ding.</li>
+        <li><a href="#affordances-en-signifiers">Affordances en signifiers</a>: de blauwe rand en wat erna kwam.</li>
+        <li><a href="#yahoo-en-google">Yahoo en Google</a>: twee startpagina's uit dezelfde jaren.</li>
+    </ul>
+</section>

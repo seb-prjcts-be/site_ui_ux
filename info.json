@@ -1,0 +1,26 @@
+{
+  "id": "cursus-ui-ux",
+  "slug": "cursus-ui-ux",
+  "title": "cursus_UI_UX",
+  "type": "service",
+  "env": {
+    "live": 0,
+    "local": 1,
+    "online": 0,
+    "extern": 0
+  },
+  "lifecycle": "wip",
+  "repo": {
+    "git": 0,
+    "host": "",
+    "visibility": ""
+  },
+  "tech": ["html", "css", "javascript"],
+  "ai": "none",
+  "org": {},
+  "version": {},
+  "privacy_checked": 0,
+  "collection": 0,
+  "other_tags": ["cursus", "ui-ux", "lab44"],
+  "_schema": 1
+}

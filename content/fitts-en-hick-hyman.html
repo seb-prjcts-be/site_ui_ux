@@ -1,0 +1,36 @@
+<div class="intro">
+    <p>Twee wetten uit de experimentele psychologie van de jaren vijftig voorspellen hoe lang een beweging naar een doel duurt en hoe lang een keuze uit meerdere opties duurt. Ze zijn robuust, meetbaar en direct toepasbaar op knoppen, menu's en cursors.</p>
+</div>
+
+<div class="kernpunten">
+    <span class="kernpunten-label">Kernpunten</span>
+    <ul>
+        <li><strong>Fitts' law</strong> (1954): bewegingstijd is evenredig met log₂(afstand / doelgrootte)</li>
+        <li><strong>Hick-Hyman law</strong> (1952, 1953): keuzetijd groeit logaritmisch met het aantal opties</li>
+        <li>Stuart Card bracht Fitts met zijn muisstudies bij Xerox PARC in HCI en hielp zo de muis legitimeren</li>
+        <li>Bill Buxton paste Fitts verder toe op invoerapparaten</li>
+        <li>Hick-Hyman geldt vooral voor ongeordende, onbekende keuzes</li>
+    </ul>
+</div>
+
+<section>
+    <h2>Fitts' law</h2>
+    <p>Paul Fitts publiceerde in 1954 de wet die zijn naam draagt: de tijd om een doel te bereiken hangt af van de afstand tot het doel en de grootte ervan. Grotere doelen die dichterbij liggen, raak je sneller. De relatie is logaritmisch, dus een knop twee keer zo groot maken levert minder op dan je zou denken, maar een piepkleine knop kost onevenredig veel tijd.</p>
+    <p>Stuart Card bracht de wet met zijn muisstudies bij Xerox PARC in de HCI. Dat werk hielp de muis als invoerapparaat legitimeren tegenover alternatieven als de joystick en de lichtpen. Bill Buxton paste Fitts daarna toe op een breed gamma aan invoerapparaten. Beide pioniers staan op <a href="#proefschriften-internationaal">Internationale pioniers</a>.</p>
+
+    <aside class="callout callout--weetje">
+        <span class="callout-label">Weetje</span>
+        <p>De bekendste toepassing is de menubalk van de Mac: omdat de cursor niet voorbij de schermrand kan, is het doel in één richting oneindig groot. Zie <a href="#fitts-en-de-mac-menubalk">Fitts' law en de Mac-menubalk</a>.</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Hick-Hyman law</h2>
+    <p>William Hick (1952) en Ray Hyman (1953) toonden dat de tijd om een keuze te maken logaritmisch groeit met het aantal mogelijkheden. Twee keer zoveel opties kost niet twee keer zoveel tijd, maar wel meetbaar meer.</p>
+    <p>De kanttekening is belangrijk: de wet geldt vooral voor ongeordende, onbekende keuzes. Een alfabetisch gesorteerde lijst of een menu dat je uit je hoofd kent, volgt ze niet. Wie Hick-Hyman gebruikt om "minder menu-items" te eisen, moet dus eerst vragen of de gebruiker de items kent en of ze geordend zijn.</p>
+</section>
+
+<section>
+    <h2>Zelf meten</h2>
+    <p>Beide wetten zijn uitstekend te meten met een eenvoudig p5.js-experiment: teken doelen van verschillende grootte op verschillende afstanden en registreer de tijd tot de klik. De oefening <a href="#lesidee-drie-knoppen">Één knop, drie versies</a> begint met precies zo'n Fitts-optimale knop.</p>
+</section>

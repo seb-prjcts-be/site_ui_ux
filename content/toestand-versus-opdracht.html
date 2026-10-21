@@ -1,0 +1,79 @@
+<div class="intro">
+    <p>Een lampje in de controlekamer van Three Mile Island zei dat een klep dicht was. Het lampje toonde in werkelijkheid dat het sluitsignaal gegeven was. De klep stond open. Het verschil tussen "wat ik gevraagd heb" en "wat er is" zit in elke interface, ook in deze site. Deze pagina zet twee knoppen naast elkaar die elk één kant tonen, en kijkt daarna naar het menu, het zoekveld en de laadindicator van de site.</p>
+</div>
+
+<div class="kernpunten">
+    <span class="kernpunten-label">Kernpunten</span>
+    <ul>
+        <li>Een indicator toont de <strong>opdracht</strong> (wat je vroeg) of de <strong>toestand</strong> (wat er is); het eerste voelt sneller, het tweede is eerlijk</li>
+        <li>De opdracht tonen is verdedigbaar als de handeling lokaal, omkeerbaar en bijna zeker is</li>
+        <li>Het menu van deze site toont de opdracht, de laadindicator en het zoekveld tonen de toestand</li>
+        <li>In de demo mislukt elke derde opdracht; let op welke knop dat merkt</li>
+    </ul>
+</div>
+
+<section>
+    <h2>Twee knoppen, één server</h2>
+    <p>Beide knoppen hieronder sturen dezelfde opdracht naar een nagebootste server, die na anderhalve seconde antwoordt. De linkse knop verandert meteen bij de klik: ze toont de opdracht. De rechtse knop wacht op het antwoord: ze toont de toestand. De server weigert elke derde opdracht. Klik een paar keer op elke knop en lees wat het logboek eronder zegt.</p>
+    <div class="voorbeeld" data-demo="toestand-versus-opdracht">
+        <h3>Opslaan, twee keer</h3>
+        <div class="toestand-paar">
+            <div class="toestand-kolom">
+                <button type="button" class="demo-btn toestand-knop" data-demo-opdracht>Opslaan</button>
+                <p class="toestand-bijschrift">Toont de opdracht</p>
+                <p data-demo-opdracht-status aria-live="polite">Verandert zodra je klikt.</p>
+            </div>
+            <div class="toestand-kolom">
+                <button type="button" class="demo-btn toestand-knop" data-demo-toestand>Opslaan</button>
+                <p class="toestand-bijschrift">Toont de toestand</p>
+                <p data-demo-toestand-status aria-live="polite">Verandert pas na bevestiging.</p>
+            </div>
+        </div>
+        <p data-demo-log aria-live="polite"></p>
+        <button type="button" class="demo-btn" data-demo-reset>Zet de knoppen terug</button>
+    </div>
+</section>
+
+<section>
+    <h2>Het verschil</h2>
+    <p>Een knop die van kleur verandert zodra je klikt, bevestigt dat je klik aangekomen is. Dat is nuttig, maar het is iets anders dan bevestigen dat er gebeurd is wat je wilde. Tussen de klik en het resultaat zit een netwerk, een server, soms een mens. Zolang die niet geantwoord hebben, weet de knop niets. Een eerlijke knop zegt dan "bezig" en niets meer.</p>
+    <p>In de controlekamer van Three Mile Island zat precies dat gat tussen lampje en klep. De operatoren vertrouwden het lampje, en handelden uren lang op een verkeerd beeld van de installatie. Zie <a href="#three-mile-island">Three Mile Island</a>.</p>
+</section>
+
+<section>
+    <h2>Waar deze site de opdracht toont</h2>
+    <p>Klik een link in het menu. Het menu-item wordt op datzelfde moment zwart en actief, nog voor de pagina geladen is. Dat is een opdrachtindicator: het menu zegt "je hebt dit gevraagd", niet "dit is er". Op een snelle verbinding valt het niet op, omdat de inhoud een fractie van een seconde later verschijnt. Op een trage verbinding staat het menu even te liegen.</p>
+    <p>Dat is hier verdedigbaar. Een pagina openen is lokaal, omkeerbaar en bijna altijd succesvol. Als het toch misgaat, staat er een melding in het midden van het scherm. Zie <a href="#breakdown-bij-ontbrekende-content">Breakdown bij ontbrekende content</a>.</p>
+</section>
+
+<section>
+    <h2>Waar deze site de toestand toont</h2>
+    <p>Onder de titel van een pagina staat, tot de inhoud er is, het woord "Laden…". Dat is een toestandsindicator: het zegt wat er op dat moment waar is, namelijk dat de inhoud gevraagd maar nog niet aangekomen is. Zodra de inhoud er is, verdwijnt het woord en staat de inhoud zelf er. Je ziet nooit een bevestiging van iets dat er nog niet is.</p>
+    <p>Het zoekveld doet hetzelfde. Er is geen zoekknop die je indrukt en die dan "gezocht" zegt. De resultaten verschijnen terwijl je typt, en wat je ziet is de lijst zelf. Als er niets gevonden is, staat er "Geen resultaten gevonden", geen lege ruimte. Het zoekveld belooft niets, het toont.</p>
+
+    <aside class="callout callout--weetje">
+        <span class="callout-label">Weetje</span>
+        <p>Een verzonden bericht met één vinkje toont de opdracht: het bericht heeft je telefoon verlaten. Het tweede vinkje toont de toestand: het is aangekomen. Veel chat-apps hebben die twee stappen precies omdat gebruikers het verschil willen weten.</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Wanneer je de opdracht mag tonen</h2>
+    <p>Ontwerpers noemen het "optimistisch" om de opdracht te tonen alsof ze al toestand is. Dat is verdedigbaar als drie dingen kloppen: de handeling slaagt bijna altijd, ze is omkeerbaar als ze toch mislukt, en de gebruiker is er nog als het antwoord komt. Een vinkje bij een taak in een lijst voldoet. Een knop "Betalen" voldoet niet, en een klep in een kerncentrale al helemaal niet.</p>
+    <p>De demo laat zien waarom de derde voorwaarde telt. Wie na de linkse knop wegklikt, neemt "Opgeslagen" mee als waarheid. Het logboek weet beter, maar het logboek is er alleen op deze pagina.</p>
+
+    <aside class="callout callout--tip">
+        <span class="callout-label">Tip</span>
+        <p>Oefening: zoek op deze site nog één plek waar de opdracht getoond wordt in plaats van de toestand. Begin bij de taalknop en de knoppen voor lettergrootte: wat verandert er precies op het moment dat je klikt, en is dat de opdracht of de toestand?</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Verwant</h2>
+    <ul>
+        <li><a href="#three-mile-island">Three Mile Island</a>: het lampje dat de opdracht toonde.</li>
+        <li><a href="#therac-25">Therac-25</a>: wat er gebeurt als de melding wel komt maar niemand ze begrijpt.</li>
+        <li><a href="#uitvinding-van-undo">De uitvinding van undo</a>: omkeerbaarheid als voorwaarde om optimistisch te mogen zijn.</li>
+        <li><a href="#affordances-en-signifiers">Affordances en signifiers</a>: wat een knop belooft voor je erop klikt.</li>
+    </ul>
+</section>

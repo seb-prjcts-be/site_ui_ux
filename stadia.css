@@ -1,0 +1,347 @@
+/* Stadia: welke onderdelen van de interface zichtbaar zijn per stadium.
+   Het stadium staat als data-stadium op <html>; main.js zet het bij elke pagina.
+   In stadium 0 tot 3 zijn de huisstijl en Bootstrap uitgeschakeld (main.js),
+   zodat de browserstandaard overblijft. Dit bestand blijft altijd geladen.
+
+   0 Tekst         alleen tekst en links
+   1 Lijst         + koppen en indexpagina (zit al in de HTML)
+   2 Navigatie     + menu
+   3 Zoeken        + zoekveld
+   4 Stijl         + huisstijl
+   5 Verwantschap  + trefwoordenkolom
+   6 Voorkeuren    + taal, lettergrootte, beweging
+   7 Kennis als UX + demo's */
+
+/* Menu pas vanaf stadium 2 */
+html[data-stadium="0"] #main-nav,
+html[data-stadium="1"] #main-nav {
+    display: none;
+}
+
+/* Zoekveld pas vanaf stadium 3 */
+html[data-stadium="0"] .search-container,
+html[data-stadium="1"] .search-container,
+html[data-stadium="2"] .search-container {
+    display: none;
+}
+
+/* Trefwoordenkolom pas vanaf stadium 5 */
+html[data-stadium="0"] .tags-sidebar,
+html[data-stadium="1"] .tags-sidebar,
+html[data-stadium="2"] .tags-sidebar,
+html[data-stadium="3"] .tags-sidebar,
+html[data-stadium="4"] .tags-sidebar {
+    display: none;
+}
+
+html[data-stadium="4"] .onderwerp-layout {
+    grid-template-columns: 1fr;
+}
+
+/* Taal en lettergrootte pas vanaf stadium 6 */
+html[data-stadium="0"] .lang-controls,
+html[data-stadium="1"] .lang-controls,
+html[data-stadium="2"] .lang-controls,
+html[data-stadium="3"] .lang-controls,
+html[data-stadium="4"] .lang-controls,
+html[data-stadium="5"] .lang-controls,
+html[data-stadium="0"] .font-size-controls,
+html[data-stadium="1"] .font-size-controls,
+html[data-stadium="2"] .font-size-controls,
+html[data-stadium="3"] .font-size-controls,
+html[data-stadium="4"] .font-size-controls,
+html[data-stadium="5"] .font-size-controls {
+    display: none;
+}
+
+/* Demo's pas vanaf stadium 7 */
+html:not([data-stadium="7"]) [data-demo] {
+    display: none;
+}
+
+/* Welkomstcitaat pas vanaf stadium 4; de index staat er in elk stadium */
+html[data-stadium="0"] .welcome-quote,
+html[data-stadium="1"] .welcome-quote,
+html[data-stadium="2"] .welcome-quote,
+html[data-stadium="3"] .welcome-quote {
+    display: none;
+}
+
+/* Stadium 0 tot 3: een smalle tekstkolom zoals een vroege browser, verder browserstandaard */
+html[data-stadium="0"] body,
+html[data-stadium="1"] body,
+html[data-stadium="2"] body,
+html[data-stadium="3"] body {
+    max-width: 72ch;
+    margin: 1em auto;
+    padding: 0 1em;
+}
+
+html[data-stadium="0"] .kernpunten-label,
+html[data-stadium="1"] .kernpunten-label,
+html[data-stadium="2"] .kernpunten-label,
+html[data-stadium="3"] .kernpunten-label,
+html[data-stadium="0"] .callout-label,
+html[data-stadium="1"] .callout-label,
+html[data-stadium="2"] .callout-label,
+html[data-stadium="3"] .callout-label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Kruimelpad en stapteller: vorm pas vanaf stadium 4 (zie style.css) */
+.kruimelpad,
+.stapteller {
+    margin: 0 0 0.5em;
+}
+
+/* Demo "pad-en-stap": parachuteren */
+html.is-parachute .kruimelpad,
+html.is-parachute .stapteller,
+html.is-parachute #main-nav {
+    visibility: hidden;
+}
+
+/* Kruimelpad, stapteller en inhoud: vorm vanaf stadium 4 */
+html[data-stadium="4"] .kruimelpad,
+html[data-stadium="5"] .kruimelpad,
+html[data-stadium="6"] .kruimelpad,
+html[data-stadium="7"] .kruimelpad {
+    font-family: var(--font-title);
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-bottom: 0.75rem;
+}
+
+html[data-stadium="4"] .kruimelpad a,
+html[data-stadium="5"] .kruimelpad a,
+html[data-stadium="6"] .kruimelpad a,
+html[data-stadium="7"] .kruimelpad a {
+    color: var(--text-light);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+html[data-stadium="4"] .kruimelpad a:hover,
+html[data-stadium="5"] .kruimelpad a:hover,
+html[data-stadium="6"] .kruimelpad a:hover,
+html[data-stadium="7"] .kruimelpad a:hover {
+    color: var(--text-color);
+    border-bottom-color: var(--text-color);
+}
+
+html[data-stadium="4"] .kruimelpad [aria-current="page"],
+html[data-stadium="5"] .kruimelpad [aria-current="page"],
+html[data-stadium="6"] .kruimelpad [aria-current="page"],
+html[data-stadium="7"] .kruimelpad [aria-current="page"] {
+    color: var(--text-color);
+}
+
+.kruimelpad-scheider {
+    margin: 0 0.4em;
+}
+
+html[data-stadium="4"] .stapteller,
+html[data-stadium="5"] .stapteller,
+html[data-stadium="6"] .stapteller,
+html[data-stadium="7"] .stapteller {
+    font-family: var(--font-anker);
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin: -0.5rem 0 1.5rem;
+}
+
+html[data-stadium="4"] .welcome-index h3,
+html[data-stadium="5"] .welcome-index h3,
+html[data-stadium="6"] .welcome-index h3,
+html[data-stadium="7"] .welcome-index h3 {
+    font-family: var(--font-title);
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 2rem 0 0.5rem;
+}
+
+html[data-stadium="4"] .welcome-index ul,
+html[data-stadium="5"] .welcome-index ul,
+html[data-stadium="6"] .welcome-index ul,
+html[data-stadium="7"] .welcome-index ul {
+    list-style: none;
+    padding: 0;
+}
+
+html[data-stadium="4"] .welcome-index li,
+html[data-stadium="5"] .welcome-index li,
+html[data-stadium="6"] .welcome-index li,
+html[data-stadium="7"] .welcome-index li {
+    margin-bottom: 0.6rem;
+    font-family: var(--font-body);
+}
+
+html[data-stadium="4"] .welcome-index-samenvatting,
+html[data-stadium="5"] .welcome-index-samenvatting,
+html[data-stadium="6"] .welcome-index-samenvatting,
+html[data-stadium="7"] .welcome-index-samenvatting {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.welcome-volgend-stadium {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+/* De reis blijft herkenbaar terwijl de interface eromheen verandert. */
+#journey-shell {
+    grid-column: 1 / -1;
+    border-block: 2px solid currentColor;
+    padding: 1rem;
+    margin: 0 0 1.5rem;
+    background: white;
+    color: black;
+    font: 1rem/1.5 Arial, sans-serif;
+}
+#journey-shell p { max-width: 76ch; margin: 0.6rem 0; }
+#journey-shell summary { cursor: pointer; font-weight: bold; }
+#journey-shell .journey-era { font-size: 0.85em; }
+.journey-nav { display: flex; flex-wrap: wrap; gap: 0.8rem 1.5rem; padding: 0.8rem 0; justify-content: space-between; }
+.journey-nav a { font: inherit; }
+.journey-map ol { display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; padding-left: 1.5rem; }
+.journey-map [aria-current="step"] { font-weight: bold; text-decoration-thickness: 3px; }
+.journey-invitation { border-block: 2px solid currentColor; padding-block: 1.5rem; margin-bottom: 2rem; }
+.is-journey .page-nav { display: none; }
+/* Basisbediening blijft beschikbaar, ook in de vroegste werelden. */
+html.is-journey .font-size-controls { display: flex; }
+[data-course-experiment] { border-block: 2px solid currentColor; padding: 1rem 0; margin: 1.5rem 0; }
+[data-course-experiment] fieldset { padding: 0.8rem; margin-block: 1rem; }
+[data-course-experiment] label { display: block; margin-block: 0.6rem; }
+[data-course-experiment] input, [data-course-experiment] select { width: 100%; max-width: 38rem; font: inherit; }
+[data-course-experiment] button { font: inherit; padding: 0.4em 0.7em; margin: 0.2rem; cursor: pointer; }
+[data-course-experiment] button[aria-pressed="true"] { font-weight: bold; outline: 2px solid currentColor; outline-offset: 1px; }
+[data-course-experiment] pre { white-space: pre-wrap; overflow-wrap: anywhere; max-width: 100%; }
+[data-course-experiment] [role="status"] { min-height: 3em; }
+#journey-shell a:focus-visible, [data-course-experiment] :focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+@media (max-width: 600px) { .journey-nav { flex-direction: column; } #journey-shell { padding: 0.75rem; } }
+html.is-journey body { grid-template-rows: auto auto auto 1fr auto; grid-template-areas: "header header" "journey journey" "nav search" "nav content" "footer footer"; }
+#journey-shell { grid-area: journey; }
+.journey-nav, [data-course-index] { position: static; grid-area: auto; max-height: none; border: 0; background: transparent; }
+@media (max-width: 768px) { html.is-journey body { grid-template-areas: "header" "journey" "search" "nav" "content" "footer"; } }
+html.is-journey[data-fontsize="klein"] { font-size: 16px; }
+html.is-journey[data-fontsize="medium"] { font-size: 20px; }
+html.is-journey[data-fontsize="groot"] { font-size: 24px; }
+@media (max-width: 768px) {
+    html.is-journey body { grid-template-columns: minmax(0, 1fr); }
+    .is-journey header { flex-wrap: wrap; }
+    .is-journey .header-main { min-width: 0; }
+    .is-journey main { min-width: 0; }
+}
+.is-journey .onderwerp-page h1,
+.is-journey .onderwerp-content { overflow-wrap: anywhere; }
+
+.journey-activity { border-block: 2px solid currentColor; padding: 1.2rem 0; margin: 0 0 2rem; }
+.journey-activity-label { font-size: 0.85em; }
+.journey-activity button { font: inherit; padding: 0.45em 0.8em; cursor: pointer; }
+.journey-activity button[aria-pressed="true"] { font-weight: bold; outline: 2px solid currentColor; }
+.journey-activity details { margin-block: 0.8rem; }
+.journey-activity summary { cursor: pointer; }
+.journey-activity pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.journey-activity [role="status"]:empty { display: none; }
+.journey-no-landmarks .kruimelpad, .journey-no-landmarks .stapteller { visibility: hidden; }
+html.journey-plain body { max-width: 72ch; margin: 1em auto; padding: 0 1em; }
+html.journey-still *, html.journey-still *::before, html.journey-still *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+a.search-result-item { display: block; color: inherit; text-decoration: none; }
+a.search-result-item:focus-visible { outline: 3px solid currentColor; outline-offset: -3px; }
+#journey-shell > .journey-nav { display: grid; grid-template-columns: auto auto auto; align-items: center; justify-content: space-between; gap: 0.5rem; }
+#journey-shell > details { margin-block: 0.4rem; }
+#journey-shell > .journey-nav a, #journey-shell > .journey-nav span { font-size: 0.9em; }
+#journey-menu > summary { display: none; }
+@media (max-width: 768px) {
+    .is-journey #main-nav > h2 { display: none; }
+    #journey-menu > summary { display: list-item; cursor: pointer; font: inherit; }
+    .is-journey header { padding: 1rem; gap: 0.6rem; }
+    .is-journey header h1 { font-size: 1.6em; }
+    #journey-shell { font-size: 0.9rem; }
+}
+
+.interface-views ul { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; padding-left: 1.2rem; }
+.interface-views [aria-current="page"] { font-weight: bold; text-decoration-thickness: 3px; }
+.interface-references { margin-block: 2rem; }
+.interface-references li { margin-bottom: 1rem; }
+.interface-references small { display: block; }
+.interface-references img { display: block; width: 100%; height: auto; margin-bottom: 0.6rem; }
+.interface-reference-source { font-size: 0.85em; }
+html[data-stadium="4"] .interface-references ul,
+html[data-stadium="5"] .interface-references ul,
+html[data-stadium="6"] .interface-references ul,
+html[data-stadium="7"] .interface-references ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; list-style: none; padding: 0; }
+.interface-references a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+@media (max-width: 620px) {
+    html[data-stadium] .interface-references ul { grid-template-columns: 1fr; }
+    .interface-references img { max-width: 24rem; }
+}
+
+/* Samengestelde koppen blijven één groep, ook zonder de huisstijl. */
+.onderwerp-page h1:has(+ h2) { margin-bottom: 0.15em; padding-bottom: 0; border: 0; }
+.onderwerp-page h1 + h2 { margin-top: 0; border: 0; }
+@media (max-width: 620px) {
+    .onderwerp-page h1 { font-size: 1.8em; hyphens: auto; }
+    .onderwerp-page h2 { font-size: 1.2em; hyphens: auto; }
+}
+
+/* Eén inhoudsverzameling; een vaste en twee afgeleide verdelingen. */
+.onderwerp-content[data-composition] {
+    position: relative;
+    isolation: isolate;
+    container-type: inline-size;
+    --composition-gap: 1.25rem;
+    --composition-columns: 1;
+}
+.composition-controls { margin: 0 0 1.5rem; font: 0.85rem/1.5 Arial, sans-serif; }
+.composition-controls nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.2rem; position: static; grid-area: auto; border: 0; padding: 0; background: transparent; max-height: none; margin-bottom: 0.6rem; }
+.composition-controls a { font: inherit; }
+.composition-controls a[aria-current="true"] { font-weight: bold; text-decoration-thickness: 3px; text-underline-offset: 0.2em; }
+.composition-controls details { margin-top: 0.5rem; }
+.composition-controls summary { cursor: pointer; }
+.composition-controls details p { font: inherit; margin-block: 0.5rem; max-width: 72ch; }
+.composition-guide { display: inline-flex; align-items: center; gap: 0.4rem; font: inherit; }
+.onderwerp-content[data-composition="raster"],
+.onderwerp-content[data-composition="flexibel"] {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    column-gap: var(--composition-gap);
+    --composition-columns: 6;
+}
+.onderwerp-content[data-composition="raster"] > *,
+.onderwerp-content[data-composition="flexibel"] > * { grid-column: 1 / -1; min-width: 0; }
+.onderwerp-content[data-composition] > section[data-composition-item] { align-self: start; }
+.onderwerp-content[data-composition]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    display: none;
+    background-image: linear-gradient(to right, color-mix(in srgb, currentColor 7%, transparent) calc(100% - var(--composition-gap)), transparent 0);
+    background-size: calc((100% + var(--composition-gap)) / var(--composition-columns)) 100%;
+}
+.onderwerp-content.composition-grid-visible::before { display: block; }
+@container (min-width: 36rem) {
+    .onderwerp-content[data-composition="raster"] > section[data-composition-item] { grid-column: span 3; }
+    .onderwerp-content[data-composition="flexibel"] > section[data-composition-item] { grid-column: span var(--composition-span, 3); }
+    .onderwerp-content[data-composition="flexibel"] .interface-references ul { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; }
+    .onderwerp-content[data-composition="flexibel"] .interface-references li:first-child { grid-column: span 2; grid-row: span 2; }
+    .onderwerp-content[data-composition="flexibel"][data-composition-variant="1"] .interface-references li:first-child { grid-column: auto; grid-row: auto; }
+    .onderwerp-content[data-composition="flexibel"][data-composition-variant="1"] .interface-references li:last-child { grid-column: span 2; grid-row: span 2; }
+}
+.composition-controls :focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+/* De vergelijking heeft in alle drie standen dezelfde beschikbare breedte. */
+.onderwerp-layout:has(> .onderwerp-content[data-composition-active]) { grid-template-columns: minmax(0, 1fr); }
+@container (min-width: 36rem) {
+    .onderwerp-content[data-composition="flexibel"][data-composition-variant="1"] .interface-references li:first-child { grid-column: 1; grid-row: 1; }
+    .onderwerp-content[data-composition="flexibel"][data-composition-variant="1"] .interface-references li:nth-child(2) { grid-column: 1; grid-row: 2; }
+    .onderwerp-content[data-composition="flexibel"][data-composition-variant="1"] .interface-references li:last-child { grid-column: 2 / span 2; grid-row: 1 / span 2; }
+}

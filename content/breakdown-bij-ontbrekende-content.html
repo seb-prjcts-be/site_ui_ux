@@ -1,0 +1,64 @@
+<div class="intro">
+    <p>Zolang deze site werkt, denk je niet aan de site. Je denkt aan Fitts, aan Norman, aan de klep van Three Mile Island. Pas als een pagina niet laadt, zie je het gereedschap zelf: een titel, een regel tekst en verder niets. Heidegger noemt dat moment breakdown. Winograd en Flores zeggen dat je er voor moet ontwerpen. Deze pagina toont de twee meldingen die deze site dan geeft, en vraagt of ze de lezer verder helpen.</p>
+</div>
+
+<div class="kernpunten">
+    <span class="kernpunten-label">Kernpunten</span>
+    <ul>
+        <li>Een <strong>breakdown</strong> maakt het gereedschap zichtbaar; de melding op dat moment is de hele interface</li>
+        <li>Een goede melding zegt drie dingen: <strong>wat</strong> er mis is, <strong>wie</strong> er iets aan kan doen, en <strong>waar</strong> je nu heen kunt</li>
+        <li>De site heeft twee meldingen: een voor een ontbrekend bestand en een voor een laadfout</li>
+        <li>De eerste melding spreekt de beheerder aan, niet de lezer; dat is in strijd met de schrijfregels van de site zelf</li>
+    </ul>
+</div>
+
+<section>
+    <h2>De melding die je dan ziet</h2>
+    <p>De twee knoppen hieronder tonen in een kader precies wat deze site rendert als de inhoud van een pagina niet gevonden wordt, en wat ze toont als het laden om een andere reden mislukt. De tekst komt rechtstreeks uit de vertaaltabel van de site. Verandert die tekst ooit, dan verandert de demo mee. Onder het kader staat een korte telling van wat de melding wel en niet biedt.</p>
+    <div class="voorbeeld" data-demo="breakdown-bij-ontbrekende-content">
+        <h3>Wat de lezer ziet</h3>
+        <div class="breakdown-kader" data-demo-frame hidden></div>
+        <p data-demo-audit aria-live="polite">Kies een van de twee meldingen.</p>
+        <button type="button" class="demo-btn" data-demo-missing>Toon de melding bij een ontbrekend bestand</button>
+        <button type="button" class="demo-btn" data-demo-error>Toon de melding bij een laadfout</button>
+    </div>
+</section>
+
+<section>
+    <h2>Wat er voor de lezer misgaat</h2>
+    <p>De eerste melding zegt dat de inhoud niet gevonden is. Dat is juist en duidelijk: de lezer weet dat het niet aan hem ligt. Dan volgt een opdracht: maak een HTML-bestand aan in een map op de server. Die zin is voor één persoon bedoeld, en dat is niet de lezer. Wie de site bezoekt, kan geen bestanden aanmaken. De melding geeft dus een handeling die onuitvoerbaar is, en zwijgt over de handelingen die wel kunnen: terug naar het overzicht, een andere pagina kiezen, zoeken.</p>
+    <p>De tweede melding zegt dat er een fout is opgetreden bij het laden. Ze zegt niet welke, niet of het aan de verbinding ligt of aan de site, en niet wat je kunt proberen. Ze is korter en spreekt niemand verkeerd aan, maar ze helpt ook niemand verder.</p>
+    <p>Geen van beide meldingen bevat een link. Het menu staat er nog, dus de lezer is niet verloren. Maar de melding zelf, de plek waar de aandacht op dat moment is, biedt geen weg terug.</p>
+
+    <aside class="callout callout--let-op">
+        <span class="callout-label">Let op</span>
+        <p>De schrijfregels van deze site zeggen dat tekst nooit de beheerder aanspreekt. Zie <a href="#ordeningsprincipes">Ordeningsprincipes</a>. De eerste foutmelding doet dat wel. Ze stamt uit de tijd dat de site een sjabloon was zonder lezers. Deze pagina stelt een betere melding voor, maar verandert de bestaande niet, zodat de demo blijft tonen wat de site werkelijk doet.</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Ontwerpen voor breakdowns</h2>
+    <p>Winograd en Flores schrijven in <em>Understanding Computers and Cognition</em> (1986) dat een ontwerper niet alleen het vloeiende gebruik ontwerpt, maar ook het moment waarop het misgaat. De vraag is dan niet "hoe voorkomen we de fout" maar "hoe helpt het systeem de gebruiker verder als ze zich voordoet". Zie <a href="#fenomenologie-en-breakdown">Fenomenologie en breakdown</a>.</p>
+    <p>De Therac-25 is het tegenvoorbeeld. Het toestel meldde "Malfunction 54", een code zonder uitleg, zo vaak dat operatoren ze wegklikten uit gewoonte. De melding zei niet wat er mis was, niet wie er iets aan kon doen, en niet wat het gevolg was van doorgaan. Zie <a href="#therac-25">Therac-25</a>. De meldingen van deze site zijn niet cryptisch en de gevolgen zijn klein. Maar de toets is dezelfde: zegt de melding wat, wie en waarheen?</p>
+</section>
+
+<section>
+    <h2>Een betere melding</h2>
+    <p>Een melding die de drie vragen beantwoordt, zou er zo kunnen uitzien. Eerst wat: "De inhoud van deze pagina is nog niet beschikbaar." Dan wie, zonder de lezer een onmogelijke taak te geven: "De pagina staat wel in het menu, maar haar tekst ontbreekt nog op de server." Dan waarheen, met echte links: "Ga naar het overzicht, of kies een andere pagina in het menu." De tweede melding zou kunnen toevoegen: "Controleer je verbinding en laad de pagina opnieuw."</p>
+    <p>Het verschil met de huidige tekst is klein in woorden en groot in houding. De huidige melding is een notitie van de bouwer aan zichzelf. De betere melding spreekt met de lezer die er op dat moment staat.</p>
+
+    <aside class="callout callout--tip">
+        <span class="callout-label">Tip</span>
+        <p>Oefening: zoek een foutmelding die je deze week zelf gezien hebt, in een app of op een site. Toets ze op de drie vragen: wat, wie, waarheen. Herschrijf ze in drie zinnen zodat ze alle drie beantwoordt.</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Verwant</h2>
+    <ul>
+        <li><a href="#fenomenologie-en-breakdown">Fenomenologie en breakdown</a>: Heidegger, Winograd en Flores over gereedschap dat breekt.</li>
+        <li><a href="#therac-25">Therac-25</a>: cryptische meldingen en de gewenning om ze weg te klikken.</li>
+        <li><a href="#toestand-versus-opdracht">Toestand versus opdracht op deze site</a>: wat de laadindicator wel goed doet.</li>
+        <li><a href="#klik-hier">Klik hier, en waarom niet</a>: een andere pagina die de site op zichzelf toetst.</li>
+    </ul>
+</section>

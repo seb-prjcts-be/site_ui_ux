@@ -1,0 +1,69 @@
+<div class="intro">
+    <p>Fitts' law voorspelt hoe lang je nodig hebt om een doel te raken: de tijd groeit met de afstand en krimpt met de grootte van het doel. Elke link, knop en tag op deze site is zo'n doel. Deze pagina bekijkt hoe groot en hoe ver die doelen zijn, en laat je je eigen bewegingstijd meten over tien pogingen.</p>
+</div>
+
+<div class="kernpunten">
+    <span class="kernpunten-label">Kernpunten</span>
+    <ul>
+        <li>Fitts (1954): bewegingstijd is evenredig met <strong>log₂(afstand / breedte + 1)</strong>, de moeilijkheidsindex in bits</li>
+        <li>Een doel twee keer zo groot maken wint minder dan je denkt; een piepklein doel kost onevenredig veel</li>
+        <li>Op deze site zijn de menulinks breed, de tags klein en de pagina-navigatie groot</li>
+        <li>De meting hieronder registreert tien klikken en toont de tijd per poging in een tabel</li>
+    </ul>
+</div>
+
+<section>
+    <h2>Meet je eigen bewegingstijd</h2>
+    <p>Het veld hieronder toont tien keer een startknop in het midden en daarna een roze doel. Het doel wisselt van grootte en afstand. Klik op de startknop, en klik dan zo snel als je kunt op het doel. De tijd tussen beide klikken is je bewegingstijd. Een klik naast het doel telt als misklik.</p>
+    <div class="voorbeeld" data-demo="fitts-op-deze-site">
+        <h3>Tien doelen, drie breedtes, drie afstanden</h3>
+        <p data-demo-status aria-live="polite">Druk op de knop om te beginnen.</p>
+        <div class="fitts-arena" data-demo-arena aria-label="Meetveld"></div>
+        <div data-demo-results hidden></div>
+        <button type="button" class="demo-btn" data-demo-start>Start de meting</button>
+    </div>
+</section>
+
+<section>
+    <h2>Wat de wet zegt</h2>
+    <p>Paul Fitts formuleerde de wet in 1954 voor bewegingen met een stift tussen twee metalen plaatjes. De vorm die in de interface-wereld gangbaar is, komt van Scott MacKenzie (1992): de moeilijkheidsindex ID is log₂(D / W + 1), met D de afstand tot het doel en W de breedte van het doel in de bewegingsrichting. De bewegingstijd is dan a + b · ID, waarbij a en b afhangen van het apparaat en van de persoon.</p>
+    <p>De logaritme is het belangrijkste deel. Een doel van 24 pixels op 260 pixels afstand heeft een index van ruim 3,5 bits. Hetzelfde doel op 80 pixels afstand zit onder de 2,2 bits. Een doel van 72 pixels op 260 pixels afstand zit op ongeveer 2,2 bits. Afstand ruim halveren of breedte verdrievoudigen levert dus ongeveer hetzelfde op.</p>
+
+    <aside class="callout callout--let-op">
+        <span class="callout-label">Let op</span>
+        <p>Fitts' law beschrijft een gerichte beweging met een aanwijsapparaat: muis, trackpad, stift. Op een aanraakscherm is de vinger zelf breed en vervalt het grootste deel van de correctiefase. De meting hieronder zegt op een telefoon dus iets anders dan op een laptop. Noteer waarmee je meet.</p>
+    </aside>
+</section>
+
+<section>
+    <h2>De doelen op deze site</h2>
+    <p>Wie de wet op de site zelf toepast, ziet vier soorten doelen met heel verschillende indexen.</p>
+    <ul>
+        <li><strong>Menulinks</strong> vullen de hele breedte van de linkerkolom en zijn ongeveer dertig pixels hoog. Breed in één richting, smal in de andere. De lijst staat dicht bij elkaar, dus de afstand tussen twee items is klein.</li>
+        <li><strong>Tags</strong> in de rechterkolom zijn kleine knoppen van een paar woorden. Ze zijn de kleinste doelen op de site en staan ver van de inhoud waar je aan het lezen was.</li>
+        <li><strong>Links in de tekst</strong> zijn precies zo breed als hun tekst. Een link die zijn bestemming noemt, is daardoor groter dan "hier". Zie <a href="#klik-hier">Klik hier, en waarom niet</a>.</li>
+        <li><strong>Vorige en volgende</strong> onderaan elke pagina zijn de grootste doelen: brede knoppen met de titel van de bestemming erin.</li>
+    </ul>
+    <p>De menubalk van de Mac haalt haar snelheid uit de schermrand: de cursor kan er niet voorbij, dus het doel is in één richting oneindig groot. Deze site heeft dat voordeel niet. Het menu staat in een kolom met een rand erboven en eronder, en de cursor schiet er gewoon overheen. Zie <a href="#fitts-en-de-mac-menubalk">Fitts' law en de Mac-menubalk</a>.</p>
+</section>
+
+<section>
+    <h2>Wat je meting laat zien</h2>
+    <p>Na tien pogingen verschijnt een tabel met per poging de breedte, de afstand, de moeilijkheidsindex en je tijd. Onder de tabel staat een rechte lijn door je punten: zoveel milliseconden per bit. Bij een muis ligt die helling meestal tussen 100 en 200 milliseconden per bit; bij een trackpad hoger.</p>
+    <p>Tien pogingen zijn genoeg om de richting te zien, niet om een betrouwbaar getal te krijgen. Fitts gebruikte honderden herhalingen per proefpersoon. Herhaal de meting een paar keer en kijk of de helling stabiel blijft. Misklikken zijn ook informatie: wie te snel beweegt naar een klein doel, mist vaker. Dat is de afruil tussen snelheid en nauwkeurigheid die Fitts al beschreef.</p>
+
+    <aside class="callout callout--tip">
+        <span class="callout-label">Tip</span>
+        <p>Oefening: doe de meting met je gewone hand en daarna met je andere hand. Vergelijk de hellingen. De wet blijft gelden, maar b verandert. Dat is precies wat b betekent: hoe goed hand en apparaat op elkaar zijn afgestemd.</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Verwant</h2>
+    <ul>
+        <li><a href="#fitts-en-hick-hyman">Fitts' law en Hick-Hyman</a>: de twee wetten en hoe Card en Buxton ze in HCI brachten.</li>
+        <li><a href="#fitts-en-de-mac-menubalk">Fitts' law en de Mac-menubalk</a>: het oneindig diepe doel aan de schermrand.</li>
+        <li><a href="#hick-hyman-in-het-menu">Hick-Hyman in het menu</a>: de andere wet, gemeten op hetzelfde menu.</li>
+        <li><a href="#lesidee-drie-knoppen">Lesidee: één knop, drie versies</a>: een Fitts-optimale knop bouwen in p5.js.</li>
+    </ul>
+</section>

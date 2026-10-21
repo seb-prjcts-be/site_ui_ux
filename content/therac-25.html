@@ -1,0 +1,43 @@
+<div class="intro">
+    <p>De Therac-25 was een bestralingstoestel dat tussen 1985 en 1987 door softwarefouten zware overdoseringen gaf, met doden en ernstig gewonden tot gevolg. Cryptische foutmeldingen en de gewenning van operatoren om ze weg te klikken maakten het tot de klassieke les over interface en veiligheid.</p>
+</div>
+
+<aside class="callout callout--weetje">
+    <span class="callout-label">Goed gedocumenteerd</span>
+    <p>De standaardbron is Nancy Leveson en Clark Turner, "An Investigation of the Therac-25 Accidents", <em>IEEE Computer</em>, juli 1993. Het is een van de meest geciteerde ongevallenanalyses in de software-engineering.</p>
+</aside>
+
+<section>
+    <h2>Wat er gebeurde</h2>
+    <p>Leveson en Turner schrijven: "Between June 1985 and January 1987, six known accidents involved massive overdoses by the Therac-25 — with resultant deaths and serious injuries." Een van de oorzaken was een <strong>race condition</strong>: als een ervaren operator de invoer snel bewerkte, kon de software de bundelinstelling wijzigen zonder de veiligheidsstand mee te veranderen. Het toestel gaf dan honderd keer de bedoelde dosis.</p>
+</section>
+
+<section>
+    <h2>De interface als medeplichtige</h2>
+    <p>Het toestel meldde fouten met codes als "Malfunction 54", zonder uitleg. Omdat zulke meldingen vaak voorkwamen en meestal onschuldig waren, raakten operatoren gewend om ze weg te klikken en door te gaan. De interface leerde hen de waarschuwing te negeren.</p>
+    <p>Twee ontwerplessen volgen daaruit. Een foutmelding die niet zegt wat er mis is en wat je moet doen, is geen waarschuwing maar ruis. En een systeem dat te vaak waarschuwt, traint zijn gebruikers in gewenning. Dat laatste is een vorm van breakdown die niet ontworpen is: de breuk is er, maar niemand ziet ze meer.</p>
+</section>
+
+<section>
+    <h2>Bekijk het origineel</h2>
+    <p>De standaardbron is vrij te lezen.</p>
+    <ul class="video-cards bron-kaarten">
+        <li>
+            <a class="video-card bron-kaart" href="https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_1.html" target="_blank" rel="noopener">
+                <div class="video-card-body">
+                    <p class="video-card-maker">Leveson & Turner, IEEE Computer, juli 1993</p>
+                    <h3 class="video-card-title">An Investigation of the Therac-25 Accidents</h3>
+                    <p class="video-card-desc">Het volledige artikel, herdrukt met toestemming van IEEE. Deel 1 van 3.</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Verwant</h2>
+    <ul>
+        <li><a href="#three-mile-island">Three Mile Island</a>: dezelfde les, zes jaar eerder, in een kerncentrale.</li>
+        <li><a href="#fenomenologie-en-breakdown">Fenomenologie en breakdown</a>: Winograd en Flores' les om voor breakdowns te ontwerpen.</li>
+    </ul>
+</section>

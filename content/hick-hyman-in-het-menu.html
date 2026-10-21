@@ -1,0 +1,65 @@
+<div class="intro">
+    <p>Het menu van deze site telt ruim veertig pagina's. De wet van Hick en Hyman zegt dat de tijd om uit een reeks opties te kiezen logaritmisch groeit met het aantal opties, maar alleen als die opties ongeordend en onbekend zijn. Het menu is daarom in negen categorieën verdeeld. Deze pagina laat je meten wat die ordening oplevert: je zoekt twee keer een pagina, één keer in het gewone menu en één keer in een ongesorteerde lijst.</p>
+</div>
+
+<div class="kernpunten">
+    <span class="kernpunten-label">Kernpunten</span>
+    <ul>
+        <li>Hick (1952) en Hyman (1953): keuzetijd is evenredig met <strong>log₂(n + 1)</strong>, met n het aantal opties</li>
+        <li>De wet geldt voor <strong>ongeordende, onbekende</strong> keuzes; een gesorteerd of gekend menu volgt haar niet</li>
+        <li>Een lijst van veertig titels lezen is geen keuze maar een zoektocht, en die duurt ongeveer lineair in n</li>
+        <li>De categorieën van dit menu laten je hele groepen overslaan zonder ze te lezen</li>
+    </ul>
+</div>
+
+<section>
+    <h2>Zoek een pagina, twee keer</h2>
+    <p>De knop hieronder kiest een willekeurige pagina van deze site en vraagt je die in het menu aan te klikken. De klok loopt tot je de juiste link raakt. Daarna verliest het menu tijdelijk zijn categorieën: alle pagina's staan in één lijst, in willekeurige volgorde. Je zoekt nog een pagina. Na de tweede klik krijgt het menu zijn gewone vorm terug en zie je beide tijden naast elkaar.</p>
+    <p>Zolang een meting loopt, brengt een klik in het menu je niet naar die pagina. De knop "Stop de meting" zet alles terug.</p>
+    <div class="voorbeeld" data-demo="hick-hyman-in-het-menu">
+        <h3>Met en zonder categorieën</h3>
+        <p data-demo-count aria-live="polite"></p>
+        <p data-demo-status aria-live="assertive">Druk op de knop om te beginnen.</p>
+        <div data-demo-results hidden></div>
+        <button type="button" class="demo-btn" data-demo-start>Meet met het gewone menu</button>
+        <button type="button" class="demo-btn" data-demo-stop hidden>Stop de meting</button>
+    </div>
+</section>
+
+<section>
+    <h2>Wat de wet zegt, en wat ze niet zegt</h2>
+    <p>William Hick liet proefpersonen reageren op lampjes met bijbehorende toetsen. Met twee lampjes ging dat snel, met tien merkbaar trager, en de groei volgde een logaritme. Ray Hyman bevestigde dat een jaar later en voegde eraan toe dat ook de waarschijnlijkheid van elke optie meetelt: een optie die vaak voorkomt, kies je sneller.</p>
+    <p>De wet beschrijft de beslissing, niet het zoeken. Wie veertig onbekende titels moet lezen om te weten welke de juiste is, kiest niet uit veertig opties maar leest er gemiddeld twintig. Die tijd groeit ongeveer recht evenredig met het aantal titels, niet logaritmisch. Daarom zegt "Hick-Hyman eist minder menu-items" te weinig: het hangt ervan af of je de items kent en of ze geordend zijn. Zie <a href="#fitts-en-hick-hyman">Fitts' law en Hick-Hyman</a>.</p>
+</section>
+
+<section>
+    <h2>Hoe dit menu geordend is</h2>
+    <p>Het menu staat standaard dicht, op de categorie van de pagina die je leest na. Je ziet negen titels van categorieën. Wie "Three Mile Island" zoekt, hoeft niet te lezen wat er onder "Proefschriften" staat: de naam van de groep sluit die uit. Pas als de juiste groep open is, lees je de titels erin, meestal vier tot veertien.</p>
+    <p>Puur in bits van Hick-Hyman is dat niet eens een winst. Kiezen uit negen en dan uit zeven kost log₂(10) + log₂(8), ruim zes bits. Kiezen uit drieënveertig kost log₂(44), ruim vijf bits. Wat de categorieën opleveren is iets anders: ze maken van een lange zoektocht twee korte, en de eerste korte zoektocht gaat over namen die je na één bezoek kent. Dat is de kanttekening van de wet, toegepast op de site die haar uitlegt.</p>
+
+    <aside class="callout callout--weetje">
+        <span class="callout-label">Weetje</span>
+        <p>De ongesorteerde lijst in de demo heeft dezelfde links, dezelfde letters en dezelfde kleuren als het gewone menu. Het enige wat verdwijnt is de ordening. Alles wat je aan tijd verliest, verlies je dus aan ordening alleen.</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Wat je meting laat zien</h2>
+    <p>Twee tijden zijn een anekdote, geen gegeven. De tweede zoektocht gaat over een andere pagina, en je hebt het menu intussen al één keer doorgekeken. Toch is het verschil bij de meeste mensen groot genoeg om op te vallen. Herhaal de meting een paar keer met de knop en kijk of de verhouding standhoudt.</p>
+    <p>De tabel toont ook hoeveel misklikken je deed. In de ongesorteerde lijst klikken mensen vaker een titel aan die lijkt op de gezochte. Dat is het andere gezicht van ongeordende keuzes: niet alleen trager, ook vaker fout.</p>
+
+    <aside class="callout callout--tip">
+        <span class="callout-label">Tip</span>
+        <p>Oefening: bedenk een andere ordening voor dit menu dan de negen categorieën, bijvoorbeeld alfabetisch of op jaartal van het onderwerp. Voor welke zoekvraag is die ordening sneller, en voor welke trager?</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Verwant</h2>
+    <ul>
+        <li><a href="#fitts-en-hick-hyman">Fitts' law en Hick-Hyman</a>: de wet en haar kanttekening.</li>
+        <li><a href="#fitts-op-deze-site">Fitts' law op deze site</a>: de andere wet, gemeten op dezelfde doelen.</li>
+        <li><a href="#geheugen-en-cognitieve-belasting">Geheugen en cognitieve belasting</a>: waarom groepen van zeven geen wet zijn.</li>
+        <li><a href="#ordeningsprincipes">Ordeningsprincipes</a>: waarom het menu precies deze negen categorieën heeft.</li>
+    </ul>
+</section>
