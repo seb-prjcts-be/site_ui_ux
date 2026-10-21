@@ -1275,16 +1275,16 @@
         {
             "topic_id": "afwegen",
             "lang": "en",
-            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Een korte bevestiging kan zichtbaar, hoorbaar of allebei zijn. Vergelijk die keuzes vanuit je ervaring met klank.</p><section class=\"practice-workbench\" data-practice=\"sound\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bevestig eerst zonder geluid. Zet geluid bewust aan en herhaal dezelfde handeling. Maak een variant voor een situatie waarin geluid niet beschikbaar of gewenst is.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt visuele en auditieve feedback vergelijken en een bruikbaar alternatief zonder geluid ontwerpen.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De proef maakt na een klik eventueel een korte toon met de Web Audio API. Er wordt niets opgenomen. Dezelfde zichtbare bevestiging blijft aanwezig. Toonhoogte en volume zijn ontwerpkeuzes van deze illustratie, geen universele ideale waarden.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#toestand-versus-opdracht\">Wat bevestigt een signaal precies?</a></li><li><a href=\"#hedonisch-en-pragmatisch\">Wat ervaar je naast het functionele resultaat?</a></li><li><a href=\"#ethiek-van-design\">Wie bepaalt welke signalen wenselijk zijn?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-sound-bron\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API\">MDN, Web Audio API</a>. Vindplaats: Web audio concepts and usage. Dekking: AudioContext en verbonden audionodes maken lokaal geluid mogelijk. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div></div>",
-            "content_hash": "84142bdf9bce772bb28c4efec872a3b39df2ac981d3027a95b3b3992200f8fb8",
-            "updated_at": "2026-10-21T17:22:40Z"
+            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Bevestig tweemaal. Zet geluid aan en herhaal. Schakel daarna alleen het visuele signaal uit. Wat merk je nog?</p><section class=\"practice-workbench\" data-practice=\"sound\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Welk signaal blijft over als je niet kijkt of niet luistert?</p><a href=\"#hedonisch-en-pragmatisch\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Vergelijk eerst alleen beeld met beeld en geluid. Bewaar die tweede variant als A. Schakel alleen het visuele signaal uit en bevestig opnieuw. Welke informatie mis je als je niet luistert? Ontwerp een bevestiging voor een stille omgeving; beschrijf ook wat iemand nodig heeft die niet naar het scherm kijkt.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt visuele en auditieve feedback vergelijken en een bruikbaar alternatief zonder geluid ontwerpen.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De proef maakt na een klik eventueel een korte toon met de Web Audio API. Er wordt niets opgenomen. Het visuele signaal kan afzonderlijk uit om een zwakke variant te onderzoeken. Beide signalen uit is geen bruikbare bevestiging. De teller maakt herhaalde acties zichtbaar; hij meet geen taakvoltooiing buiten deze demo. Toonhoogte en volume zijn ontwerpkeuzes van deze illustratie, geen universele ideale waarden.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#toestand-versus-opdracht\">Wat bevestigt een signaal precies?</a></li><li><a href=\"#hedonisch-en-pragmatisch\">Wat ervaar je naast het functionele resultaat?</a></li><li><a href=\"#ethiek-van-design\">Wie bepaalt welke signalen wenselijk zijn?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-sound-bron\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API\">MDN, Web Audio API</a>. Vindplaats: Web audio concepts and usage. Dekking: AudioContext en verbonden audionodes maken lokaal geluid mogelijk. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div></div>",
+            "content_hash": "447df66fe1b503d91aa2beb23209bca12cbf06230ce883fe8d28baae49dc7536",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "afwegen",
             "lang": "nl",
-            "html": "<p class=\"practice-intro\">Een korte bevestiging kan zichtbaar, hoorbaar of allebei zijn. Vergelijk die keuzes vanuit je ervaring met klank.</p><section class=\"practice-workbench\" data-practice=\"sound\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bevestig eerst zonder geluid. Zet geluid bewust aan en herhaal dezelfde handeling. Maak een variant voor een situatie waarin geluid niet beschikbaar of gewenst is.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt visuele en auditieve feedback vergelijken en een bruikbaar alternatief zonder geluid ontwerpen.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De proef maakt na een klik eventueel een korte toon met de Web Audio API. Er wordt niets opgenomen. Dezelfde zichtbare bevestiging blijft aanwezig. Toonhoogte en volume zijn ontwerpkeuzes van deze illustratie, geen universele ideale waarden.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#toestand-versus-opdracht\">Wat bevestigt een signaal precies?</a></li><li><a href=\"#hedonisch-en-pragmatisch\">Wat ervaar je naast het functionele resultaat?</a></li><li><a href=\"#ethiek-van-design\">Wie bepaalt welke signalen wenselijk zijn?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-sound-bron\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API\">MDN, Web Audio API</a>. Vindplaats: Web audio concepts and usage. Dekking: AudioContext en verbonden audionodes maken lokaal geluid mogelijk. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div>",
-            "content_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-            "updated_at": "2026-10-21T17:22:40Z"
+            "html": "<p class=\"practice-intro\">Bevestig tweemaal. Zet geluid aan en herhaal. Schakel daarna alleen het visuele signaal uit. Wat merk je nog?</p><section class=\"practice-workbench\" data-practice=\"sound\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Welk signaal blijft over als je niet kijkt of niet luistert?</p><a href=\"#hedonisch-en-pragmatisch\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Vergelijk eerst alleen beeld met beeld en geluid. Bewaar die tweede variant als A. Schakel alleen het visuele signaal uit en bevestig opnieuw. Welke informatie mis je als je niet luistert? Ontwerp een bevestiging voor een stille omgeving; beschrijf ook wat iemand nodig heeft die niet naar het scherm kijkt.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt visuele en auditieve feedback vergelijken en een bruikbaar alternatief zonder geluid ontwerpen.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De proef maakt na een klik eventueel een korte toon met de Web Audio API. Er wordt niets opgenomen. Het visuele signaal kan afzonderlijk uit om een zwakke variant te onderzoeken. Beide signalen uit is geen bruikbare bevestiging. De teller maakt herhaalde acties zichtbaar; hij meet geen taakvoltooiing buiten deze demo. Toonhoogte en volume zijn ontwerpkeuzes van deze illustratie, geen universele ideale waarden.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#toestand-versus-opdracht\">Wat bevestigt een signaal precies?</a></li><li><a href=\"#hedonisch-en-pragmatisch\">Wat ervaar je naast het functionele resultaat?</a></li><li><a href=\"#ethiek-van-design\">Wie bepaalt welke signalen wenselijk zijn?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-sound-bron\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API\">MDN, Web Audio API</a>. Vindplaats: Web audio concepts and usage. Dekking: AudioContext en verbonden audionodes maken lokaal geluid mogelijk. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div>",
+            "content_hash": "bdbb07fc48c8c60f339a31ea12aa118601db1d991a2e19e49295c83ee6d6d05c",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "apple-atkinson-en-kare",
@@ -1303,16 +1303,16 @@
         {
             "topic_id": "begrijpen",
             "lang": "en",
-            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Een kleur kan een accent dragen. Welke andere aanwijzingen heb je nodig om een selectie te begrijpen?</p><section class=\"practice-workbench\" data-practice=\"color\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar een kleurvariant als A. Verander de kleur en schakel tekst en teken uit. Vergelijk de aanwijzingen. Ontwerp vervolgens een selectie die ook zonder het kleurverschil herkenbaar blijft.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt een selectie op minstens twee manieren zichtbaar maken en toelichten welke aanwijzing welke rol heeft.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Kleur alleen is volgens WCAG 1.4.1 onvoldoende als enige visuele drager van betekenis. Deze proef laat bewust een zwakkere variant toe om die te onderzoeken. Een eigen kleurkeuze is geen toegankelijkheidscontrole.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#psychologische-principes\">Welke groepering zie je voordat je leest?</a></li><li><a href=\"#esthetiek-en-bruikbaarheid\">Wanneer voelt verzorgd ook bruikbaar?</a></li><li><a href=\"#toestand-versus-opdracht\">Hoe zie je wat werkelijk geselecteerd is?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-color-bron\"><a href=\"https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html\">W3C WAI, Understanding 1.4.1</a>. Vindplaats: Success Criterion en Intent. Dekking: Kleur is niet de enige visuele aanwijzing voor betekenis. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div></div>",
-            "content_hash": "571582f37a8dd67d2bcb290b513383e75ea1642b4e1b26f2b6456c77fc29d30c",
-            "updated_at": "2026-10-21T17:22:39Z"
+            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Kies een andere vorm. Schakel tekst en teken uit. Waaraan herken je nu je keuze?</p><section class=\"practice-workbench\" data-practice=\"color\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Kun je de selectie nog herkennen als de kleuren op elkaar lijken?</p><a href=\"#toestand-versus-opdracht\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar A met tekst en teken. Schakel alleen die aanwijzingen uit en vergelijk A en B. Probeer vervolgens een accentkleur die dicht bij het grijs ligt en kies opnieuw een vorm. Ontwerp op papier een selectie die ook zonder kleurverschil herkenbaar is.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt een selectie op minstens twee manieren zichtbaar maken en toelichten welke aanwijzing welke rol heeft.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Kleur alleen is volgens WCAG 1.4.1 onvoldoende als enige visuele drager van betekenis. Deze proef laat bewust een zwakkere variant toe om die te onderzoeken. Een eigen kleurkeuze is geen toegankelijkheidscontrole.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#psychologische-principes\">Welke groepering zie je voordat je leest?</a></li><li><a href=\"#esthetiek-en-bruikbaarheid\">Wanneer voelt verzorgd ook bruikbaar?</a></li><li><a href=\"#toestand-versus-opdracht\">Hoe zie je wat werkelijk geselecteerd is?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-color-bron\"><a href=\"https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html\">W3C WAI, Understanding 1.4.1</a>. Vindplaats: Success Criterion en Intent. Dekking: Kleur is niet de enige visuele aanwijzing voor betekenis. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div></div>",
+            "content_hash": "058535016f139a47f4f3a24f61f970d33ba6528c7a72961e8f69b187de35a279",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "begrijpen",
             "lang": "nl",
-            "html": "<p class=\"practice-intro\">Een kleur kan een accent dragen. Welke andere aanwijzingen heb je nodig om een selectie te begrijpen?</p><section class=\"practice-workbench\" data-practice=\"color\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar een kleurvariant als A. Verander de kleur en schakel tekst en teken uit. Vergelijk de aanwijzingen. Ontwerp vervolgens een selectie die ook zonder het kleurverschil herkenbaar blijft.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt een selectie op minstens twee manieren zichtbaar maken en toelichten welke aanwijzing welke rol heeft.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Kleur alleen is volgens WCAG 1.4.1 onvoldoende als enige visuele drager van betekenis. Deze proef laat bewust een zwakkere variant toe om die te onderzoeken. Een eigen kleurkeuze is geen toegankelijkheidscontrole.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#psychologische-principes\">Welke groepering zie je voordat je leest?</a></li><li><a href=\"#esthetiek-en-bruikbaarheid\">Wanneer voelt verzorgd ook bruikbaar?</a></li><li><a href=\"#toestand-versus-opdracht\">Hoe zie je wat werkelijk geselecteerd is?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-color-bron\"><a href=\"https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html\">W3C WAI, Understanding 1.4.1</a>. Vindplaats: Success Criterion en Intent. Dekking: Kleur is niet de enige visuele aanwijzing voor betekenis. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div>",
-            "content_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-            "updated_at": "2026-10-21T17:22:39Z"
+            "html": "<p class=\"practice-intro\">Kies een andere vorm. Schakel tekst en teken uit. Waaraan herken je nu je keuze?</p><section class=\"practice-workbench\" data-practice=\"color\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Kun je de selectie nog herkennen als de kleuren op elkaar lijken?</p><a href=\"#toestand-versus-opdracht\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar A met tekst en teken. Schakel alleen die aanwijzingen uit en vergelijk A en B. Probeer vervolgens een accentkleur die dicht bij het grijs ligt en kies opnieuw een vorm. Ontwerp op papier een selectie die ook zonder kleurverschil herkenbaar is.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt een selectie op minstens twee manieren zichtbaar maken en toelichten welke aanwijzing welke rol heeft.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Kleur alleen is volgens WCAG 1.4.1 onvoldoende als enige visuele drager van betekenis. Deze proef laat bewust een zwakkere variant toe om die te onderzoeken. Een eigen kleurkeuze is geen toegankelijkheidscontrole.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#psychologische-principes\">Welke groepering zie je voordat je leest?</a></li><li><a href=\"#esthetiek-en-bruikbaarheid\">Wanneer voelt verzorgd ook bruikbaar?</a></li><li><a href=\"#toestand-versus-opdracht\">Hoe zie je wat werkelijk geselecteerd is?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-color-bron\"><a href=\"https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html\">W3C WAI, Understanding 1.4.1</a>. Vindplaats: Success Criterion en Intent. Dekking: Kleur is niet de enige visuele aanwijzing voor betekenis. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div>",
+            "content_hash": "c54f4614ab1ed3fa3e26870de1dc7e078682d493c963d0e07cc39887d6c567d7",
+            "updated_at": "2026-10-21T17:35:46Z"
         },
         {
             "topic_id": "breakdown-bij-ontbrekende-content",
@@ -1422,16 +1422,16 @@
         {
             "topic_id": "handelen",
             "lang": "en",
-            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Drie kaders uit hetzelfde beeld. Verander hun volgorde en onderzoek welke samenhang je erin leest.</p><section class=\"practice-workbench\" data-practice=\"sequence\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar de beginvolgorde als A. Verplaats twee beelden met de pijlen en beschrijf een andere lezing. Maak daarna een schets waarin deze volgorde een navigatiepad wordt.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt dezelfde onderdelen herordenen en het verschil tussen een gelezen volgorde en een gekozen navigatiepad beschrijven.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Een beeldreeks en een interfacepad zijn verschillende dingen. De reeks nodigt uit tot lezen; een interface moet ook een volgende handeling mogelijk maken. Gebruik de overeenkomst om vragen te formuleren, niet als bewijs dat film en UI dezelfde regels hebben.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#navigatie-en-wayfinding\">Wat heb je nodig om terug te kunnen?</a></li><li><a href=\"#gopher-versus-web\">Wat verandert door een andere structuur?</a></li><li><a href=\"#geheugen-en-cognitieve-belasting\">Welke informatie moet je onderweg vasthouden?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div></div>",
-            "content_hash": "10c4260b58341006eec82c0990c5d5e9d649858e4f31ca17498d6f9c1345ed11",
-            "updated_at": "2026-10-21T17:22:39Z"
+            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Speel de drie beelden af. Wissel twee beelden om en speel opnieuw. Welke samenhang lees je nu?</p><section class=\"practice-workbench\" data-practice=\"sequence\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Welke lezing verandert door de volgorde, en wat heb je nodig om zelf te kiezen?</p><a href=\"#navigatie-en-wayfinding\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Speel de beginreeks af en bewaar A. Verplaats één beeld en speel B af. Wissel tussen beide reeksen; beschrijf een verschil en een andere mogelijke lezing. Teken vervolgens een navigatiepad: waar kan iemand zelf kiezen, stoppen of terugkeren?</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt dezelfde onderdelen herordenen en het verschil tussen een gelezen volgorde en een gekozen navigatiepad beschrijven.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Een beeldreeks en een interfacepad zijn verschillende dingen. De reeks nodigt uit tot lezen; een interface moet ook een volgende handeling mogelijk maken. Gebruik de overeenkomst om vragen te formuleren, niet als bewijs dat film en UI dezelfde regels hebben.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#navigatie-en-wayfinding\">Wat heb je nodig om terug te kunnen?</a></li><li><a href=\"#gopher-versus-web\">Wat verandert door een andere structuur?</a></li><li><a href=\"#geheugen-en-cognitieve-belasting\">Welke informatie moet je onderweg vasthouden?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div></div>",
+            "content_hash": "a391707db83452dd13b90b845f2a134cde618499270c26eef80ce08cb8e0a002",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "handelen",
             "lang": "nl",
-            "html": "<p class=\"practice-intro\">Drie kaders uit hetzelfde beeld. Verander hun volgorde en onderzoek welke samenhang je erin leest.</p><section class=\"practice-workbench\" data-practice=\"sequence\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar de beginvolgorde als A. Verplaats twee beelden met de pijlen en beschrijf een andere lezing. Maak daarna een schets waarin deze volgorde een navigatiepad wordt.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt dezelfde onderdelen herordenen en het verschil tussen een gelezen volgorde en een gekozen navigatiepad beschrijven.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Een beeldreeks en een interfacepad zijn verschillende dingen. De reeks nodigt uit tot lezen; een interface moet ook een volgende handeling mogelijk maken. Gebruik de overeenkomst om vragen te formuleren, niet als bewijs dat film en UI dezelfde regels hebben.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#navigatie-en-wayfinding\">Wat heb je nodig om terug te kunnen?</a></li><li><a href=\"#gopher-versus-web\">Wat verandert door een andere structuur?</a></li><li><a href=\"#geheugen-en-cognitieve-belasting\">Welke informatie moet je onderweg vasthouden?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div>",
-            "content_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-            "updated_at": "2026-10-21T17:22:39Z"
+            "html": "<p class=\"practice-intro\">Speel de drie beelden af. Wissel twee beelden om en speel opnieuw. Welke samenhang lees je nu?</p><section class=\"practice-workbench\" data-practice=\"sequence\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Welke lezing verandert door de volgorde, en wat heb je nodig om zelf te kiezen?</p><a href=\"#navigatie-en-wayfinding\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Speel de beginreeks af en bewaar A. Verplaats één beeld en speel B af. Wissel tussen beide reeksen; beschrijf een verschil en een andere mogelijke lezing. Teken vervolgens een navigatiepad: waar kan iemand zelf kiezen, stoppen of terugkeren?</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt dezelfde onderdelen herordenen en het verschil tussen een gelezen volgorde en een gekozen navigatiepad beschrijven.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Een beeldreeks en een interfacepad zijn verschillende dingen. De reeks nodigt uit tot lezen; een interface moet ook een volgende handeling mogelijk maken. Gebruik de overeenkomst om vragen te formuleren, niet als bewijs dat film en UI dezelfde regels hebben.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#navigatie-en-wayfinding\">Wat heb je nodig om terug te kunnen?</a></li><li><a href=\"#gopher-versus-web\">Wat verandert door een andere structuur?</a></li><li><a href=\"#geheugen-en-cognitieve-belasting\">Welke informatie moet je onderweg vasthouden?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div>",
+            "content_hash": "ea33389058077b7c5ebc131f60f534eea25e98e003179b74d128cd39d8455ffc",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "hedonisch-en-pragmatisch",
@@ -1443,16 +1443,16 @@
         {
             "topic_id": "herkennen",
             "lang": "en",
-            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Hetzelfde beeld. Een andere uitsnede. Begin met kijken, verander het kader en vergelijk wat overblijft.</p><section class=\"practice-workbench\" data-practice=\"frame\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Maak twee uitsneden van hetzelfde beeld. Benoem wat zichtbaar blijft, wat verdwijnt en waar je blik naartoe gaat. Plaats daarna in een schets één handeling bij dat beeld.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt een uitsnede veranderen en een keuze voor de plaats van een handeling onderbouwen met een zichtbaar verschil.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Een kader selecteert materiaal. Zodra je iemand iets laat doen, komt er een tweede vraag bij: waar en hoe wordt die handeling herkenbaar? Dat verband onderzoeken we hier; we stellen geen universele compositieregel vast.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#f-patroon-en-koppen\">Wat maakt een leesroute aannemelijk?</a></li><li><a href=\"#affordances-en-signifiers\">Waaruit leid je een mogelijke handeling af?</a></li><li><a href=\"#esthetiek-en-mediatheorie\">Hoe vormt een interface wat je ziet?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div></div>",
-            "content_hash": "998bbe7963e46f068ac6fca7cc3f5d403820c607d3838b2b434e9be2eaaeab2f",
-            "updated_at": "2026-10-21T17:22:39Z"
+            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Maak eerst een nauwere uitsnede. Verplaats daarna het kader. Wat verdwijnt, en waar kijk je nu naar?</p><section class=\"practice-workbench\" data-practice=\"frame\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Wat verdwijnt uit beeld, en wat wordt daardoor belangrijker?</p><a href=\"#esthetiek-en-mediatheorie\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Maak een uitsnede en bewaar A. Verander alleen de plaats van het kader. Wissel tussen A en B en benoem wat zichtbaar blijft en wat verdwijnt. Teken daarna een handeling bij het beeld: welke uitsnede ondersteunt die handeling, en waarom?</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt een uitsnede veranderen en een keuze voor de plaats van een handeling onderbouwen met een zichtbaar verschil.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Een kader selecteert materiaal. Zodra je iemand iets laat doen, komt er een tweede vraag bij: waar en hoe wordt die handeling herkenbaar? Dat verband onderzoeken we hier; we stellen geen universele compositieregel vast.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#f-patroon-en-koppen\">Wat maakt een leesroute aannemelijk?</a></li><li><a href=\"#affordances-en-signifiers\">Waaruit leid je een mogelijke handeling af?</a></li><li><a href=\"#esthetiek-en-mediatheorie\">Hoe vormt een interface wat je ziet?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div></div>",
+            "content_hash": "cb663825d40031b10d4da21e9943d9d861f8bbfeb9a610ea2cdbc98341484d5c",
+            "updated_at": "2026-10-21T17:35:46Z"
         },
         {
             "topic_id": "herkennen",
             "lang": "nl",
-            "html": "<p class=\"practice-intro\">Hetzelfde beeld. Een andere uitsnede. Begin met kijken, verander het kader en vergelijk wat overblijft.</p><section class=\"practice-workbench\" data-practice=\"frame\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Maak twee uitsneden van hetzelfde beeld. Benoem wat zichtbaar blijft, wat verdwijnt en waar je blik naartoe gaat. Plaats daarna in een schets één handeling bij dat beeld.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt een uitsnede veranderen en een keuze voor de plaats van een handeling onderbouwen met een zichtbaar verschil.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Een kader selecteert materiaal. Zodra je iemand iets laat doen, komt er een tweede vraag bij: waar en hoe wordt die handeling herkenbaar? Dat verband onderzoeken we hier; we stellen geen universele compositieregel vast.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#f-patroon-en-koppen\">Wat maakt een leesroute aannemelijk?</a></li><li><a href=\"#affordances-en-signifiers\">Waaruit leid je een mogelijke handeling af?</a></li><li><a href=\"#esthetiek-en-mediatheorie\">Hoe vormt een interface wat je ziet?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div>",
-            "content_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-            "updated_at": "2026-10-21T17:22:39Z"
+            "html": "<p class=\"practice-intro\">Maak eerst een nauwere uitsnede. Verplaats daarna het kader. Wat verdwijnt, en waar kijk je nu naar?</p><section class=\"practice-workbench\" data-practice=\"frame\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Wat verdwijnt uit beeld, en wat wordt daardoor belangrijker?</p><a href=\"#esthetiek-en-mediatheorie\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Maak een uitsnede en bewaar A. Verander alleen de plaats van het kader. Wissel tussen A en B en benoem wat zichtbaar blijft en wat verdwijnt. Teken daarna een handeling bij het beeld: welke uitsnede ondersteunt die handeling, en waarom?</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt een uitsnede veranderen en een keuze voor de plaats van een handeling onderbouwen met een zichtbaar verschil.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>Een kader selecteert materiaal. Zodra je iemand iets laat doen, komt er een tweede vraag bij: waar en hoe wordt die handeling herkenbaar? Dat verband onderzoeken we hier; we stellen geen universele compositieregel vast.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#f-patroon-en-koppen\">Wat maakt een leesroute aannemelijk?</a></li><li><a href=\"#affordances-en-signifiers\">Waaruit leid je een mogelijke handeling af?</a></li><li><a href=\"#esthetiek-en-mediatheorie\">Hoe vormt een interface wat je ziet?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div>",
+            "content_hash": "1eba4683cb762aaa7fc85d12ed5f8c66d017ea7aa12b688e5b1c007cf5d1b486",
+            "updated_at": "2026-10-21T17:35:46Z"
         },
         {
             "topic_id": "hick-hyman-in-het-menu",
@@ -1520,16 +1520,16 @@
         {
             "topic_id": "onderzoeken",
             "lang": "en",
-            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Het beeld krijgt een handeling. Onderzoek hoe je zichtbaar maakt wat iemand ermee kan doen.</p><section class=\"practice-workbench\" data-practice=\"interface\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Open het beeld via de pijl. Vergelijk daarna de variant met tekst en vlak. Ontwerp twee eigen uitnodigingen voor dezelfde handeling en verklaar voor wie je welke kiest.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt twee aanwijzingen voor dezelfde handeling ontwerpen en hun betekenis en gevolgen bespreken.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De knop verandert hier alleen de lokale beeldstaat. De vergelijking is een ontwerpoefening, geen gebruikerstest en geen bewijs dat één versie voor iedereen beter is. Denk ook na over de ruimte voor ambiguïteit in een kunstwerk.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#affordances-en-signifiers\">Wat maakt een vorm tot aanwijzing?</a></li><li><a href=\"#klik-hier\">Wat belooft de tekst van een handeling?</a></li><li><a href=\"#creative-coding-als-interfacefilosofie\">Hoe kan interactie zelf het werk worden?</a></li><li><a href=\"#ethiek-van-design\">Welke vrijheid geef of ontneem je?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div></div>",
-            "content_hash": "54c90d376fa9622d04b3eecb0abaee2c759751527c06bc7a22a37b8f55819b36",
-            "updated_at": "2026-10-21T17:22:40Z"
+            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Open het beeld met de pijl. Voeg alleen tekst toe en probeer opnieuw. Wat belooft de knop nu?</p><section class=\"practice-workbench\" data-practice=\"interface\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Welke aanwijzing komt door de tekst, welke door het vlak?</p><a href=\"#affordances-en-signifiers\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar de pijl als A. Voeg alleen tekst toe en vergelijk. Herstel de beginstand en verander daarna alleen het vlak. Open telkens het beeld en sluit het weer. Ontwerp twee uitnodigingen voor dezelfde handeling en verklaar voor welke situatie je welke kiest.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt twee aanwijzingen voor dezelfde handeling ontwerpen en hun betekenis en gevolgen bespreken.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De knop verandert hier alleen de lokale beeldstaat. De vergelijking is een ontwerpoefening, geen gebruikerstest en geen bewijs dat één versie voor iedereen beter is. Denk ook na over de ruimte voor ambiguïteit in een kunstwerk.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#affordances-en-signifiers\">Wat maakt een vorm tot aanwijzing?</a></li><li><a href=\"#klik-hier\">Wat belooft de tekst van een handeling?</a></li><li><a href=\"#creative-coding-als-interfacefilosofie\">Hoe kan interactie zelf het werk worden?</a></li><li><a href=\"#ethiek-van-design\">Welke vrijheid geef of ontneem je?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div></div>",
+            "content_hash": "eed54a329d341b7a4a4ecdf1b8f871c770158f6a4be4e8c63675bb42398399f8",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "onderzoeken",
             "lang": "nl",
-            "html": "<p class=\"practice-intro\">Het beeld krijgt een handeling. Onderzoek hoe je zichtbaar maakt wat iemand ermee kan doen.</p><section class=\"practice-workbench\" data-practice=\"interface\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Open het beeld via de pijl. Vergelijk daarna de variant met tekst en vlak. Ontwerp twee eigen uitnodigingen voor dezelfde handeling en verklaar voor wie je welke kiest.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt twee aanwijzingen voor dezelfde handeling ontwerpen en hun betekenis en gevolgen bespreken.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De knop verandert hier alleen de lokale beeldstaat. De vergelijking is een ontwerpoefening, geen gebruikerstest en geen bewijs dat één versie voor iedereen beter is. Denk ook na over de ruimte voor ambiguïteit in een kunstwerk.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#affordances-en-signifiers\">Wat maakt een vorm tot aanwijzing?</a></li><li><a href=\"#klik-hier\">Wat belooft de tekst van een handeling?</a></li><li><a href=\"#creative-coding-als-interfacefilosofie\">Hoe kan interactie zelf het werk worden?</a></li><li><a href=\"#ethiek-van-design\">Welke vrijheid geef of ontneem je?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div>",
-            "content_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-            "updated_at": "2026-10-21T17:22:40Z"
+            "html": "<p class=\"practice-intro\">Open het beeld met de pijl. Voeg alleen tekst toe en probeer opnieuw. Wat belooft de knop nu?</p><section class=\"practice-workbench\" data-practice=\"interface\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Welke aanwijzing komt door de tekst, welke door het vlak?</p><a href=\"#affordances-en-signifiers\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar de pijl als A. Voeg alleen tekst toe en vergelijk. Herstel de beginstand en verander daarna alleen het vlak. Open telkens het beeld en sluit het weer. Ontwerp twee uitnodigingen voor dezelfde handeling en verklaar voor welke situatie je welke kiest.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt twee aanwijzingen voor dezelfde handeling ontwerpen en hun betekenis en gevolgen bespreken.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De knop verandert hier alleen de lokale beeldstaat. De vergelijking is een ontwerpoefening, geen gebruikerstest en geen bewijs dat één versie voor iedereen beter is. Denk ook na over de ruimte voor ambiguïteit in een kunstwerk.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#affordances-en-signifiers\">Wat maakt een vorm tot aanwijzing?</a></li><li><a href=\"#klik-hier\">Wat belooft de tekst van een handeling?</a></li><li><a href=\"#creative-coding-als-interfacefilosofie\">Hoe kan interactie zelf het werk worden?</a></li><li><a href=\"#ethiek-van-design\">Welke vrijheid geef of ontneem je?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div>",
+            "content_hash": "9a0f6f06824c24d0967b159f2db8a4053e2e006b64f37e68fb1ff37e8314c2e7",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "ongebruikelijke-interfaces",
@@ -1555,16 +1555,16 @@
         {
             "topic_id": "orienteren",
             "lang": "en",
-            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Een beweging heeft een ritme. Een handeling heeft ook een moment waarop je een reactie verwacht.</p><section class=\"practice-workbench\" data-practice=\"time\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Probeer dezelfde verplaatsing bij 0, 600 en 1600 ms wachttijd. Verander alleen de wachttijd. Vergelijk wat de melding “Bezig” doet en ontwerp een eigen tussenstaat.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt opdracht, wachttijd en resultaat onderscheiden en een tussenstaat ontwerpen die geen voltooiing suggereert.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De wachttijd is een ingestelde lokale simulatie, geen meting van een server. De pijl beweegt pas wanneer de ingestelde timer afloopt. Statusberichten krijgen een programmatische rol; dat volgt de richting van WCAG 4.1.3, zonder volledige conformiteit te bewijzen.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#toestand-versus-opdracht\">Wanneer is een opdracht ook uitgevoerd?</a></li><li><a href=\"#three-mile-island\">Wat kan een indicator wel en niet vertellen?</a></li><li><a href=\"#fenomenologie-en-breakdown\">Wanneer wordt wachten een onderbreking?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-time-bron\"><a href=\"https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html\">W3C WAI, Understanding 4.1.3</a>. Vindplaats: Success Criterion en Intent. Dekking: Statuswijzigingen zijn programmatisch bepaalbaar zonder focusverplaatsing. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div></div>",
-            "content_hash": "33532675a84cb7eb19ab547a2fdb8e730c8deb04ccbddd3638418d132c6ffe0b",
-            "updated_at": "2026-10-21T17:22:39Z"
+            "html": "<p lang=\"en\">This practical study is currently available in Dutch.</p><div lang=\"nl\"><p class=\"practice-intro\">Zet de wachttijd op 1600 ms en verplaats de pijl. Herhaal zonder tussenmelding. Wat weet je tijdens het wachten?</p><section class=\"practice-workbench\" data-practice=\"time\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Wat vertelt de tussenmelding, en wat weet je pas na de verplaatsing?</p><a href=\"#toestand-versus-opdracht\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar A bij 1600 ms met tussenmelding. Schakel alleen de tussenmelding uit en voer in beide varianten dezelfde verplaatsing uit. Vergelijk daarna 0, 600 en 1600 ms met dezelfde meldingen. Ontwerp een tussenstaat die wachten aanduidt zonder een voltooiing te beloven.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt opdracht, wachttijd en resultaat onderscheiden en een tussenstaat ontwerpen die geen voltooiing suggereert.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De wachttijd is een ingestelde lokale simulatie, geen meting van een server. De pijl beweegt pas wanneer de ingestelde timer afloopt. Statusberichten krijgen een programmatische rol; dat volgt de richting van WCAG 4.1.3, zonder volledige conformiteit te bewijzen.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#toestand-versus-opdracht\">Wanneer is een opdracht ook uitgevoerd?</a></li><li><a href=\"#three-mile-island\">Wat kan een indicator wel en niet vertellen?</a></li><li><a href=\"#fenomenologie-en-breakdown\">Wanneer wordt wachten een onderbreking?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-time-bron\"><a href=\"https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html\">W3C WAI, Understanding 4.1.3</a>. Vindplaats: Success Criterion en Intent. Dekking: Statuswijzigingen zijn programmatisch bepaalbaar zonder focusverplaatsing. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div></div>",
+            "content_hash": "eefc296251b7dace20d6a955995c54778f81f37b1f955e5fb3824c78e6436630",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "orienteren",
             "lang": "nl",
-            "html": "<p class=\"practice-intro\">Een beweging heeft een ritme. Een handeling heeft ook een moment waarop je een reactie verwacht.</p><section class=\"practice-workbench\" data-practice=\"time\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Probeer dezelfde verplaatsing bij 0, 600 en 1600 ms wachttijd. Verander alleen de wachttijd. Vergelijk wat de melding “Bezig” doet en ontwerp een eigen tussenstaat.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt opdracht, wachttijd en resultaat onderscheiden en een tussenstaat ontwerpen die geen voltooiing suggereert.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De wachttijd is een ingestelde lokale simulatie, geen meting van een server. De pijl beweegt pas wanneer de ingestelde timer afloopt. Statusberichten krijgen een programmatische rol; dat volgt de richting van WCAG 4.1.3, zonder volledige conformiteit te bewijzen.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#toestand-versus-opdracht\">Wanneer is een opdracht ook uitgevoerd?</a></li><li><a href=\"#three-mile-island\">Wat kan een indicator wel en niet vertellen?</a></li><li><a href=\"#fenomenologie-en-breakdown\">Wanneer wordt wachten een onderbreking?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Variant A blijft alleen beschikbaar zolang deze pagina open is. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-time-bron\"><a href=\"https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html\">W3C WAI, Understanding 4.1.3</a>. Vindplaats: Success Criterion en Intent. Dekking: Statuswijzigingen zijn programmatisch bepaalbaar zonder focusverplaatsing. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p></details></div>",
-            "content_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-            "updated_at": "2026-10-21T17:22:39Z"
+            "html": "<p class=\"practice-intro\">Zet de wachttijd op 1600 ms en verplaats de pijl. Herhaal zonder tussenmelding. Wat weet je tijdens het wachten?</p><section class=\"practice-workbench\" data-practice=\"time\" aria-label=\"Verkennende maakproef\"><div class=\"practice-stage\"></div><div class=\"practice-tools\"></div><div class=\"practice-actions\"><button type=\"button\" data-save>Bewaar A</button><button type=\"button\" data-recall disabled>Toon A</button><button type=\"button\" data-reset>Beginstand</button></div><p class=\"practice-notice\" role=\"status\" aria-live=\"polite\"></p><noscript><p>De maakproef vraagt JavaScript. De opdracht, verdieping en onderzoekslinks blijven hieronder leesbaar.</p></noscript><aside class=\"practice-insight\" hidden><p>Wat vertelt de tussenmelding, en wat weet je pas na de verplaatsing?</p><a href=\"#toestand-versus-opdracht\">Onderzoek deze vraag ↗</a></aside></section><div class=\"practice-reading\"><details><summary>Maakopdracht</summary><p>Bewaar A bij 1600 ms met tussenmelding. Schakel alleen de tussenmelding uit en voer in beide varianten dezelfde verplaatsing uit. Vergelijk daarna 0, 600 en 1600 ms met dezelfde meldingen. Ontwerp een tussenstaat die wachten aanduidt zonder een voltooiing te beloven.</p><p>Bewaar twee beelden of beschrijf twee toestanden buiten de site. Voeg een korte toelichting toe: wat veranderde je, wat merkte je op en welke andere verklaring is mogelijk?</p></details><details><summary>Wat je onderzoekt</summary><p>Je kunt opdracht, wachttijd en resultaat onderscheiden en een tussenstaat ontwerpen die geen voltooiing suggereert.</p><p>Voorkennis: een beeld bekijken en een browser bedienen. Beoordelingsbewijs: twee vergelijkbare varianten, een beschreven verschil en een beargumenteerde ontwerpkeuze. Een mooie vorm of snelle uitvoering alleen volstaat niet.</p><p>De wachttijd is een ingestelde lokale simulatie, geen meting van een server. De pijl beweegt pas wanneer de ingestelde timer afloopt. Statusberichten krijgen een programmatische rol; dat volgt de richting van WCAG 4.1.3, zonder volledige conformiteit te bewijzen.</p></details><details><summary>Denk verder</summary><ul class=\"practice-research-links\"><li><a href=\"#toestand-versus-opdracht\">Wanneer is een opdracht ook uitgevoerd?</a></li><li><a href=\"#three-mile-island\">Wat kan een indicator wel en niet vertellen?</a></li><li><a href=\"#fenomenologie-en-breakdown\">Wanneer wordt wachten een onderbreking?</a></li></ul><p>Dit zijn zelfstandige denkoefeningen en bronnen van inspiratie. Je hoeft ze niet allemaal te doorlopen en je mag bij een beeld, ervaring of tegenvoorbeeld beginnen.</p></details><details><summary>Controleer je keuze</summary><p>Welke parameter veranderde je? Wat bleef gelijk? Kun je je interpretatie onderscheiden van wat werkelijk op het scherm veranderde?</p><details><summary>Bespreekrichting</summary><p>Een bruikbare uitleg noemt een concrete ingreep en een zichtbaar of hoorbaar verschil. “Beter” vraagt een doel, context en gebruiker. Herhaal de vergelijking met één gewijzigde parameter als je die zaken nog niet kunt onderscheiden. Pas dit bij een volgend praktijkonderwerp opnieuw toe.</p></details></details><details><summary>Over deze proef</summary><p>Eigen illustratie en verkennende oefening, uitgewerkt met Codex (AI) voor het project van Sebastien Vanblaere op 21 oktober 2026. Geen onafhankelijke vakreview of uitgevoerd leeronderzoek. De grafiek is schematisch; de koppeling met UI/UX is een didactisch voorstel.</p><p>Geen namen, antwoorden, opnames of gebruikstijden worden verzameld. Een gekozen eigen beeld blijft lokaal in deze browser en wordt niet geüpload. Varianten A en B blijven alleen beschikbaar zolang deze pagina open is. Een eigen beeld kiezen wist de bewaarde vergelijking. Gebruik de beginstand om opnieuw te starten.</p><p id=\"bron-praktijk-time-bron\"><a href=\"https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html\">W3C WAI, Understanding 4.1.3</a>. Vindplaats: Success Criterion en Intent. Dekking: Statuswijzigingen zijn programmatisch bepaalbaar zonder focusverplaatsing. De documentatie onderbouwt geen leerwinst of universele ontwerpvoorkeur.</p><p>Open: docentcontrole van opdracht en begrippen, volledige toegankelijkheidsreview en onderzoek naar leerresultaten. Bronnen en tegenlezingen in de bestaande onderzoeksnotities hebben hun eigen reikwijdte en controledatum.</p><p>Wijziging 21 oktober 2026: de lege stap is uitgewerkt als praktijkonderwerp. Het bestaande onderzoek is inhoudelijk behouden.</p><p>Doorloop 21 oktober 2026: AI-doorloop vanuit studenthandelingen; vergelijkingen en gerichte verdiepingsvragen aangescherpt. Geen uitgevoerd onderzoek met studenten.</p></details></div>",
+            "content_hash": "66c1471908947f9596259363bfac1a57cfc01204bd1489948a8c890f7ec0adf0",
+            "updated_at": "2026-10-21T17:35:47Z"
         },
         {
             "topic_id": "over-dit-onderzoekscentrum",
@@ -2044,55 +2044,55 @@
             {
                 "id": "herkennen",
                 "review_status": "open",
-                "review_scope": "Originele maakproef, opdracht-doel-bewijs, zelfcontrole, beperkingen en onderzoeksverbindingen; K01-K12 afzonderlijk vastgelegd.",
+                "review_scope": "Kritische AI-doorloop van praktijkhandeling, vergelijking en overgang naar verdieping; alleen K06/K07/K11 opnieuw beoordeeld.",
                 "criteria": {
                     "K01": {
                         "status": "deels",
                         "evidence": "Project, AI-uitwerking, datum en scope zichtbaar in Over deze proef. Docentredactie en onafhankelijke review blijven open.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K02": {
                         "status": "voldoet",
                         "evidence": "Oorspronkelijke illustratie, normuitleg en interpretatieve koppeling onderscheiden; geen universele voorkeur of leereffect geclaimd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K03": {
                         "status": "deels",
                         "evidence": "Drie nieuwe technische/normatieve bronpassages gericht geopend en geannoteerd. Onderzoekslinks behouden hun eigen historische review en beperkingen; geen nieuwe integrale controle van die teksten.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K04": {
                         "status": "voldoet",
                         "evidence": "Schematische demo, lokale timer, eigen ontwerpkeuzes en afwezigheid van leeronderzoek expliciet begrensd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K05": {
                         "status": "voldoet",
                         "evidence": "Overgang van lege stap naar maakproef gedateerd op de pagina; oorspronkelijke versies, reden en events in SQLite behouden.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K06": {
                         "status": "deels",
-                        "evidence": "Elke pagina koppelt één observeerbaar doel aan een ingreep, twee varianten en onderbouwde reflectie. Docentvalidatie en rubric met voorbeeldprestaties nog open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
+                        "evidence": "Concrete eerste handeling, vergelijking van één variabele en eigen vervolgontwerp sluiten inhoudelijk aan. Uitsnede en plaats veranderd; A en B teruggehaald. Plaats zonder uitsnede uitgeschakeld. Docentvalidatie en voorbeeldrubric blijven open.",
+                        "last_checked_at": "2026-10-21T17:36:43Z",
+                        "checked_hash": "1eba4683cb762aaa7fc85d12ed5f8c66d017ea7aa12b688e5b1c007cf5d1b486",
                         "needs_review": false
                     },
                     "K07": {
                         "status": "deels",
-                        "evidence": "Zelfcontrolevraag, bespreekrichting en herstap aanwezig; transfer wordt voorgesteld, maar niet met studenten beoordeeld.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
+                        "evidence": "Gerichte vraag verschijnt na een ingreep; A/B behoudt beide varianten. Zelfcontrole vraagt waarneming, interpretatie en andere verklaring. Zelfstandige transfer nog niet met studenten beoordeeld.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "1eba4683cb762aaa7fc85d12ed5f8c66d017ea7aa12b688e5b1c007cf5d1b486",
                         "needs_review": false
                     },
                     "K08": {
@@ -2100,27 +2100,27 @@
                         "evidence": "Activiteiten expliciet als eigen verkennende maakproeven aangeduid. Geen deelnemers, metingen of experimentele resultaten verzameld.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K09": {
                         "status": "niet_van_toepassing",
                         "evidence": "Geen studie-uitkomsten of statistische conclusies gerapporteerd; geen fictieve effectgroottes of steekproefclaims.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K10": {
                         "status": "niet_van_toepassing",
                         "evidence": "Individuele maakproeven zonder deelnemersregistratie. Eigen beeld blijft via object-URL lokaal; geen opname of uploadendpoint.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K11": {
                         "status": "deels",
-                        "evidence": "Node-grenstests voor uitsnede en herordenen geslaagd. Browser: zes werkvlakken, bewaren/terughalen, timer, expliciet geluid, modaal beeld en Escape gecontroleerd. Mobiele 390px-weergave visueel bekeken. Volledige toetsenbord-, zoom-, contrast- en schermlezerreview en native bestandskiezerproef blijven open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
+                        "evidence": "Uitsnede en plaats veranderd; A en B teruggehaald. Plaats zonder uitsnede uitgeschakeld. Browserdoorloop en modeltests; geen volledige WCAG-, mobiele of native uploadcontrole van deze aanpassingen.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "1eba4683cb762aaa7fc85d12ed5f8c66d017ea7aa12b688e5b1c007cf5d1b486",
                         "needs_review": false
                     },
                     "K12": {
@@ -2128,71 +2128,71 @@
                         "evidence": "Geen leeronderzoek uitgevoerd. Docentcontrole, geanonimiseerde voorbeeldprestaties en toetsing van transfer blijven nodig.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 },
                 "claims": [],
                 "review_language": "nl",
-                "last_checked_at": "2026-10-21T17:26:34Z",
-                "checked_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
-                "current_hash": "665803fef2cba4abad1ba6d1068cdfb3a5ece07ed101e2e8bf42bf1578a80ac9",
+                "last_checked_at": "2026-10-21T17:36:44Z",
+                "checked_hash": "1eba4683cb762aaa7fc85d12ed5f8c66d017ea7aa12b688e5b1c007cf5d1b486",
+                "current_hash": "1eba4683cb762aaa7fc85d12ed5f8c66d017ea7aa12b688e5b1c007cf5d1b486",
                 "needs_content_review": false,
                 "reviewer": "Codex (AI)",
-                "review_date": "2026-10-21T17:26:34Z",
-                "last_page_review_evidence": "Tekst en koppelingen gelezen; modeltests en de zes browserinteracties uitgevoerd. Docentreview, volledige toegankelijkheidscontrole en leeronderzoek blijven open. Geen onafhankelijke vakreview."
+                "review_date": "2026-10-21T17:36:44Z",
+                "last_page_review_evidence": "Uitsnede en plaats veranderd; A en B teruggehaald. Plaats zonder uitsnede uitgeschakeld. Zie docs/studentendoorloop-20261021.md. Overige criteria en broncontroles niet vernieuwd; docentcontrole en leeronderzoek blijven open."
             },
             {
                 "id": "begrijpen",
                 "review_status": "open",
-                "review_scope": "Originele maakproef, opdracht-doel-bewijs, zelfcontrole, beperkingen en onderzoeksverbindingen; K01-K12 afzonderlijk vastgelegd.",
+                "review_scope": "Kritische AI-doorloop van praktijkhandeling, vergelijking en overgang naar verdieping; alleen K06/K07/K11 opnieuw beoordeeld.",
                 "criteria": {
                     "K01": {
                         "status": "deels",
                         "evidence": "Project, AI-uitwerking, datum en scope zichtbaar in Over deze proef. Docentredactie en onafhankelijke review blijven open.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K02": {
                         "status": "voldoet",
                         "evidence": "Oorspronkelijke illustratie, normuitleg en interpretatieve koppeling onderscheiden; geen universele voorkeur of leereffect geclaimd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K03": {
                         "status": "deels",
                         "evidence": "Drie nieuwe technische/normatieve bronpassages gericht geopend en geannoteerd. Onderzoekslinks behouden hun eigen historische review en beperkingen; geen nieuwe integrale controle van die teksten.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K04": {
                         "status": "voldoet",
                         "evidence": "Schematische demo, lokale timer, eigen ontwerpkeuzes en afwezigheid van leeronderzoek expliciet begrensd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K05": {
                         "status": "voldoet",
                         "evidence": "Overgang van lege stap naar maakproef gedateerd op de pagina; oorspronkelijke versies, reden en events in SQLite behouden.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K06": {
                         "status": "deels",
-                        "evidence": "Elke pagina koppelt één observeerbaar doel aan een ingreep, twee varianten en onderbouwde reflectie. Docentvalidatie en rubric met voorbeeldprestaties nog open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
+                        "evidence": "Concrete eerste handeling, vergelijking van één variabele en eigen vervolgontwerp sluiten inhoudelijk aan. Andere vorm gekozen en tekst/teken uitgezet; echte selectie en verdiepingsvraag zichtbaar. Docentvalidatie en voorbeeldrubric blijven open.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "c54f4614ab1ed3fa3e26870de1dc7e078682d493c963d0e07cc39887d6c567d7",
                         "needs_review": false
                     },
                     "K07": {
                         "status": "deels",
-                        "evidence": "Zelfcontrolevraag, bespreekrichting en herstap aanwezig; transfer wordt voorgesteld, maar niet met studenten beoordeeld.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
+                        "evidence": "Gerichte vraag verschijnt na een ingreep; A/B behoudt beide varianten. Zelfcontrole vraagt waarneming, interpretatie en andere verklaring. Zelfstandige transfer nog niet met studenten beoordeeld.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "c54f4614ab1ed3fa3e26870de1dc7e078682d493c963d0e07cc39887d6c567d7",
                         "needs_review": false
                     },
                     "K08": {
@@ -2200,27 +2200,27 @@
                         "evidence": "Activiteiten expliciet als eigen verkennende maakproeven aangeduid. Geen deelnemers, metingen of experimentele resultaten verzameld.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K09": {
                         "status": "niet_van_toepassing",
                         "evidence": "Geen studie-uitkomsten of statistische conclusies gerapporteerd; geen fictieve effectgroottes of steekproefclaims.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K10": {
                         "status": "niet_van_toepassing",
                         "evidence": "Individuele maakproeven zonder deelnemersregistratie. Eigen beeld blijft via object-URL lokaal; geen opname of uploadendpoint.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K11": {
                         "status": "deels",
-                        "evidence": "Node-grenstests voor uitsnede en herordenen geslaagd. Browser: zes werkvlakken, bewaren/terughalen, timer, expliciet geluid, modaal beeld en Escape gecontroleerd. Mobiele 390px-weergave visueel bekeken. Volledige toetsenbord-, zoom-, contrast- en schermlezerreview en native bestandskiezerproef blijven open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
+                        "evidence": "Andere vorm gekozen en tekst/teken uitgezet; echte selectie en verdiepingsvraag zichtbaar. Browserdoorloop en modeltests; geen volledige WCAG-, mobiele of native uploadcontrole van deze aanpassingen.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "c54f4614ab1ed3fa3e26870de1dc7e078682d493c963d0e07cc39887d6c567d7",
                         "needs_review": false
                     },
                     "K12": {
@@ -2228,7 +2228,7 @@
                         "evidence": "Geen leeronderzoek uitgevoerd. Docentcontrole, geanonimiseerde voorbeeldprestaties en toetsing van transfer blijven nodig.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 },
                 "claims": [
@@ -2246,70 +2246,70 @@
                         "last_attempted_at": "2026-10-21T17:26:34Z",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 ],
                 "review_language": "nl",
-                "last_checked_at": "2026-10-21T17:26:34Z",
-                "checked_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
-                "current_hash": "4305951449fd2b1d8b4576a368a37cb2100064e210cc7328f62673c6c2d10ac7",
+                "last_checked_at": "2026-10-21T17:36:44Z",
+                "checked_hash": "c54f4614ab1ed3fa3e26870de1dc7e078682d493c963d0e07cc39887d6c567d7",
+                "current_hash": "c54f4614ab1ed3fa3e26870de1dc7e078682d493c963d0e07cc39887d6c567d7",
                 "needs_content_review": false,
                 "reviewer": "Codex (AI)",
-                "review_date": "2026-10-21T17:26:34Z",
-                "last_page_review_evidence": "Tekst en koppelingen gelezen; modeltests en de zes browserinteracties uitgevoerd. Docentreview, volledige toegankelijkheidscontrole en leeronderzoek blijven open. Geen onafhankelijke vakreview."
+                "review_date": "2026-10-21T17:36:44Z",
+                "last_page_review_evidence": "Andere vorm gekozen en tekst/teken uitgezet; echte selectie en verdiepingsvraag zichtbaar. Zie docs/studentendoorloop-20261021.md. Overige criteria en broncontroles niet vernieuwd; docentcontrole en leeronderzoek blijven open."
             },
             {
                 "id": "orienteren",
                 "review_status": "open",
-                "review_scope": "Originele maakproef, opdracht-doel-bewijs, zelfcontrole, beperkingen en onderzoeksverbindingen; K01-K12 afzonderlijk vastgelegd.",
+                "review_scope": "Kritische AI-doorloop van praktijkhandeling, vergelijking en overgang naar verdieping; alleen K06/K07/K11 opnieuw beoordeeld.",
                 "criteria": {
                     "K01": {
                         "status": "deels",
                         "evidence": "Project, AI-uitwerking, datum en scope zichtbaar in Over deze proef. Docentredactie en onafhankelijke review blijven open.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K02": {
                         "status": "voldoet",
                         "evidence": "Oorspronkelijke illustratie, normuitleg en interpretatieve koppeling onderscheiden; geen universele voorkeur of leereffect geclaimd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K03": {
                         "status": "deels",
                         "evidence": "Drie nieuwe technische/normatieve bronpassages gericht geopend en geannoteerd. Onderzoekslinks behouden hun eigen historische review en beperkingen; geen nieuwe integrale controle van die teksten.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K04": {
                         "status": "voldoet",
                         "evidence": "Schematische demo, lokale timer, eigen ontwerpkeuzes en afwezigheid van leeronderzoek expliciet begrensd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K05": {
                         "status": "voldoet",
                         "evidence": "Overgang van lege stap naar maakproef gedateerd op de pagina; oorspronkelijke versies, reden en events in SQLite behouden.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K06": {
                         "status": "deels",
-                        "evidence": "Elke pagina koppelt één observeerbaar doel aan een ingreep, twee varianten en onderbouwde reflectie. Docentvalidatie en rubric met voorbeeldprestaties nog open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
+                        "evidence": "Concrete eerste handeling, vergelijking van één variabele en eigen vervolgontwerp sluiten inhoudelijk aan. Wachttijd op 2000 ms gezet; Bezig zichtbaar en vervolgens dezelfde handeling zonder tussenmelding uitgevoerd. Docentvalidatie en voorbeeldrubric blijven open.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "66c1471908947f9596259363bfac1a57cfc01204bd1489948a8c890f7ec0adf0",
                         "needs_review": false
                     },
                     "K07": {
                         "status": "deels",
-                        "evidence": "Zelfcontrolevraag, bespreekrichting en herstap aanwezig; transfer wordt voorgesteld, maar niet met studenten beoordeeld.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
+                        "evidence": "Gerichte vraag verschijnt na een ingreep; A/B behoudt beide varianten. Zelfcontrole vraagt waarneming, interpretatie en andere verklaring. Zelfstandige transfer nog niet met studenten beoordeeld.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "66c1471908947f9596259363bfac1a57cfc01204bd1489948a8c890f7ec0adf0",
                         "needs_review": false
                     },
                     "K08": {
@@ -2317,27 +2317,27 @@
                         "evidence": "Activiteiten expliciet als eigen verkennende maakproeven aangeduid. Geen deelnemers, metingen of experimentele resultaten verzameld.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K09": {
                         "status": "niet_van_toepassing",
                         "evidence": "Geen studie-uitkomsten of statistische conclusies gerapporteerd; geen fictieve effectgroottes of steekproefclaims.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K10": {
                         "status": "niet_van_toepassing",
                         "evidence": "Individuele maakproeven zonder deelnemersregistratie. Eigen beeld blijft via object-URL lokaal; geen opname of uploadendpoint.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K11": {
                         "status": "deels",
-                        "evidence": "Node-grenstests voor uitsnede en herordenen geslaagd. Browser: zes werkvlakken, bewaren/terughalen, timer, expliciet geluid, modaal beeld en Escape gecontroleerd. Mobiele 390px-weergave visueel bekeken. Volledige toetsenbord-, zoom-, contrast- en schermlezerreview en native bestandskiezerproef blijven open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
+                        "evidence": "Wachttijd op 2000 ms gezet; Bezig zichtbaar en vervolgens dezelfde handeling zonder tussenmelding uitgevoerd. Browserdoorloop en modeltests; geen volledige WCAG-, mobiele of native uploadcontrole van deze aanpassingen.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "66c1471908947f9596259363bfac1a57cfc01204bd1489948a8c890f7ec0adf0",
                         "needs_review": false
                     },
                     "K12": {
@@ -2345,7 +2345,7 @@
                         "evidence": "Geen leeronderzoek uitgevoerd. Docentcontrole, geanonimiseerde voorbeeldprestaties en toetsing van transfer blijven nodig.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 },
                 "claims": [
@@ -2363,70 +2363,70 @@
                         "last_attempted_at": "2026-10-21T17:26:34Z",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 ],
                 "review_language": "nl",
-                "last_checked_at": "2026-10-21T17:26:35Z",
-                "checked_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
-                "current_hash": "f677ce3f8e30c364234de46fd05dc12f1176c0bd25380df5c0492df9e31ee6b2",
+                "last_checked_at": "2026-10-21T17:36:44Z",
+                "checked_hash": "66c1471908947f9596259363bfac1a57cfc01204bd1489948a8c890f7ec0adf0",
+                "current_hash": "66c1471908947f9596259363bfac1a57cfc01204bd1489948a8c890f7ec0adf0",
                 "needs_content_review": false,
                 "reviewer": "Codex (AI)",
-                "review_date": "2026-10-21T17:26:35Z",
-                "last_page_review_evidence": "Tekst en koppelingen gelezen; modeltests en de zes browserinteracties uitgevoerd. Docentreview, volledige toegankelijkheidscontrole en leeronderzoek blijven open. Geen onafhankelijke vakreview."
+                "review_date": "2026-10-21T17:36:44Z",
+                "last_page_review_evidence": "Wachttijd op 2000 ms gezet; Bezig zichtbaar en vervolgens dezelfde handeling zonder tussenmelding uitgevoerd. Zie docs/studentendoorloop-20261021.md. Overige criteria en broncontroles niet vernieuwd; docentcontrole en leeronderzoek blijven open."
             },
             {
                 "id": "handelen",
                 "review_status": "open",
-                "review_scope": "Originele maakproef, opdracht-doel-bewijs, zelfcontrole, beperkingen en onderzoeksverbindingen; K01-K12 afzonderlijk vastgelegd.",
+                "review_scope": "Kritische AI-doorloop van praktijkhandeling, vergelijking en overgang naar verdieping; alleen K06/K07/K11 opnieuw beoordeeld.",
                 "criteria": {
                     "K01": {
                         "status": "deels",
                         "evidence": "Project, AI-uitwerking, datum en scope zichtbaar in Over deze proef. Docentredactie en onafhankelijke review blijven open.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K02": {
                         "status": "voldoet",
                         "evidence": "Oorspronkelijke illustratie, normuitleg en interpretatieve koppeling onderscheiden; geen universele voorkeur of leereffect geclaimd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K03": {
                         "status": "deels",
                         "evidence": "Drie nieuwe technische/normatieve bronpassages gericht geopend en geannoteerd. Onderzoekslinks behouden hun eigen historische review en beperkingen; geen nieuwe integrale controle van die teksten.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K04": {
                         "status": "voldoet",
                         "evidence": "Schematische demo, lokale timer, eigen ontwerpkeuzes en afwezigheid van leeronderzoek expliciet begrensd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K05": {
                         "status": "voldoet",
                         "evidence": "Overgang van lege stap naar maakproef gedateerd op de pagina; oorspronkelijke versies, reden en events in SQLite behouden.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K06": {
                         "status": "deels",
-                        "evidence": "Elke pagina koppelt één observeerbaar doel aan een ingreep, twee varianten en onderbouwde reflectie. Docentvalidatie en rubric met voorbeeldprestaties nog open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
+                        "evidence": "Concrete eerste handeling, vergelijking van één variabele en eigen vervolgontwerp sluiten inhoudelijk aan. Overzicht verplaatst, reeks afgespeeld tot Licht; focus blijft op afspeelknop. Docentvalidatie en voorbeeldrubric blijven open.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "ea33389058077b7c5ebc131f60f534eea25e98e003179b74d128cd39d8455ffc",
                         "needs_review": false
                     },
                     "K07": {
                         "status": "deels",
-                        "evidence": "Zelfcontrolevraag, bespreekrichting en herstap aanwezig; transfer wordt voorgesteld, maar niet met studenten beoordeeld.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
+                        "evidence": "Gerichte vraag verschijnt na een ingreep; A/B behoudt beide varianten. Zelfcontrole vraagt waarneming, interpretatie en andere verklaring. Zelfstandige transfer nog niet met studenten beoordeeld.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "ea33389058077b7c5ebc131f60f534eea25e98e003179b74d128cd39d8455ffc",
                         "needs_review": false
                     },
                     "K08": {
@@ -2434,27 +2434,27 @@
                         "evidence": "Activiteiten expliciet als eigen verkennende maakproeven aangeduid. Geen deelnemers, metingen of experimentele resultaten verzameld.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K09": {
                         "status": "niet_van_toepassing",
                         "evidence": "Geen studie-uitkomsten of statistische conclusies gerapporteerd; geen fictieve effectgroottes of steekproefclaims.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K10": {
                         "status": "niet_van_toepassing",
                         "evidence": "Individuele maakproeven zonder deelnemersregistratie. Eigen beeld blijft via object-URL lokaal; geen opname of uploadendpoint.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K11": {
                         "status": "deels",
-                        "evidence": "Node-grenstests voor uitsnede en herordenen geslaagd. Browser: zes werkvlakken, bewaren/terughalen, timer, expliciet geluid, modaal beeld en Escape gecontroleerd. Mobiele 390px-weergave visueel bekeken. Volledige toetsenbord-, zoom-, contrast- en schermlezerreview en native bestandskiezerproef blijven open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
+                        "evidence": "Overzicht verplaatst, reeks afgespeeld tot Licht; focus blijft op afspeelknop. Browserdoorloop en modeltests; geen volledige WCAG-, mobiele of native uploadcontrole van deze aanpassingen.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "ea33389058077b7c5ebc131f60f534eea25e98e003179b74d128cd39d8455ffc",
                         "needs_review": false
                     },
                     "K12": {
@@ -2462,71 +2462,71 @@
                         "evidence": "Geen leeronderzoek uitgevoerd. Docentcontrole, geanonimiseerde voorbeeldprestaties en toetsing van transfer blijven nodig.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 },
                 "claims": [],
                 "review_language": "nl",
-                "last_checked_at": "2026-10-21T17:26:35Z",
-                "checked_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
-                "current_hash": "a17e6b1d8ddf30b821b8075bf368ce4addc18e0bd266fb7cccb53ed56c782c40",
+                "last_checked_at": "2026-10-21T17:36:44Z",
+                "checked_hash": "ea33389058077b7c5ebc131f60f534eea25e98e003179b74d128cd39d8455ffc",
+                "current_hash": "ea33389058077b7c5ebc131f60f534eea25e98e003179b74d128cd39d8455ffc",
                 "needs_content_review": false,
                 "reviewer": "Codex (AI)",
-                "review_date": "2026-10-21T17:26:35Z",
-                "last_page_review_evidence": "Tekst en koppelingen gelezen; modeltests en de zes browserinteracties uitgevoerd. Docentreview, volledige toegankelijkheidscontrole en leeronderzoek blijven open. Geen onafhankelijke vakreview."
+                "review_date": "2026-10-21T17:36:44Z",
+                "last_page_review_evidence": "Overzicht verplaatst, reeks afgespeeld tot Licht; focus blijft op afspeelknop. Zie docs/studentendoorloop-20261021.md. Overige criteria en broncontroles niet vernieuwd; docentcontrole en leeronderzoek blijven open."
             },
             {
                 "id": "afwegen",
                 "review_status": "open",
-                "review_scope": "Originele maakproef, opdracht-doel-bewijs, zelfcontrole, beperkingen en onderzoeksverbindingen; K01-K12 afzonderlijk vastgelegd.",
+                "review_scope": "Kritische AI-doorloop van praktijkhandeling, vergelijking en overgang naar verdieping; alleen K06/K07/K11 opnieuw beoordeeld.",
                 "criteria": {
                     "K01": {
                         "status": "deels",
                         "evidence": "Project, AI-uitwerking, datum en scope zichtbaar in Over deze proef. Docentredactie en onafhankelijke review blijven open.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K02": {
                         "status": "voldoet",
                         "evidence": "Oorspronkelijke illustratie, normuitleg en interpretatieve koppeling onderscheiden; geen universele voorkeur of leereffect geclaimd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K03": {
                         "status": "deels",
                         "evidence": "Drie nieuwe technische/normatieve bronpassages gericht geopend en geannoteerd. Onderzoekslinks behouden hun eigen historische review en beperkingen; geen nieuwe integrale controle van die teksten.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K04": {
                         "status": "voldoet",
                         "evidence": "Schematische demo, lokale timer, eigen ontwerpkeuzes en afwezigheid van leeronderzoek expliciet begrensd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K05": {
                         "status": "voldoet",
                         "evidence": "Overgang van lege stap naar maakproef gedateerd op de pagina; oorspronkelijke versies, reden en events in SQLite behouden.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K06": {
                         "status": "deels",
-                        "evidence": "Elke pagina koppelt één observeerbaar doel aan een ingreep, twee varianten en onderbouwde reflectie. Docentvalidatie en rubric met voorbeeldprestaties nog open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
+                        "evidence": "Concrete eerste handeling, vergelijking van één variabele en eigen vervolgontwerp sluiten inhoudelijk aan. Herhaald bevestigd; geluid expliciet aan, visueel signaal afzonderlijk uit. Geen akoestische kwaliteitsmeting. Docentvalidatie en voorbeeldrubric blijven open.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "bdbb07fc48c8c60f339a31ea12aa118601db1d991a2e19e49295c83ee6d6d05c",
                         "needs_review": false
                     },
                     "K07": {
                         "status": "deels",
-                        "evidence": "Zelfcontrolevraag, bespreekrichting en herstap aanwezig; transfer wordt voorgesteld, maar niet met studenten beoordeeld.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
+                        "evidence": "Gerichte vraag verschijnt na een ingreep; A/B behoudt beide varianten. Zelfcontrole vraagt waarneming, interpretatie en andere verklaring. Zelfstandige transfer nog niet met studenten beoordeeld.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "bdbb07fc48c8c60f339a31ea12aa118601db1d991a2e19e49295c83ee6d6d05c",
                         "needs_review": false
                     },
                     "K08": {
@@ -2534,27 +2534,27 @@
                         "evidence": "Activiteiten expliciet als eigen verkennende maakproeven aangeduid. Geen deelnemers, metingen of experimentele resultaten verzameld.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K09": {
                         "status": "niet_van_toepassing",
                         "evidence": "Geen studie-uitkomsten of statistische conclusies gerapporteerd; geen fictieve effectgroottes of steekproefclaims.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K10": {
                         "status": "niet_van_toepassing",
                         "evidence": "Individuele maakproeven zonder deelnemersregistratie. Eigen beeld blijft via object-URL lokaal; geen opname of uploadendpoint.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K11": {
                         "status": "deels",
-                        "evidence": "Node-grenstests voor uitsnede en herordenen geslaagd. Browser: zes werkvlakken, bewaren/terughalen, timer, expliciet geluid, modaal beeld en Escape gecontroleerd. Mobiele 390px-weergave visueel bekeken. Volledige toetsenbord-, zoom-, contrast- en schermlezerreview en native bestandskiezerproef blijven open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
+                        "evidence": "Herhaald bevestigd; geluid expliciet aan, visueel signaal afzonderlijk uit. Geen akoestische kwaliteitsmeting. Browserdoorloop en modeltests; geen volledige WCAG-, mobiele of native uploadcontrole van deze aanpassingen.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "bdbb07fc48c8c60f339a31ea12aa118601db1d991a2e19e49295c83ee6d6d05c",
                         "needs_review": false
                     },
                     "K12": {
@@ -2562,7 +2562,7 @@
                         "evidence": "Geen leeronderzoek uitgevoerd. Docentcontrole, geanonimiseerde voorbeeldprestaties en toetsing van transfer blijven nodig.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 },
                 "claims": [
@@ -2580,70 +2580,70 @@
                         "last_attempted_at": "2026-10-21T17:26:34Z",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 ],
                 "review_language": "nl",
-                "last_checked_at": "2026-10-21T17:26:35Z",
-                "checked_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
-                "current_hash": "4a2e60578daabf97b18859043c86f1632c15850021d618e13236ee130e978561",
+                "last_checked_at": "2026-10-21T17:36:44Z",
+                "checked_hash": "bdbb07fc48c8c60f339a31ea12aa118601db1d991a2e19e49295c83ee6d6d05c",
+                "current_hash": "bdbb07fc48c8c60f339a31ea12aa118601db1d991a2e19e49295c83ee6d6d05c",
                 "needs_content_review": false,
                 "reviewer": "Codex (AI)",
-                "review_date": "2026-10-21T17:26:35Z",
-                "last_page_review_evidence": "Tekst en koppelingen gelezen; modeltests en de zes browserinteracties uitgevoerd. Docentreview, volledige toegankelijkheidscontrole en leeronderzoek blijven open. Geen onafhankelijke vakreview."
+                "review_date": "2026-10-21T17:36:44Z",
+                "last_page_review_evidence": "Herhaald bevestigd; geluid expliciet aan, visueel signaal afzonderlijk uit. Geen akoestische kwaliteitsmeting. Zie docs/studentendoorloop-20261021.md. Overige criteria en broncontroles niet vernieuwd; docentcontrole en leeronderzoek blijven open."
             },
             {
                 "id": "onderzoeken",
                 "review_status": "open",
-                "review_scope": "Originele maakproef, opdracht-doel-bewijs, zelfcontrole, beperkingen en onderzoeksverbindingen; K01-K12 afzonderlijk vastgelegd.",
+                "review_scope": "Kritische AI-doorloop van praktijkhandeling, vergelijking en overgang naar verdieping; alleen K06/K07/K11 opnieuw beoordeeld.",
                 "criteria": {
                     "K01": {
                         "status": "deels",
                         "evidence": "Project, AI-uitwerking, datum en scope zichtbaar in Over deze proef. Docentredactie en onafhankelijke review blijven open.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K02": {
                         "status": "voldoet",
                         "evidence": "Oorspronkelijke illustratie, normuitleg en interpretatieve koppeling onderscheiden; geen universele voorkeur of leereffect geclaimd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K03": {
                         "status": "deels",
                         "evidence": "Drie nieuwe technische/normatieve bronpassages gericht geopend en geannoteerd. Onderzoekslinks behouden hun eigen historische review en beperkingen; geen nieuwe integrale controle van die teksten.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K04": {
                         "status": "voldoet",
                         "evidence": "Schematische demo, lokale timer, eigen ontwerpkeuzes en afwezigheid van leeronderzoek expliciet begrensd.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K05": {
                         "status": "voldoet",
                         "evidence": "Overgang van lege stap naar maakproef gedateerd op de pagina; oorspronkelijke versies, reden en events in SQLite behouden.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K06": {
                         "status": "deels",
-                        "evidence": "Elke pagina koppelt één observeerbaar doel aan een ingreep, twee varianten en onderbouwde reflectie. Docentvalidatie en rubric met voorbeeldprestaties nog open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
+                        "evidence": "Concrete eerste handeling, vergelijking van één variabele en eigen vervolgontwerp sluiten inhoudelijk aan. Tekst en vlak afzonderlijk gewijzigd; beeld geopend en met Escape gesloten; onderzoekslink naar affordances gevolgd. Docentvalidatie en voorbeeldrubric blijven open.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "9a0f6f06824c24d0967b159f2db8a4053e2e006b64f37e68fb1ff37e8314c2e7",
                         "needs_review": false
                     },
                     "K07": {
                         "status": "deels",
-                        "evidence": "Zelfcontrolevraag, bespreekrichting en herstap aanwezig; transfer wordt voorgesteld, maar niet met studenten beoordeeld.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
+                        "evidence": "Gerichte vraag verschijnt na een ingreep; A/B behoudt beide varianten. Zelfcontrole vraagt waarneming, interpretatie en andere verklaring. Zelfstandige transfer nog niet met studenten beoordeeld.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "9a0f6f06824c24d0967b159f2db8a4053e2e006b64f37e68fb1ff37e8314c2e7",
                         "needs_review": false
                     },
                     "K08": {
@@ -2651,27 +2651,27 @@
                         "evidence": "Activiteiten expliciet als eigen verkennende maakproeven aangeduid. Geen deelnemers, metingen of experimentele resultaten verzameld.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K09": {
                         "status": "niet_van_toepassing",
                         "evidence": "Geen studie-uitkomsten of statistische conclusies gerapporteerd; geen fictieve effectgroottes of steekproefclaims.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K10": {
                         "status": "niet_van_toepassing",
                         "evidence": "Individuele maakproeven zonder deelnemersregistratie. Eigen beeld blijft via object-URL lokaal; geen opname of uploadendpoint.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     },
                     "K11": {
                         "status": "deels",
-                        "evidence": "Node-grenstests voor uitsnede en herordenen geslaagd. Browser: zes werkvlakken, bewaren/terughalen, timer, expliciet geluid, modaal beeld en Escape gecontroleerd. Mobiele 390px-weergave visueel bekeken. Volledige toetsenbord-, zoom-, contrast- en schermlezerreview en native bestandskiezerproef blijven open.",
-                        "last_checked_at": "2026-10-21T17:26:34Z",
-                        "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
+                        "evidence": "Tekst en vlak afzonderlijk gewijzigd; beeld geopend en met Escape gesloten; onderzoekslink naar affordances gevolgd. Browserdoorloop en modeltests; geen volledige WCAG-, mobiele of native uploadcontrole van deze aanpassingen.",
+                        "last_checked_at": "2026-10-21T17:36:44Z",
+                        "checked_hash": "9a0f6f06824c24d0967b159f2db8a4053e2e006b64f37e68fb1ff37e8314c2e7",
                         "needs_review": false
                     },
                     "K12": {
@@ -2679,18 +2679,18 @@
                         "evidence": "Geen leeronderzoek uitgevoerd. Docentcontrole, geanonimiseerde voorbeeldprestaties en toetsing van transfer blijven nodig.",
                         "last_checked_at": "2026-10-21T17:26:34Z",
                         "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                        "needs_review": false
+                        "needs_review": true
                     }
                 },
                 "claims": [],
                 "review_language": "nl",
-                "last_checked_at": "2026-10-21T17:26:35Z",
-                "checked_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
-                "current_hash": "942e37a84eb10a005e9d3e5cdfc026b58d95286189f11d5bfdeeea517aa5d894",
+                "last_checked_at": "2026-10-21T17:36:44Z",
+                "checked_hash": "9a0f6f06824c24d0967b159f2db8a4053e2e006b64f37e68fb1ff37e8314c2e7",
+                "current_hash": "9a0f6f06824c24d0967b159f2db8a4053e2e006b64f37e68fb1ff37e8314c2e7",
                 "needs_content_review": false,
                 "reviewer": "Codex (AI)",
-                "review_date": "2026-10-21T17:26:35Z",
-                "last_page_review_evidence": "Tekst en koppelingen gelezen; modeltests en de zes browserinteracties uitgevoerd. Docentreview, volledige toegankelijkheidscontrole en leeronderzoek blijven open. Geen onafhankelijke vakreview."
+                "review_date": "2026-10-21T17:36:44Z",
+                "last_page_review_evidence": "Tekst en vlak afzonderlijk gewijzigd; beeld geopend en met Escape gesloten; onderzoekslink naar affordances gevolgd. Zie docs/studentendoorloop-20261021.md. Overige criteria en broncontroles niet vernieuwd; docentcontrole en leeronderzoek blijven open."
             },
             {
                 "id": "les-de-link",
@@ -11233,7 +11233,7 @@
         "unreviewed_page_count": 0,
         "scope_note": "De oorspronkelijke auditscope betreft het archief van 53 pagina’s. De zes praktijkonderwerpen hebben afzonderlijke scope, controledatums en open punten.",
         "technical_validation": {
-            "validated_at": "2026-10-21T17:29:42+00:00",
+            "validated_at": "2026-10-21T17:37:11+00:00",
             "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle geregistreerde API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
             "contents": 66,
             "topics": 59,
@@ -11255,8 +11255,8 @@
                 "styles/view-panel.css": "31fc3bb6a750832042ff80a158d710598d3a30a56b5e22dedb22fb64333f3407",
                 "view-panel.js": "540af045c142888aa0402bd7f8be40a3b0178f20debf5acd2013850192a27355",
                 "styles/home.css": "b9c87ac1dae3ad5287f3ccd959332a84a36adb774b9093ef0b5ee6074c9cf565",
-                "styles/practice.css": "00eb6bbb1a48fd7bc8e03cad494c0e97fc4b929c0a3b8b9e094ac3d36587ca9a",
-                "practice.js": "a21cd3c2580176bb364129895dcb65255bf8f5fa46c2ccc35375d7a331801597",
+                "styles/practice.css": "08df394adb1b342aa5c511181958903f3dda345b4f4a5d3d79bd9d170d1e3366",
+                "practice.js": "f3be17c853edd93ab58a8b536d45afb43e95e1f6edfad10ccb167be7550e86c9",
                 "tools/validate.php": "1c52ba16f2efa4b1e5c786b3af1661bfa4909a5238c2632bb791c6eea29ba9ec"
             }
         },

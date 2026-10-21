@@ -26,10 +26,21 @@
 .practice-research-links { padding-left: 1.2rem; }
 .practice-reading a { text-underline-offset: .2em; }
 .color-study { width: min(100%,480px); padding: 2rem; }
-.color-shapes { display: flex; gap: 1.5rem; padding-block: 2rem; }
+.color-shapes { display: flex; gap: .5rem; padding-block: 2rem; }
+.practice-workbench .color-shapes button { display: grid; justify-items: center; gap: 1rem; flex: 1; min-width: 0; padding: .7rem .3rem; border-color: transparent; background: transparent; }
+.color-shapes button span { font-size: .7rem; }
 .color-shapes i { display: block; width: 70px; height: 70px; background: #b9beb9; }
-.color-shapes i:nth-child(2) { border-radius: 50%; }
-.color-shapes i:nth-child(3) { clip-path: polygon(50% 0,100% 100%,0 100%); }
+.color-shapes button:nth-child(2) i { border-radius: 50%; }
+.color-shapes button:nth-child(3) i { clip-path: polygon(50% 0,100% 100%,0 100%); }
+.color-shapes button[aria-pressed=true] i { background: var(--study-accent); }
+.practice-insight { padding-block: 1rem; border-top: 1px solid var(--border-color); max-width: 65ch; font-size: .9rem; }
+.practice-insight p { margin-bottom: .5rem; }
+.sequence-work { width: 100%; padding-block: 1rem; }
+.sequence-preview { width: min(100%,480px); margin: 0 auto 1rem; }
+.sequence-preview svg { display: block; width: 100%; }
+.sequence-preview span { display: block; margin-top: .5rem; font-size: .8rem; }
+.sequence-work > button { display: block; margin: auto; }
+.sequence-frame[aria-current=step] { outline: 2px solid var(--secondary-color); outline-offset: 4px; }
 .practice-workbench .color-select { background: var(--study-accent); color: black; font-weight: 600; border: 2px solid black; }
 .response-study { display: grid; justify-items: center; gap: 1.5rem; padding: 3rem; }
 .response-mark, .sound-mark { font-size: 4rem; line-height: 1; color: var(--primary-color); }
