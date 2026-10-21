@@ -8,6 +8,19 @@ Werkdocument, 21 oktober 2026. Voor de ontwikkeling en bespreking van de cursus,
 nieuwe cursusinhoud of goedgekeurde vervanging van de zes lege stappen. De eerdere
 plannen hieronder blijven achtergrond en zijn geen opdracht tot uitvoering.
 
+### Vastgelegde richting en behoud van onderzoek
+
+Seb bevestigt de aansluiting op zijn audiovisuele praktijk. Alle bestaande
+onderzoeken blijven behouden als inspirerende denkoefeningen en inspiratie,
+inclusief bronnen, beperkingen, correcties en controlehistoriek. Ze blijven ook
+zelfstandig toegankelijk; de praktijkingangen verwijzen er gericht naartoe.
+
+De maakpraktijk biedt een concrete ingang. Een onderzoek kan aanleiding zijn om
+iets te proberen, of verdieping bieden na een ingreep. Er is geen verplicht
+apart theoriepad en niet ieder onderzoek hoeft een praktische toepassing te
+krijgen. Eerst één werkend praktijkonderwerp uitwerken; de zes lege stappen en
+huidige inhoud blijven behouden tot een concrete navigatiekeuze is uitgewerkt.
+
 ### Gelezen referenties
 
 - Creative coding: [overzicht](https://sebastienvanblaere.be/services/creative_coding_p5.js/), [kleur](https://sebastienvanblaere.be/services/creative_coding_p5.js/#kleur), [muisinteractie](https://sebastienvanblaere.be/services/creative_coding_p5.js/#muis-interactie).

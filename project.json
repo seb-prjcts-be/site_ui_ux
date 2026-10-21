@@ -110,6 +110,9 @@
       "#ff007d"
     ],
     "font": "Instrument Sans",
-    "scope": "Eerst startpagina uitwerken; inhoud en zes lege stappen behouden."
+    "scope": "Eerst startpagina uitwerken; inhoud en zes lege stappen behouden.",
+    "content_direction": "Beginnen vanuit audiovisuele maakpraktijk; UI/UX-vragen en theorie verbinden met concrete ingrepen.",
+    "research_role": "Alle bestaande onderzoeken behouden als inspirerende denkoefeningen, voorbeelden en vrij toegankelijke verdieping.",
+    "preserve_existing_research": true
   }
 }
