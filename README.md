@@ -198,3 +198,6 @@ Het paneel schuift in 350 ms zoals het constellation-paneel op de eigen site.
 De pagina maakt gelijktijdig ruimte. Bij minder-bewegenvoorkeur valt de overgang
 weg. Sectieanker, toetsenbordfocus en waarden met eenheid horen bij de werking:
 de interface zelf dient als UX-voorbeeld.
+
+Onder Kleuren in Weergave zijn hoofdkleur (#202124) en accentkleur (#FF007D)
+aanpasbaar. Beide worden lokaal bewaard, hersteld en als CSS-variabelen geëxporteerd.

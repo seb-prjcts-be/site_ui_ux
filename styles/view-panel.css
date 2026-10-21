@@ -7,7 +7,7 @@
 .view-panel p, .view-panel label, .view-panel a { font-family: inherit; }
 .view-panel .view-field { display: block; margin-block: 1rem; }
 .view-panel .view-field output { float: right; font-variant-numeric: tabular-nums; }
-.view-panel input[type=range] { display: block; width: 100%; margin-top: .5rem; accent-color: #292929; }
+.view-panel input[type=range] { display: block; width: 100%; margin-top: .5rem; accent-color: var(--secondary-color); }
 .view-panel .view-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
 .view-panel .view-actions button { font: inherit; padding: .55rem .7rem; background: white; border: 1px solid #bbb; border-radius: 3px; }
 .view-panel .composition-controls { margin-bottom: 1rem; }
@@ -48,3 +48,6 @@ body > main { padding-inline: var(--page-gutter, 2rem); }
 }
 
 body > header .font-size-controls { display: none; }
+
+.view-panel .view-color input[type=color] { display: block; width: 100%; height: 38px; margin-top: .5rem; padding: 3px; border: 1px solid #bbb; background: white; cursor: pointer; border-radius: 3px; }
+.view-panel .view-color output { font-size: .8em; font-variant-numeric: tabular-nums; }

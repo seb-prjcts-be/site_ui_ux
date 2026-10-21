@@ -34,13 +34,13 @@ header('Cache-Control: no-cache');
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=optional">
-    <link id="style-main" rel="stylesheet" href="style.css?v=20261021-header20vh">
+    <link id="style-main" rel="stylesheet" href="style.css?v=20261021-palette1">
     <link rel="stylesheet" href="stadia.css?v=20261021-themas">
     <link id="style-composition" rel="stylesheet" href="styles/composition.css?v=instrument1">
     <link id="style-kolom" rel="stylesheet" href="styles/column.css?v=sqlite1">
     <link id="style-raster" rel="stylesheet" href="styles/grid.css?v=sqlite1">
     <link id="style-flexibel" rel="stylesheet" href="styles/flex.css?v=sqlite1">
-    <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=slide1">
+    <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=palette1">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 </head>
 <body>
@@ -83,7 +83,7 @@ header('Cache-Control: no-cache');
         <div class="offcanvas-body">
             <p>Pas de weergave live aan. De inhoud blijft gelijk; je proef wordt alleen in deze browser bewaard.</p>
             <h3>Compositie</h3><div id="view-composition"><p>Open een archiefpagina om indelingen te vergelijken.</p></div>
-            <h3>Typografie en ruimte</h3><div id="view-fields"></div>
+            <div id="view-fields"></div>
             <div id="view-experiments"></div>
             <div class="view-actions"><button id="view-reset" type="button">Herstel standaard</button><button id="view-export" type="button">Exporteer CSS</button></div>
             <p id="view-status" role="status" aria-live="polite"></p>
@@ -95,7 +95,7 @@ header('Cache-Control: no-cache');
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>window.COURSE_DATA = <?= json_encode($bootstrap, JSON_THROW_ON_ERROR | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;</script>
-    <script src="view-panel.js?v=slide1"></script>
+    <script src="view-panel.js?v=palette2"></script>
     <script src="main.js?v=20261021-panel-slide1"></script>
 </body>
 </html>

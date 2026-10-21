@@ -11141,7 +11141,7 @@
             {
                 "file": "style.css",
                 "checked_hash": "cf0409ff19e25bf786799040f353cba44ce99743856f48064208b30ba39f0716",
-                "current_hash": "f24f2ea3face9a8499d903897a06abf0a7d69206e0bcc674a8b4e617883b9e09",
+                "current_hash": "bd30accab26c2248c0e108ec4423bb26b017414a1dad4649d1494af040cae412",
                 "needs_review": true
             },
             {
@@ -11158,27 +11158,27 @@
         "unreviewed_page_count": 6,
         "scope_note": "De oorspronkelijke auditscope betreft het archief van 53 pagina’s. Nieuw aangemaakte lege stappen zijn niet inhoudelijk beoordeeld.",
         "technical_validation": {
-            "validated_at": "2026-10-21T16:39:25+00:00",
+            "validated_at": "2026-10-21T16:43:23+00:00",
             "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle geregistreerde API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
             "contents": 66,
             "topics": 59,
             "file_hashes": {
-                "index.php": "697c936afa2d81e0574d6f507478a64ed3e1aaab445b35ec3e01489b12ad0ef8",
+                "index.php": "41d73cc5a7888d6587a6b60e82b6fc57666f7ece20ab5a8db56ec17b11b9de2c",
                 "api.php": "330743fa164723954f696bcde6632c0288fe77d7e39cd9825475ff20d4efb100",
                 "checks.php": "acedfb2b0c03e4247f0740e84fc067fced5e14e241a07f3b461110e26aa90f15",
                 "lib/course.php": "b66e54b83841636eb3c320d98fd723a78eabb325cf7116b443b106863e161eec",
                 "lib/manage.php": "0eb63f74f9e60a54c485223ca2d6b4eb10792d1e1fc7146419f08087c3678a41",
                 "main.js": "47ef387e2191db0be766c088a8454655d0b345deeffe3d7492df1f1e2b09c144",
                 "stadia.css": "56512c84b89c03a1901de4f5d3be9996ab28f04533fc0a715f570ea0c128b583",
-                "style.css": "f24f2ea3face9a8499d903897a06abf0a7d69206e0bcc674a8b4e617883b9e09",
+                "style.css": "bd30accab26c2248c0e108ec4423bb26b017414a1dad4649d1494af040cae412",
                 ".htaccess": "ee99cc74ba8ad3ac80c744fc276b34014859f8f52f5e098208760a356aba7d77",
                 "styles/composition.css": "b1e987039779eab229fdf19196ca0def4ae976a7e4465d8c9223e74b08faa615",
                 "styles/column.css": "9e65d9747de9b82adcb5a2e65c208593fd0007cb4939e0c1e5bb27e2ed2742b6",
                 "styles/grid.css": "3da00c0df5aae203228b19a8591ca2263163944127ba350188582ed142aacada",
                 "styles/flex.css": "e2c4d070cd0814a22c6a75d9b0de85641d0386113ff7d2127f35e54da8412935",
                 "styles/checks.css": "603a9d3227e979bbbc82636fa20caad237d148258083619314549c5fba7477c4",
-                "styles/view-panel.css": "65b0a82dee7197675dd9dadbe08f811f4ec3d71b957747d9e1b065a7600dc01a",
-                "view-panel.js": "ed31af148b068145aae42f671fd373793c8ec956a0a40546b57c046b78284d50",
+                "styles/view-panel.css": "43d99f30a8c255d81d5bf75eb10e006e2853296c46c6b651df73a4e5a9d0bdcb",
+                "view-panel.js": "2b8614d6a934e7a3373a185dd32950b57897e86fa6a3ce81b74f20dd82fca2e9",
                 "tools/validate.php": "317a58d14b89dafb83ad9a1c2a9ded945fb59e9834c2c8de55ca22c4e5dd4c31"
             }
         },

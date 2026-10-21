@@ -592,3 +592,7 @@ Op Sebs akkoord gebruikt de site de al geladen Bootstrap Offcanvas voor een rech
 ## 2026-10-21 - Interface als UX-voorbeeld
 
 Op verzoek van Seb gebruiken we functionele beweging om toestandsveranderingen begrijpelijk te maken. Het rechterpaneel volgt de constellation-overgang op zijn eigen site: 350 ms, cubic-bezier(.2,.7,.2,1). De leesruimte beweegt tegelijk; openen en sluiten bewaren een sectieanker en focus keert zonder scrollsprong terug. Minder-bewegenvoorkeur blijft gelden. Pijltoetsen in het paneel navigeren niet naar een ander onderwerp. Schuiven geven hun waarde met eenheid door aan hulptechnologie. Browsercontrole bevestigt overgangsduur, geopende/gesloten status, ruimte, Escape en focusterugkeer. Dit is technische verificatie, geen gebruikersonderzoek.
+
+## 2026-10-21 - Twee aanpasbare paletkleuren
+
+Roze (#FF007D) hersteld als tweede/accentkleur; hoofdkleur #202124. CSS-rollen primary-color en secondary-color voeden tekst en accenten. Beide hebben een gelabelde kleurkiezer met hexwaarde in Weergave, gevalideerde lokale opslag, live toepassing, herstel en CSS-export. Gepubliceerde inhoud en broncontroledatums blijven gelijk.
