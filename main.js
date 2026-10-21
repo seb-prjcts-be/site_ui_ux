@@ -734,7 +734,7 @@ function applyStadium(n) {
     const changed = currentStadium !== n;
     currentStadium = n;
     document.documentElement.dataset.stadium = n;
-    ['style-bootstrap', 'style-icons', 'style-main', 'style-composition', 'style-kolom', 'style-raster', 'style-flexibel', 'style-view-panel'].forEach(id => {
+    ['style-bootstrap', 'style-icons', 'style-main', 'style-composition', 'style-kolom', 'style-raster', 'style-flexibel', 'style-view-panel', 'style-home'].forEach(id => {
         const link = document.getElementById(id);
         if (link) link.disabled = n < 4;
     });
@@ -819,7 +819,7 @@ function initVensterLinks() {
 function initKeyboardNav() {
     document.addEventListener('keydown', (event) => {
         if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
-        if (event.target.closest('#view-panel')) return;
+        if (event.target.closest('#view-panel, .object-tools')) return;
         const tag = (event.target.tagName || '').toLowerCase();
         if (tag === 'input' || tag === 'textarea' || tag === 'select' || event.target.isContentEditable) return;
         const rel = event.key === 'ArrowRight' ? 'next' : event.key === 'ArrowLeft' ? 'prev' : null;
@@ -1544,6 +1544,7 @@ function initDemos(contentRoot) {
 // Render functie voor onderwerp pagina
 let courseRenderRequest = 0;
 async function renderOnderwerp(onderwerp) {
+    document.body.classList.remove('publication-home');
     const request = ++courseRenderRequest;
     resetViewPanelContent();
     const content = document.getElementById('content');
@@ -1802,7 +1803,7 @@ function renderWelcome() {
 
     // De inhoud: een indexpagina zoals de eerste webpagina, elke link met een regel uitleg.
     const indexHtml = `
-        <details class="welcome-index archive-index"><summary>${currentLang === 'en' ? 'Archive' : 'Archief'}</summary>
+        <details id="publicatie-archief" class="welcome-index archive-index"><summary>${currentLang === 'en' ? 'Archive' : 'Archief'}</summary>
             ${groepen.map(groep => `
                 <h3 id="index-${slugify(groep.categorie)}">${escapeHtml(tCat(groep.categorie))}</h3>
                 <ul>
@@ -1815,6 +1816,12 @@ function renderWelcome() {
         ? `<p class="welcome-volgend-stadium">${t('nextStadium')}: <a href="#${volgendStadium.id}" title="${escapeHtml(topicSummary(volgendStadium))}">${escapeHtml(topicTitle(volgendStadium))}</a></p>`
         : '';
 
+    const publication = currentStadium >= 4 && getJourneyStep() === null;
+    document.body.classList.toggle('publication-home', publication);
+    if (publication) {
+        content.innerHTML = publicationHome(indexHtml);
+        initPublicationObject(content);
+    } else {
     content.innerHTML = `
         <div class="welcome">
             <blockquote class="welcome-quote">
@@ -1828,6 +1835,7 @@ function renderWelcome() {
             ${volgendHtml}
         </div>
     `;
+    }
     initCourseExperiments(content);
     setRelLinks(null, lijst[0] || volgendStadium);
     document.title = t('pageTitle');
@@ -2347,7 +2355,7 @@ function initJourneyActivity(root, topic) {
             status.textContent = changed ? 'Kruimelpad en stapteller zijn tijdelijk verborgen. Menu en paginatitel blijven zichtbaar.' : 'De plaatsaanwijzingen zijn terug.';
         } else if (activity.action === 'appearance') {
             changed = !changed; html.classList.toggle('journey-plain', changed);
-            ['style-bootstrap', 'style-icons', 'style-main', 'style-composition', 'style-kolom', 'style-raster', 'style-flexibel', 'style-view-panel'].forEach(id => { document.getElementById(id).disabled = changed; });
+            ['style-bootstrap', 'style-icons', 'style-main', 'style-composition', 'style-kolom', 'style-raster', 'style-flexibel', 'style-view-panel', 'style-home'].forEach(id => { document.getElementById(id).disabled = changed; });
             button.textContent = changed ? 'Vormgeving aan' : labels[activity.action];
             status.textContent = changed ? 'De stijllagen zijn uitgeschakeld. Je leest dezelfde pagina zonder de huisstijl.' : 'Dezelfde inhoud heeft weer de oorspronkelijke vormgeving.';
         } else if (activity.action === 'search') {
@@ -2530,3 +2538,39 @@ function resetViewPanelContent() {
 }
 
 window.addEventListener('course:view-reset', () => saveCourseExperiment('composition-guide', false));
+
+function publicationHome(archive) {
+    const en = currentLang === 'en';
+    const steps = onderwerpen.filter(topic => topic.categorie === 'Leerlijn');
+    const example = onderwerpen.find(topic => topic.id === 'norman-door');
+    return `<div class="publication">
+        <div class="publication-opening"><h1><span>${en ? 'Exploring' : 'Interfaces'}</span><span>${en ? 'interfaces.' : 'onderzoeken.'}</span></h1><a href="#publicatie-archief">${en ? 'Explore freely' : 'Vrij verkennen'} ↗</a></div>
+        <div class="publication-spread">
+            <section id="index-leerlijn" aria-labelledby="path-heading"><h2 id="path-heading">${en ? 'Learning path' : 'Leerlijn'}</h2>
+                <ol class="path-list">${steps.map(topic => `<li><a href="#${topic.id}" aria-label="${escapeHtml(topicTitle(topic))}"><span class="path-name">${escapeHtml(topicTitle(topic))}</span><span class="path-arrow" aria-hidden="true">↗</span></a></li>`).join('')}</ol>
+                <p class="path-status">${en ? 'Six steps · not developed yet' : 'Zes stappen · nog niet uitgewerkt'}</p>
+            </section>
+            <section aria-labelledby="object-heading"><h2 id="object-heading">${en ? 'From the archive' : 'Uit het archief'}</h2>
+                <figure class="publication-object"><div class="object-stage" data-door="grip">
+                    <svg viewBox="0 0 400 300" role="img" aria-labelledby="door-illustration-title"><title id="door-illustration-title">${en ? 'Door with a pull handle' : 'Deur met een greep'}</title>
+                        <path d="M105 285V20h190v265" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <path d="M115 285V30h170v255" fill="white" stroke="currentColor" stroke-width="1"/>
+                        <path d="M80 286h240" fill="none" stroke="currentColor" stroke-width="1"/>
+                        <g class="door-grip" fill="none" stroke="var(--secondary-color)" stroke-width="8"><path d="M254 130h-14v62h14"/></g>
+                        <rect class="door-plate" x="238" y="120" width="25" height="85" rx="2" fill="var(--secondary-color)"/>
+                    </svg>
+                    <div class="object-tools" role="group" aria-label="${en ? 'Door fitting' : 'Deurbeslag'}"><button type="button" data-door-choice="grip" aria-pressed="true">${en ? 'Handle' : 'Greep'}</button><button type="button" data-door-choice="plate" aria-pressed="false">${en ? 'Plate' : 'Plaat'}</button></div>
+                </div><figcaption><a href="#${example.id}">${escapeHtml(topicTitle(example))} ↗</a><span>${en ? 'Schematic study' : 'Schematische studie'}</span></figcaption></figure>
+            </section>
+        </div>${archive}
+    </div>`;
+}
+function initPublicationObject(root) {
+    const stage = root.querySelector('.object-stage');
+    stage?.querySelectorAll('[data-door-choice]').forEach(button => button.addEventListener('click', () => {
+        const plate = button.dataset.doorChoice === 'plate';
+        stage.dataset.door = plate ? 'plate' : 'grip';
+        stage.querySelectorAll('[data-door-choice]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+        stage.querySelector('title').textContent = currentLang === 'en' ? (plate ? 'Door with a push plate' : 'Door with a pull handle') : (plate ? 'Deur met een duwplaat' : 'Deur met een greep');
+    }));
+}

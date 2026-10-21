@@ -201,3 +201,11 @@ de interface zelf dient als UX-voorbeeld.
 
 Onder Kleuren in Weergave zijn hoofdkleur (#202124) en accentkleur (#FF007D)
 aanpasbaar. Beide worden lokaal bewaard, hersteld en als CSS-variabelen geëxporteerd.
+
+## Startpagina als publicatie
+
+De volledige weergave opent met sterke typografie, de zes lege stappen en een
+bestaand archiefonderwerp. Een schematische deur laat greep en plaat wisselen;
+de bediening verschijnt bij aanwijzen of toetsenbordfocus en blijft op aanraking
+zichtbaar. Vrij verkennen opent het volledige archief. De eenvoudige stadia
+behouden hun tekstindex. De startpagina voegt geen leerresultaten of bronclaims toe.

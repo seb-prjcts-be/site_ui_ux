@@ -91,5 +91,25 @@
     "preserve_reading_position": true,
     "keyboard_controls_must_not_trigger_page_navigation": true,
     "visible_feedback_and_reversible_adjustments": true
+  },
+  "design_direction": {
+    "audience": "Kunststudent die zelf onderzoekt en maakt",
+    "experience": [
+      "rust",
+      "nieuwsgierigheid"
+    ],
+    "role": "Een instrument dat je al doende ontdekt",
+    "form": "Kunstpublicatie met sterke typografie",
+    "entry_points": [
+      "zes lege stappen",
+      "vrij verkennen in bestaande inhoud"
+    ],
+    "controls": "Bij het relevante onderdeel, ook bereikbaar met toetsenbord en aanraking",
+    "palette": [
+      "#202124",
+      "#ff007d"
+    ],
+    "font": "Instrument Sans",
+    "scope": "Eerst startpagina uitwerken; inhoud en zes lege stappen behouden."
   }
 }

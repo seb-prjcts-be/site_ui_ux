@@ -1,0 +1,53 @@
+/* A publication opening: one reading sequence and one object to explore. */
+body.publication-home { grid-template-columns: minmax(0,1fr); grid-template-areas: 'header' 'content' 'footer'; }
+.publication-home > #main-nav, .publication-home > .search-container { display: none; }
+.publication-home > main { padding-block: 0 4rem; }
+.publication-home .publication { max-width: 78rem; margin-inline: auto; }
+.publication-opening { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; margin-bottom: 3rem; }
+.publication-opening h1 { font: 500 clamp(2.4rem,7.4vw,7rem)/.96 var(--font-body); letter-spacing: -.065em; margin: 0; }
+.publication-opening h1 span { display: block; }
+.publication-opening > a { color: var(--primary-color); white-space: nowrap; text-underline-offset: .3em; font-size: .85rem; margin-bottom: .3rem; }
+.publication-spread { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.2fr); gap: clamp(2rem,6vw,7rem); align-items: start; }
+.publication h2 { font: 500 1rem/1.3 var(--font-body); letter-spacing: -.025em; margin: 0 0 1.2rem; }
+.publication .path-list { list-style: none; padding: 0; margin: 0; counter-reset: path; }
+.path-list li { counter-increment: path; }
+.path-list a { display: grid; grid-template-columns: 2rem 1fr auto; align-items: baseline; gap: .8rem; padding-block: .65rem; color: var(--primary-color); text-decoration: none; }
+.path-list a::before { content: '0' counter(path); font-size: .7rem; font-variant-numeric: tabular-nums; color: var(--text-light); }
+.path-list a .path-name { font-size: clamp(1.4rem,2.5vw,2.1rem); line-height: 1.15; letter-spacing: -.04em; }
+.path-list a .path-arrow { opacity: 0; color: var(--secondary-color); transform: translateX(-6px); transition: opacity .16s, transform .16s; }
+.path-list a:is(:hover,:focus-visible) .path-arrow { opacity: 1; transform: translateX(0); }
+.path-list a:is(:hover,:focus-visible) .path-name { text-decoration: underline; text-decoration-color: var(--secondary-color); text-decoration-thickness: 2px; text-underline-offset: .15em; }
+.path-status { font-size: .75rem; color: var(--text-light); margin: 1rem 0 0; }
+.publication-object { margin: 0; min-width: 0; }
+.object-stage { position: relative; background: #f4f4f3; aspect-ratio: 1.5; display: grid; place-items: center; overflow: hidden; }
+.object-stage > svg { height: 89%; width: 72%; color: var(--primary-color); }
+.door-grip, .door-plate { transition: opacity .2s; }
+.door-plate { opacity: 0; }
+.object-stage[data-door=plate] .door-plate { opacity: 1; }
+.object-stage[data-door=plate] .door-grip { opacity: 0; }
+.object-tools { position: absolute; inset: auto 14px 14px auto; display: flex; gap: 2px; padding: 3px; background: white; border-radius: 4px; }
+.object-tools button { border: 0; background: white; color: #555; padding: 9px 12px; font: 13px/1 var(--font-body); min-height: 36px; }
+.object-tools button[aria-pressed=true] { background: var(--primary-color); color: white; border-radius: 2px; }
+.publication-object figcaption { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding-top: 1rem; }
+.publication-object figcaption a { color: var(--primary-color); text-decoration-thickness: 1px; text-underline-offset: .25em; font-size: 1rem; }
+.publication-object figcaption span { color: var(--text-light); font-size: .7rem; }
+.publication .archive-index { margin-top: 4rem; }
+.publication :is(a,button,summary):focus-visible { outline: 2px solid var(--primary-color); outline-offset: 5px; }
+.publication-home.view-panel-open .publication-opening h1 { font-size: clamp(3rem,6vw,5rem); }
+@media (max-width: 760px) {
+    .publication-opening { display: block; margin-bottom: 2.5rem; }
+    .publication-opening > a { display: inline-block; margin-top: 1.5rem; }
+    .publication-spread { grid-template-columns: 1fr; gap: 3rem; }
+    .path-list a { padding-block: .7rem; }
+    .path-list a .path-name { font-size: 1.7rem; }
+    .path-list a .path-arrow { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .path-list a .path-arrow, .door-grip, .door-plate { transition: none; }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .object-tools { opacity: 0; transform: translateY(4px); transition: opacity .14s, transform .14s; }
+    .object-stage:hover .object-tools, .object-stage:focus-within .object-tools { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) { .object-tools { transition: none; } }

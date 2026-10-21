@@ -600,3 +600,7 @@ Roze (#FF007D) hersteld als tweede/accentkleur; hoofdkleur #202124. CSS-rollen p
 ## 2026-10-21 - Minimale weergavebalk
 
 Op verzoek zijn verklarende alinea’s, Regels en lege-inhoudinstructies uit Weergave gehaald. De bediening gebruikt korte labels, twee naast elkaar geplaatste kleurvlakken, zichtbare waarden en directe schuiven. Compositie heeft een gesegmenteerde keuze met zichtbaar actief item. Herstel en CSS-export blijven bereikbaar onderaan. Visuele feedback is een teken; volledige statusfeedback blijft beschikbaar voor schermlezers. Inhoud en controledata zijn niet opnieuw beoordeeld.
+
+## 2026-10-21 - Eerste scherm als kunstpublicatie
+
+Op basis van Sebs keuzes: kunststudent als onderzoeker/maker, rust en nieuwsgierigheid, een ontdekkend instrument met sterke publicatietypografie. Startpagina met twee ingangen: zes lege stappen en vrij verkennen. De bestaande Norman-deur is het eerste archiefvoorbeeld; een expliciet schematische tekening wisselt tussen greep en plaat. Contextbediening werkt met aanwijzen, focus en aanraking. Geen ingevulde nieuwe stappen of nieuwe wetenschappelijke claims. Het inhoudsmenu en zoeken blijven op onderwerpbladzijden beschikbaar; het archief staat op de startpagina uitklapbaar. Browsercontrole: twee objecttoestanden, archiefanker en openen, zes stappen, terugkeer naar onderwerpweergave en geen horizontale overflow op het gecontroleerde scherm.

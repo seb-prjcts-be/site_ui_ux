@@ -41,6 +41,7 @@ header('Cache-Control: no-cache');
     <link id="style-raster" rel="stylesheet" href="styles/grid.css?v=sqlite1">
     <link id="style-flexibel" rel="stylesheet" href="styles/flex.css?v=sqlite1">
     <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=arrow1">
+    <link id="style-home" rel="stylesheet" href="styles/home.css?v=2">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 </head>
 <body>
@@ -95,6 +96,6 @@ header('Cache-Control: no-cache');
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>window.COURSE_DATA = <?= json_encode($bootstrap, JSON_THROW_ON_ERROR | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;</script>
     <script src="view-panel.js?v=arrow1"></script>
-    <script src="main.js?v=20261021-panel-minimal1"></script>
+    <script src="main.js?v=20261021-publication2"></script>
 </body>
 </html>
