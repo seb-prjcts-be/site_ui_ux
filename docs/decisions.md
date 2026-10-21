@@ -299,3 +299,34 @@ Drie bestaande schermafbeeldingen uit assets/referentie worden gebruikt bij
 bronverwijzingen naar Olia Lialina, JODI en Nutshell. Eerst verschijnen tekstlinks,
 vanaf vormgeving dezelfde verwijzingen met beelden. Geen nieuwe afbeeldingen
 gedownload en geen inhoudsbestanden aangepast.
+
+
+### 2026-10-21 - Chronologische ijking, zes thema's met onderbouwing/tegenspraak en functie per anekdote
+
+Decision:
+De inhoud van het onderzoekscentrum is chronologisch geijkt en gegroepeerd in
+zes historische thema's (1910–2023) op de pagina Twee fundamenten. Binnen elk
+thema worden psychologische principes en filosofisch/kritisch onderzoek
+expliciet met elkaar verbonden via onderbouwing en tegenspraak. Elke van de 18
+anekdotes sluit af met een vaste sectie "Functie van deze anekdote" (Onderbouwing
+en tegenspraak in het thema). De volgorde van Filosofie van de interface,
+Psychologie van de interface en Anekdotes in main.js is strikt chronologisch
+gezet. De bestaande stijl- en compositiepreview blijft ongewijzigd.
+
+Reason:
+Seb gaf aan dat de inhoud eerst ijzersterk en chronologisch moet kloppen, met
+onderwerpen in thema's die onderbouwd zijn door of in tegenspraak staan met
+filosofisch onderzoek, en dat elke anekdote een expliciete functie moet hebben.
+
+Impact:
+- Vier ontbrekende proefschriften primair geverifieerd en toegevoegd: B.J. Fogg
+  (Stanford 1997), Anthony Dunne (RCA mei 1997), Steven Fokkinga (TU Delft 2015)
+  en Jan Bats (Universiteit Twente 2019), plus Marc Hassenzahls geverifieerde
+  Darmstadt-publicatie (2006).
+- Primaire jaartallen en bronnen toegevoegd op alle filosofie-, psychologie- en
+  anekdotepagina's (o.a. Heidegger 1927, Merleau-Ponty 1945, Card, English & Burr
+  1978, Teitelman 1972 en Tesler & Mott 1974–1975).
+- Tijdlijn uitgebreid van 33 naar 42 chronologische ankers (1910–2026).
+- Open vragen bijgewerkt met een sectie "Inmiddels geverifieerd en verwerkt".
+- Voorstel voor zes sleepbare p5.js-schetsen (één per chronologisch thema)
+  uitgewerkt in leerplan.md.

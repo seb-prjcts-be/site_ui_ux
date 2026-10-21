@@ -344,8 +344,8 @@ const onderwerpen = [
     {
         id: "fenomenologie-en-breakdown",
         titel: "Fenomenologie en breakdown",
-        samenvatting: "Heidegger, Dreyfus, Winograd & Flores en Dourish: waarom goede interfaces verdwijnen in het gebruik en fouten ze weer zichtbaar maken.",
-        en: { titel: "Phenomenology and breakdown", samenvatting: "Heidegger, Dreyfus, Winograd & Flores and Dourish: why good interfaces disappear in use and errors make them visible again." },
+        samenvatting: "Heidegger (1927), Merleau-Ponty (1945), Dreyfus, Winograd & Flores en Dourish: waarom goede interfaces verdwijnen in het gebruik en fouten ze weer zichtbaar maken.",
+        en: { titel: "Phenomenology and breakdown", samenvatting: "Heidegger (1927), Merleau-Ponty (1945), Dreyfus, Winograd & Flores and Dourish: why good interfaces disappear in use and errors make them visible again." },
         tags: ["fenomenologie", "Heidegger", "breakdown", "zuhanden", "embodiment", "Merleau-Ponty", "Dourish", "Winograd", "Dreyfus"],
         contentFile: "content/fenomenologie-en-breakdown.html",
         categorie: "Filosofie van de interface"
@@ -353,8 +353,8 @@ const onderwerpen = [
     {
         id: "affordances-en-signifiers",
         titel: "Affordances en signifiers",
-        samenvatting: "Van Gibsons ecologische psychologie naar Normans waargenomen affordances en zijn latere correctie met signifiers.",
-        en: { titel: "Affordances and signifiers", samenvatting: "From Gibson's ecological psychology to Norman's perceived affordances and his later correction with signifiers." },
+        samenvatting: "Van Gibsons ecologische psychologie (1979) naar Normans waargenomen affordances (1988) en zijn latere correctie met signifiers (2008, 2013).",
+        en: { titel: "Affordances and signifiers", samenvatting: "From Gibson's ecological psychology (1979) to Norman's perceived affordances (1988) and his later correction with signifiers (2008, 2013)." },
         tags: ["affordance", "signifier", "Gibson", "Norman", "ecologische psychologie", "begripsverwarring"],
         contentFile: "content/affordances-en-signifiers.html",
         categorie: "Filosofie van de interface"
@@ -362,28 +362,28 @@ const onderwerpen = [
     {
         id: "postfenomenologie-en-mediatie",
         titel: "Postfenomenologie en technologische mediatie",
-        samenvatting: "Ihdes vier mens-techniekrelaties en Verbeeks mediatietheorie: een interface is nooit neutraal.",
-        en: { titel: "Postphenomenology and technological mediation", samenvatting: "Ihde's four human-technology relations and Verbeek's mediation theory: an interface is never neutral." },
+        samenvatting: "Ihdes vier mens-techniekrelaties (1990) en Verbeeks mediatietheorie (2000, 2005): een interface is nooit neutraal.",
+        en: { titel: "Postphenomenology and technological mediation", samenvatting: "Ihde's four human-technology relations (1990) and Verbeek's mediation theory (2000, 2005): an interface is never neutral." },
         tags: ["postfenomenologie", "mediatie", "Ihde", "Verbeek", "alteriteit", "embodiment", "hermeneutisch", "Twente"],
         contentFile: "content/postfenomenologie-en-mediatie.html",
         categorie: "Filosofie van de interface"
     },
     {
-        id: "ethiek-van-design",
-        titel: "Ethiek van design",
-        samenvatting: "Moralizing Technology, persuasive design, dark patterns, Tristan Harris en Zuboff: wie draagt verantwoordelijkheid voor wat een interface doet?",
-        en: { titel: "Ethics of design", samenvatting: "Moralizing Technology, persuasive design, dark patterns, Tristan Harris and Zuboff: who is responsible for what an interface does?" },
-        tags: ["ethiek", "dark patterns", "persuasive design", "Fogg", "Brignull", "Verbeek", "Harris", "Zuboff", "surveillance"],
-        contentFile: "content/ethiek-van-design.html",
+        id: "esthetiek-en-mediatheorie",
+        titel: "Esthetiek en mediatheorie van de interface",
+        samenvatting: "Flusser, Latour, Dunne & Raby, Manovich, Galloway, Hookway, Harwood en Drucker: de interface als programma, script, effect en argument.",
+        en: { titel: "Aesthetics and media theory of the interface", samenvatting: "Flusser, Latour, Dunne & Raby, Manovich, Galloway, Hookway, Harwood and Drucker: the interface as program, script, effect and argument." },
+        tags: ["mediatheorie", "esthetiek", "Galloway", "Manovich", "Hookway", "Drucker", "Flusser", "Latour", "speculative design", "Dunne & Raby"],
+        contentFile: "content/esthetiek-en-mediatheorie.html",
         categorie: "Filosofie van de interface"
     },
     {
-        id: "esthetiek-en-mediatheorie",
-        titel: "Esthetiek en mediatheorie van de interface",
-        samenvatting: "Manovich, Galloway, Hookway, Harwood, Drucker, Flusser, Latour en speculative design: de interface als effect, argument en script.",
-        en: { titel: "Aesthetics and media theory of the interface", samenvatting: "Manovich, Galloway, Hookway, Harwood, Drucker, Flusser, Latour and speculative design: the interface as effect, argument and script." },
-        tags: ["mediatheorie", "esthetiek", "Galloway", "Manovich", "Hookway", "Drucker", "Flusser", "Latour", "speculative design", "Dunne & Raby"],
-        contentFile: "content/esthetiek-en-mediatheorie.html",
+        id: "ethiek-van-design",
+        titel: "Ethiek van design",
+        samenvatting: "Fogg (1997), Brignull (2010), Verbeek (2011), Harris (2013), Zuboff (2019) en Mathur (2020): wie draagt verantwoordelijkheid voor wat een interface doet?",
+        en: { titel: "Ethics of design", samenvatting: "Fogg (1997), Brignull (2010), Verbeek (2011), Harris (2013), Zuboff (2019) and Mathur (2020): who is responsible for what an interface does?" },
+        tags: ["ethiek", "dark patterns", "persuasive design", "Fogg", "Brignull", "Verbeek", "Harris", "Zuboff", "surveillance"],
+        contentFile: "content/ethiek-van-design.html",
         categorie: "Filosofie van de interface"
     },
 
@@ -391,8 +391,8 @@ const onderwerpen = [
     {
         id: "psychologische-principes",
         titel: "Overzicht van psychologische principes",
-        samenvatting: "Veertien principes van Gestalt tot Self-Determination Theory, elk met kernbron en kanttekening.",
-        en: { titel: "Overview of psychological principles", samenvatting: "Fourteen principles from Gestalt to Self-Determination Theory, each with key source and caveat." },
+        samenvatting: "Veertien principes van Gestalt (1910) tot Self-Determination Theory (2000), elk met kernbron en kanttekening.",
+        en: { titel: "Overview of psychological principles", samenvatting: "Fourteen principles from Gestalt (1910) to Self-Determination Theory (2000), each with key source and caveat." },
         tags: ["psychologie", "Gestalt", "Fitts", "Hick-Hyman", "Miller", "cognitieve belasting", "biases", "Nielsen", "flow", "SDT", "Krug"],
         contentFile: "content/psychologische-principes.html",
         categorie: "Psychologie van de interface"
@@ -400,8 +400,8 @@ const onderwerpen = [
     {
         id: "fitts-en-hick-hyman",
         titel: "Fitts' law en Hick-Hyman",
-        samenvatting: "De twee wetten die bewegingstijd en keuzetijd voorspellen, en hoe Card en Buxton ze in HCI brachten.",
-        en: { titel: "Fitts' law and Hick-Hyman", samenvatting: "The two laws that predict movement time and choice time, and how Card and Buxton brought them into HCI." },
+        samenvatting: "De twee wetten die keuzetijd (1952–1953) en bewegingstijd (1954) voorspellen, en hoe Card (1978, 1983) en Buxton (1986) ze in HCI brachten.",
+        en: { titel: "Fitts' law and Hick-Hyman", samenvatting: "The two laws that predict choice time (1952–1953) and movement time (1954), and how Card (1978, 1983) and Buxton (1986) brought them into HCI." },
         tags: ["Fitts", "Hick-Hyman", "bewegingstijd", "keuzetijd", "Card", "Buxton", "Xerox PARC", "muis"],
         contentFile: "content/fitts-en-hick-hyman.html",
         categorie: "Psychologie van de interface"
@@ -409,17 +409,26 @@ const onderwerpen = [
     {
         id: "geheugen-en-cognitieve-belasting",
         titel: "Geheugen en cognitieve belasting",
-        samenvatting: "Millers 7±2, Cowans correctie naar vier chunks en Swellers cognitive load theory, en waarom ze vaak verkeerd worden toegepast op interfaces.",
-        en: { titel: "Memory and cognitive load", samenvatting: "Miller's 7±2, Cowan's correction to four chunks and Sweller's cognitive load theory, and why they are often misapplied to interfaces." },
+        samenvatting: "Millers 7±2 (1956), Swellers cognitive load theory (1988) en Cowans correctie naar vier chunks (2001), en waarom ze vaak verkeerd worden toegepast op interfaces.",
+        en: { titel: "Memory and cognitive load", samenvatting: "Miller's 7±2 (1956), Sweller's cognitive load theory (1988) and Cowan's correction to four chunks (2001), and why they are often misapplied to interfaces." },
         tags: ["Miller", "Cowan", "Sweller", "cognitieve belasting", "kortetermijngeheugen", "chunks", "misbruik"],
         contentFile: "content/geheugen-en-cognitieve-belasting.html",
         categorie: "Psychologie van de interface"
     },
     {
+        id: "navigatie-en-wayfinding",
+        titel: "Navigatie en wayfinding",
+        samenvatting: "Lynch (1960), Pirolli & Card (1995, 1999), Nielsen en Krug (2000): hoe een lezer weet waar hij is, en wat kruimelpaden en vorige/volgende-links daarvoor doen.",
+        en: { titel: "Navigation and wayfinding", samenvatting: "Lynch (1960), Pirolli & Card (1995, 1999), Nielsen and Krug (2000): how a reader knows where they are, and what breadcrumbs and previous/next links do for that." },
+        tags: ["navigatie", "wayfinding", "kruimelpad", "informatiegeur", "Lynch", "Pirolli", "Nielsen", "Krug", "Rosenfeld", "Morville", "stapaanduiding"],
+        contentFile: "content/navigatie-en-wayfinding.html",
+        categorie: "Psychologie van de interface"
+    },
+    {
         id: "esthetiek-en-bruikbaarheid",
         titel: "Het esthetiek-bruikbaarheidseffect",
-        samenvatting: "Kurosu & Kashimura, Tractinsky en Tuch e.a.: mooi oogt bruikbaar, maar het effect is omkeerbaar.",
-        en: { titel: "The aesthetic-usability effect", samenvatting: "Kurosu & Kashimura, Tractinsky and Tuch et al.: beautiful looks usable, but the effect is reversible." },
+        samenvatting: "Kurosu & Kashimura (1995), Tractinsky (1997, 2000) en Tuch e.a. (2012): mooi oogt bruikbaar, maar het effect is omkeerbaar.",
+        en: { titel: "The aesthetic-usability effect", samenvatting: "Kurosu & Kashimura (1995), Tractinsky (1997, 2000) and Tuch et al. (2012): beautiful looks usable, but the effect is reversible." },
         tags: ["esthetiek", "bruikbaarheid", "Kurosu", "Tractinsky", "Tuch", "replicatie", "experiment"],
         contentFile: "content/esthetiek-en-bruikbaarheid.html",
         categorie: "Psychologie van de interface"
@@ -427,8 +436,8 @@ const onderwerpen = [
     {
         id: "hedonisch-en-pragmatisch",
         titel: "Hedonisch en pragmatisch: Hassenzahl",
-        samenvatting: "Hoe Hassenzahl UX verschoof van taakefficiëntie naar ervaring en betekenis, met AttrakDiff en de research agenda van 2006.",
-        en: { titel: "Hedonic and pragmatic: Hassenzahl", samenvatting: "How Hassenzahl shifted UX from task efficiency to experience and meaning, with AttrakDiff and the 2006 research agenda." },
+        samenvatting: "Hoe Hassenzahl (2000–2006) UX verschoof van taakefficiëntie naar ervaring en betekenis, met AttrakDiff en de research agenda van 2006.",
+        en: { titel: "Hedonic and pragmatic: Hassenzahl", samenvatting: "How Hassenzahl (2000–2006) shifted UX from task efficiency to experience and meaning, with AttrakDiff and the 2006 research agenda." },
         tags: ["Hassenzahl", "hedonisch", "pragmatisch", "AttrakDiff", "ervaring", "betekenis", "Tractinsky"],
         contentFile: "content/hedonisch-en-pragmatisch.html",
         categorie: "Psychologie van de interface"
@@ -436,19 +445,10 @@ const onderwerpen = [
     {
         id: "eye-tracking-en-neuro-ux",
         titel: "Eye-tracking en neuro-UX",
-        samenvatting: "Nielsens F-patroon en waarom claims over neurodesign scepsis verdienen.",
-        en: { titel: "Eye-tracking and neuro-UX", samenvatting: "Nielsen's F-pattern and why claims about neurodesign deserve scepticism." },
+        samenvatting: "Nielsens F-patroon (2006), Pernice (2017) en waarom claims over neurodesign en reverse inference scepsis verdienen.",
+        en: { titel: "Eye-tracking and neuro-UX", samenvatting: "Nielsen's F-pattern (2006), Pernice (2017) and why claims about neurodesign and reverse inference deserve scepticism." },
         tags: ["eye-tracking", "F-patroon", "Nielsen", "neuro-UX", "scepsis", "marketing"],
         contentFile: "content/eye-tracking-en-neuro-ux.html",
-        categorie: "Psychologie van de interface"
-    },
-    {
-        id: "navigatie-en-wayfinding",
-        titel: "Navigatie en wayfinding",
-        samenvatting: "Lynch, Pirolli & Card, Nielsen en Krug: hoe een lezer weet waar hij is, en wat kruimelpaden en vorige/volgende-links daarvoor doen.",
-        en: { titel: "Navigation and wayfinding", samenvatting: "Lynch, Pirolli & Card, Nielsen and Krug: how a reader knows where they are, and what breadcrumbs and previous/next links do for that." },
-        tags: ["navigatie", "wayfinding", "kruimelpad", "informatiegeur", "Lynch", "Pirolli", "Nielsen", "Krug", "Rosenfeld", "Morville", "stapaanduiding"],
-        contentFile: "content/navigatie-en-wayfinding.html",
         categorie: "Psychologie van de interface"
     },
 
@@ -456,18 +456,18 @@ const onderwerpen = [
     {
         id: "proefschriften-internationaal",
         titel: "Internationale pioniers",
-        samenvatting: "Tien geverifieerde doctoraten van Card (1978) tot Mathur (2020), met vindplaats en invalshoek.",
-        en: { titel: "International pioneers", samenvatting: "Ten verified doctorates from Card (1978) to Mathur (2020), with location and angle." },
-        tags: ["proefschrift", "Card", "Buxton", "Preece", "Dourish", "Höök", "Sengers", "Redström", "Harwood", "Hassenzahl", "Mathur", "open access"],
+        samenvatting: "Twaalf geverifieerde doctoraten van Card (1978) tot Mathur (2020), inclusief Fogg (1997) en Dunne (1997), met vindplaats en invalshoek.",
+        en: { titel: "International pioneers", samenvatting: "Twelve verified doctorates from Card (1978) to Mathur (2020), including Fogg (1997) and Dunne (1997), with location and angle." },
+        tags: ["proefschrift", "Card", "Buxton", "Preece", "Dourish", "Fogg", "Dunne", "Höök", "Sengers", "Redström", "Harwood", "Hassenzahl", "Mathur", "open access"],
         contentFile: "content/proefschriften-internationaal.html",
         categorie: "Proefschriften"
     },
     {
         id: "proefschriften-lage-landen",
         titel: "Nederland en België",
-        samenvatting: "Tien doctoraten uit Twente, Delft, Eindhoven en Leuven, van Verbeek (2000) tot Kudina (2019), met open-access-links.",
-        en: { titel: "The Netherlands and Belgium", samenvatting: "Ten doctorates from Twente, Delft, Eindhoven and Leuven, from Verbeek (2000) to Kudina (2019), with open-access links." },
-        tags: ["proefschrift", "Verbeek", "Hummels", "Desmet", "Wensveen", "Frens", "Ross", "Zaman", "Kaptein", "Smids", "Kudina", "Twente", "TU Delft", "TU Eindhoven", "KU Leuven", "open access"],
+        samenvatting: "Twaalf doctoraten uit Twente, Delft, Eindhoven en Leuven, van Verbeek (2000) tot Bats (2019) en Kudina (2019), met open-access-links.",
+        en: { titel: "The Netherlands and Belgium", samenvatting: "Twelve doctorates from Twente, Delft, Eindhoven and Leuven, from Verbeek (2000) to Bats (2019) and Kudina (2019), with open-access links." },
+        tags: ["proefschrift", "Verbeek", "Hummels", "Desmet", "Wensveen", "Frens", "Ross", "Zaman", "Kaptein", "Fokkinga", "Smids", "Bats", "Kudina", "Twente", "TU Delft", "TU Eindhoven", "KU Leuven", "open access"],
         contentFile: "content/proefschriften-lage-landen.html",
         categorie: "Proefschriften"
     },
@@ -481,7 +481,7 @@ const onderwerpen = [
         categorie: "Proefschriften"
     },
 
-    // --- Anekdotes (goed gedocumenteerd) ---
+    // --- Anekdotes (chronologisch van 1968 tot 2013) ---
     {
         id: "mother-of-all-demos",
         titel: "Engelbart: The Mother of All Demos",
@@ -492,37 +492,82 @@ const onderwerpen = [
         categorie: "Anekdotes"
     },
     {
-        id: "xerox-parc-desktopmetafoor",
-        titel: "Xerox PARC en de desktopmetafoor",
-        samenvatting: "Alto, Star en Alan Kays 'Doing with Images makes Symbols': een rechte lijn van ontwikkelingspsychologie naar de GUI.",
-        en: { titel: "Xerox PARC and the desktop metaphor", samenvatting: "Alto, Star and Alan Kay's 'Doing with Images makes Symbols': a straight line from developmental psychology to the GUI." },
-        tags: ["anekdote", "geverifieerd", "Xerox PARC", "Alan Kay", "Bruner", "desktopmetafoor", "GUI", "geschiedenis"],
-        contentFile: "content/xerox-parc-desktopmetafoor.html",
-        categorie: "Anekdotes"
-    },
-    {
-        id: "apple-atkinson-en-kare",
-        titel: "Apple: Bill Atkinson en Susan Kare",
-        samenvatting: "QuickDraw, MacPaint, HyperCard en iconen op ruitjespapier. Kare was kunstenaar, geen ingenieur.",
-        en: { titel: "Apple: Bill Atkinson and Susan Kare", samenvatting: "QuickDraw, MacPaint, HyperCard and icons on graph paper. Kare was an artist, not an engineer." },
-        tags: ["anekdote", "geverifieerd", "Apple", "Macintosh", "Atkinson", "Kare", "iconen", "kunst", "geschiedenis"],
-        contentFile: "content/apple-atkinson-en-kare.html",
-        categorie: "Anekdotes"
-    },
-    {
         id: "winograd-en-shrdlu",
         titel: "Winograd: van SHRDLU naar Heidegger",
-        samenvatting: "De auteur van een AI-icoon keert zich in 1986 van de AI af en brengt de fenomenologie de informatica binnen.",
-        en: { titel: "Winograd: from SHRDLU to Heidegger", samenvatting: "The author of an AI icon turns away from AI in 1986 and brings phenomenology into computer science." },
+        samenvatting: "Van de blokkenwereld SHRDLU (1970–1972) naar Understanding Computers and Cognition (1986): hoe fenomenologie de informatica binnenkwam.",
+        en: { titel: "Winograd: from SHRDLU to Heidegger", samenvatting: "From the blocks world SHRDLU (1970–1972) to Understanding Computers and Cognition (1986): how phenomenology entered computer science." },
         tags: ["anekdote", "geverifieerd", "Winograd", "SHRDLU", "AI", "breakdown", "fenomenologie", "geschiedenis"],
         contentFile: "content/winograd-en-shrdlu.html",
         categorie: "Anekdotes"
     },
     {
+        id: "uitvinding-van-undo",
+        titel: "De uitvinding van undo",
+        samenvatting: "Van Teitelmans Interlisp (1972) naar Tesler en Motts Gypsy (1974–1975): hoe ongedaan maken groeide van programmeerhulp tot basisrecht.",
+        en: { titel: "The invention of undo", samenvatting: "From Teitelman's Interlisp (1972) to Tesler and Mott's Gypsy (1974–1975): how undo grew from programmer aid to basic user right." },
+        tags: ["anekdote", "mythe", "undo", "Teitelman", "Tesler", "Xerox PARC", "modes", "geschiedenis"],
+        contentFile: "content/uitvinding-van-undo.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "xerox-parc-desktopmetafoor",
+        titel: "Xerox PARC en de desktopmetafoor",
+        samenvatting: "Alto (1973), Star (1981) en Alan Kays 'Doing with Images makes Symbols': van ontwikkelingspsychologie naar de GUI.",
+        en: { titel: "Xerox PARC and the desktop metaphor", samenvatting: "Alto (1973), Star (1981) and Alan Kay's 'Doing with Images makes Symbols': from developmental psychology to the GUI." },
+        tags: ["anekdote", "geverifieerd", "Xerox PARC", "Alan Kay", "Bruner", "desktopmetafoor", "GUI", "geschiedenis"],
+        contentFile: "content/xerox-parc-desktopmetafoor.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "three-mile-island",
+        titel: "Three Mile Island",
+        samenvatting: "28 maart 1979: indicatoren die de opdracht toonden in plaats van de toestand. Normans inzicht: 'human error' is vaak design error.",
+        en: { titel: "Three Mile Island", samenvatting: "28 March 1979: indicators that showed the command instead of the state. Norman's insight: 'human error' is often design error." },
+        tags: ["anekdote", "geverifieerd", "Three Mile Island", "Norman", "veiligheid", "controlekamer", "human error", "toestand"],
+        contentFile: "content/three-mile-island.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "apple-atkinson-en-kare",
+        titel: "Apple: Bill Atkinson en Susan Kare",
+        samenvatting: "Lisa (1983) en Macintosh (1984): QuickDraw, MacPaint en iconen op ruitjespapier. Kare was kunstenaar, geen ingenieur.",
+        en: { titel: "Apple: Bill Atkinson and Susan Kare", samenvatting: "Lisa (1983) and Macintosh (1984): QuickDraw, MacPaint and icons on graph paper. Kare was an artist, not an engineer." },
+        tags: ["anekdote", "geverifieerd", "Apple", "Macintosh", "Atkinson", "Kare", "iconen", "kunst", "geschiedenis"],
+        contentFile: "content/apple-atkinson-en-kare.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "fitts-en-de-mac-menubalk",
+        titel: "Fitts' law en de Mac-menubalk",
+        samenvatting: "1984: het ontwerp- en meetargument dat een menubalk aan de bovenste schermrand oneindig diep is in de bewegingsrichting.",
+        en: { titel: "Fitts' law and the Mac menu bar", samenvatting: "1984: the design and measurement argument that a menu bar at the top screen edge is infinitely deep in the direction of motion." },
+        tags: ["anekdote", "Fitts", "Tognazzini", "menubalk", "Apple", "Windows", "schermrand"],
+        contentFile: "content/fitts-en-de-mac-menubalk.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "therac-25",
+        titel: "Therac-25",
+        samenvatting: "1985–1987: een bestralingstoestel dat door softwarefouten en cryptische meldingen dodelijke overdoseringen gaf. De klassieke UI-veiligheidsles.",
+        en: { titel: "Therac-25", samenvatting: "1985–1987: a radiation machine that gave lethal overdoses through software errors and cryptic messages. The classic UI safety lesson." },
+        tags: ["anekdote", "geverifieerd", "Therac-25", "veiligheid", "foutmeldingen", "race condition", "Leveson", "gewenning"],
+        contentFile: "content/therac-25.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "norman-door",
+        titel: "De Norman-deur",
+        samenvatting: "Het verschijnsel staat in Normans boek uit 1988, de bijnaam 'Norman door' groeide later in de ontwerp- en internetcultuur.",
+        en: { titel: "The Norman door", samenvatting: "The phenomenon appears in Norman's 1988 book, the nickname 'Norman door' grew later in design and internet culture." },
+        tags: ["anekdote", "mythe", "Norman", "deur", "affordance", "signifier", "internetcultuur"],
+        contentFile: "content/norman-door.html",
+        categorie: "Anekdotes"
+    },
+    {
         id: "eerste-webpagina",
         titel: "De eerste webpagina",
-        samenvatting: "info.cern.ch, 1991: tekst en een lijst van links met een regel uitleg, geen menu. Sinds 2013 weer op haar oorspronkelijke adres.",
-        en: { titel: "The first web page", samenvatting: "info.cern.ch, 1991: text and a list of links with a line of explanation, no menu. Back at its original address since 2013." },
+        samenvatting: "info.cern.ch, 1990–1991: tekst en een lijst van links met een regel uitleg, geen menu. Sinds 2013 weer op haar oorspronkelijke adres.",
+        en: { titel: "The first web page", samenvatting: "info.cern.ch, 1990–1991: text and a list of links with a line of explanation, no menu. Back at its original address since 2013." },
         tags: ["anekdote", "geverifieerd", "CERN", "1991", "hypertext", "line-mode browser", "navigatie", "geschiedenis"],
         contentFile: "content/eerste-webpagina.html",
         categorie: "Anekdotes"
@@ -530,19 +575,10 @@ const onderwerpen = [
     {
         id: "gopher-versus-web",
         titel: "Gopher versus het web",
-        samenvatting: "1991: menu's tegen links. Gopher ordende alles in een hiërarchie, het web liet alles aan links over. Het web won.",
-        en: { titel: "Gopher versus the web", samenvatting: "1991: menus versus links. Gopher ordered everything in a hierarchy, the web left everything to links. The web won." },
+        samenvatting: "1991–1993: menu's tegen links. Gopher ordende alles in een boomstructuur, het web liet alles aan hypertextlinks over.",
+        en: { titel: "Gopher versus the web", samenvatting: "1991–1993: menus versus links. Gopher ordered everything in a tree structure, the web left everything to hypertext links." },
         tags: ["anekdote", "geverifieerd", "Gopher", "1991", "menu", "hiërarchie", "navigatie", "geschiedenis"],
         contentFile: "content/gopher-versus-web.html",
-        categorie: "Anekdotes"
-    },
-    {
-        id: "yahoo-en-google",
-        titel: "Yahoo 1994 en Google 1998: lijst en zoekveld",
-        samenvatting: "Twee startpagina's, twee antwoorden op dezelfde vraag, elk te openen op de schermgrootte van toen: 640 bij 480 en 800 bij 600.",
-        en: { titel: "Yahoo 1994 and Google 1998: list and search box", samenvatting: "Two home pages, two answers to the same question, each opening at the screen size of its time: 640 by 480 and 800 by 600." },
-        tags: ["anekdote", "geverifieerd", "Yahoo", "Google", "1994", "1998", "schermresolutie", "zoeken", "index", "navigatie", "geschiedenis"],
-        contentFile: "content/yahoo-en-google.html",
         categorie: "Anekdotes"
     },
     {
@@ -555,86 +591,21 @@ const onderwerpen = [
         categorie: "Anekdotes"
     },
     {
-        id: "41-shades-of-blue",
-        titel: "Google: 41 tinten blauw",
-        samenvatting: "Douglas Bowmans afscheid in 2009 en de 200 miljoen dollar-claim van 2014: data tegen smaak, met twee kanten.",
-        en: { titel: "Google: 41 shades of blue", samenvatting: "Douglas Bowman's farewell in 2009 and the 200 million dollar claim of 2014: data versus taste, with two sides." },
-        tags: ["anekdote", "geverifieerd", "Google", "Bowman", "A/B-test", "data", "smaak", "kleur"],
-        contentFile: "content/41-shades-of-blue.html",
-        categorie: "Anekdotes"
-    },
-    {
-        id: "therac-25",
-        titel: "Therac-25",
-        samenvatting: "Een bestralingstoestel dat door softwarefouten en cryptische meldingen dodelijke overdoseringen gaf. De klassieke UI-veiligheidsles.",
-        en: { titel: "Therac-25", samenvatting: "A radiation machine that gave lethal overdoses through software errors and cryptic messages. The classic UI safety lesson." },
-        tags: ["anekdote", "geverifieerd", "Therac-25", "veiligheid", "foutmeldingen", "race condition", "Leveson", "gewenning"],
-        contentFile: "content/therac-25.html",
-        categorie: "Anekdotes"
-    },
-    {
-        id: "three-mile-island",
-        titel: "Three Mile Island",
-        samenvatting: "Indicatoren die de opdracht toonden in plaats van de toestand. Normans inzicht: 'human error' is vaak design error.",
-        en: { titel: "Three Mile Island", samenvatting: "Indicators that showed the command instead of the state. Norman's insight: 'human error' is often design error." },
-        tags: ["anekdote", "geverifieerd", "Three Mile Island", "Norman", "veiligheid", "controlekamer", "human error", "toestand"],
-        contentFile: "content/three-mile-island.html",
-        categorie: "Anekdotes"
-    },
-
-    // --- Anekdotes (deels mythe of zwak onderbouwd) ---
-    {
-        id: "300-million-button",
-        titel: "De 300 miljoen dollar-knop",
-        samenvatting: "Jared Spools parabel over een 'Register'-knop die 'Continue' werd. Eén bron, anonieme klant, verbasterde cijfers.",
-        en: { titel: "The 300 million dollar button", samenvatting: "Jared Spool's parable about a 'Register' button that became 'Continue'. One source, anonymous client, garbled figures." },
-        tags: ["anekdote", "mythe", "Spool", "conversie", "formulieren", "parabel", "e-commerce"],
-        contentFile: "content/300-million-button.html",
-        categorie: "Anekdotes"
-    },
-    {
-        id: "norman-door",
-        titel: "De Norman-deur",
-        samenvatting: "Het verschijnsel komt uit 1988, de term uit de internetcultuur van veel later.",
-        en: { titel: "The Norman door", samenvatting: "The phenomenon dates from 1988, the term from internet culture much later." },
-        tags: ["anekdote", "mythe", "Norman", "deur", "affordance", "signifier", "internetcultuur"],
-        contentFile: "content/norman-door.html",
+        id: "yahoo-en-google",
+        titel: "Yahoo 1994 en Google 1998: lijst en zoekveld",
+        samenvatting: "Twee startpagina's, twee antwoorden op dezelfde vraag, elk te openen op de schermgrootte van toen: 640 bij 480 en 800 bij 600.",
+        en: { titel: "Yahoo 1994 and Google 1998: list and search box", samenvatting: "Two home pages, two answers to the same question, each opening at the screen size of its time: 640 by 480 and 800 by 600." },
+        tags: ["anekdote", "geverifieerd", "Yahoo", "Google", "1994", "1998", "schermresolutie", "zoeken", "index", "navigatie", "geschiedenis"],
+        contentFile: "content/yahoo-en-google.html",
         categorie: "Anekdotes"
     },
     {
         id: "clippy",
         titel: "Microsoft Clippy",
-        samenvatting: "Een mislukte alteriteitsrelatie: opdringerig, slecht getimed, zonder sociaal begrip. Het verband met Reeves & Nass varieert per bron.",
-        en: { titel: "Microsoft Clippy", samenvatting: "A failed alterity relation: intrusive, badly timed, without social understanding. The link to Reeves & Nass varies by source." },
+        samenvatting: "Office 97 (1996–1997): een mislukte alteriteitsrelatie. Opdringerig, slecht getimed en een botsing tussen beleefdheidsregels en taakfocus.",
+        en: { titel: "Microsoft Clippy", samenvatting: "Office 97 (1996–1997): a failed alterity relation. Intrusive, badly timed and a clash between politeness rules and task focus." },
         tags: ["anekdote", "mythe", "Clippy", "Microsoft", "alteriteit", "Ihde", "Media Equation", "Nass", "agent"],
         contentFile: "content/clippy.html",
-        categorie: "Anekdotes"
-    },
-    {
-        id: "skeuomorfisme-vs-flat",
-        titel: "Skeuomorfisme versus flat design",
-        samenvatting: "Forstall vertrekt, Ive maakt iOS 7 plat. Een ontwerpdebat én een machtsverhaal, grotendeels journalistiek gereconstrueerd.",
-        en: { titel: "Skeuomorphism versus flat design", samenvatting: "Forstall leaves, Ive flattens iOS 7. A design debate and a power story, largely reconstructed by journalists." },
-        tags: ["anekdote", "mythe", "Apple", "skeuomorfisme", "flat design", "Forstall", "Ive", "iOS 7"],
-        contentFile: "content/skeuomorfisme-vs-flat.html",
-        categorie: "Anekdotes"
-    },
-    {
-        id: "uitvinding-van-undo",
-        titel: "De uitvinding van undo",
-        samenvatting: "Teitelman, Tesler en de PARC-kringen: een eenduidige uitvinder bestaat niet.",
-        en: { titel: "The invention of undo", samenvatting: "Teitelman, Tesler and the PARC circles: there is no single inventor." },
-        tags: ["anekdote", "mythe", "undo", "Teitelman", "Tesler", "Xerox PARC", "modes", "geschiedenis"],
-        contentFile: "content/uitvinding-van-undo.html",
-        categorie: "Anekdotes"
-    },
-    {
-        id: "fitts-en-de-mac-menubalk",
-        titel: "Fitts' law en de Mac-menubalk",
-        samenvatting: "Tognazzini's argument dat een menubalk aan de schermrand oneindig diep is. Theoretisch sterk, vaak herhaald.",
-        en: { titel: "Fitts' law and the Mac menu bar", samenvatting: "Tognazzini's argument that a menu bar at the screen edge is infinitely deep. Theoretically strong, often repeated." },
-        tags: ["anekdote", "Fitts", "Tognazzini", "menubalk", "Apple", "Windows", "schermrand"],
-        contentFile: "content/fitts-en-de-mac-menubalk.html",
         categorie: "Anekdotes"
     },
     {
@@ -644,6 +615,33 @@ const onderwerpen = [
         en: { titel: "Raskin and Victor: two textual classics", samenvatting: "The Humane Interface (2000) on modes and habit formation, Magic Ink (2006) on software that shows first and only then lets you click." },
         tags: ["Raskin", "Bret Victor", "modes", "locus of attention", "informatiesoftware", "Magic Ink", "klassieker"],
         contentFile: "content/raskin-en-victor.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "300-million-button",
+        titel: "De 300 miljoen dollar-knop",
+        samenvatting: "Jared Spools casus uit januari 2009 over een 'Register'-knop die 'Continue' werd: frictie bij een verplichte drempel versus frictie bij keuzes.",
+        en: { titel: "The 300 million dollar button", samenvatting: "Jared Spool's January 2009 case about a 'Register' button that became 'Continue': friction at a mandatory gate versus friction in choices." },
+        tags: ["anekdote", "mythe", "Spool", "conversie", "formulieren", "parabel", "e-commerce"],
+        contentFile: "content/300-million-button.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "41-shades-of-blue",
+        titel: "Google: 41 tinten blauw",
+        samenvatting: "Douglas Bowmans afscheid in maart 2009 en de 200 miljoen dollar-claim van 2014: lokale A/B-optimalisatie tegenover ontwerpvisie.",
+        en: { titel: "Google: 41 shades of blue", samenvatting: "Douglas Bowman's farewell in March 2009 and the 200 million dollar claim of 2014: local A/B optimisation versus design vision." },
+        tags: ["anekdote", "geverifieerd", "Google", "Bowman", "A/B-test", "data", "smaak", "kleur"],
+        contentFile: "content/41-shades-of-blue.html",
+        categorie: "Anekdotes"
+    },
+    {
+        id: "skeuomorfisme-vs-flat",
+        titel: "Skeuomorfisme versus flat design",
+        samenvatting: "Van iOS 1–6 tot iOS 7 in 2013: hoe het schrappen van schaduw en textuur de kloof tussen visuele rust en herkenbare signifiers blootlegde.",
+        en: { titel: "Skeuomorphism versus flat design", samenvatting: "From iOS 1–6 to iOS 7 in 2013: how stripping shadow and texture exposed the gap between visual calm and recognisable signifiers." },
+        tags: ["anekdote", "mythe", "Apple", "skeuomorfisme", "flat design", "Forstall", "Ive", "iOS 7"],
+        contentFile: "content/skeuomorfisme-vs-flat.html",
         categorie: "Anekdotes"
     },
 
@@ -764,8 +762,8 @@ const onderwerpen = [
     {
         id: "open-vragen",
         titel: "Open vragen en te verifiëren punten",
-        samenvatting: "Wat in het bronmateriaal nog niet primair geverifieerd is, en acht concrete zoekopdrachten om verder te gaan.",
-        en: { titel: "Open questions and points to verify", samenvatting: "What in the source material has not yet been primarily verified, and eight concrete search tasks to continue." },
+        samenvatting: "Welke bronvragen inmiddels primair zijn opgelost en welke archief- en bronvragen nog openstaan voor vervolgonderzoek.",
+        en: { titel: "Open questions and points to verify", samenvatting: "Which source questions have now been primarily resolved and which archival and source questions remain open for follow-up research." },
         tags: ["open vragen", "verificatie", "caveats", "te doen", "Hassenzahl", "Fogg", "Dunne", "imec-mict", "SIGCHI"],
         contentFile: "content/open-vragen.html",
         categorie: "Bronnen"

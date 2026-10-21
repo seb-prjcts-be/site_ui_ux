@@ -1,48 +1,52 @@
 <div class="intro">
-    <p>In 1991 verschenen twee manieren om informatie op het internet te ontsluiten. Gopher, van de Universiteit van Minnesota, ordende alles in menu's: een strakke hiërarchie van lijsten. Het web van CERN ordende niets en liet alles aan links over. Het web won.</p>
+    <p>In het voorjaar van 1991 verschenen vrijwel gelijktijdig twee protocollen om informatie over het internet te ontsluiten. Gopher, ontwikkeld aan de Universiteit van Minnesota onder leiding van Mark McCahill, ordende alles in strakke, hiërarchische menu's. Het World Wide Web van Tim Berners-Lee liet een verplichte boomstructuur achterwege en gaf elk document de vrijheid om midden in een zin naar elk ander document te verwijzen. Binnen enkele jaren had het web gewonnen.</p>
 </div>
 
 <aside class="callout callout--weetje">
     <span class="callout-label">Goed gedocumenteerd</span>
-    <p>Gopher is beschreven in RFC 1436 (1993). Het team stond onder leiding van Mark McCahill. De vergelijking met het web is onder meer uitgewerkt in het artikel "Where Have all the Gophers Gone?" van de University of North Carolina.</p>
+    <p>Het Gopher-protocol is vastgelegd door Farhad Anklesaria, Mark McCahill e.a. in RFC 1436 (maart 1993). De historische terugval van Gopher vanaf 1993–1994 is geanalyseerd door onder meer Christopher Callee (University of North Carolina).</p>
 </aside>
 
 <section>
-    <h2>Twee ontwerpen</h2>
-    <p>Gopher begon als campussysteem: een eenvoudig menu om bestanden en informatie op het netwerk van de universiteit te vinden. RFC 1436 noemt de doelen: een bestandsachtige hiërarchie die gebruikers herkennen, een eenvoudige syntaxis, en een systeem dat snel en goedkoop op te zetten is. Elke pagina was een menu, elk item leidde naar een volgend menu of een document.</p>
-    <p>Het web had geen hiërarchie. Een pagina kon naar om het even welke andere pagina linken, ook midden in een zin. Gopher kende zulke hyperlinks niet.</p>
+    <h2>Twee architecturen voor kennis, 1991</h2>
+    <p>Gopher vertrok vanuit de metafoor van een netwerkschijf met mappen. RFC 1436 noemt die keuze expliciet: een hiërarchische boom komt mensen bekend voor, kost nauwelijks rekenkracht en dwingt beheerders tot een eenduidige indeling. In Gopher is een scherm óf een keuzemenu van genummerde regels óf een einddocument; een tekstbestand zelf kan geen links bevatten.</p>
+    <p>Het web hief het verschil tussen menu en tekst op. Elke alinea kon zelf een knooppunt worden, en twee auteurs hoefden het niet eerst eens te worden over een centrale boomstructuur voordat ze naar elkaar konden verwijzen.</p>
 </section>
 
 <section>
     <h2>Waarom het web won</h2>
-    <p>Met de grafische browser Mosaic (1993) kreeg het web beeld en opmaak, en groeide het snel. Gopher bleef een menu. Tegen het einde van de jaren negentig stond het stil. Een handvol servers draait vandaag nog.</p>
-    <p>Voor interfaceontwerp is dit de vroegste les over navigatie: een strakke hiërarchie voelt ordelijk, maar links die vrij door de inhoud lopen, winnen het van menu's die de lezer een vaste weg opleggen. Het kruimelpad en het menu kwamen later terug, maar als laag bovenop de links, niet in de plaats ervan.</p>
+    <p>Toen de Universiteit van Minnesota in februari 1993 aankondigde licentiekosten te overwegen voor commerciële Gopher-servers, terwijl CERN het webprotocol op 30 april 1993 vrijgaf aan het publieke domein en Mosaic tegelijk inline afbeeldingen toevoegde, kantelde de balans razendsnel. Maar ook inhoudelijk liep Gopher vast: naarmate het aantal onderwerpen groeide, moest de gebruiker door steeds diepere menulagen klikken voordat hij bij de tekst zelf kwam.</p>
+</section>
 
-    <aside class="callout callout--tip">
-        <span class="callout-label">Tip</span>
-        <p>Oefening: open een Gopher-achtige site in gedachten, waar je alleen via menu's kunt bewegen, en een webpagina met alleen links in de tekst. Welke van de twee vertelt je waar je bent? Welke vertelt je waar je heen kunt?</p>
-    </aside>
+<section>
+    <h1>Functie van deze anekdote</h1>
+    <h2>boomhiërarchie tegenover associatief netwerk</h2>
+    <p>In het thema <strong>Ruimte, link en ordening op het web</strong> laat de strijd tussen Gopher en het web een blijvende ontwerpspanning zien:</p>
+    <ul>
+        <li><strong>Onderbouwing van categorie-ordening én haar breekpunt (Hick-Hyman en Lynch).</strong> Gopher belichaamt de zuivere boomhiërarchie: op elk niveau beperkt een kort menu de keuzetijd (<a href="#fitts-en-hick-hyman">Hick-Hyman</a>) en weet de bezoeker precies op welke tak hij zit. Maar zodra kennis niet in één vakje past, dwingt een boom de lezer om het mentale classificatiesysteem van de beheerder te raden.</li>
+        <li><strong>Tegenspraak vanuit hypertekst en Johanna Drucker (2014).</strong> De overwinning van het web onderstreept wat <a href="#esthetiek-en-mediatheorie">Drucker</a> en de netwerkkunstenaars op <a href="#ongebruikelijke-interfaces">Ongebruikelijke interfaces</a> betogen: gedachten en onderwerpen hangen dwars door categorieën heen samen. Toch keerde Gophers boomstructuur later op elke website terug als zijmenu en <a href="#navigatie-en-wayfinding">kruimelpad</a>: het web won als open netwerk van links, maar heeft de hiërarchische kaart nog steeds nodig om verdwalen te voorkomen.</li>
+    </ul>
 </section>
 
 <section>
     <h2>Bekijk het origineel</h2>
-    <p>De specificatie en de analyse van de nederlaag.</p>
+    <p>De specificatie en de analyse van de omslag.</p>
     <ul class="video-cards bron-kaarten">
         <li>
             <a class="video-card bron-kaart" href="https://www.rfc-editor.org/rfc/rfc1436" target="_blank" rel="noopener">
                 <div class="video-card-body">
-                    <p class="video-card-maker">Anklesaria e.a., 1993</p>
+                    <p class="video-card-maker">Anklesaria, McCahill e.a., maart 1993</p>
                     <h3 class="video-card-title">RFC 1436: The Internet Gopher Protocol</h3>
-                    <p class="video-card-desc">De doelen en de syntaxis van Gopher, in de eigen woorden van het team uit Minnesota.</p>
+                    <p class="video-card-desc">De ontwerpdoelen en de syntaxis van Gopher, in de eigen woorden van het team uit Minnesota.</p>
                 </div>
             </a>
         </li>
         <li>
             <a class="video-card bron-kaart" href="https://ils.unc.edu/callee/gopherpaper.htm" target="_blank" rel="noopener">
                 <div class="video-card-body">
-                    <p class="video-card-maker">University of North Carolina</p>
+                    <p class="video-card-maker">Christopher Callee, University of North Carolina</p>
                     <h3 class="video-card-title">Where Have all the Gophers Gone?</h3>
-                    <p class="video-card-desc">Waarom het web het won van Gopher in de strijd om het protocol.</p>
+                    <p class="video-card-desc">Technologische en institutionele oorzaken waarom het web Gopher verdrong.</p>
                 </div>
             </a>
         </li>
@@ -52,8 +56,8 @@
 <section>
     <h2>Verwant</h2>
     <ul>
-        <li><a href="#eerste-webpagina">De eerste webpagina</a></li>
-        <li><a href="#navigatie-en-wayfinding">Navigatie en wayfinding</a></li>
-        <li><a href="#fitts-en-hick-hyman">Hick-Hyman</a>: de kosten van een menu met veel keuzes.</li>
+        <li><a href="#eerste-webpagina">De eerste webpagina</a> (1991): het webontwerp dat tegenover Gopher stond.</li>
+        <li><a href="#yahoo-en-google">Yahoo 1994 en Google 1998</a>: dezelfde spanning tussen boomstructuur en directe toegang, enkele jaren later op het web zelf.</li>
+        <li><a href="#hick-hyman-in-het-menu">Hick-Hyman in het menu</a>: ervaar op deze site zelf wat categorieën in het menu doen.</li>
     </ul>
 </section>

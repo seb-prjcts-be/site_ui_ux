@@ -1,27 +1,38 @@
 <div class="intro">
-    <p>Bruce Tognazzini legt in zijn "First Principles of Interaction Design" uit waarom de menubalk van de Mac sneller te raken is dan een menu in een venster: een balk aan de schermrand is "oneindig diep", omdat de cursor er niet voorbij kan. Het is een theoretisch sterk en vaak herhaald argument.</p>
+    <p>Bruce Tognazzini, oprichter van Apples Human Interface Group, legde in <em>Tog on Interface</em> (1992) en in zijn "First Principles of Interaction Design" uit waarom de menubalk van de Macintosh sneller te raken is dan een menu binnen een venster: een balk die tegen de bovenrand van het scherm aanligt, is in de bewegingsrichting "oneindig diep" omdat de cursor niet voorbij de rand kan schieten.</p>
 </div>
 
 <aside class="callout callout--weetje">
-    <span class="callout-label">Theoretisch sterk</span>
-    <p>Het argument volgt rechtstreeks uit Fitts' law en staat in Tognazzini's eigen tekst op asktog.com. Het is geen anekdote in de strikte zin, maar een vaak hervertelde toepassing.</p>
+    <span class="callout-label">Goed gedocumenteerd</span>
+    <p>Het argument volgt uit <a href="#fitts-en-hick-hyman">Fitts' law (1954)</a> en staat beschreven in Bruce Tognazzini's <em>Tog on Interface</em> (Addison-Wesley, 1992) en op asktog.com ("First Principles of Interaction Design").</p>
 </aside>
 
 <section>
     <h2>Het argument</h2>
-    <p>Fitts' law zegt dat de tijd om een doel te raken afhangt van de afstand en de grootte van het doel. Een menu dat in een venster staat, heeft een beperkte hoogte: wie te hard beweegt, schiet eroverheen. Een menubalk aan de bovenrand van het scherm heeft dat probleem niet. De cursor stopt tegen de rand. In de bewegingsrichting is het doel daardoor oneindig groot, en de bewegingstijd is minimaal.</p>
-    <p>Op de Mac staat de menubalk altijd bovenaan het scherm. In Windows staat ze in het venster, met een rand erboven. Volgens Tognazzini is dat een meetbaar nadeel.</p>
+    <p>Volgens Fitts' law hangt de bewegingstijd naar een doel af van de verhouding tussen de afstand (<em>D</em>) en de doelbreedte in de bewegingsrichting (<em>W</em>). Een menubalk die in een los venster hangt (zoals in Windows en X11) heeft een beperkte hoogte van zo'n twintig pixels: wie de muis snel naar boven duwt, moet vlak voor de rand van het venster afremmen om niet op de titelbalk of het bureaublad erachter te klikken.</p>
+    <p>Op de Macintosh (1984) staat één gemeenschappelijke menubalk helemaal tegen de bovenrand van het beeldscherm. De fysieke grens van het scherm vangt de cursor op. Daardoor wordt <em>W</em> in de opwaartse richting effectief oneindig groot en vervalt de remfase van de handbeweging.</p>
 </section>
 
 <section>
-    <h2>De vier magische hoeken</h2>
-    <p>Dezelfde redenering geldt voor de hoeken van het scherm: de cursor kan in twee richtingen niet verder, dus een hoek is het makkelijkst te raken doel dat er bestaat. Dat is waarom startknoppen, hot corners en sluitknoppen daar thuishoren.</p>
+    <h2>De vijf snelste plekken van het scherm</h2>
+    <p>Uit dezelfde redenering volgt de rangorde die Tognazzini "de vijf magische plekken" noemt: eerst de pixel die zich nu al onder de cursor bevindt (het rechtermuisknopmenu, waar $D = 0$), en daarna de vier hoeken van het beeldscherm, waar twee schermranden de cursor in beide richtingen opvangen.</p>
+</section>
+
+<section>
+    <h1>Functie van deze anekdote</h1>
+    <h2>motorische onderbouwing én haar ruimtelijke grens</h2>
+    <p>In het thema <strong>Waarnemen, richten en begrenzen</strong> laat deze casus zowel de kracht als de grens van een psychologische wet zien:</p>
+    <ul>
+        <li><strong>Onderbouwing van Fitts' law en lichamelijke gewoonte.</strong> De Mac-menubalk bewijst dat een psychologische formule uit 1954 rechtstreeks vertaald kan worden naar schermarchitectuur. Omdat de gebruiker niet hoeft te mikken op een smalle strook, wordt de beweging een spiergewoonte (<a href="#raskin-en-victor">Raskin</a>) en blijft het menu als gereedschap <a href="#fenomenologie-en-breakdown">zuhanden</a>.</li>
+        <li><strong>Tegenspraak en randvoorwaarde bij veranderende hardware.</strong> Dezelfde formule onthult ook wanneer Tognazzini's regel haar voordeel verliest. Op een hedendaags breedbeeldscherm of bij twee monitoren naast elkaar wordt de afstand <em>D</em> van een venster rechtsonder naar de menubalk linksboven zeer groot, en verdwijnt de bovenrand op het grensvlak tussen een boven- en onderscherm. Op een aanraakscherm bestaat bovendien helemaal geen cursor die tegen een rand botst: een vinger zweeft in drie dimensies boven het glas. Een ergonomische wet klopt altijd, maar een ontwerpconventie alleen zolang het fysieke apparaat gelijk blijft.</li>
+    </ul>
 </section>
 
 <section>
     <h2>Verwant</h2>
     <ul>
-        <li><a href="#fitts-en-hick-hyman">Fitts' law en Hick-Hyman</a> voor de wet zelf.</li>
-        <li><a href="#lesidee-drie-knoppen">Één knop, drie versies</a>: een oefening die met een Fitts-optimale knop begint.</li>
+        <li><a href="#fitts-en-hick-hyman">Fitts' law en Hick-Hyman</a> voor de wiskundige en experimentele basis.</li>
+        <li><a href="#fitts-op-deze-site">Fitts' law op deze site</a>: meet zelf het verschil tussen grote en kleine doelen op deze pagina.</li>
+        <li><a href="#lesidee-drie-knoppen">Één knop, drie versies</a>: een oefening die vertrekt vanuit een Fitts-optimale knop.</li>
     </ul>
 </section>

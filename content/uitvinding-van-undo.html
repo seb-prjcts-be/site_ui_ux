@@ -1,26 +1,34 @@
 <div class="intro">
-    <p>Wie undo heeft uitgevonden, is niet eenduidig te zeggen. De functie wordt meestal toegeschreven aan Warren Teitelman (Interlisp, jaren 1970) en aan Larry Tesler en de kringen rond Xerox PARC, waar ook de modeloze editor en knippen-en-plakken ontstonden.</p>
+    <p>Geen enkele fysieke beitel of typemachine laat een gemaakte vergissing met één toetsaanslag verdwijnen. Op de computer ontstond die mogelijkheid tussen 1972 en 1975 op twee plekken tegelijk: bij Warren Teitelman in de programmeeromgeving Interlisp en bij Larry Tesler en Tim Mott in de modeloze tekstverwerker Gypsy bij Xerox PARC.</p>
 </div>
 
-<aside class="callout callout--let-op">
-    <span class="callout-label">Zwak onderbouwd</span>
-    <p>Er is geen eenduidige uitvinder. De toeschrijvingen aan Teitelman en Tesler zijn plausibel en vaak herhaald, maar in het bronmateriaal niet primair geverifieerd.</p>
+<aside class="callout callout--weetje">
+    <span class="callout-label">Goed gedocumenteerd, meervoudige herkomst</span>
+    <p>Er is geen enkele uitvinder, maar de twee primaire bronnen zijn nauwkeurig gedateerd: Warren Teitelman beschreef het UNDO-mechanisme van zijn Programmer's Assistant op de Fall Joint Computer Conference van december 1972 (BBN-LISP / Interlisp, Xerox PARC), en Larry Tesler en Tim Mott bouwden in 1974–1975 bij Xerox PARC de editor Gypsy met Undo, Cut, Copy en Paste.</p>
 </aside>
 
 <section>
-    <h2>Twee lijnen</h2>
-    <p>Warren Teitelman bouwde in Interlisp een omgeving waarin de programmeur fouten kon herstellen, met onder meer een "undo"-mechanisme voor bewerkingen. Larry Tesler werkte bij Xerox PARC aan de editor Gypsy en aan het principe dat een editor geen modes mag hebben: dezelfde toets doet altijd hetzelfde. Knippen, kopiëren en plakken komen uit diezelfde kring.</p>
+    <h1>Twee bronnen, 1972–1975</h1>
+    <h2>van programmeerhulp tot modeloze tekstverwerker</h2>
+    <p>Warren Teitelman publiceerde in december 1972 "Automated Programmering: The Programmer's Assistant". In BBN-LISP (kort daarna Interlisp bij Xerox PARC) bewaarde het systeem elke ingevoerde opdracht in een geschiedenislijst, zodat een programmeur met <code>UNDO</code> een eerdere bewerking kon terugdraaien, zelfs nadat een fout al gevolgen had gehad. Het was ontworpen om vrijuit te kunnen experimenteren zonder angst om lopend werk kwijt te raken.</p>
+    <p>Enkele gangen verder bij Xerox PARC werkten Larry Tesler en Tim Mott in 1974–1975 aan de tekstverwerker <strong>Gypsy</strong> voor uitgeverij Ginn &amp; Co. Tesler had bij gebruikersonderzoek gezien hoe beginners voortdurend verdwaalden in editors met verschillende <em>modes</em> (waarbij dezelfde lettertoets de ene keer tekst typt en de andere keer een opdracht uitvoert). Gypsy verving die modes door directe selectie met de muis, knippen en plakken, en een universele Undo-opdracht voor de laatst uitgevoerde handeling.</p>
 </section>
 
 <section>
-    <h2>Waarom undo filosofisch interessant is</h2>
-    <p>Undo maakt de computer tot een plek waar fouten geen gevolgen hebben. Dat is een radicale eigenschap: geen fysiek gereedschap biedt ze. Ze verandert de verhouding tot het werk. Je kunt proberen zonder risico, en dus anders denken. Jef Raskin zag in gewoontevorming en modeloosheid de kern van een humane interface. Zie <a href="#raskin-en-victor">Raskin en Victor</a>.</p>
+    <h1>Functie van deze anekdote</h1>
+    <h2>omkeerbaarheid als voorwaarde voor verkennend denken</h2>
+    <p>In het thema <strong>Teken, metafoor en handeling</strong> verbindt de geschiedenis van undo de cognitieve psychologie met de filosofie van het handelen:</p>
+    <ul>
+        <li><strong>Onderbouwing van fouttolerantie en modeloosheid.</strong> Vanuit de cognitieve ergonomie (<a href="#geheugen-en-cognitieve-belasting">werkgeheugen</a> en <a href="#raskin-en-victor">Jef Raskins <em>locus of attention</em>, 2000</a>) neemt undo de angst voor misklikken weg. Omdat de menselijke aandacht maar op één ding tegelijk rust, zijn vergissingen geen uitzondering maar de normale gang van zaken.</li>
+        <li><strong>Filosofische breuk met het onomkeerbare werktuig.</strong> Een fysieke hamer (<a href="#fenomenologie-en-breakdown">Heidegger, 1927</a>) slaat een spijker krom; een digitale handeling met undo schort de definitieve werkelijkheid tijdelijk op. Daarmee verandert het scherm van een uitvoeringsmachine in een schetsruimte waarin denken en proberen samenvallen, precies het tegenbeeld van systemen zoals de <a href="#therac-25">Therac-25</a> waarin één snelle toetscombinatie onherroepelijke gevolgen had.</li>
+    </ul>
 </section>
 
 <section>
     <h2>Verwant</h2>
     <ul>
-        <li><a href="#xerox-parc-desktopmetafoor">Xerox PARC en de desktopmetafoor</a></li>
-        <li><a href="#therac-25">Therac-25</a>: een systeem waarin een fout wél onomkeerbaar was.</li>
+        <li><a href="#xerox-parc-desktopmetafoor">Xerox PARC en de desktopmetafoor</a>: de onderzoeksomgeving waarin zowel Interlisp als Gypsy ontstonden.</li>
+        <li><a href="#raskin-en-victor">Raskin en Victor</a>: Raskins pleidooi voor modeloosheid en gewoontevorming bouwt rechtstreeks voort op Tesler.</li>
+        <li><a href="#therac-25">Therac-25</a>: wat er gebeurt wanneer een systeem snelle invoerfouten van een operator niet zichtbaar en niet herstelbaar maakt.</li>
     </ul>
 </section>

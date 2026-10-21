@@ -1,36 +1,45 @@
 <div class="intro">
-    <p>Twee wetten uit de experimentele psychologie van de jaren vijftig voorspellen hoe lang een beweging naar een doel duurt en hoe lang een keuze uit meerdere opties duurt. Ze zijn robuust, meetbaar en direct toepasbaar op knoppen, menu's en cursors.</p>
+    <p>Twee wetten uit de experimentele psychologie van de jaren vijftig voorspellen hoe lang een gerichte beweging naar een doel duurt en hoe lang een keuze uit meerdere opties kost. Ze zijn robuust, meetbaar en direct toepasbaar op knoppen, menu's en cursors, mits je hun randvoorwaarden kent.</p>
 </div>
 
 <div class="kernpunten">
     <span class="kernpunten-label">Kernpunten</span>
     <ul>
-        <li><strong>Fitts' law</strong> (1954): bewegingstijd is evenredig met log₂(afstand / doelgrootte)</li>
-        <li><strong>Hick-Hyman law</strong> (1952, 1953): keuzetijd groeit logaritmisch met het aantal opties</li>
-        <li>Stuart Card bracht Fitts met zijn muisstudies bij Xerox PARC in HCI en hielp zo de muis legitimeren</li>
-        <li>Bill Buxton paste Fitts verder toe op invoerapparaten</li>
-        <li>Hick-Hyman geldt vooral voor ongeordende, onbekende keuzes</li>
+        <li><strong>Fitts' law</strong> (1954): bewegingstijd groeit met log₂(afstand / doelgrootte)</li>
+        <li><strong>Hick-Hyman law</strong> (1952, 1953): keuzetijd groeit logaritmisch met het aantal onbekende opties</li>
+        <li>Stuart Card, William English en Betty Burr brachten Fitts in 1978 bij Xerox PARC de HCI binnen en legitimeerden zo de muis</li>
+        <li>Bill Buxton paste Fitts vanaf 1978 verder toe op tweekanaals- en aanraakinvoer</li>
+        <li>Hick-Hyman geldt voor ongeordende keuzes; zodra gewoonte of duidelijke ordening meespeelt, verandert de taak</li>
     </ul>
 </div>
 
 <section>
-    <h2>Fitts' law</h2>
-    <p>Paul Fitts publiceerde in 1954 de wet die zijn naam draagt: de tijd om een doel te bereiken hangt af van de afstand tot het doel en de grootte ervan. Grotere doelen die dichterbij liggen, raak je sneller. De relatie is logaritmisch, dus een knop twee keer zo groot maken levert minder op dan je zou denken, maar een piepkleine knop kost onevenredig veel tijd.</p>
-    <p>Stuart Card bracht de wet met zijn muisstudies bij Xerox PARC in de HCI. Dat werk hielp de muis als invoerapparaat legitimeren tegenover alternatieven als de joystick en de lichtpen. Bill Buxton paste Fitts daarna toe op een breed gamma aan invoerapparaten. Beide pioniers staan op <a href="#proefschriften-internationaal">Internationale pioniers</a>.</p>
+    <h1>Fitts' law, 1954 en 1978</h1>
+    <h2>afstand en doelgrootte</h2>
+    <p>Paul Fitts publiceerde in 1954 de motorische wet die zijn naam draagt: de tijd om een doel aan te wijzen hangt af van de verhouding tussen de afstand tot het doel (<em>D</em>) en de breedte van dat doel in de bewegingsrichting (<em>W</em>). Grotere doelen die dichterbij liggen, raak je sneller. Omdat de relatie logaritmisch is, levert het verdubbelen van een al grote knop weinig tijdwinst op, terwijl een piepkleine knop onevenredig veel correctietijd en misklikken veroorzaakt.</p>
+    <p>Stuart Card bracht de wet met William English en Betty Burr de informatica binnen in hun studie "Evaluation of Mouse, Rate-Controlled Isometric Joystick, Step Keys, and Text Keys for Text Selection on a CRT" (<em>Ergonomics</em>, 1978), en werkte ze met Thomas Moran en Allen Newell verder uit in <em>The Psychology of Human-Computer Interaction</em> (1983). De muis won niet omdat ze modieus was, maar omdat haar bewegingstijd het dichtst tegen de fysiologische bovengrens van oog en hand lag. Bill Buxton paste Fitts daarna toe op een breed gamma aan invoerapparaten. Beide pioniers staan op <a href="#proefschriften-internationaal">Internationale pioniers</a>.</p>
 
     <aside class="callout callout--weetje">
         <span class="callout-label">Weetje</span>
-        <p>De bekendste toepassing is de menubalk van de Mac: omdat de cursor niet voorbij de schermrand kan, is het doel in één richting oneindig groot. Zie <a href="#fitts-en-de-mac-menubalk">Fitts' law en de Mac-menubalk</a>.</p>
+        <p>De bekendste schermtoepassing is de menubalk van de Macintosh (1984): omdat de cursor niet voorbij de bovenrand van het scherm kan, is het doel in de bewegingsrichting effectief oneindig diep. Zie <a href="#fitts-en-de-mac-menubalk">Fitts' law en de Mac-menubalk</a>.</p>
     </aside>
 </section>
 
 <section>
-    <h2>Hick-Hyman law</h2>
-    <p>William Hick (1952) en Ray Hyman (1953) toonden dat de tijd om een keuze te maken logaritmisch groeit met het aantal mogelijkheden. Twee keer zoveel opties kost niet twee keer zoveel tijd, maar wel meetbaar meer.</p>
-    <p>De kanttekening is belangrijk: de wet geldt vooral voor ongeordende, onbekende keuzes. Een alfabetisch gesorteerde lijst of een menu dat je uit je hoofd kent, volgt ze niet. Wie Hick-Hyman gebruikt om "minder menu-items" te eisen, moet dus eerst vragen of de gebruiker de items kent en of ze geordend zijn.</p>
+    <h1>Hick-Hyman law, 1952–1953</h1>
+    <h2>de prijs van een keuze</h2>
+    <p>William Hick (1952) en Ray Hyman (1953) toonden dat de reactietijd bij een keuze logaritmisch toeneemt met het aantal gelijkwaardige alternatieven. Twee keer zoveel opties kost niet twee keer zoveel tijd, maar wel meetbaar meer beslissingstijd.</p>
+    <p>De kanttekening is beslissend voor interfaceontwerp: in de oorspronkelijke proeven reageerden proefpersonen op lampjes zonder inhoudelijke structuur. Een alfabetische lijst, een menu met duidelijke categorieën of een bediening die je door gewoonte blindelings weet te vinden, volgt die curve niet op dezelfde manier. Wie Hick-Hyman aanhaalt om "minder menu-items" te eisen, moet daarom eerst onderzoeken of de opties geordend zijn. Zie de live proef op <a href="#hick-hyman-in-het-menu">Hick-Hyman in het menu</a>.</p>
+</section>
+
+<section>
+    <h1>Onderbouwing en tegenspraak</h1>
+    <h2>motorische wet tegenover geleefde handeling</h2>
+    <p>Fitts' law en de fenomenologie van <a href="#fenomenologie-en-breakdown">Heidegger en Merleau-Ponty</a> <strong>onderbouwen elkaar</strong> op het niveau van het lichaam: zolang een doel groot genoeg is en op een vaste plek ligt, kan de hand zonder bewuste reflectie handelen en blijft de interface <em>zuhanden</em>. Zodra je drie keer naast een te klein icoon klikt, treedt een <em>breakdown</em> op.</p>
+    <p>Tegelijk <strong>spreken filosofie en kritisch design het misbruik van deze wetten tegen</strong>. In het GOMS-model van Card, Moran en Newell (1983) wordt de gebruiker voorgesteld als een seriegeschakelde processor van kijk-, denk- en kliktijden. Hubert Dreyfus (1972) en Paul Dourish (2001) laten zien dat zo'n model alleen opgaat voor routinetaken zonder twijfel of interpretatie. Bovendien kan een Fitts-optimale knop net zo goed worden ingezet om een gebruiker gedachteloos "Akkoord" te laten klikken in een <a href="#ethiek-van-design">dark pattern</a> als om een tekstbewerker vlot te bedienen.</p>
 </section>
 
 <section>
     <h2>Zelf meten</h2>
-    <p>Beide wetten zijn uitstekend te meten met een eenvoudig p5.js-experiment: teken doelen van verschillende grootte op verschillende afstanden en registreer de tijd tot de klik. De oefening <a href="#lesidee-drie-knoppen">Één knop, drie versies</a> begint met precies zo'n Fitts-optimale knop.</p>
+    <p>Op <a href="#fitts-op-deze-site">Fitts' law op deze site</a> en <a href="#hick-hyman-in-het-menu">Hick-Hyman in het menu</a> meet je je eigen bewegings- en zoektijd rechtstreeks in deze interface. De oefening <a href="#lesidee-drie-knoppen">Één knop, drie versies</a> plaatst de Fitts-optimale knop naast een misleidende en een vertragende variant.</p>
 </section>

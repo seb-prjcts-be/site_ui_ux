@@ -1,38 +1,47 @@
 <div class="intro">
-    <p>Twee begrippen uit de cognitieve psychologie worden voortdurend op interfaces toegepast: het magische getal zeven van George Miller en de cognitive load theory van John Sweller. Beide zijn echt, beide worden vaak verkeerd gebruikt.</p>
+    <p>Twee begrippen uit de cognitieve psychologie worden voortdurend op interfaces toegepast: het magische getal zeven van George Miller (1956) en de cognitive load theory van John Sweller (1988). Beide zijn experimenteel onderbouwd, beide worden in ontwerpvuistregels vaak verkeerd gebruikt.</p>
 </div>
 
 <div class="kernpunten">
     <span class="kernpunten-label">Kernpunten</span>
     <ul>
-        <li>Miller (1956): het kortetermijngeheugen houdt ongeveer <strong>7±2</strong> eenheden vast</li>
-        <li>Cowan (2001) corrigeert dat naar eerder <strong>vier chunks</strong></li>
-        <li>De regel "maximaal zeven menu-items" is een <strong>misbruik</strong>: een menu staat op het scherm en hoeft niet onthouden te worden</li>
-        <li>Sweller (1988): intrinsieke, extrinsieke en germane belasting; ontwikkeld voor <strong>instructie</strong>, niet voor UI</li>
+        <li>Miller (1956): het kortetermijngeheugen houdt ongeveer <strong>7±2</strong> eenheden vast wanneer iemand ze zonder steun moet reproduceren</li>
+        <li>Cowan (2001) corrigeert dat naar ongeveer <strong>vier chunks</strong> bij zuivere werkgeheugentaken</li>
+        <li>De vuistregel "maximaal zeven menu-items" is een <strong>misbruik</strong>: een menu staat zichtbaar op het scherm en vraagt om herkennen, niet om onthouden</li>
+        <li>Sweller (1988): intrinsieke, extrinsieke en germane belasting; ontwikkeld voor <strong>instructie en leren</strong>, niet voor bedieningspanelen</li>
     </ul>
 </div>
 
 <section>
-    <h2>Miller en het magische getal</h2>
-    <p>George Millers artikel uit 1956 beschrijft de grenzen van het kortetermijngeheugen: ongeveer zeven eenheden, plus of min twee. Het is een van de meest geciteerde teksten uit de psychologie, en een van de meest misbruikte in het ontwerpvak.</p>
-    <p>Nelson Cowan stelde in 2001 dat de werkelijke capaciteit eerder rond vier chunks ligt als je de proefpersonen geen kans geeft om te herhalen of te groeperen.</p>
+    <h1>Miller (1956) en Cowan (2001)</h1>
+    <h2>het magische getal en het scherm als geheugensteun</h2>
+    <p>George Millers artikel "The Magical Number Seven, Plus or Minus Two" (<em>Psychological Review</em>, 1956) beschrijft twee verschillende dingen: hoeveel eendimensionale prikkels mensen uit elkaar houden, en hoeveel losse eenheden (<em>chunks</em>) ze in hun onmiddellijke geheugen kunnen vasthouden. Nelson Cowan toonde in 2001 aan dat de zuivere capaciteit eerder rond vier chunks ligt zodra proefpersonen niet kunnen herhalen of hergroeperen.</p>
 
     <aside class="callout callout--let-op">
         <span class="callout-label">Let op</span>
-        <p>Millers getal gaat over wat je moet onthouden zonder hulp. Een menu, een lijst of een formulier staat op het scherm. De gebruiker hoeft de items niet te onthouden, alleen te scannen. "Maximaal zeven menu-items" volgt dus niet uit Miller.</p>
+        <p>Millers getal gaat over wat je moet onthouden zonder dat het voor je ogen staat. Een menu, een indexpagina of een formulier blijft op het scherm staan: de bezoeker hoeft de opties niet uit het hoofd te leren, alleen te scannen. De regel "maximaal zeven menu-items" volgt dus niet uit Miller.</p>
     </aside>
 </section>
 
 <section>
-    <h2>Sweller en cognitive load</h2>
-    <p>John Sweller ontwikkelde in 1988 de cognitive load theory voor het onderwijs. Hij onderscheidt drie soorten belasting: <strong>intrinsiek</strong> (de moeilijkheid van de stof zelf), <strong>extrinsiek</strong> (belasting door de manier waarop de stof gepresenteerd wordt) en <strong>germane</strong> (de belasting die bijdraagt aan het leren).</p>
-    <p>De theorie wordt in UX gebruikt om te pleiten voor eenvoud: verminder de extrinsieke belasting. Dat is een zinnige vertaling, maar ze is niet door Sweller zelf gemaakt en niet op interfaces getoetst. De theorie gaat over leren, niet over bedienen.</p>
+    <h1>Sweller, 1988</h1>
+    <h2>cognitive load theory</h2>
+    <p>John Sweller ontwikkelde in 1988 ("Cognitive load during problem solving: Effects on learning", <em>Cognitive Science</em>) de cognitive load theory voor het onderwijs. Hij onderscheidt drie soorten belasting: <strong>intrinsiek</strong> (de complexiteit van de leerstof zelf), <strong>extrinsiek</strong> (de extra moeite die voortkomt uit een onhandige presentatie) en <strong>germane</strong> (de mentale inspanning die daadwerkelijk bijdraagt aan begrip en schemavorming).</p>
+    <p>In UX wordt die driedeling vaak samengevat als "verminder alle cognitieve belasting". Daarmee verdwijnt precies Swellers derde categorie: soms is enige wrijving of inspanning (germane load) nodig om te begrijpen wat je doet.</p>
+</section>
+
+<section>
+    <h1>Onderbouwing en tegenspraak</h1>
+    <h2>wanneer helpt wrijving het denken?</h2>
+    <p>Op het punt van <strong>extrinsieke belasting</strong> ondersteunen cognitieve psychologie en fenomenologie elkaar: een interface die de gebruiker dwingt om onnodige codes of tussenstappen te onthouden, verbreekt de handeling en veroorzaakt een vermijdbare <a href="#fenomenologie-en-breakdown">breakdown</a>. Daarom pleit Jef Raskin (2000) voor één duidelijke <em>locus of attention</em> zonder verborgen modes.</p>
+    <p>De <strong>tegenspraak</strong> ontstaat wanneer "geen cognitieve belasting" tot hoogste ontwerpnorm wordt verheven, zoals in Steve Krugs slogan <em>Don't Make Me Think</em> (2000). Vanuit <a href="#esthetiek-en-mediatheorie">Johanna Druckers <em>Graphesis</em> (2014)</a>, <a href="#proefschriften-internationaal">Johan Redströms <em>slow technology</em> (2001)</a> en <a href="#ethiek-van-design">Peter-Paul Verbeeks mediatietheorie</a> is een interface die elk nadenken uitschakelt niet per se humaan: wie nooit hoeft stil te staan bij een keuze, klikt ook gedachteloos door een cookie-wand of een misleidend formulier (<a href="#300-million-button">de 300 miljoen dollar-knop</a>). Goed ontwerp neemt onnodige ruis weg, maar laat ruimte voor oordeel.</p>
 </section>
 
 <section>
     <h2>Verwant</h2>
     <ul>
         <li>Het volledige overzicht staat op <a href="#psychologische-principes">Overzicht van psychologische principes</a>.</li>
-        <li>Jef Raskin behandelt de "locus of attention" en gewoontevorming, een andere ingang tot dezelfde grenzen. Zie <a href="#raskin-en-victor">Raskin en Victor</a>.</li>
+        <li><a href="#raskin-en-victor">Raskin en Victor</a> behandelen de <em>locus of attention</em>, gewoontevorming en het verschil tussen bedienen en lezen.</li>
+        <li><a href="#hick-hyman-in-het-menu">Hick-Hyman in het menu</a> laat je op deze site zelf het verschil ervaren tussen een ongeordende lijst en een geordend menu.</li>
     </ul>
 </section>

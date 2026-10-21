@@ -415,3 +415,43 @@ Geen paginafouten of mobiele horizontale overflow. Desktopbeelden visueel bekeke
 Alle contentbestanden via SHA-256 vergeleken: ongewijzigd.
 Files:
 main.js, stadia.css, index.html, leerplan.md, README.md, docs/ai-log.md
+
+
+### 2026-10-21 - Chronologische herziening, zes thema's en functie van elke anekdote
+
+Changed:
+- Zes chronologische thema's (1910–2023) uitgewerkt op twee-fundamenten.html en
+  in data/bronnen/filosofie-psychologie-interface.md, telkens met expliciete
+  onderbouwing, tegenspraak en bijbehorende anekdotes.
+- Filosofie- en psychologieteksten aangevuld met primaire bronnen en jaartallen
+  (Heidegger 1927, Merleau-Ponty 1945, Card, English & Burr 1978, Fogg 1997,
+  Dunne 1997, Hassenzahl 2006) en secties "Onderbouwing en tegenspraak".
+- Proefschriften uitgebreid van 10 naar 12 internationaal (Fogg 1997, Dunne 1997)
+  en van 10 naar 12 in Nederland en België (Fokkinga 2015, Bats 2019).
+- Alle 18 anekdotes voorzien van primaire datering/bronnen en een vaste slotsectie
+  "Functie van deze anekdote / Onderbouwing en tegenspraak in het thema".
+- Volgorde van Filosofie, Psychologie en Anekdotes in main.js chronologisch gezet
+  (Anekdotes lopen nu van 1968 Mother of All Demos tot 2013 iOS 7).
+- Tijdlijn uitgebreid met 9 extra historische ankers (1927, 1945, 1966, 1972–1975,
+  1978, 1983, 1997, 2015, 2019).
+- Open vragen en Ordeningsprincipes bijgewerkt.
+- Plan voor zes sleepbare p5.js-schetsen opgenomen in leerplan.md. De bestaande
+  stijl- en compositiepreview is ongewijzigd gelaten.
+
+Reason:
+Opdracht van Seb: eerst de inhoud ijzersterk en chronologisch laten kloppen,
+onderwerpen in thema's plaatsen (onderbouwd of in tegenspraak met filosofisch
+onderzoek), elke anekdote een functie geven, en voorbereiden op sleepbare p5.js-
+schetsen terwijl de stijlpreview voorlopig zo blijft.
+
+Files:
+content/twee-fundamenten.html, content/fenomenologie-en-breakdown.html,
+content/affordances-en-signifiers.html, content/ethiek-van-design.html,
+content/esthetiek-en-mediatheorie.html, content/fitts-en-hick-hyman.html,
+content/geheugen-en-cognitieve-belasting.html, content/esthetiek-en-bruikbaarheid.html,
+content/hedonisch-en-pragmatisch.html, content/eye-tracking-en-neuro-ux.html,
+content/navigatie-en-wayfinding.html, content/proefschriften-internationaal.html,
+content/proefschriften-lage-landen.html, content/tijdlijn.html,
+content/open-vragen.html, content/ordeningsprincipes.html,
+alle 18 anekdotebestanden in content/, data/bronnen/filosofie-psychologie-interface.md,
+main.js, leerplan.md, docs/decisions.md, docs/ai-log.md
