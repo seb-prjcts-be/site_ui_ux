@@ -11141,7 +11141,7 @@
             {
                 "file": "style.css",
                 "checked_hash": "cf0409ff19e25bf786799040f353cba44ce99743856f48064208b30ba39f0716",
-                "current_hash": "42941f81d9b89d5c73009e6d064ee49c1e2f8cc5fc57b11fb14a81e02fe3b063",
+                "current_hash": "dd5b71bbd30017e1268dff39b342b5acc62a6b8c09500747218dd03ac747b7dd",
                 "needs_review": true
             },
             {
@@ -11158,19 +11158,19 @@
         "unreviewed_page_count": 6,
         "scope_note": "De oorspronkelijke auditscope betreft het archief van 53 pagina’s. Nieuw aangemaakte lege stappen zijn niet inhoudelijk beoordeeld.",
         "technical_validation": {
-            "validated_at": "2026-10-21T16:21:57+00:00",
+            "validated_at": "2026-10-21T16:26:34+00:00",
             "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle geregistreerde API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
             "contents": 66,
             "topics": 59,
             "file_hashes": {
-                "index.php": "9570ab96fdb87a2e81b569932561bd36fc373e9a2b614e751db090ecc1337068",
+                "index.php": "ce5e27764c09eb6a3d0077e87ec8b9f8421dc9ab64dddcdff35db5965da5e0c8",
                 "api.php": "330743fa164723954f696bcde6632c0288fe77d7e39cd9825475ff20d4efb100",
                 "checks.php": "acedfb2b0c03e4247f0740e84fc067fced5e14e241a07f3b461110e26aa90f15",
                 "lib/course.php": "b66e54b83841636eb3c320d98fd723a78eabb325cf7116b443b106863e161eec",
                 "lib/manage.php": "0eb63f74f9e60a54c485223ca2d6b4eb10792d1e1fc7146419f08087c3678a41",
                 "main.js": "00cffca7ab571ce3fd604e32ffa11b4da2811891f9c02b8c780f9e5399e59ad6",
                 "stadia.css": "345f8c7f381f10e680e4d8bf5980e91464c51aee798bad061fa651658aa391ef",
-                "style.css": "42941f81d9b89d5c73009e6d064ee49c1e2f8cc5fc57b11fb14a81e02fe3b063",
+                "style.css": "dd5b71bbd30017e1268dff39b342b5acc62a6b8c09500747218dd03ac747b7dd",
                 ".htaccess": "ee99cc74ba8ad3ac80c744fc276b34014859f8f52f5e098208760a356aba7d77",
                 "styles/composition.css": "b1e987039779eab229fdf19196ca0def4ae976a7e4465d8c9223e74b08faa615",
                 "styles/column.css": "9e65d9747de9b82adcb5a2e65c208593fd0007cb4939e0c1e5bb27e2ed2742b6",
