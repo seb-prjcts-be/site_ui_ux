@@ -83,5 +83,13 @@
       "authorization": "ok op voorstel voor Bootstrap Weergave-paneel rechts",
       "scope": "Bestaande Bootstrap 5.3.3 hergebruiken; compositiebediening naar rechterpaneel, live persoonlijke CSS-proeven, herstel en export."
     }
-  ]
+  ],
+  "interaction_policy": {
+    "interface_is_ux_example": true,
+    "motion_explains_state_change": true,
+    "respect_reduced_motion": true,
+    "preserve_reading_position": true,
+    "keyboard_controls_must_not_trigger_page_navigation": true,
+    "visible_feedback_and_reversible_adjustments": true
+  }
 }

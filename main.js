@@ -819,6 +819,7 @@ function initVensterLinks() {
 function initKeyboardNav() {
     document.addEventListener('keydown', (event) => {
         if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+        if (event.target.closest('#view-panel')) return;
         const tag = (event.target.tagName || '').toLowerCase();
         if (tag === 'input' || tag === 'textarea' || tag === 'select' || event.target.isContentEditable) return;
         const rel = event.key === 'ArrowRight' ? 'next' : event.key === 'ArrowLeft' ? 'prev' : null;

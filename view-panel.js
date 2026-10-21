@@ -35,7 +35,10 @@
             for (const [id,,,,initial,,unit] of fields) {
                 const input = document.getElementById('view-' + id);
                 input.value = values[id] ?? initial;
-                document.getElementById('output-' + id).value = Number(input.value).toLocaleString('nl-BE') + (unit === 'svh' ? '% schermhoogte' : unit);
+                const text = Number(input.value).toLocaleString('nl-BE') + (unit === 'svh' ? '% schermhoogte' : unit);
+                document.getElementById('output-' + id).value = text;
+                document.getElementById('output-' + id).setAttribute('aria-live','off');
+                input.setAttribute('aria-valuetext',text);
             }
         }
         refresh();
@@ -50,10 +53,27 @@
         trigger.hidden = false;
         trigger.addEventListener('click', () => {
             const instance = bootstrap.Offcanvas.getOrCreateInstance(panel, {backdrop: innerWidth < 1100, scroll: innerWidth >= 1100});
-            instance.show();
+            instance.toggle();
         });
-        panel.addEventListener('shown.bs.offcanvas', () => { document.body.classList.add('view-panel-open'); trigger.setAttribute('aria-expanded','true'); panel.querySelector('.btn-close')?.focus(); });
-        panel.addEventListener('hidden.bs.offcanvas', () => { document.body.classList.remove('view-panel-open'); trigger.setAttribute('aria-expanded','false'); trigger.focus(); });
+        let reading = null;
+        panel.addEventListener('show.bs.offcanvas', () => {
+            reading = window.captureInterfaceReadingPosition?.();
+            document.body.classList.add('view-panel-open');
+            trigger.setAttribute('aria-expanded','true');
+        });
+        panel.addEventListener('shown.bs.offcanvas', () => {
+            window.restoreInterfaceReadingPosition?.(reading);
+            panel.querySelector('.btn-close')?.focus({preventScroll:true});
+        });
+        panel.addEventListener('hide.bs.offcanvas', () => {
+            reading = window.captureInterfaceReadingPosition?.();
+            document.body.classList.remove('view-panel-open');
+            trigger.setAttribute('aria-expanded','false');
+        });
+        panel.addEventListener('hidden.bs.offcanvas', () => {
+            window.restoreInterfaceReadingPosition?.(reading);
+            trigger.focus({preventScroll:true});
+        });
         // Reopening after resize uses the correct overlay/scroll mode.
         panel.addEventListener('hidden.bs.offcanvas', () => bootstrap.Offcanvas.getInstance(panel)?.dispose());
         document.getElementById('view-reset').addEventListener('click', () => {

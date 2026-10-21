@@ -193,3 +193,8 @@ de site-stylesheets te gebruiken. De gepubliceerde standaard en SQLite-inhoud
 worden niet gewijzigd. Bootstrap blijft op de bestaande versie 5.3.3.
 Op brede schermen blijft de pagina bedienbaar; onder 1100px gebruikt het paneel
 een achtergrond en modale toetsenbordbediening. Escape sluit het paneel.
+
+Het paneel schuift in 350 ms zoals het constellation-paneel op de eigen site.
+De pagina maakt gelijktijdig ruimte. Bij minder-bewegenvoorkeur valt de overgang
+weg. Sectieanker, toetsenbordfocus en waarden met eenheid horen bij de werking:
+de interface zelf dient als UX-voorbeeld.

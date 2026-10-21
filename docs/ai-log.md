@@ -588,3 +588,7 @@ Seb koos expliciet voor zes lege stappen met behoud van de bestaande inhoud als 
 ## 2026-10-21 - Weergavepaneel met live CSS
 
 Op Sebs akkoord gebruikt de site de al geladen Bootstrap Offcanvas voor een rechterpaneel. Compositiebediening verplaatst; paginateller verborgen. Zes CSS-variabelen hebben live schuiven, begrensde lokale opslag, herstel en CSS-export. Brede schermen houden de pagina bedienbaar; smalle schermen gebruiken Bootstrap backdrop/focusbeheer. Geen serverwrites of nieuwe wetenschappelijke beoordeling. Browserproeven: openen, live fontwijziging, bewaren na herladen, compositiewissel, exportstatus, herstellen en Escape met focusterugkeer gecontroleerd.
+
+## 2026-10-21 - Interface als UX-voorbeeld
+
+Op verzoek van Seb gebruiken we functionele beweging om toestandsveranderingen begrijpelijk te maken. Het rechterpaneel volgt de constellation-overgang op zijn eigen site: 350 ms, cubic-bezier(.2,.7,.2,1). De leesruimte beweegt tegelijk; openen en sluiten bewaren een sectieanker en focus keert zonder scrollsprong terug. Minder-bewegenvoorkeur blijft gelden. Pijltoetsen in het paneel navigeren niet naar een ander onderwerp. Schuiven geven hun waarde met eenheid door aan hulptechnologie. Browsercontrole bevestigt overgangsduur, geopende/gesloten status, ruimte, Escape en focusterugkeer. Dit is technische verificatie, geen gebruikersonderzoek.

@@ -40,7 +40,7 @@ header('Cache-Control: no-cache');
     <link id="style-kolom" rel="stylesheet" href="styles/column.css?v=sqlite1">
     <link id="style-raster" rel="stylesheet" href="styles/grid.css?v=sqlite1">
     <link id="style-flexibel" rel="stylesheet" href="styles/flex.css?v=sqlite1">
-    <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=5">
+    <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=slide1">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 </head>
 <body>
@@ -95,7 +95,7 @@ header('Cache-Control: no-cache');
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>window.COURSE_DATA = <?= json_encode($bootstrap, JSON_THROW_ON_ERROR | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;</script>
-    <script src="view-panel.js?v=3"></script>
-    <script src="main.js?v=20261021-panel2"></script>
+    <script src="view-panel.js?v=slide1"></script>
+    <script src="main.js?v=20261021-panel-slide1"></script>
 </body>
 </html>

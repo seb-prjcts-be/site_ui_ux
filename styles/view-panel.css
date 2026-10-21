@@ -14,7 +14,13 @@
 .view-panel .composition-controls nav { padding: 0; }
 .view-panel .journey-activity { border-width: 1px; font-size: .8rem; }
 .view-panel :focus-visible, .view-toggle:focus-visible { outline: 2px solid #202124; outline-offset: 3px; }
-.view-panel.offcanvas, .view-panel.offcanvas.showing, .view-panel.offcanvas.hiding { transition: none; }
+/* Match the functional slide of the personal site's constellation panel. */
+.view-panel.offcanvas { --bs-offcanvas-transition: transform .35s cubic-bezier(.2,.7,.2,1); }
+.view-panel.offcanvas, .view-panel.offcanvas.showing, .view-panel.offcanvas.hiding { transition: var(--bs-offcanvas-transition); }
+body { transition: padding-right .35s cubic-bezier(.2,.7,.2,1); }
+@media (prefers-reduced-motion: reduce) {
+    .view-panel.offcanvas, .view-panel.offcanvas.showing, .view-panel.offcanvas.hiding, body { transition: none; }
+}
 /* The preview only changes the reading surface, never the panel's own controls. */
 :root:is([data-stadium="4"],[data-stadium="5"],[data-stadium="6"],[data-stadium="7"]) {
     font-size: var(--reader-size, var(--standard-reader-size, 18px));
