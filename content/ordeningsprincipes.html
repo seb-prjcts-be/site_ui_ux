@@ -1,82 +1,64 @@
 <div class="intro">
-    <p>Dit onderzoekscentrum groeit. Opdat het bruikbaar blijft als studiemateriaal en cursus, volgt al het materiaal dezelfde ordening: elf categorieën, zes chronologische thema's waarin psychologie en filosofie op elkaar betrokken worden, een betrouwbaarheidslabel én een expliciete argumentatieve functie op elke anekdote, en een vaste weg van inbox naar pagina.</p>
+    <p>Dit onderzoekscentrum groeit naarmate er nieuwe bronnen, anekdotes en lesideeën bijkomen. Om te voorkomen dat het een ongeordende stapel wordt, gelden voor elke toevoeging dezelfde regels.</p>
 </div>
 
 <div class="kernpunten">
     <span class="kernpunten-label">Kernpunten</span>
     <ul>
-        <li>Eén pagina per begrip, per anekdote of per bron; geen verzamelpagina's behalve de overzichten</li>
-        <li>Elke pagina: intro, kernpunten (bij theorie) of betrouwbaarheidslabel (bij anekdotes), chronologisch geordende secties en een sectie "Verwant"</li>
-        <li>Elke theoriepagina maakt expliciet waar psychologie en filosofie elkaar <strong>onderbouwen of tegenspreken</strong></li>
-        <li>Elke anekdote benoemt haar <strong>functie</strong> als bewijsstuk, grensgeval of tegenvoorbeeld binnen de zes thema's</li>
-        <li>Nieuw materiaal: eerst <code>docs/inbox.md</code>, dan <code>data/bronnen/</code>, dan een pagina</li>
+        <li>De kernstof is geordend in <strong>zes chronologische thema's (1910–2023)</strong>, aangevuld met Lessen, Introductie, Kennis als UX, Proefschriften, Bronnen, Werkplaats en Overzicht</li>
+        <li>Binnen elk thema staan <strong>psychologie</strong>, <strong>filosofie</strong> en <strong>anekdotes</strong> chronologisch bij elkaar, met expliciete onderbouwing en tegenspraak</li>
+        <li>Elke anekdote heeft een <strong>betrouwbaarheidslabel</strong> én een vaste slotsectie <strong>Functie van deze anekdote</strong></li>
+        <li>Nieuw materiaal loopt via drie plekken: <code>docs/inbox.md</code>, <code>data/bronnen/</code>, <code>content/</code></li>
     </ul>
 </div>
 
 <section>
-    <h2>De elf categorieën</h2>
-    <table>
-        <thead>
-            <tr><th>Categorie</th><th>Wat erin hoort</th><th>Wat er niet in hoort</th></tr>
-        </thead>
-        <tbody>
-            <tr><td>Lessen</td><td>Leerlingpagina's gekoppeld aan een interfacestadium</td><td>Losse achtergrondartikelen</td></tr>
-            <tr><td>Introductie</td><td>Oriëntatie en de zes chronologische thema's tussen filosofie en psychologie</td><td>Uitgewerkte deelstudies</td></tr>
-            <tr><td>Filosofie van de interface</td><td>Fenomenologie, affordances, mediatheorie, postfenomenologie en ethiek (chronologisch)</td><td>Zuiver kwantitatieve ergonomiewetten</td></tr>
-            <tr><td>Psychologie van de interface</td><td>Experimenteel onderbouwde principes met hun randvoorwaarden en filosofische spanning</td><td>Praktijkvuistregels zonder bron</td></tr>
-            <tr><td>Proefschriften</td><td>Geverifieerde doctoraten met universiteit, jaar en vindplaats</td><td>Algemene handboeken zonder doctoraatsbron</td></tr>
-            <tr><td>Anekdotes</td><td>Historische casussen (1968–2013) met betrouwbaarheidslabel én expliciete functie in het betoog</td><td>Losse verhalen zonder theoretische functie</td></tr>
-            <tr><td>Kunst en code</td><td>Artistieke interfaces, net.art en oefeningen in HTML en p5.js</td><td>Zuivere theorie zonder vorm- of codepraktijk</td></tr>
-            <tr><td>Kennis als UX</td><td>Principes die de site op zichzelf toepast en meetbaar maakt</td><td>Theorie zonder directe proef op de site</td></tr>
-            <tr><td>Bronnen</td><td>Leeslijst, repositories, zoektermen en de status van bronverificatie</td><td>Nieuwe theoriehoofdstukken</td></tr>
-            <tr><td>Werkplaats</td><td>Deze pagina en de sjabloonpagina</td><td>Onderzoeksinhoud</td></tr>
-            <tr><td>Overzicht</td><td>De chronologische tijdlijn van 1910 tot vandaag met eigen pictogrammen</td><td>Lange uitwerkingen; die horen op de deelpagina</td></tr>
-        </tbody>
-    </table>
-</section>
-
-<section>
-    <h2>Betrouwbaarheidslabels en functie van anekdotes</h2>
-    <p>Elke anekdote opent met een callout die de herkomst beoordeelt:</p>
+    <h2>De dertien groepen in het menu</h2>
+    <p>Elke pagina hoort bij precies één groep in <code>main.js</code>. De zes chronologische thema's vormen het hart van de site:</p>
     <ul>
-        <li><strong>Goed gedocumenteerd</strong> (groene callout): primaire bron, datum en auteurs zijn bekend en controleerbaar.</li>
-        <li><strong>Deels mythe</strong> (zwarte callout): de kerngebeurtenis klopt, maar cijfers, citaten of toeschrijvingen zijn in de overlevering vervormd.</li>
-        <li><strong>Zwak onderbouwd</strong> (zwarte callout): plausibel en vaak herhaald, maar zonder primaire bron.</li>
+        <li><strong>Lessen</strong>: leerlingpagina's, elk gekoppeld aan een stadium van de interface.</li>
+        <li><strong>Introductie</strong>: doel van de site en het overzicht van de zes chronologische thema's op <a href="#twee-fundamenten">Twee fundamenten</a>.</li>
+        <li><strong>1. Werktuig, lichaam en ruimte (1910–1968)</strong>: Gestalt, fenomenologie (Heidegger, Merleau-Ponty), Fitts &amp; Hick-Hyman en Engelbarts demo.</li>
+        <li><strong>2. Cognitieve modellen en breakdown (1970–1988)</strong>: van SHRDLU, Undo en Xerox PARC via Gibson en Norman naar Three Mile Island, Atkinson &amp; Kare, de Mac-menubalk, Therac-25, cognitieve belasting en de Norman-deur.</li>
+        <li><strong>3. Hypertext, boom en informatiegeur (1990–1999)</strong>: postfenomenologie, de eerste webpagina, Gopher versus het web, klikbaar beeld, Yahoo &amp; Google en navigatie/wayfinding.</li>
+        <li><strong>4. Schoonheid, ervaring en kritisch ontwerp (1995–2006)</strong>: het esthetiek-bruikbaarheidseffect, Clippy, mediatheorie &amp; kritisch design, Raskin &amp; Victor en Hassenzahl.</li>
+        <li><strong>5. Mediatie, overtuiging en A/B-data (1997–2015)</strong>: eye-tracking &amp; neuro-UX, de 300 miljoen dollar-knop, 41 tinten blauw en skeuomorfisme versus flat design.</li>
+        <li><strong>6. Ethiek, duistere patronen en kunstpraktijk (2010–2023)</strong>: ethiek van design, creative coding als interfacefilosofie, één knop in drie versies en ongebruikelijke interfaces.</li>
+        <li><strong>Kennis als UX</strong>: pagina's waarop de site haar eigen principes op zichzelf toepast en meetbaar maakt.</li>
+        <li><strong>Proefschriften</strong>: geverifieerde doctoraten (12 internationaal, 12 uit Nederland en België) en recente onderzoeksthema's.</li>
+        <li><strong>Bronnen</strong>: leeslijst, repositories en open vragen.</li>
+        <li><strong>Werkplaats</strong>: deze pagina en het sjabloon.</li>
+        <li><strong>Overzicht</strong>: de afsluitende <a href="#tijdlijn">tijdlijn</a>.</li>
     </ul>
-    <p>Daarnaast bevat elke anekdote een sectie <strong>Functie van deze anekdote</strong>. Daarin staat welk principe de casus <em>onderbouwt</em> en welke aanname zij <em>tegenspreekt of begrenst</em>. Een anekdote staat dus nooit op de site als vrijblijvend intermezzo.</p>
 </section>
 
 <section>
     <h2>Tags</h2>
-    <p>Tags verbinden pagina's dwars door de categorieën heen. Ze volgen een vast vocabulaire met drie soorten:</p>
+    <p>Elke pagina krijgt vijf tot tien tags in <code>main.js</code>. De rechterkolom gebruikt ze om verwante secties en verwante pagina's te vinden. Regels voor tags:</p>
     <ul>
-        <li><strong>Personen</strong>: achternaam met hoofdletter ("Verbeek", "Fitts", "Norman").</li>
-        <li><strong>Begrippen</strong>: kleine letter, Nederlands waar een gangbaar Nederlands woord bestaat ("mediatie", "breakdown", "affordance").</li>
-        <li><strong>Labels</strong>: "anekdote", "geverifieerd", "mythe", "proefschrift", "oefening".</li>
+        <li>Gebruik bestaande tags waar mogelijk, zodat pagina's elkaar vinden.</li>
+        <li>Persoonsnamen met hoofdletter: <code>Heidegger</code>, <code>Verbeek</code>, <code>Fitts</code>, <code>Norman</code>, <code>Hassenzahl</code>.</li>
+        <li>Begrippen in het Nederlands of in de ingeburgerde Engelse vorm: <code>fenomenologie</code>, <code>breakdown</code>, <code>affordance</code>, <code>signifier</code>, <code>dark patterns</code>, <code>cognitieve belasting</code>.</li>
+        <li>Elke anekdote krijgt de tag <code>anekdote</code> plus <code>geverifieerd</code> of <code>mythe</code>.</li>
+        <li>Elke Nederlandse tag krijgt een Engelse vertaling in <code>tagTranslations</code> in <code>main.js</code>.</li>
     </ul>
-    <p>De eerste tag van een pagina wordt standaard actief in de rechterkolom. Nieuwe tags krijgen een Engelse vertaling in <code>tagTranslations</code> in <code>main.js</code>.</p>
+</section>
+
+<section>
+    <h2>Betrouwbaarheidslabels én functie bij anekdotes</h2>
+    <p>Elke anekdotepagina begint met één regel onder de titel (<code>&lt;p class="betrouwbaarheid"&gt;</code>) en eindigt met een vaste sectie over haar rol in het betoog:</p>
+    <ul>
+        <li><strong>Goed gedocumenteerd</strong>: er zijn primaire bronnen, opnames, patenten of peer-reviewed reconstructies.</li>
+        <li><strong>Deels mythe</strong> of <strong>Zwak onderbouwd</strong>: de kern klopt of het verhaal is invloedrijk, maar de gangbare versie is aangezet of leunt op één bron.</li>
+        <li><strong>Functie van deze anekdote (Onderbouwing en tegenspraak in het thema)</strong>: elke anekdote sluit af met een sectie die benoemt welk psychologisch principe ze ondersteunt en welk filosofisch of methodisch tegenargument ze oproept.</li>
+    </ul>
 </section>
 
 <section>
     <h2>Van inbox naar pagina</h2>
     <ol class="stappen">
-        <li>Een idee, een bron of een los feit gaat eerst in <code>docs/inbox.md</code>.</li>
-        <li>Een volledig brondocument gaat in <code>data/bronnen/</code> met datum en herkomst.</li>
-        <li>Uit het brondocument worden pagina's gemaakt, één per begrip of anekdote, volgens de <a href="#voorbeeld-onderwerp">sjabloonpagina</a>.</li>
-        <li>Elke pagina krijgt haar chronologische plaats in de <code>onderwerpen</code>-array in <code>main.js</code> en een regel op de <a href="#tijdlijn">Tijdlijn van de interface</a>.</li>
-        <li>Wat nog niet primair gecontroleerd is, wordt gemarkeerd op <a href="#open-vragen">Open vragen</a>.</li>
-        <li>Beslissingen over structuur of categorieën gaan in <code>docs/decisions.md</code>.</li>
+        <li><strong>Inbox</strong>: een losse vondst (naam, citaat, link, gedachte) gaat eerst in <code>docs/inbox.md</code>, zonder vormvereisten.</li>
+        <li><strong>Bronmap</strong>: als een onderwerp uitgewerkt wordt, komt het bronoverzicht als markdown in <code>data/bronnen/</code>.</li>
+        <li><strong>Pagina</strong>: pas als het geordend is, wordt het een HTML-fragment in <code>content/</code> en een ingang in het juiste chronologische thema in <code>main.js</code>, met de structuur van de <a href="#voorbeeld-onderwerp">sjabloonpagina</a>.</li>
     </ol>
-</section>
-
-<section>
-    <h2>Schrijfregels</h2>
-    <ul>
-        <li>Schrijf voor de lezer, nooit voor de beheerder. Geen "voor in de les", geen "laat studenten".</li>
-        <li>Oefeningen beginnen met "Oefening:" en spreken de lezer aan met "je".</li>
-        <li>Namen van boeken cursief, jaartal tussen haakjes bij de eerste vermelding.</li>
-        <li>Samengestelde sectiekoppen gebruiken twee niveaus (<code>h1</code> en <code>h2</code>) in plaats van een streepje of dubbele punt in één regel.</li>
-        <li>Een bewering zonder primaire bron krijgt een "Let op"-callout, geen stilzwijgen.</li>
-        <li>Een link noemt zijn bestemming. Nooit "klik hier", "hier" of "lees meer". Zie <a href="#klik-hier">Klik hier, en waarom niet</a>.</li>
-    </ul>
 </section>
