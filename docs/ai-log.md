@@ -455,3 +455,67 @@ content/proefschriften-lage-landen.html, content/tijdlijn.html,
 content/open-vragen.html, content/ordeningsprincipes.html,
 alle 18 anekdotebestanden in content/, data/bronnen/filosofie-psychologie-interface.md,
 main.js, leerplan.md, docs/decisions.md, docs/ai-log.md
+
+## 2026-10-21 - Vijf beoordelings- en verbeteringsrondes
+
+Opdracht: de huidige site zelfstandig beoordelen, zonder eerdere plannen als norm,
+op duidelijkheid, zinvolheid, didactiek, consistentie en wetenschappelijke kwaliteit.
+Stop na vijf rondes of zodra alle criteria minstens 8/10 halen.
+
+Beoordelingsbasis: de 53 gepubliceerde inhoudsfragmenten en hun metadata globaal
+geïnventariseerd; introductie, twee lessen, meetoefeningen, casussen en bronoverzichten
+gericht gelezen. Browsercontrole van startpagina, beide lessen, interactieve
+linkteksten, ordening, lesnavigatie en Nederlandse terugval bij Engelse taalkeuze.
+Geen volledige verificatie van iedere historische claim; geen studententest.
+Eerdere leerplannen en beslisnotities zijn niet als eisen gebruikt.
+
+Rubriek (redactioneel oordeel, geen objectieve meting):
+- Duidelijkheid: doel, begrippen, instap en verwachtingen zijn begrijpelijk.
+- Zinvolheid: stof en oefeningen helpen beargumenteerd interfaces ontwerpen.
+- Didactiek: doelen, activiteit, bewijs van leren en feedbackcriteria sluiten aan.
+- Consistentie: menu, teksten, terminologie en feitelijk aanbod stemmen overeen.
+- Wetenschappelijk: claims zijn traceerbaar, afgebakend en gescheiden van interpretatie.
+Een 8 betekent goed bruikbaar met beperkte tekortkomingen. Scores betreffen de
+hele huidige cursus, niet alleen de twee verbeterde lessen.
+
+| Moment | Duidelijkheid | Zinvol | Didactisch | Consistentie | Wetenschappelijk |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Begin | 6,5 | 8 | 6 | 5,5 | 6 |
+| Na ronde 1 | 7,5 | 8 | 6 | 6,5 | 6 |
+| Na ronde 2 | 8 | 8,5 | 7,5 | 7 | 6,5 |
+| Na ronde 3 | 8 | 8,5 | 7,5 | 7 | 7 |
+| Na ronde 4 | 8 | 8,5 | 7,5 | 8 | 7,5 |
+| Na ronde 5 | 8 | 8,5 | 7,5 | 8 | 7,5 |
+
+1. Introductie gelijkgetrokken met de zes bestaande menuthema's; hun tijdvakken
+   als overlappende zwaartepunten beschreven. Onderscheid lessen/bronnenarchief.
+2. Beide lessen aangevuld met leerdoelen, tijdsindicatie, onderzoeksopdracht,
+   concrete inlevervorm en beoordelingscriteria. Historische browsers genuanceerd.
+3. Fitts-variant, Fogg-notatie en beperkingen van de meetdemo's verduidelijkt.
+   Filosofische duiding onderscheiden van empirische bevestiging. Onvoldoende
+   gedekte claims over volledig geverifieerde doctoraten afgezwakt.
+4. Themanamen bij de casussen gesynchroniseerd met hun feitelijke menugroep.
+   Spools 45%-claim hersteld op basis van zijn oorspronkelijke verslag.
+   Drie-knoppenopdracht voorzien van uitwerking en beoordelingscriteria.
+5. Technische en browsercontrole; expliciete melding en lang-attribuut voor
+   Nederlandse tekst onder de Engelse interface. Script-cacheversie bijgewerkt.
+
+Gerichte primaire bronnen, geraadpleegd op 21 oktober 2026:
+- https://worldwideweb.cern.ch/history/ - grafische browser/editor in 1990.
+- https://www.yorku.ca/mack/CHI92.html - Fitts- en Shannon-formuleringen.
+- https://www.behaviormodel.org/home - samenkomen van motivatie, ability, prompt.
+- https://articles.centercentre.com/three_hund_million_button/ - twee verschillende
+  45%-uitspraken (meervoudige registraties en toename kopende klanten).
+
+Validatie: node --check main.js; git diff --check; alle 53 contentFile-paden
+bestaan en geven HTTP 200 op localhost; interne a-hrefs verwijzen naar bestaande
+onderwerpen of lokale ankers. SVG-use-verwijzingen zijn lokale pictogrammen,
+geen routerfouten. Browser: linktekst wisselt zonder bestemmingswijziging,
+volgende opent les 2, thematische ordening behoudt dezelfde acht onderwerpen,
+Engelse interface meldt dat het artikel Nederlands is.
+
+Resterend: complete didactische dekking buiten de twee lessen; directe primaire
+bronrecords per relevante claim; systematische controle van de volledige
+bibliografie; gebruikstest met studenten. De smalle viewport zet een lang menu
+boven de inhoud en vraagt nog onderzoek naar de bereikbaarheid van de tekst.
+Daarom na vijf rondes gestopt zonder te beweren dat elk criterium 8 haalt.

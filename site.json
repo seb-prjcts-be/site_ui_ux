@@ -21,7 +21,7 @@
     {
       "path": "/#<id>",
       "title": "Onderwerppagina",
-      "purpose": "Een pagina per begrip, anekdote of bron, in acht categorieën (zie README)",
+      "purpose": "Een pagina per begrip, anekdote of bron, in dertien groepen (zie main.js)",
       "status": "live",
       "public": true,
       "ai_may_change_content": true,

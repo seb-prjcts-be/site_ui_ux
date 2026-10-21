@@ -23,7 +23,7 @@ const i18n = {
         welcomeTitle: "Welkom bij de UI/UX Cursus",
         welcomeText1: "Kies een onderwerp uit het menu om te beginnen, of gebruik de zoekfunctie om specifieke onderwerpen te vinden.",
         welcomeText2: "",
-        welcomeQuote: "Psychologie meet efficiëntie. Filosofie en kritisch design vragen wat een interface met ons doet. Dit onderzoekscentrum werkt in het spanningsveld tussen die twee: eerst als studiemateriaal voor de docent, later als cursus voor studenten.",
+        welcomeQuote: "Onderzoek hoe interfaces ons handelen, waarnemen en ervaren vormen. Psychologie helpt effecten meten; filosofie en kritisch design helpen de betekenis en wenselijkheid ervan bespreken. Twee lessen zijn uitgewerkt; de overige pagina’s vormen een thematisch bronnenarchief.",
         welcomeQuote2: "",
         welcomeAuthor: "Uitgangspunt van dit onderzoekscentrum",
         fontSizeLabel: "Lettergrootte",
@@ -88,7 +88,7 @@ const i18n = {
         welcomeTitle: "Welcome to the UI/UX Course",
         welcomeText1: "Pick a topic from the menu to get started, or use the search to find specific subjects.",
         welcomeText2: "",
-        welcomeQuote: "Psychology measures efficiency. Philosophy and critical design ask what an interface does to us. This research centre works in the tension between the two: first as study material for the teacher, later as a course for students.",
+        welcomeQuote: "Explore how interfaces shape action, perception and experience. Psychology helps measure effects; philosophy and critical design help discuss their meaning and desirability. Two lessons are developed; the other pages form a thematic reference collection. Most articles are currently in Dutch.",
         welcomeQuote2: "",
         welcomeAuthor: "Starting point of this research centre",
         fontSizeLabel: "Font size",
@@ -367,8 +367,8 @@ const onderwerpen = [
     {
         id: "fitts-en-hick-hyman",
         titel: "Fitts' law en Hick-Hyman",
-        samenvatting: "Psychologie (1952–1986) · Onderbouwing van zuhandenheid in milliseconden: keuzetijd (1952–1953) en bewegingstijd (1954), en hoe Card (1978, 1983) en Buxton (1986) ze in HCI brachten.",
-        en: { titel: "Fitts' law and Hick-Hyman", samenvatting: "Psychology (1952–1986) · Empirical grounding of readiness-to-hand: choice time (1952–1953) and movement time (1954), and how Card (1978, 1983) and Buxton (1986) brought them into HCI." },
+        samenvatting: "Psychologie (1952–1986) · Modellen voor keuzetijd (1952–1953) en bewegingstijd (1954), en hoe Card (1978, 1983) en Buxton (1986) ze in HCI brachten.",
+        en: { titel: "Fitts' law and Hick-Hyman", samenvatting: "Psychology (1952–1986) · Models of choice time (1952–1953) and movement time (1954), and how Card (1978, 1983) and Buxton (1986) brought them into HCI." },
         tags: ["Fitts", "Hick-Hyman", "bewegingstijd", "keuzetijd", "Card", "Buxton", "Xerox PARC", "muis"],
         contentFile: "content/fitts-en-hick-hyman.html",
         categorie: "Thema 1: Werktuig, lichaam en ruimte (1910–1968)"
@@ -423,8 +423,8 @@ const onderwerpen = [
     {
         id: "three-mile-island",
         titel: "Three Mile Island",
-        samenvatting: "Anekdote (1979) · Functie: bewijst de fatale kloof in een hermeneutische relatie (Ihde) wanneer een lampje de verzonden opdracht toont in plaats van de werkelijke kleptoestand.",
-        en: { titel: "Three Mile Island", samenvatting: "Anecdote (1979) · Function: proves the fatal gap in a hermeneutic relation (Ihde) when an indicator shows the command sent instead of the actual valve state." },
+        samenvatting: "Anekdote (1979) · Functie: illustreert het gevaar wanneer een indicator de opdracht toont in plaats van de kleptoestand; te analyseren met Ihdes hermeneutische relatie.",
+        en: { titel: "Three Mile Island", samenvatting: "Anecdote (1979) · Function: illustrates the danger when an indicator shows a command instead of valve state; interpretable through Ihde’s hermeneutic relation." },
         tags: ["anekdote", "geverifieerd", "Three Mile Island", "Norman", "veiligheid", "controlekamer", "human error", "toestand"],
         contentFile: "content/three-mile-island.html",
         categorie: "Thema 2: Cognitieve modellen en breakdown (1970–1988)"
@@ -723,8 +723,8 @@ const onderwerpen = [
     {
         id: "proefschriften-internationaal",
         titel: "Internationale pioniers",
-        samenvatting: "Twaalf geverifieerde doctoraten van Card (1978) tot Mathur (2020), inclusief Fogg (1997) en Dunne (1997), met vindplaats en invalshoek.",
-        en: { titel: "International pioneers", samenvatting: "Twelve verified doctorates from Card (1978) to Mathur (2020), including Fogg (1997) and Dunne (1997), with location and angle." },
+        samenvatting: "Twaalf doctoraten en sleutelstudies van Card (1978) tot Mathur (2020), inclusief Fogg (1997) en Dunne (1997), met vindplaats en invalshoek.",
+        en: { titel: "International pioneers", samenvatting: "Twelve selected doctorates and key studies from Card (1978) to Mathur (2020), including Fogg (1997) and Dunne (1997), with location and angle." },
         tags: ["proefschrift", "Card", "Buxton", "Preece", "Dourish", "Fogg", "Dunne", "Höök", "Sengers", "Redström", "Harwood", "Hassenzahl", "Mathur", "open access"],
         contentFile: "content/proefschriften-internationaal.html",
         categorie: "Proefschriften"
@@ -2089,9 +2089,12 @@ async function renderOnderwerp(onderwerp) {
             // Fallback naar NL als EN-bestand niet bestaat
             if (!response.ok && currentLang !== 'nl') {
                 response = await fetch(onderwerp.contentFile, { cache: "no-cache" });
+                if (response.ok) {
+                    htmlContent = '<p lang="en">This article is currently available in Dutch only.</p><div lang="nl">' + await response.text() + '</div>';
+                }
             }
             if (response.ok) {
-                htmlContent = await response.text();
+                if (!htmlContent) htmlContent = await response.text();
                 cacheOnderwerpText(onderwerp.id, extractPlainText(htmlContent));
             } else {
                 htmlContent = `<p>${t('contentNotFound')}</p>`;
@@ -2680,7 +2683,7 @@ function journeyExitUrl() {
 }
 
 function journeyInvitation() {
-    return `<section class="journey-invitation"><h2>Lessen</h2><p><a href="${journeyUrl(0)}">Les 1: De link</a></p><p><a href="${journeyUrl(1)}">Les 2: Koppen en de lijst</a></p></section>`;
+    return `<section class="journey-invitation"><h2>Lessen</h2><p>Begin met de link en onderzoek daarna hoe ordening je weg bepaalt. Je hebt een browser en een notitieblad nodig; programmeerkennis is voor deze twee lessen niet vereist.</p><p><a href="${journeyUrl(0)}">Les 1: De link</a></p><p><a href="${journeyUrl(1)}">Les 2: Koppen en de lijst</a></p></section>`;
 }
 
 function journeyNav(bottom = false) {

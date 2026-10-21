@@ -13,19 +13,12 @@ het raster kan zichtbaar worden gemaakt. Onder Regels staan de uitgangspunten en
 
 ## Inhoud
 
-Elf categorieën, in leesvolgorde:
-
-0. **Lessen**: leerlingpagina's met een stadium (zie hieronder)
-1. **Introductie**: over het onderzoekscentrum, de twee fundamenten (filosofie en psychologie)
-2. **Filosofie van de interface**: fenomenologie en breakdown, affordances en signifiers, postfenomenologie en mediatie, ethiek van design, esthetiek en mediatheorie
-3. **Psychologie van de interface**: overzicht van principes, Fitts en Hick-Hyman, geheugen en cognitieve belasting, esthetiek-bruikbaarheid, Hassenzahl, eye-tracking en neuro-UX
-4. **Proefschriften**: internationale pioniers, Nederland en België, recente thema's
-5. **Anekdotes**: dertien verhalen, elk met een betrouwbaarheidslabel (goed gedocumenteerd, deels mythe, zwak onderbouwd)
-6. **Kunst en code**: creative coding als interfacefilosofie, lesidee "één knop, drie versies"
-7. **Kennis als UX**: de site past toe wat ze uitlegt, met live demo's; eerste pagina "Klik hier, en waarom niet"
-8. **Bronnen**: leeslijst, repositories en zoektermen, open vragen
-9. **Werkplaats**: ordeningsprincipes, sjabloonpagina
-10. **Overzicht**: tijdlijn van de interface, alle inzichten chronologisch met eigen SVG-pictogrammen
+Dertien groepen: Lessen, Introductie, zes historische thema’s, Kennis als UX,
+Proefschriften, Bronnen, Werkplaats en Overzicht. De actuele titels en toewijzing
+staan in `main.js`. Twee lessen zijn uitgewerkt; de andere pagina’s zijn een
+bronnenarchief en losse onderzoeksoefeningen. De periodes zijn zwaartepunten,
+geen gesloten tijdvakken. De selectie proefschriften bevat ook sleutelstudies;
+niet elk bronrecord is al rechtstreeks gelinkt.
 
 ## Interfaceweergaven
 
