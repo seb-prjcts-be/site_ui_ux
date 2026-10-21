@@ -576,3 +576,7 @@ Technische eindvalidatie: alle 53 inhoudsfragmenten HTTP 200 en alle 53 unieke r
 ## 2026-10-21 - Geautoriseerde PHP/SQLite-migratie
 
 53 onderwerpen, 54 taalfragmenten, 113 claims en 636 criteria geïmporteerd met oorspronkelijke controledatums en hashes. Site, navigatie, zoeken en weergaven lezen actieve SQLite-data. Drie beheerpagina’s aangepast aan de nieuwe architectuur; oude reviews blijven herkenbaar verouderd. GET/HEAD-API, CLI-beheer, historie, automatische back-ups en afzonderlijke stylesheets toegevoegd. Geïsoleerde migratietest en live controles op alle 53 pagina’s geslaagd; geen nieuwe vakinhoudelijke of deelnemerstudie uitgevoerd.
+
+## 2026-10-21 - Witte standaardstijl
+
+Instrument Sans, rustige typografische hiërarchie, lichtere kaders, zichtbare focus en directe weergave van pagina/menu/zoekresultaten toegepast op verzoek. Bootstrap- en code-iconen behouden hun eigen lettertype; code blijft monospace. Inhoud en reviewdatums behouden. Technische controle afzonderlijk vernieuwd.

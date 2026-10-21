@@ -10384,7 +10384,7 @@
             {
                 "file": "main.js",
                 "checked_hash": "a22ee5c23d366b385135d6bee36a87d4ef4ed2faee5e24cde13f9c11f0ae0cd4",
-                "current_hash": "e38a30d253f48ca6d4dd33d21f91f41d17fa1d1ba91f3980d2361ea108a20b17",
+                "current_hash": "018c1308a5b0309754fe35b3b85f48a7f7e0a6163483195289422c41b30f4a45",
                 "needs_review": true
             },
             {
@@ -10396,8 +10396,8 @@
             {
                 "file": "style.css",
                 "checked_hash": "cf0409ff19e25bf786799040f353cba44ce99743856f48064208b30ba39f0716",
-                "current_hash": "cf0409ff19e25bf786799040f353cba44ce99743856f48064208b30ba39f0716",
-                "needs_review": false
+                "current_hash": "a276ea035833f778706bee704c53421cbd238c7e7181ea6cee46d5c6a16722a9",
+                "needs_review": true
             },
             {
                 "file": "stadia.css",
@@ -10407,25 +10407,25 @@
             }
         ],
         "technical_validation": {
-            "validated_at": "2026-10-21T16:01:02+00:00",
+            "validated_at": "2026-10-21T16:12:12+00:00",
             "scope": "Technisch: SQLite-integriteit, inhoudshashes, alle 53 API- en legacyadressen, reviewpagina's, afgeschermde bestanden en foutafhandeling. Geen nieuwe inhoudelijke broncontrole.",
             "contents": 54,
             "topics": 53,
             "file_hashes": {
-                "index.php": "99d6ac84ce5a426779e4203f3879a775d40d1ca66ead8f025b4f83311e55dbdc",
+                "index.php": "c54bb3a543cba3942c6242c75fab188c1582dee6cb7fc9ff6dad22d77e1bb9a7",
                 "api.php": "330743fa164723954f696bcde6632c0288fe77d7e39cd9825475ff20d4efb100",
-                "checks.php": "0b41e8c234d6328c523cfe908eeefce08f32f38f66f50757870600f8fd0062fa",
+                "checks.php": "374574a2108a0489949651862b4e76027faf94f6bdb7c77d2085a15c08a3cedd",
                 "lib/course.php": "5ef35bc60eb518b9ce98aeda30460f2b2f10e878d6d6ace49ef27ad60b8a1ba5",
                 "lib/manage.php": "0eb63f74f9e60a54c485223ca2d6b4eb10792d1e1fc7146419f08087c3678a41",
-                "main.js": "e38a30d253f48ca6d4dd33d21f91f41d17fa1d1ba91f3980d2361ea108a20b17",
+                "main.js": "018c1308a5b0309754fe35b3b85f48a7f7e0a6163483195289422c41b30f4a45",
                 "stadia.css": "345f8c7f381f10e680e4d8bf5980e91464c51aee798bad061fa651658aa391ef",
-                "style.css": "cf0409ff19e25bf786799040f353cba44ce99743856f48064208b30ba39f0716",
+                "style.css": "a276ea035833f778706bee704c53421cbd238c7e7181ea6cee46d5c6a16722a9",
                 ".htaccess": "ee99cc74ba8ad3ac80c744fc276b34014859f8f52f5e098208760a356aba7d77",
-                "styles/composition.css": "6a326ce1eec39c2f8cf8fd8c8a2df794ed8dd8820d25dd46c98e4c2dbfb292e4",
+                "styles/composition.css": "b1e987039779eab229fdf19196ca0def4ae976a7e4465d8c9223e74b08faa615",
                 "styles/column.css": "9e65d9747de9b82adcb5a2e65c208593fd0007cb4939e0c1e5bb27e2ed2742b6",
                 "styles/grid.css": "3da00c0df5aae203228b19a8591ca2263163944127ba350188582ed142aacada",
                 "styles/flex.css": "e2c4d070cd0814a22c6a75d9b0de85641d0386113ff7d2127f35e54da8412935",
-                "styles/checks.css": "cdb2a0dabd09cbea4e3cd2a3e7333a897b40aebc2b0c676d3bcabbdaeddef56f",
+                "styles/checks.css": "603a9d3227e979bbbc82636fa20caad237d148258083619314549c5fba7477c4",
                 "tools/validate.php": "d69aa0c8bbcdbe4480db8bfacb773fa974414d1eb24844d100918b99f69a5d71"
             }
         },

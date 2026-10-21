@@ -3,7 +3,7 @@
     position: relative; isolation: isolate; container-type: inline-size;
     --composition-gap: 1.25rem; --composition-columns: 1;
 }
-.composition-controls { margin: 0 0 1.5rem; font: .85rem/1.5 Arial,sans-serif; }
+.composition-controls { margin: 0 0 1.5rem; font: .85rem/1.5 var(--font-body, system-ui, sans-serif); }
 .composition-controls nav { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; position: static; grid-area: auto; border: 0; padding: 0; background: transparent; max-height: none; margin-bottom: .6rem; }
 .composition-controls a { font: inherit; }
 .composition-controls a[aria-current="true"] { font-weight: bold; text-decoration-thickness: 3px; text-underline-offset: .2em; }

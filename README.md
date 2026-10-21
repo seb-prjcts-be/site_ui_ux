@@ -147,8 +147,10 @@ rendert dan secties, leerdoelen en oefeningen per niveau (Nabootsen, Variëren, 
 
 ## Huisstijl
 
-Zwart-wit minimalisme met één accentkleur `rgb(255, 0, 125)` (`--accent-pink`).
-Titels in Oswald, lopende tekst in Alegreya, labels en bijschriften in IBM Plex Sans (`--font-anker`).
+Witte standaardinterface met Instrument Sans voor tekst, koppen en bediening.
+Donkere tekst, subtiele grijze lijnen, onderstreepte tekstlinks en zichtbare toetsenbordfocus.
+Geen decoratieve entreeanimaties; onderwijsdemo’s behouden hun werking. De browser gebruikt
+zo nodig het systeemlettertype zonder te wachten op de webfont (`display=optional`).
 
 ## Licentie
 

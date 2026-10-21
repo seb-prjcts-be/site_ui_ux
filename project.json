@@ -67,6 +67,11 @@
       "date": "2026-10-21",
       "authorization": "Zet het zelfstandig over. In de database kan geupdate worden wanneer zaken laatst zijn gechecked.",
       "scope": "Volledige PHP/SQLite-migratie met afzonderlijke CSS-weergaven, behoud publieke adressen en expliciete controlehistoriek."
+    },
+    {
+      "date": "2026-10-21",
+      "authorization": "eerste standaard css optimaliseren naar minimaal hedendaags design. non flash white instrument sans.",
+      "scope": "Witte minimale standaardstijl met Instrument Sans en zonder decoratieve entreeanimaties."
     }
   ]
 }

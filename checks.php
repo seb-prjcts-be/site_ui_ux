@@ -24,7 +24,8 @@ header('Cache-Control: no-cache');
 ?>
 <!doctype html>
 <html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bron- en kwaliteitscontroles - UI/UX Cursus</title><link rel="stylesheet" href="styles/checks.css"></head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=optional">
+<title>Bron- en kwaliteitscontroles - UI/UX Cursus</title><link rel="stylesheet" href="styles/checks.css?v=instrument1"></head>
 <body><header><a href="index.php">UI/UX Cursus</a><h1>Bron- en kwaliteitscontroles</h1></header><main>
 <p>Een controledatum zegt wanneer de genoemde versie en scope zijn bekeken. Ze bewijst geen juistheid of leerwinst. Een mislukte bronpoging krijgt een eigen datum en overschrijft de laatste geslaagde controle niet. Importeren of een pagina openen telt niet als nieuwe controle.</p>
 <p><a href="api.php?resource=reviews">Volledig actueel reviewregister (JSON)</a> · <a href="checks.php">Alle onderwerpen</a></p>

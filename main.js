@@ -655,6 +655,7 @@ function renderTagContext(contextData) {
 // Laat de dynamische tag-resultaten (resultaat-chips + gerelateerde onderwerpen)
 // zacht binnenkomen na een tag-klik; de vaste tags van de pagina blijven gewoon staan.
 function animateTagResultsIn(sidebar) {
+    if (getComputedStyle(document.documentElement).getPropertyValue('--interface-motion').trim() === 'none') return;
     if (typeof gsap === 'undefined') return;
     if (prefersQuietInterface()) return;
 
@@ -1756,6 +1757,7 @@ async function renderOnderwerp(onderwerp) {
 // Laat de blokken van een vers geladen pagina zacht na elkaar verschijnen (GSAP).
 // Valt stil terug op direct tonen als GSAP ontbreekt of de gebruiker minder beweging wil.
 function animatePageIn(content) {
+    if (getComputedStyle(document.documentElement).getPropertyValue('--interface-motion').trim() === 'none') return;
     if (document.documentElement.classList.contains('is-switching-interface')) return;
     if (typeof gsap === 'undefined') return;
     if (currentStadium < 6) return;
@@ -1849,6 +1851,7 @@ function setGroupOpen(group, isOpen) {
 // Laat de menu-items van een net geopende navigatiegroep trapsgewijs binnenglijden (GSAP).
 // De hoogte-animatie zelf blijft bij de bestaande CSS-transition op .nav-sublist.
 function animateNavGroupItems(group) {
+    if (getComputedStyle(document.documentElement).getPropertyValue('--interface-motion').trim() === 'none') return;
     if (typeof gsap === 'undefined') return;
     if (prefersQuietInterface()) return;
 
@@ -2002,6 +2005,7 @@ function initSearch() {
 
 // Laat zoekresultaten zacht binnenkomen tijdens het typen (GSAP micro-interactie).
 function animateSearchResultsIn(searchResults) {
+    if (getComputedStyle(document.documentElement).getPropertyValue('--interface-motion').trim() === 'none') return;
     if (typeof gsap === 'undefined') return;
     if (prefersQuietInterface()) return;
 

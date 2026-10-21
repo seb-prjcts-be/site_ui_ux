@@ -1,12 +1,12 @@
 :root { color-scheme: light; }
-body { max-width: 76rem; margin: auto; padding: 1.5rem; color: #111; background: white; font: 1.05rem/1.65 Georgia,serif; }
-h1,h2,h3,h4 { font-family: Arial,sans-serif; line-height: 1.25; overflow-wrap: anywhere; }
+body { max-width: 76rem; margin: auto; padding: 1.5rem; color: #111; background: white; font: 1.05rem/1.65 "Instrument Sans",system-ui,sans-serif; }
+h1,h2,h3,h4 { font-family: "Instrument Sans",system-ui,sans-serif; line-height: 1.25; overflow-wrap: anywhere; }
 header,section,article { padding-block: 1rem; border-bottom: 1px solid #ddd; }
 a { color: inherit; text-underline-offset: .2em; }
-a:hover { color: #b00057; }
-aside { border-left: 3px solid #ff007d; padding: .5rem 1rem; background: #fafafa; }
+a:hover { color: #292929; }
+aside { border-left: 3px solid #292929; padding: .5rem 1rem; background: #fafafa; }
 table { border-collapse: collapse; width: 100%; }
 th,td { text-align: left; vertical-align: top; border-bottom: 1px solid #ddd; padding: .6rem; }
 .table-scroll { overflow-x: auto; }
-:focus-visible { outline: 2px solid #b00057; outline-offset: 3px; }
+:focus-visible { outline: 2px solid #292929; outline-offset: 3px; }
 summary { cursor: pointer; }
