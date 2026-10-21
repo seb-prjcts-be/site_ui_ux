@@ -40,6 +40,7 @@ header('Cache-Control: no-cache');
     <link id="style-kolom" rel="stylesheet" href="styles/column.css?v=sqlite1">
     <link id="style-raster" rel="stylesheet" href="styles/grid.css?v=sqlite1">
     <link id="style-flexibel" rel="stylesheet" href="styles/flex.css?v=sqlite1">
+    <link id="style-view-panel" rel="stylesheet" href="styles/view-panel.css?v=5">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 </head>
 <body>
@@ -48,6 +49,7 @@ header('Cache-Control: no-cache');
             <a href="#" class="site-title-link"><h1>UI/UX Cursus</h1>
             <p class="subtitle">Ontwerpen voor mensen, van schets tot scherm</p></a>
         </div>
+        <button id="view-toggle" class="view-toggle" type="button" aria-controls="view-panel" aria-expanded="false" hidden>Weergave</button>
         <div class="lang-controls" aria-label="Taal / Language">
             <button class="lang-btn is-active" data-lang="nl" title="Nederlands">NL</button>
             <button class="lang-btn" data-lang="en" title="English">EN</button>
@@ -76,12 +78,24 @@ header('Cache-Control: no-cache');
         <noscript><p>Je kunt de cursus lezen via het menu. Interactieve demo’s vragen JavaScript.</p></noscript>
     </main>
 
+    <div class="offcanvas offcanvas-end view-panel" tabindex="-1" id="view-panel" aria-labelledby="view-panel-title">
+        <div class="offcanvas-header"><h2 id="view-panel-title">Weergave</h2><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Sluiten"></button></div>
+        <div class="offcanvas-body">
+            <p>Pas de weergave live aan. De inhoud blijft gelijk; je proef wordt alleen in deze browser bewaard.</p>
+            <h3>Compositie</h3><div id="view-composition"><p>Open een archiefpagina om indelingen te vergelijken.</p></div>
+            <h3>Typografie en ruimte</h3><div id="view-fields"></div>
+            <div id="view-experiments"></div>
+            <div class="view-actions"><button id="view-reset" type="button">Herstel standaard</button><button id="view-export" type="button">Exporteer CSS</button></div>
+            <p id="view-status" role="status" aria-live="polite"></p>
+        </div>
+    </div>
     <footer>
         <p>UI/UX Cursus - Lab44 - Sebastien Vanblaere</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>window.COURSE_DATA = <?= json_encode($bootstrap, JSON_THROW_ON_ERROR | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;</script>
-    <script src="main.js?v=20261021-leerlijn2"></script>
+    <script src="view-panel.js?v=3"></script>
+    <script src="main.js?v=20261021-panel2"></script>
 </body>
 </html>

@@ -291,3 +291,6 @@ html[data-stadium="7"] .interface-references ul { display: grid; grid-template-c
     .onderwerp-page h1 { font-size: 1.8em; hyphens: auto; }
     .onderwerp-page h2 { font-size: 1.2em; hyphens: auto; }
 }
+
+/* Vormgevingsgereedschap hoort niet bij de eenvoudige browsercondities. */
+html:is([data-stadium="0"],[data-stadium="1"],[data-stadium="2"],[data-stadium="3"]) :is(#view-toggle,#view-panel) { display: none; }

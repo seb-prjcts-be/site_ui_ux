@@ -584,3 +584,7 @@ Instrument Sans, rustige typografische hiërarchie, lichtere kaders, zichtbare f
 ## 2026-10-21 - Lege leerlijn en bestaand archief
 
 Seb koos expliciet voor zes lege stappen met behoud van de bestaande inhoud als archief. Herkennen, Begrijpen, Oriënteren, Handelen, Afwegen en Onderzoeken bestaan als SQLite-items met lege inhoudsstatus, NL/EN en 12 open criteria zonder controledatum. De oorspronkelijke 53 inhoudsversies en reviews blijven behouden. Lessen is vervangen door Leerlijn; de twee vroegere items staan onder Eerdere uitwerkingen met hun bestaande adressen. De homepage zet de zes stappen voorop en het archief is uitklapbaar. Vorige/volgende blijft binnen leerlijn of archief.
+
+## 2026-10-21 - Weergavepaneel met live CSS
+
+Op Sebs akkoord gebruikt de site de al geladen Bootstrap Offcanvas voor een rechterpaneel. Compositiebediening verplaatst; paginateller verborgen. Zes CSS-variabelen hebben live schuiven, begrensde lokale opslag, herstel en CSS-export. Brede schermen houden de pagina bedienbaar; smalle schermen gebruiken Bootstrap backdrop/focusbeheer. Geen serverwrites of nieuwe wetenschappelijke beoordeling. Browserproeven: openen, live fontwijziging, bewaren na herladen, compositiewissel, exportstatus, herstellen en Escape met focusterugkeer gecontroleerd.

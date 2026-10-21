@@ -1,0 +1,44 @@
+.view-toggle { font: .8rem var(--font-body); padding: .6rem .8rem; border: 1px solid var(--border-color); border-radius: 4px; background: white; color: var(--text-color); }
+.view-panel.offcanvas { --bs-offcanvas-width: 396px; max-width: 100%; background: white; color: #202124; font: 15px/1.5 'Instrument Sans',system-ui,sans-serif; }
+.view-panel .offcanvas-header { border-bottom: 1px solid #e5e7e9; padding: 1.25rem; }
+.view-panel h2 { font: 600 1.1rem/1.3 'Instrument Sans',system-ui,sans-serif; margin: 0; }
+.view-panel h3 { font: 600 .9rem/1.4 'Instrument Sans',system-ui,sans-serif; margin: 1.5rem 0 .8rem; }
+.view-panel .offcanvas-body { padding: 1.25rem; }
+.view-panel p, .view-panel label, .view-panel a { font-family: inherit; }
+.view-panel .view-field { display: block; margin-block: 1rem; }
+.view-panel .view-field output { float: right; font-variant-numeric: tabular-nums; }
+.view-panel input[type=range] { display: block; width: 100%; margin-top: .5rem; accent-color: #292929; }
+.view-panel .view-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
+.view-panel .view-actions button { font: inherit; padding: .55rem .7rem; background: white; border: 1px solid #bbb; border-radius: 3px; }
+.view-panel .composition-controls { margin-bottom: 1rem; }
+.view-panel .composition-controls nav { padding: 0; }
+.view-panel .journey-activity { border-width: 1px; font-size: .8rem; }
+.view-panel :focus-visible, .view-toggle:focus-visible { outline: 2px solid #202124; outline-offset: 3px; }
+.view-panel.offcanvas, .view-panel.offcanvas.showing, .view-panel.offcanvas.hiding { transition: none; }
+/* The preview only changes the reading surface, never the panel's own controls. */
+:root:is([data-stadium="4"],[data-stadium="5"],[data-stadium="6"],[data-stadium="7"]) {
+    font-size: var(--reader-size, var(--standard-reader-size, 18px));
+}
+body > header { min-height: var(--header-space, 20svh); }
+body > main { padding-inline: var(--page-gutter, 2rem); }
+.search-container { padding-inline: var(--page-gutter, 2rem); }
+.onderwerp-page .onderwerp-content p, .welcome p { line-height: var(--reader-leading, 1.7); }
+.onderwerp-content > p, .onderwerp-content > section > p, .welcome > p, .welcome-quote { max-width: var(--reader-width, 68ch); }
+.onderwerp-page section { margin-bottom: var(--section-space, 2.5rem); }
+.stapteller { display: none; }
+@media (min-width: 1100px) {
+    body.view-panel-open { padding-right: 396px; }
+}
+@media (max-width: 768px) {
+    body > main, .search-container { padding-inline: var(--page-gutter, 1.25rem); }
+}
+
+:root[data-fontsize="klein"] { --standard-reader-size: 16px; }
+:root[data-fontsize="groot"] { --standard-reader-size: 24px; }
+
+@media (min-width: 1100px) and (max-width: 1500px) {
+    body.view-panel-open .onderwerp-layout { grid-template-columns: minmax(0,1fr); }
+    body.view-panel-open .tags-sidebar { display: none; }
+}
+
+body > header .font-size-controls { display: none; }

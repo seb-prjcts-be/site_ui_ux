@@ -180,3 +180,16 @@ beoordeelde hashes, reviewer, onderbouwing en historie. Zie [SQLite-beheer](docs
 De migratie heeft bestaande controledatums behouden. Technische tests zijn geen
 nieuwe wetenschappelijke broncontrole; de drie aangepaste beheerpagina's staan
 terecht als gewijzigd sinds de inhoudelijke review geregistreerd.
+
+## Weergavepaneel
+
+De knop Weergave opent rechts de bestaande Bootstrap Offcanvas-component.
+Compositie, rasterlijnen en uitleg staan hier, buiten het leesvlak. Zes schuiven
+regelen lettergrootte, regelafstand, tekstbreedte, bovenruimte, paginamarge en
+sectieafstand via CSS-variabelen. Persoonlijke proefwaarden worden in localStorage
+bewaard. Herstel standaard wist deze waarden en herstelt Kolom zonder rasterlijnen.
+Exporteer CSS downloadt de aangepaste variabelen; het bestand is bedoeld om naast
+de site-stylesheets te gebruiken. De gepubliceerde standaard en SQLite-inhoud
+worden niet gewijzigd. Bootstrap blijft op de bestaande versie 5.3.3.
+Op brede schermen blijft de pagina bedienbaar; onder 1100px gebruikt het paneel
+een achtergrond en modale toetsenbordbediening. Escape sluit het paneel.

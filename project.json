@@ -77,6 +77,11 @@
       "date": "2026-10-21",
       "authorization": "Zes lege stappen; bestaande inhoud als archief",
       "scope": "Zes lege SQLite-items onder Leerlijn; bestaande 53 pagina’s als archief behouden. Lessen uit de navigatie vervangen door Eerdere uitwerkingen."
+    },
+    {
+      "date": "2026-10-21",
+      "authorization": "ok op voorstel voor Bootstrap Weergave-paneel rechts",
+      "scope": "Bestaande Bootstrap 5.3.3 hergebruiken; compositiebediening naar rechterpaneel, live persoonlijke CSS-proeven, herstel en export."
     }
   ]
 }
