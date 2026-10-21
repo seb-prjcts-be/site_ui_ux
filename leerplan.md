@@ -2,6 +2,74 @@
 
 Werkdocument, 21 oktober 2026. Voor de ontwikkeling en bespreking van de cursus, niet als tekst voor de studenteninterface. Dit document beschrijft wat er nu staat, legt de zes chronologische thema's vast waarin filosofie en psychologie elkaar onderbouwen of tegenspreken, en werkt het voorstel uit voor sleepbare p5.js-schetsen.
 
+## Actueel onderzoeksvoorstel - aansluiten op de eigen praktijk
+
+21 oktober 2026. Inhoudelijke vergelijking op verzoek van Seb; voorstel, nog geen
+nieuwe cursusinhoud of goedgekeurde vervanging van de zes lege stappen. De eerdere
+plannen hieronder blijven achtergrond en zijn geen opdracht tot uitvoering.
+
+### Gelezen referenties
+
+- Creative coding: [overzicht](https://sebastienvanblaere.be/services/creative_coding_p5.js/), [kleur](https://sebastienvanblaere.be/services/creative_coding_p5.js/#kleur), [muisinteractie](https://sebastienvanblaere.be/services/creative_coding_p5.js/#muis-interactie).
+- Audiovisueel: [overzicht](https://sebastienvanblaere.be/services/audiovisueel/), [onderzoeksnotities](https://sebastienvanblaere.be/services/audiovisueel/onderzoek/), [vaktaal](https://sebastienvanblaere.be/services/audiovisueel/vaktaal/), [filosofie](https://sebastienvanblaere.be/services/audiovisueel/filosofie/).
+- Gerichte verdieping: [waarneming](https://sebastienvanblaere.be/services/audiovisueel/waarneming/), [camera-instellingen](https://sebastienvanblaere.be/services/audiovisueel/basiskennis-fotografie/), [juxtapositie](https://sebastienvanblaere.be/services/audiovisueel/2018/08/09/juxtapositie/).
+
+De live pagina's zijn via de browser gelezen. Geen brontekst, beelden of code naar
+de cursus gekopieerd. Dit onderzoek vergelijkt de inhoudelijke ingangen en opbouw;
+het valideert niet alle inhoudelijke claims in de referenties en meet geen leerwinst.
+
+### Bevinding
+
+De bekeken p5.js-onderwerpen hebben een hanteerbaar onderwerp, expliciete technische
+middelen, voorbeelden en een bewerkbare sketch. De begrippen hebben daardoor een
+concrete toepassing. De audiovisuele site biedt toegang via media, technieken,
+makers en vaktaal; filosofische notities staan als verbonden verdieping beschikbaar.
+Bij de parameterpagina blijven beeldkeuzes verbonden met bediening en resultaat.
+
+De huidige UI/UX-start combineert zes abstracte werkwoorden met een losse deurstudie.
+Dat maakt de overstap vanuit Sebs eigen audiovisuele praktijk onnodig groot. Het
+archief bevat relevante begrippen, maar een concrete maakhandeling leidt er nog
+nauwelijks naartoe. Dit is een ontwerpdiagnose op basis van de bekeken pagina's,
+geen uitkomst van onderzoek met studenten.
+
+### Voorgestelde ingangen, geen vastgelegde opeenvolging
+
+| Bekend terrein | Zelf uit te proberen | Verdieping naar UI/UX |
+|---|---|---|
+| Beeld en kadering | Hetzelfde materiaal anders uitsnijden of plaatsen | Aandacht, hiërarchie en de vindbaarheid van een handeling |
+| Kleur en contrast | Een kleurrol wijzigen bij gelijkblijvende inhoud | Onderscheid, selectie en toestand zichtbaar maken |
+| Tijd en beweging | De reactie op dezelfde handeling vertragen | Verwachting, feedback en continuïteit |
+| Montage en volgorde | Dezelfde onderdelen anders laten volgen | Betekenis, navigatie en oriëntatie |
+| Geluid en reactie | Visuele en auditieve bevestiging vergelijken | Redundante feedback en persoonlijke voorkeuren |
+| Beeld wordt interface | Een beeld of vorm een handeling laten dragen | Handelingsmogelijkheden, aanwijzingen en consequenties |
+
+Dit zijn originele didactische voorstellen, geen gelijkstelling van filmtheorie
+met interfacewetten. Niet ieder audiovisueel begrip heeft een directe UX-tegenhanger.
+De zes lege werkwoordstappen voorlopig behouden. Eerst één ingang uitproberen en
+pas daarna beslissen over namen, navigatie en de plaats van die stappen.
+
+### Eerste prototype: beeld en kadering
+
+Begin met één eenvoudig, eigen gemaakt beeld en één uitsnedeknop of kadergreep.
+Laat de kijker twee uitsneden maken en vergelijken; het materiaal blijft gelijk.
+Voeg daarna één echte handeling toe aan het beeld. Vergelijk waar en hoe die
+handeling herkenbaar wordt. Zo ontstaat de overgang van beeldcompositie naar
+interface vanuit een concreet maakprobleem.
+
+Bij de eerste opening zijn het werkvlak, korte labels en directe terugkoppeling
+voldoende. Een optionele verdieping biedt de waarnemingsvraag, relevante begrippen,
+bestaande archiefverbindingen en later gecontroleerde bronnen. Programmeercode
+kan inspecteerbaar worden, maar is geen verplichte ingang. Theorie blijft vóór,
+tijdens en na het experiment bereikbaar; ze is geen apart verplicht traject.
+
+De docent kan vanuit eigen keuzes demonstreren, de student varieert één aspect,
+vergelijkt uitkomsten en verwoordt een verschil. Een verandering in een voorbeeld
+bewijst op zichzelf geen algemene ontwerpregel. Nog open: eigen beeldmateriaal,
+preciese parameter, betekenisvolle vervolgactie, vakinhoudelijke broncontrole en
+observatie van het prototype met studenten.
+
+---
+
 ## Uitgangspunt
 
 De cursus is bedoeld voor hogeschoolstudenten in een kunstopleiding. UI en UX worden onderzocht vanuit gebruik, filosofie, psychologie en de kunstpraktijk. Efficiëntie is daarbij één mogelijke kwaliteit. Ook interpretatie, esthetische ervaring, nieuwsgierigheid en de ruimte om zelf te handelen zijn van belang.
