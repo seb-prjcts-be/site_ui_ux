@@ -37,8 +37,12 @@
         const trigger = document.getElementById('view-toggle');
         const form = document.getElementById('view-fields');
         const status = document.getElementById('view-status');
+        function report(message, ok = true) {
+            status.textContent = message;
+            document.getElementById('view-feedback').textContent = ok ? '✓' : '!';
+        }
         if (!panel || !window.bootstrap?.Offcanvas) return;
-        form.innerHTML = '<h3>Kleuren</h3>' + colors.map(([id,label,initial]) => `<label class="view-field view-color" for="view-${id}">${label}<output id="output-${id}" for="view-${id}" aria-live="off"></output><input type="color" id="view-${id}" aria-label="${label}" value="${values[id] ?? initial}" data-variable="${id}"></label>`).join('') + '<h3>Typografie en ruimte</h3>' + fields.map(([id,label,min,max,initial,step,unit]) => `<label class="view-field" for="view-${id}">${label}<output for="view-${id}" id="output-${id}"></output><input type="range" id="view-${id}" min="${min}" max="${max}" step="${step}" value="${values[id] ?? initial}" data-variable="${id}" data-unit="${unit}"></label>`).join('');
+        form.innerHTML = '<h3>Kleuren</h3><div class="view-palette">' + colors.map(([id,label,initial]) => `<label class="view-field view-color" for="view-${id}">${label}<output id="output-${id}" for="view-${id}" aria-live="off"></output><input type="color" id="view-${id}" aria-label="${label}" value="${values[id] ?? initial}" data-variable="${id}"></label>`).join('') + '</div><h3>Typografie</h3>' + fields.map(([id,label,min,max,initial,step,unit], index) => `${index === 3 ? '<h3>Ruimte</h3>' : ''}<label class="view-field" for="view-${id}">${label}<output for="view-${id}" id="output-${id}"></output><input type="range" id="view-${id}" min="${min}" max="${max}" step="${step}" value="${values[id] ?? initial}" data-variable="${id}" data-unit="${unit}"></label>`).join('');
         function refresh() {
             for (const [id,,initial] of colors) {
                 document.getElementById('view-' + id).value = values[id] ?? initial;
@@ -62,8 +66,8 @@
                 values[input.dataset.variable] = input.value.toLowerCase();
             } else values[input.dataset.variable] = Number(input.value);
             apply(); refresh();
-            try { localStorage.setItem(key, JSON.stringify(values)); status.textContent = 'Persoonlijke proef bewaard in deze browser.'; }
-            catch (_) { status.textContent = 'Proef actief; bewaren in deze browser is niet beschikbaar.'; }
+            try { localStorage.setItem(key, JSON.stringify(values)); report('Persoonlijke proef bewaard in deze browser.'); }
+            catch (_) { report('Proef actief; bewaren in deze browser is niet beschikbaar.', false); }
         });
         trigger.hidden = false;
         trigger.addEventListener('click', () => {
@@ -97,14 +101,14 @@
             const url = new URL(location.href); url.searchParams.delete('compositie'); url.searchParams.delete('verdeling');
             history.replaceState(null,'',url); window.dispatchEvent(new PopStateEvent('popstate'));
             try { localStorage.removeItem(key); } catch (_) { /* Preview still resets. */ }
-            status.textContent = 'Standaardstijl hersteld.';
+            report('Standaardstijl hersteld.');
         });
         document.getElementById('view-export').addEventListener('click', () => {
             const css = '/* Persoonlijke proef; geen gepubliceerde standaard. */\n:root {\n' + [...colors.filter(([id]) => Object.hasOwn(values,id)).map(([id]) => `  --${id}: ${values[id]};`), ...fields.filter(([id]) => Object.hasOwn(values,id)).map(([id,,,,,,unit]) => `  --${id}: ${values[id]}${unit};`)].join('\n') + '\n}\n';
             const url = URL.createObjectURL(new Blob([css],{type:'text/css;charset=utf-8'}));
             const link = document.createElement('a'); link.href = url; link.download = 'ui-ux-weergave.css'; link.click();
             setTimeout(() => URL.revokeObjectURL(url), 1000);
-            status.textContent = 'CSS-export aangemaakt. De standaard op de site is niet gewijzigd.';
+            report('CSS-export aangemaakt. De standaard op de site is niet gewijzigd.');
         });
     });
 })();

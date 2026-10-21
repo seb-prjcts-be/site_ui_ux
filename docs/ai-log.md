@@ -596,3 +596,7 @@ Op verzoek van Seb gebruiken we functionele beweging om toestandsveranderingen b
 ## 2026-10-21 - Twee aanpasbare paletkleuren
 
 Roze (#FF007D) hersteld als tweede/accentkleur; hoofdkleur #202124. CSS-rollen primary-color en secondary-color voeden tekst en accenten. Beide hebben een gelabelde kleurkiezer met hexwaarde in Weergave, gevalideerde lokale opslag, live toepassing, herstel en CSS-export. Gepubliceerde inhoud en broncontroledatums blijven gelijk.
+
+## 2026-10-21 - Minimale weergavebalk
+
+Op verzoek zijn verklarende alinea’s, Regels en lege-inhoudinstructies uit Weergave gehaald. De bediening gebruikt korte labels, twee naast elkaar geplaatste kleurvlakken, zichtbare waarden en directe schuiven. Compositie heeft een gesegmenteerde keuze met zichtbaar actief item. Herstel en CSS-export blijven bereikbaar onderaan. Visuele feedback is een teken; volledige statusfeedback blijft beschikbaar voor schermlezers. Inhoud en controledata zijn niet opnieuw beoordeeld.

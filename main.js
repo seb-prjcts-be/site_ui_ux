@@ -2479,7 +2479,7 @@ function initCompositionComparison(root) {
         </nav>
         ${mode === 'flexibel' ? `<nav aria-label="Verdeling"><a href="${compositionUrl(mode, 0)}" ${variant === 0 ? 'aria-current="true"' : ''}>Verdeling 1</a><a href="${compositionUrl(mode, 1)}" ${variant === 1 ? 'aria-current="true"' : ''}>Verdeling 2</a></nav>` : ''}
         <label class="composition-guide"><input type="checkbox"> Raster tonen</label>
-        <details><summary>Regels</summary><p>De tekst, beelden en leesvolgorde blijven gelijk.</p><p>Raster gebruikt CSS Grid met zes kolommen; tekstblokken nemen er drie in. Flexibel gebruikt CSS Flexbox met afwisselend brede en smalle blokken in een verhouding van vier tot twee. De tweede verdeling keert die verhouding om. Op een smal scherm staan de blokken onder elkaar.</p><p>De inhoud en DOM-volgorde blijven gelijk. Alleen de afzonderlijke CSS-regels voor Kolom, Raster of Flexibel bepalen de indeling.</p><p><a href="https://niggli.ch/en/products/rastersysteme-fur-die-visuelle-gestaltung" target="_blank" rel="noopener">Grid Systems in Graphic Design, Josef Müller-Brockmann</a><br><a href="https://www.slanted.de/product/flexible-visual-systems/" target="_blank" rel="noopener">Flexible Visual Systems, Martin Lorenz</a></p></details>`;
+`;
     const slot = document.getElementById('view-composition');
     if (slot) slot.replaceChildren(controls);
     const checkbox = controls.querySelector('input');
@@ -2525,7 +2525,7 @@ async function appendReviewStatus(root, topic) {
 // Page-specific controls belong to the inspector, not to the reading surface.
 function resetViewPanelContent() {
     const composition = document.getElementById('view-composition');
-    if (composition) composition.innerHTML = '<p>Open een archiefpagina om indelingen te vergelijken.</p>';
+    if (composition) composition.replaceChildren();
     document.getElementById('view-experiments')?.replaceChildren();
 }
 
